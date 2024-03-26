@@ -104,6 +104,7 @@ function endGame() {
 
 function initRound() {
     round++;
+    canGuess = true;
     if (round > 5) return endGame();
     roundCompleted = false;
     document.getElementById('guessMap').style.display = 'block';
@@ -112,7 +113,29 @@ function initRound() {
     getRandomPoint();
     initMap();
 }
-initRound();
+
+function startGame() {
+    displayPopup(
+        `<h2>Welcome to SatelliteSeeker!</h2>
+    <h3 style="text-align:left">How to Play:</h3>
+    <p style="text-align:left">
+    Study the Satellite Image: Examine the zoomed-in satellite image provided. Look for distinctive landmarks, terrains, or other identifiable features.
+    <br><br>
+    Make Your Guess: Use the freely maneuverable map to pinpoint your location based on the details you observed in the satellite image. Zoom in, zoom out, and move around to find the perfect match.
+    <br><br>
+    Submit Your Guess: Once you're confident about your location, submit your guess by marking it on the map.
+    <br><br>
+    Score Points: The closer your guess is to the actual location, the more points you'll earn! Challenge yourself to get as close as possible for maximum points.
+    <br><br>
+    Repeat and Compete: Test your skills across multiple rounds and challenge your friends to see who can become the ultimate SatelliteSeeker!
+    <br><br>
+    Are you ready to explore and guess your way to victory? Let's begin!</p>`,
+        false,
+        null
+    );
+    initRound();
+}
+startGame();
 
 function generatePoints(guessed, correct) {
     guessMarker = L.marker(guessed, {
@@ -147,6 +170,8 @@ function displayPopup(message, deleteAfter, button) {
 
     if (button) {
         popup.innerHTML = message + '<br><button onclick="removePopup();">Next Round</button>';
+    } else if (button == null) {
+        popup.innerHTML = message + '<br><button onclick="removePopup();">Start Game</button>';
     } else popup.innerHTML = message;
     popupWrapper.style.display = 'block';
     overlay.style.display = 'block';
@@ -159,5 +184,5 @@ function displayPopup(message, deleteAfter, button) {
 function removePopup() {
     popupWrapper.style.display = 'none';
     overlay.style.display = 'none';
-    if (roundCompleted && round <= 5) initRound();
+    if (roundCompleted && round <= 5 && (round != 1 || !canGuess)) initRound();
 }
