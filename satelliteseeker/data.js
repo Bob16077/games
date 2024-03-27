@@ -40618,6 +40618,5 @@ var data = [
 ];
 
 function getRandomPoint() {
-    currentLocation = data[Math.floor(Math.random() * data.length)];
-    return currentLocation;
+    return data[Math.floor(Math.random() * data.length)];
 }

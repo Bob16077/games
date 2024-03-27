@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EventGuessr</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <div class="overlay"></div>
+        <div id="popupWrapper">
+            <span style="color: #fff" onclick="removePopup()" class="close-button topright">&times;</span>
+            <div id="popup"></div>
+        </div>
+
+        <div class="main-content">
+            <header>
+                <div class="">
+                    <h2>EventGuessr</h2>
+                    <small><a style="color: black" href="https://games.bob16077.is-a.dev">a Bob16077777 game</a></small>
+                </div>
+
+                <div class="user-wrapper">
+                    <div id="score-box">
+                        <p id="round">Round 1 of 5</p>
+                        <p id="score">Score: 0 / 15,000</p>
+                    </div>
+                    <span onclick="showMenu()" style="padding: 20px" class="fa fa-bars" id="menu-icon"></span>
+                </div>
+            </header>
+
+            <main>
+                <div class="cards">
+                    <div class="big-card">
+                        <image id="image"></image>
+                    </div>
+                    <div class="card-single-map">
+                        <div id="map"></div>
+                    </div>
+                    <div class="card-single">
+                        <!-- slider for year -->
+                    </div>
+                    <div class="card-single">
+                        <!-- multiple choice for event name -->
+                    </div>
+                    <div class="card-single" id="guess-button" onclick="handleGuess()">
+                        <h4>Submit Guess</h4>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
