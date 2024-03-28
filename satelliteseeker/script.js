@@ -110,7 +110,7 @@ function initRound() {
     document.getElementById('guessMap').style.display = 'block';
     document.getElementById('round').textContent = `Round: ${round} / 5`;
 
-    getRandomPoint();
+    currentLocation = getRandomPoint();
     initMap();
 }
 

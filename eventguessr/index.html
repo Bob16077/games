@@ -6,13 +6,15 @@
         <title>EventGuessr</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
         <link rel="stylesheet" href="css/style.css" />
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     </head>
     <body>
-        <div class="overlay"></div>
+        <div id="overlay"></div>
         <div id="popupWrapper">
-            <span style="color: #fff" onclick="removePopup()" class="close-button topright">&times;</span>
+            <span style="color: #fff" onclick="removePopup()" class="close-button">&times;</span>
             <div id="popup"></div>
         </div>
 
@@ -20,7 +22,7 @@
             <header>
                 <div class="">
                     <h2>EventGuessr</h2>
-                    <small><a style="color: black" href="https://games.bob16077.is-a.dev">a Bob16077777 game</a></small>
+                    <small><a href="https://games.bob16077.is-a.dev">a Bob16077777 game</a></small>
                 </div>
 
                 <div class="user-wrapper">
@@ -28,32 +30,45 @@
                         <p id="round">Round 1 of 5</p>
                         <p id="score">Score: 0 / 15,000</p>
                     </div>
-                    <span onclick="showMenu()" style="padding: 20px" class="fa fa-bars" id="menu-icon"></span>
+                    <span onclick="darkMode()" style="padding: 20px; padding-right: 0px" class="fa fa-moon-o" id="dark-mode-toggle"></span>
+                    <span onclick="displayPopup(menu)" style="padding: 20px; padding-right: 0px" class="fa fa-bars"></span>
                 </div>
             </header>
 
             <main>
                 <div class="cards">
-                    <div class="big-card">
-                        <image id="image"></image>
+                    <div id="card-big-image" class="card">
+                        <h4 id="title-reference">Reference image:</h4>
+                        <br />
+                        <image id="image" alt="Image of event"></image>
                     </div>
-                    <div class="card-single-map">
+                    <div id="card-single-map" class="card">
+                        <h4 id="title-where">Where is this?</h4>
+                        <br />
                         <div id="map"></div>
                     </div>
-                    <div class="card-single">
+                    <div id="card-single-year" class="card">
+                        <h4 id="title-when">When was this event?</h4>
+                        <br />
+                        <div class="sliceContainer">
+                            <input type="range" min="1900" max="2024" value="1950" class="slider" id="year" />
+                        </div>
                         <!-- slider for year -->
                     </div>
-                    <div class="card-single">
+                    <div id="card-single-quiz" class="card">
+                        <h4 id="title-quiz">What's this event's name?</h4>
+                        <br />
+                        <div id="quiz"></div>
                         <!-- multiple choice for event name -->
                     </div>
-                    <div class="card-single" id="guess-button" onclick="handleGuess()">
-                        <h4>Submit Guess</h4>
+                    <div id="card-guess-button" class="card" onclick="handleGuess()">
+                        <h4 id="title-submit">Submit Guess</h4>
                     </div>
                 </div>
             </main>
         </div>
 
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
         <script src="https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js"></script>
         <script src="js/data.js"></script>
         <script src="js/script.js"></script>

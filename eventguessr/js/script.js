@@ -10,8 +10,21 @@ let score = 0,
     polyline,
     roundCompleted = false,
     correctIndex,
-    overlay = document.querySelector('.overlay');
-overlay.style.display = 'none';
+    overlay = document.getElementById('overlay'),
+    popup = document.getElementById('popup'),
+    quizContainer = document.getElementById('quiz'),
+    slider = document.getElementById('year');
+
+const menu = `<h2>EventGuessr</h2>
+    <br />
+    <p>Guess the event that took place at the location shown on the map.</p>
+    <br />
+    <button onclick="removePopup()">Start Game</button>`;
+
+popup.innerHTML = menu;
+document.body.classList.toggle('dark-mode');
+slider.max = new Date().getFullYear();
+slider.value = 1900 + Math.round((slider.max - 1900) / 2);
 
 function resetMap() {
     if (guessMarker) map.removeLayer(guessMarker);
@@ -20,10 +33,8 @@ function resetMap() {
     if (marker) map.removeLayer(marker);
 
     if (!map) {
-        map = L.map('map', { maxZoom: 18 }).setView([0, 0], 2);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-        }).addTo(map);
+        map = L.map('map', { maxZoom: 18, attributionControl: false }).setView([0, 0], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
         map.on('click', function (e) {
             if (marker) map.removeLayer(marker);
@@ -34,28 +45,52 @@ function resetMap() {
 }
 
 function handleGuess() {
+    if (roundCompleted == true) return initRound();
     canGuess = false;
     roundCompleted = true;
+    const chosenName = quizContainer.querySelector('input[name="quiz"]:checked')?.value;
+
     if (!marker) {
         displayPopup('Please mark a position on the map first.', true);
         return;
+    } else if (!slider.value) {
+        displayPopup('Please choose a year on the slider first.', true);
+        return;
+    } else if (!chosenName) {
+        displayPopup('Please choose an option for the event name first.', true);
+        return;
     }
 
-    const correctLocation = L.latLng(currentEvent.location);
+    const correctLocation = L.latLng([currentEvent.location[1], currentEvent.location[0]]);
     const guessedLocation = marker.getLatLng();
     const distance = correctLocation.distanceTo(guessedLocation);
     const rawLocationScore = distance / 20037500;
     const roundLocationScore = 1000 - Math.floor(rawLocationScore * rawLocationScore * rawLocationScore * 1000);
 
-    const roundScore = roundLocationScore;
+    const correctYear = new Date(currentEvent.date).getFullYear();
+    const guessedYear = parseInt(slider.value);
+    const yearDifference = Math.abs(correctYear - guessedYear);
+    const yearScore = 1000 - 10 * Math.floor(100 - Math.exp(-(yearDifference - 115.129) / 25));
+
+    const answerScore = chosenName === currentEvent.name ? 1000 : 0;
+
+    const roundScore = roundLocationScore + yearScore + answerScore;
     score += roundScore;
 
-    document.getElementById('score').textContent = `Score: ${score.toLocaleString('en')} / 5,000`;
+    document.getElementById('score').textContent = `Score: ${score.toLocaleString('en')} / 15,000`;
+    document.getElementById('title-submit').textContent = 'Next Round';
+    document.getElementById('title-where').textContent = `You were ${Math.round(distance).toLocaleString(
+        'en'
+    )} meters away from the correct location and earned ${roundLocationScore.toLocaleString('en')} / 1,000 points.`;
+    document.getElementById('title-when').textContent = `You were ${yearDifference} years off and earned ${yearScore.toLocaleString(
+        'en'
+    )} / 1,000 points. The correct answer was ${correctYear}.`;
+    document.getElementById('title-quiz').textContent = `You guessed ${chosenName} and earned ${answerScore.toLocaleString('en')} / 1,000 points.`;
+    document.getElementById('card-big-image').innerHTML += `${currentEvent.name} (${new Date(currentEvent.date).toLocaleDateString('en')})`;
 
     generatePoints(guessedLocation, correctLocation);
     map.flyToBounds([guessedLocation, correctLocation], { padding: [50, 50] });
 
-    displayPopup(`You were ${Math.round(distance).toLocaleString('en')} meters off and scored ${roundScore.toLocaleString('en')} points out of 1,000.`, false, true);
     guesses.push({
         round,
         correct: correctLocation,
@@ -90,35 +125,28 @@ function initRound() {
     if (round > 5) return endGame();
     roundCompleted = false;
     document.getElementById('map').style.display = 'block';
-    document.getElementById('round').textContent = `Round: ${round} / 5`;
+    document.getElementById('round').textContent = `Round ${round} of 5`;
 
     currentEvent = getRandomEvent();
-    const allOptions = getCloseEvents(new Date(currentEvent.date).getFullYear());
-    correctIndex = Math.floor(Math.random() * 4);
-    for (let i = 0; i < 4; i++) {
-        if (i === correctIndex) {
-            // document.getElementById(`option${i + 1}`).textContent = currentEvent.name;
-        } else {
-            // document.getElementById(`option${i + 1}`).textContent = allOptions[0].name;
-            allOptions.shift();
-        }
-    }
+    const correctIndex = Math.floor(Math.random() * 4);
+    const options = getCloseEvents(new Date(currentEvent.date).getFullYear());
+    options.splice(correctIndex, 0, currentEvent);
+    displayQuestion(options.map((event) => event.name));
 
     document.getElementById('image').src = currentEvent.image;
+    document.getElementById('title-reference').textContent = 'Reference image:';
+    document.getElementById('title-where').textContent = 'Where is this?';
+    document.getElementById('title-when').textContent = 'When was this event?';
+    document.getElementById('title-quiz').textContent = "What's this event's name?";
+    document.getElementById('title-submit').textContent = 'Submit Guess';
 
     resetMap();
 }
 
-function startGame() {
-    showMenu();
-    initRound();
-}
-startGame();
-
 function generatePoints(guessed, correct) {
     guessMarker = L.marker(guessed, {
         icon: L.icon({
-            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
             iconSize: [25, 41],
             iconAnchor: [12, 41],
             popupAnchor: [1, -34]
@@ -127,7 +155,7 @@ function generatePoints(guessed, correct) {
     }).addTo(map);
     correctMarker = L.marker(correct, {
         icon: L.icon({
-            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
             iconSize: [25, 41],
             iconAnchor: [12, 41],
             popupAnchor: [1, -34]
@@ -140,39 +168,9 @@ function generatePoints(guessed, correct) {
     }).addTo(map);
 }
 
-function showMenu() {
-    // displayPopup(
-    //     `<h2>Welcome to SatelliteSeeker!</h2>
-    // <h3 style="text-align:left">How to Play:</h3>
-    // <p style="text-align:left">
-    // Study the Satellite Image: Examine the zoomed-in satellite image provided. Look for distinctive landmarks, terrains, or other identifiable features.
-    // <br><br>
-    // Make Your Guess: Use the freely maneuverable map to pinpoint your location based on the details you observed in the satellite image. Zoom in, zoom out, and move around to find the perfect match.
-    // <br><br>
-    // Submit Your Guess: Once you're confident about your location, submit your guess by marking it on the map.
-    // <br><br>
-    // Score Points: The closer your guess is to the actual location, the more points you'll earn! Challenge yourself to get as close as possible for maximum points.
-    // <br><br>
-    // Repeat and Compete: Test your skills across multiple rounds and challenge your friends to see who can become the ultimate SatelliteSeeker!
-    // <br><br>
-    // Are you ready to explore and guess your way to victory? Let's begin!</p>`,
-    //     false,
-    //     null
-    // );
-}
-
-document.getElementById('guess-button').addEventListener('click', handleGuess);
-
-function displayPopup(message, deleteAfter, button) {
-    var popupWrapper = document.getElementById('popupWrapper');
-    var popup = document.getElementById('popup');
-
-    if (button) {
-        popup.innerHTML = message + '<br><button onclick="removePopup();">Next Round</button>';
-    } else if (button == null) {
-        popup.innerHTML = message + '<br><button onclick="removePopup();">Start Game</button>';
-    } else popup.innerHTML = message;
-    popupWrapper.style.display = 'block';
+function displayPopup(message, deleteAfter) {
+    popup.innerHTML = message;
+    document.getElementById('popupWrapper').style.display = 'block';
     overlay.style.display = 'block';
 
     setTimeout(function () {
@@ -181,15 +179,56 @@ function displayPopup(message, deleteAfter, button) {
 }
 
 function removePopup() {
-    popupWrapper.style.display = 'none';
+    document.getElementById('popupWrapper').style.display = 'none';
     overlay.style.display = 'none';
-    if (roundCompleted && round <= 5 && (round != 1 || !canGuess)) initRound();
 }
 
-const image = document.getElementById('image');
-panzoom(image, {
+panzoom(document.getElementById('image'), {
     bounds: true,
     contain: 'inside',
     minZoom: 1,
     maxZoom: 5
+});
+
+function darkMode() {
+    document.body.classList.toggle('dark-mode');
+    if (document.body.classList.contains('dark-mode')) document.getElementById('dark-mode-toggle').className = 'fa fa-sun-o';
+    else document.getElementById('dark-mode-toggle').className = 'fa fa-moon-o';
+}
+
+window.addEventListener('load', function () {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark-mode');
+        document.getElementById('dark-mode-toggle').className = 'fa fa-sun-o';
+    }
+});
+
+initRound();
+
+function displayQuestion(options) {
+    const optionsElement = document.createElement('div');
+    optionsElement.className = 'options';
+
+    for (let i = 0; i < options.length; i++) {
+        const option = document.createElement('label');
+        option.className = 'option';
+
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.name = 'quiz';
+        radio.value = options[i];
+
+        const optionText = document.createTextNode(options[i]);
+
+        option.appendChild(radio);
+        option.appendChild(optionText);
+        optionsElement.appendChild(option);
+    }
+
+    quizContainer.innerHTML = '';
+    quizContainer.appendChild(optionsElement);
+}
+
+slider.addEventListener('input', () => {
+    document.getElementById('title-when').textContent = 'When was this event? Current: ' + slider.value;
 });
