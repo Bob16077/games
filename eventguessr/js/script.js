@@ -212,8 +212,6 @@ window.addEventListener('load', function () {
     }
 });
 
-initRound();
-
 function displayQuestion(options) {
     const optionsElement = document.createElement('div');
     optionsElement.className = 'options';
@@ -260,3 +258,5 @@ function setBubble() {
 
     bubble.style.left = `${Math.max(minLeft, Math.min(maxLeft, left))}px`;
 }
+
+initRound();
