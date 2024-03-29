@@ -40,20 +40,41 @@
                     <div id="card-big-image" class="card">
                         <h4 id="title-reference">Reference image:</h4>
                         <br />
-                        <image id="image" alt="Image of event"></image>
+                        <div id="image-container">
+                            <image id="image" alt="Image of event"></image>
+                        </div>
                     </div>
                     <div id="card-single-map" class="card">
                         <h4 id="title-where">Where is this?</h4>
                         <br />
                         <div id="map"></div>
                     </div>
-                    <div id="card-single-year" class="card">
+                    <div id="card-single-year" class="card" style="overflow-x: hidden">
                         <h4 id="title-when">When was this event?</h4>
                         <br />
                         <div class="sliceContainer">
-                            <input type="range" min="1900" max="2024" value="1950" class="slider" id="year" />
+                            <div class="relative" id="relative">
+                                <input min="1900" max="2024" id="year" class="slider" aria-label="Year" type="range" value="1950" />
+                                <output id="bubble"></output>
+                            </div>
+                            <div
+                                style="
+                                    display: flex;
+                                    justify-content: space-between;
+                                    flex-direction: row;
+                                    font-size: 0.875rem;
+                                    line-height: 1.25rem;
+                                    padding-top: 0.125rem;
+                                    padding-bottom: 0.125rem;
+                                "
+                            >
+                                <span>1900</span><span>2024</span>
+                            </div>
                         </div>
                         <!-- slider for year -->
+                    </div>
+                    <div id="card-single-result" class="card">
+                        <h4>Results</h4>
                     </div>
                     <div id="card-single-quiz" class="card">
                         <h4 id="title-quiz">What's this event's name?</h4>

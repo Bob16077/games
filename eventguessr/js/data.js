@@ -32191,11 +32191,12 @@ function getRandomEvent() {
     return data[Math.floor(Math.random() * data.length)];
 }
 
-function getCloseEvents(year) {
+function getCloseEvents(event) {
+    const year = new Date(event.date).getFullYear();
     const index = Math.floor(Math.random() * 10);
     const range = [year - index, year - index + 10];
 
-    const events = data.filter((a) => new Date(a.date).getFullYear() > range[0] && new Date(a.date).getFullYear() < range[1]);
+    const events = data.filter((a) => new Date(a.date).getFullYear() > range[0] && new Date(a.date).getFullYear() < range[1] && a.name != event.name);
     return events.sort((a) => Math.random()).slice(0, 3);
 }
 

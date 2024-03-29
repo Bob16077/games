@@ -7,7 +7,8 @@ body {
     justify-content: center;
     font-family: Arial, sans-serif;
     margin: 0;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     background-color: #222;
     height: 100%;
     width: 100%;
@@ -57,6 +58,7 @@ main {
     max-width: 1440px;
     grid-row: 2;
     overflow-y: auto;
+    overflow-x: hidden;
     width: 1440px;
 }
 
@@ -146,7 +148,7 @@ header h2 {
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 375px 115px 300px 70px;
+    grid-template-rows: 375px 130px 300px 70px;
     grid-gap: 2rem;
     margin-top: 1rem;
 }
@@ -174,9 +176,18 @@ header h2 {
 }
 
 #card-single-year {
+    display: block;
     grid-column: 2;
     grid-row: 2;
-    height: 115px;
+    height: 130px;
+    overflow: hidden;
+}
+
+#card-single-result {
+    display: none;
+    grid-column: 1;
+    grid-row: 1;
+    height: 400px;
 }
 
 #card-single-quiz {
@@ -200,11 +211,52 @@ header h2 {
     cursor: pointer;
 }
 
+.in-round .cards {
+    grid-template-rows: 400px 300px 70px;
+}
+
+.in-round #card-big-image {
+    height: 400px;
+    grid-column: 2;
+    grid-row: 1 2;
+}
+
+.in-round #card-single-map {
+    grid-column: 1;
+    grid-row: 2 / span 4;
+    height: 400px;
+}
+
+.in-round #card-single-year {
+    display: none;
+}
+
+.in-round #card-single-result {
+    display: block;
+}
+
+.in-round #card-single-quiz {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.in-round #card-guess-button {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.in-round #map {
+    height: 312px;
+}
+
+#image-container,
 #image {
     display: block;
-    max-width: 100%;
-    height: auto;
     overflow: hidden;
+}
+
+#image-container {
+    height: calc(100% - 50px);
 }
 
 #map {
@@ -284,6 +336,18 @@ header h2 {
     cursor: pointer;
 }
 
+#bubble {
+    background-color: white;
+    border: 1.5px solid #222;
+    color: #222;
+    padding: 4px 12px;
+    position: absolute;
+    border-radius: 4px;
+    left: 50%;
+    bottom: 62px;
+    transform: translateX(-50%);
+}
+
 /* Responsiveness for window resizing tiles */
 @media only screen and (max-width: 1440px) {
     main,
@@ -297,7 +361,19 @@ header h2 {
 @media only screen and (max-width: 850px) {
     .cards {
         grid-template-columns: 100%;
-        grid-template-rows: auto 375px 115px 300px 70px;
+        grid-template-rows: auto 375px 130px 300px 70px;
+        height: auto;
+    }
+
+    .in-round .cards {
+        grid-template-rows: 400px auto 400px 300px 70px;
+    }
+
+    .in-round #card-single-result {
+        grid-row: 1;
+    }
+
+    .in-round #card-big-image {
         height: auto;
     }
 
@@ -305,7 +381,11 @@ header h2 {
     #card-single-map,
     #card-single-year,
     #card-single-quiz,
-    #card-guess-button {
+    #card-guess-button,
+    .in-round #card-big-image,
+    .in-round #card-single-map,
+    .in-round #card-single-quiz,
+    .in-round #card-guess-button {
         grid-column: 1;
         grid-row: auto;
     }
@@ -330,6 +410,11 @@ header h2 {
 
 .dark-mode header h2,
 .dark-mode header a {
+    color: #ddd;
+}
+
+.dark-mode #bubble {
+    background-color: #222;
     color: #ddd;
 }
 

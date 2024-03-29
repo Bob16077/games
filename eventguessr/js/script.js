@@ -48,6 +48,10 @@ function handleGuess() {
     if (roundCompleted == true) return initRound();
     canGuess = false;
     roundCompleted = true;
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+    });
     const chosenName = quizContainer.querySelector('input[name="quiz"]:checked')?.value;
 
     if (!marker) {
@@ -77,22 +81,22 @@ function handleGuess() {
     const roundScore = roundLocationScore + yearScore + answerScore;
     score += roundScore;
 
+    document.body.classList.add('in-round');
     document.getElementById('score').textContent = `Score: ${score.toLocaleString('en')} / 15,000`;
     document.getElementById('title-submit').textContent = 'Next Round';
-    document.getElementById('title-where').textContent = `You were ${Math.round(distance).toLocaleString(
-        'en'
-    )} meters away from the correct location and earned ${roundLocationScore.toLocaleString('en')} / 1,000 points.`;
+
+    `You were ${Math.round(distance).toLocaleString('en')} meters away from the correct location and earned ${roundLocationScore.toLocaleString('en')} / 1,000 points.`;
     document.getElementById('title-when').textContent = `You were ${yearDifference} years off and earned ${yearScore.toLocaleString(
         'en'
     )} / 1,000 points. The correct answer was ${correctYear}.`;
-    document.getElementById('title-quiz').textContent = `You guessed ${chosenName} and earned ${answerScore.toLocaleString('en')} / 1,000 points.`;
-    document.getElementById('card-big-image').innerHTML += `${currentEvent.name} (${new Date(currentEvent.date).toLocaleDateString('en')})`;
+    `${currentEvent.name} (${new Date(currentEvent.date).toLocaleDateString('en')})`;
 
     generatePoints(guessedLocation, correctLocation);
     map.flyToBounds([guessedLocation, correctLocation], { padding: [50, 50] });
 
     guesses.push({
         round,
+        event,
         correct: correctLocation,
         guessed: guessedLocation,
         distance: distance,
@@ -126,10 +130,14 @@ function initRound() {
     roundCompleted = false;
     document.getElementById('map').style.display = 'block';
     document.getElementById('round').textContent = `Round ${round} of 5`;
+    document.body.classList.remove('in-round');
 
     currentEvent = getRandomEvent();
+    while (guesses.map((a) => a.event.name).includes(currentEvent.name)) {
+        currentEvent = getRandomEvent();
+    }
     const correctIndex = Math.floor(Math.random() * 4);
-    const options = getCloseEvents(new Date(currentEvent.date).getFullYear());
+    const options = getCloseEvents(currentEvent);
     options.splice(correctIndex, 0, currentEvent);
     displayQuestion(options.map((event) => event.name));
 
@@ -140,6 +148,7 @@ function initRound() {
     document.getElementById('title-quiz').textContent = "What's this event's name?";
     document.getElementById('title-submit').textContent = 'Submit Guess';
 
+    setBubble();
     resetMap();
 }
 
@@ -229,6 +238,25 @@ function displayQuestion(options) {
     quizContainer.appendChild(optionsElement);
 }
 
+const bubble = document.getElementById('bubble');
 slider.addEventListener('input', () => {
-    document.getElementById('title-when').textContent = 'When was this event? Current: ' + slider.value;
+    setBubble();
 });
+window.addEventListener('resize', () => {
+    setBubble();
+});
+setBubble();
+
+function setBubble() {
+    const val = slider.value;
+    bubble.innerHTML = val;
+
+    const sliderWidth = document.getElementById('relative').getBoundingClientRect().width;
+    const bubbleWidth = bubble.getBoundingClientRect().width;
+
+    const minLeft = bubbleWidth / 1.25;
+    const maxLeft = sliderWidth - bubbleWidth / 4;
+    const left = ((val - slider.min) / (slider.max - slider.min)) * sliderWidth + 20;
+
+    bubble.style.left = `${Math.max(minLeft, Math.min(maxLeft, left))}px`;
+}
