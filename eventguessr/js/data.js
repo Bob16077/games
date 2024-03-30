@@ -15,16 +15,9 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q30584372',
-        name: '2017 Bahawalpur explosion',
+        name: 'Bahawalpur explosion',
         date: 1498348800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20Bahawalpur%20explosion.jpg',
-        location: ['71.2577', '29.1412']
-    },
-    {
-        url: 'http://www.wikidata.org/entity/Q30584372',
-        name: '2017 Bahawalpur explosion',
-        date: 1498348800000,
-        image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20Bahawalpur%20explosion%202.jpg',
         location: ['71.2577', '29.1412']
     },
     {
@@ -71,14 +64,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4608571',
-        name: '2007 Gumball 3000 accident',
+        name: 'Gumball accident',
         date: 1167609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Porsche%20997%20Turbo%202007%20Gumball%203000%20%282%29.jpg',
         location: ['20.65724', '41.17422']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4621745',
-        name: '2011 M5 motorway crash',
+        name: 'M5 motorway crash',
         date: 1320364800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M5%20motorway%20near%20Creech%20St.%20Michael%20-%20geograph.org.uk%20-%20174393.jpg',
         location: ['-3.0568', '51.0239']
@@ -106,21 +99,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q23038331',
-        name: '2016 Chicago protest',
+        name: 'Chicago protest',
         date: 1457654400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Trump%20protest%20Chicago%20March%2011%2C%202016.jpg',
         location: ['-87.656111111', '41.874722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56279158',
-        name: 'Uba riots of 1937',
+        name: 'Uba riots of ',
         date: -1022025600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Union%20Flacq%20Estate.jpg',
         location: ['57.69233', '-20.212384']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113382',
-        name: '1966 Palomares B-52 crash',
+        name: 'Palomares B-52 crash',
         date: -124848000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Palomares%20H-Bomb%20Incident.jpg',
         location: ['-1.79694444', '37.24916667']
@@ -141,7 +134,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q768914',
-        name: '1976 Zagreb mid-air collision',
+        name: 'Zagreb mid-air collision',
         date: 211161600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1976%20Zagreb%20mid-air%20collision%20computer%20graphics.png',
         location: ['16.31055556', '45.8925']
@@ -155,21 +148,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15253897',
-        name: '1918 protest in Zagreb',
+        name: 'protest in Zagreb',
         date: -1611792000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Prosvjedi%205%20prosinca%201918%20MGZ%20080209.jpg',
         location: ['15.977222222', '45.813055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20723118',
-        name: 'Demonstration of 14 July 1953',
+        name: 'Demonstration of 14 July ',
         date: -519696000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Affiche%20du%20PCF%20pour%20la%20manifestation%20du%2014%20juillet%201953.jpg',
         location: ['2.3957', '48.8474']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23038331',
-        name: '2016 Chicago protest',
+        name: 'Chicago protest',
         date: 1457654400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Trump%20protest%20Chicago%20March%2011%2C%202016.jpg',
         location: ['-87.656111111', '41.874722222']
@@ -197,7 +190,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20828539',
-        name: '1997 Namibia mid-air collision',
+        name: 'Namibia mid-air collision',
         date: 874108800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Flugzeugabsturz1997.jpg',
         location: ['11.3', '-18.8']
@@ -211,7 +204,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q115186737',
-        name: '2022 Dallas airshow crash',
+        name: 'Dallas airshow crash',
         date: 1668211200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022%20Dallas%20airshow%20mid-air%20collision%20wreckage%20%282%29.jpg',
         location: ['-96.8625', '32.673611111']
@@ -246,63 +239,63 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1351598',
-        name: 'Gol Transportes Aéreos Flight 1907',
+        name: 'Gol Transportes Aéreos Flight ',
         date: 1159488000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wreckage%20of%20flight%20GLO%201907.jpg',
         location: ['-53.313055555', '-10.441666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1514690',
-        name: '1958 Tybee Island mid-air collision',
+        name: 'Tybee Island mid-air collision',
         date: -375667200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mk15.jpg',
         location: ['-80.85', '32.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2375128',
-        name: '1979 Dniprodzerzhynsk mid-air collision',
+        name: 'Dniprodzerzhynsk mid-air collision',
         date: 303177600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aeroflot%20Tu-134A%20CCCP-65854%20ZRH%20Jun%201977.png',
         location: ['34.656', '48.5882']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2909812',
-        name: '1997 Israeli helicopter disaster',
+        name: 'Israeli helicopter disaster',
         date: 855014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ason%20Hameso.jpg',
         location: ['35.6411', '33.2222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2909812',
-        name: '1997 Israeli helicopter disaster',
+        name: 'Israeli helicopter disaster',
         date: 855014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/IAF%20CH-53.jpg',
         location: ['35.6411', '33.2222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2909812',
-        name: '1997 Israeli helicopter disaster',
+        name: 'Israeli helicopter disaster',
         date: 855014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%201228%20Events%20in%20Israel%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%A6%D7%97%D7%94%20%D7%9C%D7%96%D7%9B%D7%A8%20%D7%90%D7%A1%D7%95%D7%9F%20%D7%94%D7%9E%D7%A1%D7%95%D7%A7%D7%99%D7%9D.jpg',
         location: ['35.6411', '33.2222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4564700',
-        name: '1940 Brocklesby mid-air collision',
+        name: 'Brocklesby mid-air collision',
         date: -923270400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Two%20Avro%20Ansons%20%28L9162%20and%20N4876%29%20%22piggyback%22%20in%20a%20paddock%20near%20Brocklesby%201.jpg',
         location: ['146.635833333', '-35.853333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4566258',
-        name: '1948 Gatow air disaster',
+        name: 'Gatow air disaster',
         date: -686102400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/BEA%20Viking%201B%20at%20Manchester.jpg',
         location: ['13.138', '52.474']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4588340',
-        name: '1993 Auckland mid-air collision',
+        name: 'Auckland mid-air collision',
         date: 754272000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1993%20Auckland%20mid-air%20collision%20map.svg',
         location: ['174.758', '-36.8583']
@@ -330,70 +323,70 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q121789683',
-        name: '2023 Wagner Group plane crash',
+        name: 'Wagner Group plane crash',
         date: 1692748800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/MNT-Aero%20LLC%20RA-02795%20Embraer%20Legacy%20600%20%28EMB-135BJ%29.jpg',
         location: ['33.954166666', '57.747777777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q62336579',
-        name: "2019 People's Vote March",
+        name: "People's Vote March",
         date: 1553299200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019-03-23%20Put%20it%20to%20the%20People%2013.jpg',
         location: ['-0.126711111', '51.50045']
     },
     {
         url: 'http://www.wikidata.org/entity/Q62336579',
-        name: "2019 People's Vote March",
+        name: "People's Vote March",
         date: 1553299200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Flags%20and%20placards%20at%20the%20People%27s%20Vote%20march%2C%20London%2C%2023%20March%202019.jpg',
         location: ['-0.126711111', '51.50045']
     },
     {
         url: 'http://www.wikidata.org/entity/Q62336579',
-        name: "2019 People's Vote March",
+        name: "People's Vote March",
         date: 1553299200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Panoramic%20of%20Trafalgar%20Square.jpg',
         location: ['-0.126711111', '51.50045']
     },
     {
         url: 'http://www.wikidata.org/entity/Q62336579',
-        name: "2019 People's Vote March",
+        name: "People's Vote March",
         date: 1553299200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Put%20it%20to%20the%20People%200689c.jpg',
         location: ['-0.126711111', '51.50045']
     },
     {
         url: 'http://www.wikidata.org/entity/Q62336579',
-        name: "2019 People's Vote March",
+        name: "People's Vote March",
         date: 1553299200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Put%20it%20to%20the%20People%20march%2C%20London%2C%2023%20March%202019.jpg',
         location: ['-0.126711111', '51.50045']
     },
     {
         url: 'http://www.wikidata.org/entity/Q64576952',
-        name: '12 June 2019 demonstration against extradition bill',
+        name: '12 June demonstration against extradition bill',
         date: 1560297600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019-06-12%20Hong%20Kong%20demonstrators%20on%20Harcourt%20Road.jpg',
         location: ['114.165577777', '22.280791666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q35629',
-        name: '2012 Catalan independence demonstration',
+        name: 'Catalan independence demonstration',
         date: 1347321600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/La%20Uni%C3%B3n%20i%20el%20F%C3%A8nix%20P1160234.JPG',
         location: ['2.1767', '41.3854']
     },
     {
         url: 'http://www.wikidata.org/entity/Q52967',
-        name: 'Poznań 1956 protests',
+        name: 'Poznań protests',
         date: -428716800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Poznan%201956.jpg',
         location: ['16.917222222', '52.408333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q99717',
-        name: '1989 Tiananmen Square protests and massacre',
+        name: 'Tiananmen Square protests and massacre',
         date: 599616000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E8%92%B2%E5%BF%97%E5%BC%B719890510.jpg',
         location: ['116.391666666', '39.903333333']
@@ -428,7 +421,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q959365',
-        name: 'Geneva massacre of 9 November 1932',
+        name: 'Geneva massacre of 9 November ',
         date: -1177459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Senn%20PS%20X999%20108ASD001R%20Unruhen%20in%20Genf.jpg',
         location: ['6.14122', '46.19479']
@@ -470,7 +463,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q251039',
-        name: 'US Airways Flight 1549',
+        name: 'US Airways Flight ',
         date: 1231977600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/US%20Airways%20Flight%201549%20%28N106US%29%20after%20crashing%20into%20the%20Hudson%20River%20%28crop%201%29.jpg',
         location: ['-74.004636', '40.769498']
@@ -505,21 +498,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q13359635',
-        name: '2013 Fairfield train crash',
+        name: 'Fairfield train crash',
         date: 1368748800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damaged%20M8%20cars%20in%20Bridgeport%20yard%20May%202013.JPG',
         location: ['-73.218055555', '41.167361111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20724759',
-        name: '2015 Studénka train crash',
+        name: 'Studénka train crash',
         date: 1437523200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pendolino%20praha1.jpg',
         location: ['18.070930555', '49.708322222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q80438042',
-        name: '2019–20 attack on the United States embassy in Baghdad',
+        name: '–20 attack on the United States embassy in Baghdad',
         date: 1577750400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20attack%20on%20the%20United%20States%20embassy%20in%20Iraq%2003.jpg',
         location: ['44.396', '33.299']
@@ -533,14 +526,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116060644',
-        name: 'Mexico City Metro train collision of 2023',
+        name: 'Mexico City Metro train collision of ',
         date: 1673049600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/T%C3%BAnel%20del%20Metro%20entre%20estaciones%20Potrero%20y%20La%20Raza.jpg',
         location: ['-99.134694444', '19.473658333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q124131684',
-        name: '2024 Cicalengka train crash',
+        name: 'Cicalengka train crash',
         date: 1704412800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cicalengka%20Train%20Collision%202024%20%28Wide%20Close%29.jpg',
         location: ['107.827361193', '-6.978364758']
@@ -568,7 +561,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q928955',
-        name: 'June 2009 Washington Metro train collision',
+        name: 'June Washington Metro train collision',
         date: 1245628800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/June%2022%2C%202009%20WMATA%20Collision%20-%20NTSB%20accident%20photo%20422859.jpg',
         location: ['-77.005833333', '38.960277777']
@@ -596,7 +589,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4132794',
-        name: '2008 Chatsworth train collision',
+        name: 'Chatsworth train collision',
         date: 1221177600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Chatsworth%20train%20crash%20wikinews.jpg',
         location: ['-118.601', '34.2719']
@@ -617,7 +610,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q58432447',
-        name: 'Maritime collision near the Sture terminal in November 2018',
+        name: 'Maritime collision near the Sture terminal in November ',
         date: 1541635200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HNoMS%20Helge%20Ingstad%20at%20Han%C3%B8ytangen.jpg',
         location: ['4.846944444', '60.630833333']
@@ -638,7 +631,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q119058509',
-        name: '2023 Polish protests',
+        name: 'Polish protests',
         date: 1685836800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Marsz%204%20czerwca%20Warszawa%2001.jpg',
         location: ['21.013611', '52.2475']
@@ -666,14 +659,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q580640',
-        name: '2006 Nuku‘alofa riots',
+        name: 'Nuku‘alofa riots',
         date: 1163635200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Startfires.jpg',
         location: ['-175.2', '-21.1333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q844505',
-        name: 'July 2009 Ürümqi riots',
+        name: 'July Ürümqi riots',
         date: 1246752000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Armed%20Police%20armored%20vehicles%20in%20Urumqi%20%283%29.jpg',
         location: ['87.6125', '43.8225']
@@ -694,21 +687,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116142348',
-        name: '2023 Brazilian Congress attack',
+        name: 'Brazilian Congress attack',
         date: 1673136000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ataque%20bolsonarista%20ao%20Congresso%20Nacional%20do%20Brasil.png',
         location: ['-47.8641', '-15.7997']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2281806',
-        name: '1929 Arab riots in Palestine',
+        name: 'Arab riots in Palestine',
         date: -1273104000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Desecrated%20synagogue%2C%20Hebron%201929.jpg',
         location: ['35.2342', '31.7767']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2281806',
-        name: '1929 Arab riots in Palestine',
+        name: 'Arab riots in Palestine',
         date: -1273104000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jewish%20child%20victim%20of%20Arab%20riots%20in%20Hebron%2C%201929.jpg',
         location: ['35.2342', '31.7767']
@@ -729,21 +722,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20688475',
-        name: '2015 Hong Kong electoral reform voting',
+        name: 'Hong Kong electoral reform voting',
         date: 1434585600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lau%20Wong-fat%20at%20Victoria%20Park%2020100619.jpg',
         location: ['114.165577777', '22.280791666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20688475',
-        name: '2015 Hong Kong electoral reform voting',
+        name: 'Hong Kong electoral reform voting',
         date: 1434585600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pan-democracy%20legislators%20showing%20a%20banner.jpg',
         location: ['114.165577777', '22.280791666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q104705419',
-        name: '2021 storming of the United States Capitol',
+        name: 'storming of the United States Capitol',
         date: 1609891200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20storming%20of%20the%20United%20States%20Capitol%2009.jpg',
         location: ['-77.009166666', '38.889722222']
@@ -757,7 +750,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18327329',
-        name: '2014 Iguala mass kidnapping',
+        name: 'Iguala mass kidnapping',
         date: 1411689600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ayotzinapa20150726%20ohs059.jpg',
         location: ['-99.410277777', '17.553611111']
@@ -820,7 +813,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q124078312',
-        name: '2024 Haneda Airport runway collision',
+        name: 'Haneda Airport runway collision',
         date: 1704153600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Japan%20Airlines%20516%20JA13XJ%20wreckage.jpg',
         location: ['139.803611111', '35.541666666']
@@ -869,14 +862,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q61896704',
-        name: '2019 India–Pakistan border skirmishes',
+        name: 'India–Pakistan border skirmishes',
         date: 1550102400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kashmir%20map.jpg',
         location: ['73.31888889', '34.46333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18720403',
-        name: "2015 Sana'a bombing",
+        name: "Sana'a bombing",
         date: 1420588800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sana%27a%20in%20Yemen.svg',
         location: ['44.2079', '15.3421']
@@ -911,7 +904,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4610809',
-        name: '2008 Congo football riots',
+        name: 'Congo football riots',
         date: 1199145600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cg-map.png',
         location: ['29.2833', '0.15']
@@ -932,7 +925,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19671417',
-        name: 'Germanwings Flight 9525',
+        name: 'Germanwings Flight ',
         date: 1427155200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/320%20GERMANWINGS%20D-AIPX%20147%2010%2005%2014%20BCN%20RIP%20%2816730197959%29.jpg',
         location: ['6.43875', '44.280083']
@@ -953,7 +946,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15856657',
-        name: '2014 Kunming attack',
+        name: 'Kunming attack',
         date: 1393632000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kunming%20Railway%20Station.jpg',
         location: ['102.720833333', '25.0175']
@@ -995,98 +988,98 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q21083277',
-        name: '2015 Ankara bombings',
+        name: 'Ankara bombings',
         date: 1444435200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ankara%20Train%20Station.JPG',
         location: ['32.8438', '39.9364']
     },
     {
         url: 'http://www.wikidata.org/entity/Q22039066',
-        name: '2016 Istanbul bombing',
+        name: 'Istanbul bombing',
         date: 1452556800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%2031.jpg',
         location: ['28.977405555', '41.006163888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23045756',
-        name: '2016 Grand-Bassam shootings',
+        name: 'Grand-Bassam shootings',
         date: 1457827200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Grand-Bassam-Plage.jpg',
         location: ['-3.733333333', '5.2']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19903090',
-        name: '2015 Karachi bus shooting',
+        name: 'Karachi bus shooting',
         date: 1431475200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Safoora%2C%20Karachi.PNG',
         location: ['67.1719', '24.8554']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20295077',
-        name: '2015 Sousse attack',
+        name: 'Sousse attack',
         date: 1435276800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Port%20El%20Kantaoui%20Beach%20%28348954999%29.jpg',
         location: ['10.5806', '35.9124']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20685047',
-        name: '2015 Suruç bombing',
+        name: 'Suruç bombing',
         date: 1437350400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20Suru%C3%A7%20bombing%20in%20Turkey.jpg',
         location: ['38.426944444', '36.976388888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20826727',
-        name: '2015 Bangkok bombing',
+        name: 'Bangkok bombing',
         date: 1439769600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20Bangkok%20bombing%20VOA.jpg',
         location: ['100.540244444', '13.744472222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3952696',
-        name: '2008 UEFA Cup Final riots',
+        name: 'UEFA Cup Final riots',
         date: 1199145600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Piccadilly%20Police%20split%20Zenit%20and%20Rangers.jpg',
         location: ['-2.23667', '53.4808']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23045905',
-        name: 'March 2016 Ankara bombing',
+        name: 'March Ankara bombing',
         date: 1457827200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ankara%20K%C4%B1z%C4%B1lay%27da%20Patlama%201%2013-March-2016.jpg',
         location: ['32.853601', '39.919961']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23365300',
-        name: '2016 Brussels bombings',
+        name: 'Brussels bombings',
         date: 1458604800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentados%20de%20Bruselas%20de%20marzo%20de%202016.jpg',
         location: ['4.431583333', '50.876833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23638613',
-        name: '2016 Lahore suicide bombing',
+        name: 'Lahore suicide bombing',
         date: 1459036800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gulshan-e-Iqbal%20Park%2C%20Lahore.jpg',
         location: ['74.29032', '31.51625']
     },
     {
         url: 'http://www.wikidata.org/entity/Q24454786',
-        name: 'June 2016 Tel Aviv shooting',
+        name: 'June Tel Aviv shooting',
         date: 1465344000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Brenner%20at%20Sarona%20Market%2002.jpg',
         location: ['34.78622', '32.07243']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25631175',
-        name: '2016 shooting of Dallas police officers',
+        name: 'shooting of Dallas police officers',
         date: 1467849600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Dallas%20police%20shooting%20memorial%20service%202.jpg',
         location: ['-96.804277777', '32.779555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25893254',
-        name: '2016 Nice attack',
+        name: 'Nice attack',
         date: 1468454400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9but%20et%20fin%20de%20l%27attaque.png',
         location: ['7.2475', '43.691111111']
@@ -1100,7 +1093,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28036573',
-        name: '2016 Berlin attack',
+        name: 'Berlin attack',
         date: 1482105600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20151115%20Berlin%20bei%20Nacht%2015-1.jpg',
         location: ['13.334444444', '52.505277777']
@@ -1128,14 +1121,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q58412',
-        name: '1987 Hipercor bombing',
+        name: 'Hipercor bombing',
         date: 551059200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Avenida%20Meridiana4.jpg',
         location: ['2.18556', '41.4281']
     },
     {
         url: 'http://www.wikidata.org/entity/Q79967',
-        name: '2011 Norway attacks',
+        name: 'Norway attacks',
         date: 1311292800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Regjeringsbygget%2022.7.2011.jpg',
         location: ['10.7465', '59.915']
@@ -1163,14 +1156,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q213531',
-        name: '2004 Madrid train bombings',
+        name: 'Madrid train bombings',
         date: 1078963200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%2011M.jpg',
         location: ['-3.689444444', '40.406666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q202512',
-        name: '2012 Aurora shooting',
+        name: 'Aurora shooting',
         date: 1342742400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20Century%2016%20theater%20in%20Aurora%20CO%20-%20Shooting%20location.jpg',
         location: ['-104.8206', '39.7059']
@@ -1205,7 +1198,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1975720',
-        name: '1999 Armenian parliament shooting',
+        name: 'Armenian parliament shooting',
         date: 940982400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/ArmenianStamps-175a.jpg',
         location: ['44.50916667', '40.19']
@@ -1233,7 +1226,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q473862',
-        name: '2009 Fort Hood shooting',
+        name: 'Fort Hood shooting',
         date: 1257379200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Army%20mil-55427-2009-11-07-171121.jpg',
         location: ['-97.79638889', '31.1425']
@@ -1513,7 +1506,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2891775',
-        name: 'Japan Air Lines flight 1628 incident',
+        name: 'Japan Air Lines flight incident',
         date: 532569600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terauchi-moederskip%20van%2017%20November%201986%2C%20b.jpg',
         location: ['-145.975', '65.48388889']
@@ -1527,35 +1520,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q30119692',
-        name: 'June 2017 London attack',
+        name: 'June London attack',
         date: 1496448000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Borough%20High%20Street%20after%20the%20Terrorist%20Attack%20%2835080024946%29.jpg',
         location: ['-0.087777777', '51.508055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q41522095',
-        name: '2017 Las Vegas shooting',
+        name: 'Las Vegas shooting',
         date: 1506816000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Las%20Vegas%20Strip%20shooting%20site%202017%20%28overlay%29.jpg',
         location: ['-115.171666666', '36.095555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q125092492',
-        name: '2024 Crocus City Hall attack',
+        name: 'Crocus City Hall attack',
         date: 1711065600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Crocus%20City%20Hall%20sign%20after%20attack%20%28cropped%29.jpg',
         location: ['37.390556', '55.825833']
     },
     {
         url: 'http://www.wikidata.org/entity/Q370143',
-        name: '2003 Baghdad DHL attempted shootdown incident',
+        name: 'Baghdad DHL attempted shootdown incident',
         date: 1069459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shootdown-10.jpg',
         location: ['44.234444444', '33.2625']
     },
     {
         url: 'http://www.wikidata.org/entity/Q370143',
-        name: '2003 Baghdad DHL attempted shootdown incident',
+        name: 'Baghdad DHL attempted shootdown incident',
         date: 1069459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shootdown-12.jpg',
         location: ['44.234444444', '33.2625']
@@ -1576,7 +1569,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q463206',
-        name: '2001 failed shoe bomb attempt',
+        name: 'failed shoe bomb attempt',
         date: 1008979200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Reid%20explosive%20shoe.jpg',
         location: ['-70.997', '42.358']
@@ -1618,7 +1611,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q543279',
-        name: '2011 NATO attack in Pakistan',
+        name: 'NATO attack in Pakistan',
         date: 1322265600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/AH-64%20Apache%20%282233201139%29.jpg',
         location: ['71.0', '34.5']
@@ -1653,21 +1646,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28149391',
-        name: 'January 2017 Jerusalem vehicular attack',
+        name: 'January Jerusalem vehicular attack',
         date: 1483833600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20Jerusalem%20truck%20attack.jpg',
         location: ['35.231419', '31.754481']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30015850',
-        name: '2017 Manchester Arena bombing',
+        name: 'Manchester Arena bombing',
         date: 1495411200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Manchester%20Evening%20News%20Arena%20-%20geograph.org.uk%20-%201931437.jpg',
         location: ['-2.243', '53.4881']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1803283',
-        name: '2008 Morelia grenade attacks',
+        name: 'Morelia grenade attacks',
         date: 1221436800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20panor%C3%A1mica%20%28Morelia%29.jpg',
         location: ['-101.1918108', '19.7028']
@@ -1758,7 +1751,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q110157827',
-        name: '2021 Osaka building fire',
+        name: 'Osaka building fire',
         date: 1639699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20Osaka%20building%20fire%201%2020211219.jpg',
         location: ['135.495666666', '34.697694444']
@@ -1800,14 +1793,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116455185',
-        name: '2023 Jerusalem synagogue shooting',
+        name: 'Jerusalem synagogue shooting',
         date: 1674777600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Neve%20Yaakov%20synagogue%20shooting%20IV.jpg',
         location: ['35.238611111', '31.838055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q120737177',
-        name: '1984 Dallas nightclub shooting',
+        name: 'Dallas nightclub shooting',
         date: 457315200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1984%20Dallas%20nightclub%20shooting%20crime%20scene.png',
         location: ['-96.838735', '32.923433']
@@ -1856,35 +1849,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q22977433',
-        name: 'murder of Anastasiya Meshcheryakova (2016)',
+        name: 'murder of Anastasiya Meshcheryakova ()',
         date: 1456704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D1%8E%D0%BB%D1%8C%D1%87%D0%B5%D1%85%D1%80%D0%B0%20%D0%91%D0%BE%D0%B1%D0%BE%D0%BA%D1%83%D0%BB%D0%BE%D0%B2%D0%B0%2029.02.2016.jpg',
         location: ['37.479305555', '55.780694444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q42440670',
-        name: '2017 Lower Manhattan attack',
+        name: 'Lower Manhattan attack',
         date: 1509408000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20NYC%20Truck%20Attack%20Home%20Depot%20Truck.jpg',
         location: ['-74.01276', '40.717126']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47839685',
-        name: '2018 Ariel stabbing',
+        name: 'Ariel stabbing',
         date: 1517788800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20Ariel%2C%202013.jpg',
         location: ['35.165', '32.106944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q70210494',
-        name: '2019 Halle synagogue shooting',
+        name: 'Halle synagogue shooting',
         date: 1570579200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HalleSynagoge%2002.JPG',
         location: ['11.98032', '51.493279']
     },
     {
         url: 'http://www.wikidata.org/entity/Q42440670',
-        name: '2017 Lower Manhattan attack',
+        name: 'Lower Manhattan attack',
         date: 1509408000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20NYC%20Truck%20Attack%20Home%20Depot%20Truck.jpg',
         location: ['-74.01276', '40.717126']
@@ -2024,14 +2017,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q33035595',
-        name: '2017 Temple Mount shooting',
+        name: 'Temple Mount shooting',
         date: 1499990400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Police%20responding%20after%20the%202017%20Temple%20Mount%20shooting.jpg',
         location: ['35.236944444', '31.780833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q41522095',
-        name: '2017 Las Vegas shooting',
+        name: 'Las Vegas shooting',
         date: 1506816000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Las%20Vegas%20Strip%20shooting%20site%202017%20%28overlay%29.jpg',
         location: ['-115.171666666', '36.095555555']
@@ -2171,7 +2164,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q61042203',
-        name: '2019 Jolo Cathedral bombing',
+        name: 'Jolo Cathedral bombing',
         date: 1548547200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aftermath%20of%20the%20Jolo%20Cathedral%20bombings.jpg',
         location: ['121.0009', '6.0526']
@@ -2248,14 +2241,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q25980145',
-        name: '2016 Munich shooting',
+        name: 'Munich shooting',
         date: 1469145600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mcdonalds%20muenchen%20hanauer%20strasse%20oez.jpg',
         location: ['11.533611111', '48.183333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q51583338',
-        name: '2018 Münster attack',
+        name: 'Münster attack',
         date: 1523059200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%BCnster%2C%20Kiepenkerl%20--%202014%20--%200290.jpg',
         location: ['7.62625', '51.964111111']
@@ -2304,14 +2297,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20962419',
-        name: 'British Airways Flight 2276',
+        name: 'British Airways Flight ',
         date: 1441670400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/G-VIIO%20at%20LAS%2C%20Dec%202015.JPG',
         location: ['-115.152488888', '36.076297222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q24251332',
-        name: 'Korean Air Flight 2708',
+        name: 'Korean Air Flight ',
         date: 1464307200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Korean%20Air%20HL7534%20after%20accident.jpg',
         location: ['139.788696', '35.562489']
@@ -2332,7 +2325,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q104983706',
-        name: 'Loganair Flight 6780',
+        name: 'Loganair Flight ',
         date: 1418601600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Saab%202000%20G-LGNO%20IMG%209861%20%2814160720169%29.jpg',
         location: ['-1.085277777', '59.882222222']
@@ -2353,14 +2346,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116748690',
-        name: '2023 Ramot Junction attack',
+        name: 'Ramot Junction attack',
         date: 1675987200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Ramot%20Junction%20attack%20IV.jpg',
         location: ['35.188611111', '31.825277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4607864',
-        name: '2007 Alderney UFO sighting',
+        name: 'Alderney UFO sighting',
         date: 1177286400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Alderney%20VVVs%20van%2023%20April%202007%2C%20a.jpg',
         location: ['-2.36667', '49.7']
@@ -2374,7 +2367,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q109425626',
-        name: '2021 Astroworld stampede',
+        name: 'Astroworld stampede',
         date: 1636070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Reliant%20park%20aerial.jpeg',
         location: ['-95.407777777', '29.683055555']
@@ -2409,7 +2402,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q63245644',
-        name: '2019 Sri Lanka bombings',
+        name: 'Sri Lanka bombings',
         date: 1555804800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/St.%20Anthony%27s%20Shrine%2C%20Kochchikade.jpg',
         location: ['79.866666666', '6.933333333']
@@ -2458,7 +2451,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q214790',
-        name: '2010 Copiapó mining accident',
+        name: 'Copiapó mining accident',
         date: 1280966400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mina%20San%20Jos%C3%A9%20de%20Copiap%C3%B3%20en%202010.jpg',
         location: ['-70.49666667', '-27.16027778']
@@ -2521,14 +2514,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2635258',
-        name: '2007 Zasyadko mine disaster',
+        name: 'Zasyadko mine disaster',
         date: 1195344000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Zasyadko.jpg',
         location: ['37.805555555', '48.068888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3236265',
-        name: '2009 Heilongjiang mine explosion',
+        name: 'Heilongjiang mine explosion',
         date: 1230768000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/China%20Heilongjiang.svg',
         location: ['130.277', '47.3139']
@@ -2563,21 +2556,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q109116318',
-        name: '2021 Rust shooting incident',
+        name: 'Rust shooting incident',
         date: 1634774400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Alec%20Baldwin%20by%20Gage%20Skidmore.jpg',
         location: ['-106.097852', '35.543403']
     },
     {
         url: 'http://www.wikidata.org/entity/Q66108236',
-        name: '2019 El Paso shooting',
+        name: 'El Paso shooting',
         date: 1564790400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20El%20Paso%20shooting%20Walmart.jpg',
         location: ['-106.390984', '31.781593']
     },
     {
         url: 'http://www.wikidata.org/entity/Q69554433',
-        name: '2019 knife attack in Paris',
+        name: 'knife attack in Paris',
         date: 1570060800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pr%C3%A9fecture%20de%20police%2C%20Paris%2022%20August%202009.jpg',
         location: ['2.3468', '48.8508']
@@ -2598,35 +2591,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.535833333', '44.943333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.703194444', '45.404716666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.456472222', '45.436916666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.561966666', '45.598561111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.28', '45.364722222']
@@ -2640,7 +2633,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106991061',
-        name: '2021 San Jose shooting',
+        name: 'San Jose shooting',
         date: 1621987200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/VTA%20railyard%20after%202021%20San%20Jose%20shooting%2004.jpg',
         location: ['-121.908333333', '37.354166666']
@@ -2675,7 +2668,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q122976243',
-        name: '2023 Hamas-led attack on Israel',
+        name: 'Hamas-led attack on Israel',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%91%D7%A0%D7%94%20%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A9%D7%A8%D7%95%D7%A3%20%D7%91%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%91%D7%90%D7%A8%D7%99%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%AA%D7%A7%D7%A4%D7%AA%20%D7%94%D7%A4%D7%AA%D7%A2.%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%99%D7%95%D7%90%D7%91%20%D7%A7%D7%A8%D7%9F.jpg',
         location: ['34.507694444', '31.363527777']
@@ -2710,7 +2703,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q117382594',
-        name: '2023 Saint Petersburg bombing',
+        name: 'Saint Petersburg bombing',
         date: 1680393600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Saint%20Petersburg%20bombing.png',
         location: ['30.2868', '59.9365']
@@ -2787,7 +2780,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2891775',
-        name: 'Japan Air Lines flight 1628 incident',
+        name: 'Japan Air Lines flight incident',
         date: 532569600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terauchi-moederskip%20van%2017%20November%201986%2C%20b.jpg',
         location: ['-145.975', '65.48388889']
@@ -2815,7 +2808,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q66424571',
-        name: 'nuclear accident in Russia in August 2019',
+        name: 'nuclear accident in Russia in August ',
         date: 1565222400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nenoksa-satphoto-2019-08-08-russia-explosion.jpg',
         location: ['39.2027', '64.6459']
@@ -2829,14 +2822,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116775755',
-        name: '2023 Michigan State University shooting',
+        name: 'Michigan State University shooting',
         date: 1676246400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Michigan%20State%20University%20shooting-1.jpg',
         location: ['-84.4782', '42.7329']
     },
     {
         url: 'http://www.wikidata.org/entity/Q123952055',
-        name: '2023 Prague shooting',
+        name: 'Prague shooting',
         date: 1703116800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Closed%20Smetanovo%20nabrezi%20after%20Prague%202023%20shooting.jpg',
         location: ['14.416111111', '50.089166666']
@@ -2857,21 +2850,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4055786',
-        name: '1961 Goldsboro B-52 Crash',
+        name: 'Goldsboro B-52 Crash',
         date: -282009600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Goldsboro%20Broken%20Arrow%20cleanup%201961.jpg',
         location: ['-77.8463', '35.5123']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113382',
-        name: '1966 Palomares B-52 crash',
+        name: 'Palomares B-52 crash',
         date: -124848000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Palomares%20H-Bomb%20Incident.jpg',
         location: ['-1.79694444', '37.24916667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q346847',
-        name: '1968 Thule Air Base B-52 crash',
+        name: 'Thule Air Base B-52 crash',
         date: -61430400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Thule%20AFB%20B-52%20Crash%20Site.jpg',
         location: ['-69.281944444', '76.527777777']
@@ -2962,28 +2955,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.416666666', '54.883333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.5991666', '55.2181191']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.708333333', '55.536111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.791666666', '55.561111111']
@@ -3011,7 +3004,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19413302',
-        name: '2015 Zasyadko mine disaster',
+        name: 'Zasyadko mine disaster',
         date: 1425427200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Donetsk%20in%20Ukraine.svg',
         location: ['37.787', '48.055']
@@ -3067,7 +3060,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q21187497',
-        name: 'December 14, 1998 Albanian–Yugoslav border ambush',
+        name: 'December 14, Albanian–Yugoslav border ambush',
         date: 913593600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Weapons%20confiscated%20from%20the%20Kosovo%20Liberation%20Army%20%281999%29.JPEG',
         location: ['20.5375', '42.2756']
@@ -3081,7 +3074,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2636209',
-        name: 'Action of 22 September 1914',
+        name: 'Action of 22 September ',
         date: -1744416000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HMS%20Aboukir%20at%20Malta.jpg',
         location: ['3.75', '53.0']
@@ -3102,7 +3095,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q118269223',
-        name: '2023 Taichung crane collapse',
+        name: 'Taichung crane collapse',
         date: 1683676800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Accident%20on%20the%20Taichung%20Metro%20Green%20Line%202023-05-10%2001.jpg',
         location: ['120.646419', '24.131559']
@@ -3158,7 +3151,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2207327',
-        name: 'Action of 17 November 1917',
+        name: 'Action of 17 November ',
         date: -1644883200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/U-58%20captured%201917.jpg',
         location: ['-5.35', '51.53333333']
@@ -3270,7 +3263,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q98073118',
-        name: '2020 Beirut explosions',
+        name: 'Beirut explosions',
         date: 1596499200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damages%20after%202020%20Beirut%20explosions%201.jpg',
         location: ['35.518888888', '33.901388888']
@@ -3319,7 +3312,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2661579',
-        name: '2009 Sayano-Shushenskaya power station accident',
+        name: 'Sayano-Shushenskaya power station accident',
         date: 1250467200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2009%20incident%20on%20Sayan%20power%20station%2001.jpg',
         location: ['91.3709', '52.8253']
@@ -3333,14 +3326,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4565220',
-        name: '1943 Filipstad explosion',
+        name: 'Filipstad explosion',
         date: -821664000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Filipstadulykken%20sett%20fra%20Frognerstranda.jpg',
         location: ['10.7148', '59.9083']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4611118',
-        name: '2008 Georgia sugar refinery explosion',
+        name: 'Georgia sugar refinery explosion',
         date: 1199145600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Imperial%20Sugar%20Georgia%20Two.jpg',
         location: ['-81.144', '32.144']
@@ -3368,14 +3361,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19757584',
-        name: '2010 Tesoro Anacortes Refinery disaster',
+        name: 'Tesoro Anacortes Refinery disaster',
         date: 1270166400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Anacortes%20Refinery%2031911.JPG',
         location: ['-122.568', '48.4964']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20816071',
-        name: '2015 Tianjin explosions',
+        name: 'Tianjin explosions',
         date: 1439337600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20Tianjin%20explosion.jpg',
         location: ['117.736388888', '39.039722222']
@@ -3424,7 +3417,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q942213',
-        name: '2010 Eritrean–Ethiopian border skirmish',
+        name: 'Eritrean–Ethiopian border skirmish',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Eritrea%20Ethiopia%20locator.svg',
         location: ['39.0', '15.0']
@@ -3641,7 +3634,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4677371',
-        name: 'Action of 4 May 1917',
+        name: 'Action of 4 May ',
         date: -1661904000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HMAS%20Sydney%20Zeppelin%20L43.jpg',
         location: ['3.0', '56.0']
@@ -3697,7 +3690,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116869782',
-        name: '2023 Moscow rally',
+        name: 'Moscow rally',
         date: 1677024000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Moscow%20rally.jpg',
         location: ['37.554', '55.716']
@@ -3718,7 +3711,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19984977',
-        name: '2015 FIFA corruption case',
+        name: 'FIFA corruption case',
         date: 1420070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Baur%20au%20Lac%20ZH.JPG',
         location: ['8.5371083', '47.3671753']
@@ -3809,7 +3802,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q65767134',
-        name: '2019 Yuen Long attack',
+        name: 'Yuen Long attack',
         date: 1563667200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E7%AB%8B%E5%A0%B4%E6%96%B0%E8%81%9E%E8%A8%98%E8%80%85%E8%A2%AB%E8%A5%B2%E6%93%8A%E4%B8%80%E5%88%BB.gif',
         location: ['114.0355', '22.4462']
@@ -3823,14 +3816,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q72067697',
-        name: '2019 Grays incident',
+        name: 'Grays incident',
         date: 1571788800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20Grays%20incident%20map.png',
         location: ['0.273333333', '51.478888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q99770698',
-        name: '2020 detainment of Hong Kong residents at sea by China',
+        name: 'detainment of Hong Kong residents at sea by China',
         date: 1598140800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20detainment%20of%20the%2012%20Hongkongers%20map%20CHI.jpg',
         location: ['114.566388888', '21.964444444']
@@ -3914,7 +3907,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1384607',
-        name: '2008 Gërdec explosions',
+        name: 'Gërdec explosions',
         date: 1205539200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/VoraGerdecAlbaniaExplosions.jpg',
         location: ['19.6311', '41.4178']
@@ -3942,7 +3935,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2585513',
-        name: '2007 United States Air Force nuclear weapons incident',
+        name: 'United States Air Force nuclear weapons incident',
         date: 1167609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Minot%20B52%20800p%20070904.jpg',
         location: ['-101.345', '48.4181']
@@ -3977,7 +3970,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q124538105',
-        name: 'The Capsizing Incident of a Mainland Chinese Fishing Boat in Kinmen on February 2024',
+        name: 'The Capsizing Incident of a Mainland Chinese Fishing Boat in Kinmen on February ',
         date: 1707868800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E5%88%9D%E4%BA%94%E9%96%8B%E5%B7%A5%E6%97%A5%E8%B6%8A%E7%95%8C%E6%8D%95%E9%AD%9A%EF%BC%81%E9%99%B8%E7%B1%8D%E6%BC%81%E8%88%B9%E6%8B%92%E6%AA%A2%E8%BF%BD%E9%80%90%E7%BF%BB%E8%A6%86%204%E4%BA%BA%E8%90%BD%E6%B5%B7%E9%87%802%E6%AD%BB%201.jpg',
         location: ['118.5235', '24.4277']
@@ -4012,7 +4005,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1517252',
-        name: '1996 Mount Everest disaster',
+        name: 'Mount Everest disaster',
         date: 830908800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Everest%20Peace%20Project%20-%20Everest%20summit.jpg',
         location: ['86.925', '27.988055555']
@@ -4054,7 +4047,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28854696',
-        name: 'Donald Trump speech to joint session of Congress, February 2017',
+        name: 'Donald Trump speech to joint session of Congress, February ',
         date: 1488240000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Trump%27s%20First%20100%20Days-%2018%20%2834252546021%29.jpg',
         location: ['-77.009027777', '38.889']
@@ -4068,42 +4061,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116861041',
-        name: '2023 Presidential Address to the Federal Assembly',
+        name: 'Presidential Address to the Federal Assembly',
         date: 1676937600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%20%D0%9F%D1%83%D1%82%D0%B8%D0%BD%20%D0%B2%202023%20%D0%B3%D0%BE%D0%B4%D1%83.jpg',
         location: ['37.6255', '55.754']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106632834',
-        name: '2021 Joe Biden speech to a joint session of Congress',
+        name: 'Joe Biden speech to a joint session of Congress',
         date: 1619568000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20speaking%20at%20the%20joint%20session%20of%20Congress.jpg',
         location: ['-77.009111111', '38.888833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106632834',
-        name: '2021 Joe Biden speech to a joint session of Congress',
+        name: 'Joe Biden speech to a joint session of Congress',
         date: 1619568000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20speaking%20at%20the%20joint%20session%20of%20Congress.jpg',
         location: ['-77.009027777', '38.889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q65040662',
-        name: '2019 Salute to America',
+        name: 'Salute to America',
         date: 1562198400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Salute%20to%20America%20%2848201286086%29.jpg',
         location: ['-77.0501', '38.8893']
     },
     {
         url: 'http://www.wikidata.org/entity/Q97179261',
-        name: '2020 Salute to America',
+        name: 'Salute to America',
         date: 1593820800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Salute%20to%20America%202020%20%2850082762613%29.jpg',
         location: ['-77.0501', '38.8893']
     },
     {
         url: 'http://www.wikidata.org/entity/Q97304163',
-        name: "South Dakota's Mount Rushmore Fireworks Celebration 2020",
+        name: "South Dakota's Mount Rushmore Fireworks Celebration ",
         date: 1593734400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Rushmore%20Fireworks%20Celebration%20%2850083352836%29.jpg',
         location: ['-103.459722222', '43.878888888']
@@ -4117,14 +4110,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20688475',
-        name: '2015 Hong Kong electoral reform voting',
+        name: 'Hong Kong electoral reform voting',
         date: 1434585600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lau%20Wong-fat%20at%20Victoria%20Park%2020100619.jpg',
         location: ['114.165577777', '22.280791666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20688475',
-        name: '2015 Hong Kong electoral reform voting',
+        name: 'Hong Kong electoral reform voting',
         date: 1434585600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pan-democracy%20legislators%20showing%20a%20banner.jpg',
         location: ['114.165577777', '22.280791666']
@@ -4208,7 +4201,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q112725255',
-        name: '2022 Melilla incident',
+        name: 'Melilla incident',
         date: 1656028800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Remnants%20of%20clothing%2C%20wooden%20sticks%20and%20backpacks%20stuck%20to%20the%20barbed%20wire%20over%20the%20doors%20and%20on%20the%20fence%20%28cropped%29.png',
         location: ['-2.962079', '35.2863161']
@@ -4257,7 +4250,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3476414',
-        name: 'Amsterdam shooting on the Dam, 7 May 1945',
+        name: 'Amsterdam shooting on the Dam, 7 May ',
         date: -778032000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tweede%20Wereldoorlog%2C%20SFA001000648%2001.jpg',
         location: ['4.89278', '52.3731']
@@ -4313,7 +4306,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1540446',
-        name: 'Memorial Day massacre of 1937',
+        name: 'Memorial Day massacre of ',
         date: -1028505600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Photograph%20titled%20%22The%20Chicago%20Memorial%20Day%20Incident%22%20-%20NARA%20-%20306197.jpg',
         location: ['-87.539912', '41.682895']
@@ -4383,7 +4376,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1087721',
-        name: '2011 Zhanaozen riots',
+        name: 'Zhanaozen riots',
         date: 1324080000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mangystau%20Union%20Square%20Protest%20%282011-12-18%29.jpg',
         location: ['52.8', '43.3']
@@ -4495,7 +4488,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q99717',
-        name: '1989 Tiananmen Square protests and massacre',
+        name: 'Tiananmen Square protests and massacre',
         date: 599616000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E8%92%B2%E5%BF%97%E5%BC%B719890510.jpg',
         location: ['116.391666666', '39.903333333']
@@ -4537,7 +4530,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1199275',
-        name: '2012 Homs offensive',
+        name: 'Homs offensive',
         date: 1334361600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destruction%20in%20Homs%20%284%29.jpg',
         location: ['36.7094', '34.7308']
@@ -4656,7 +4649,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1985449',
-        name: '1938 Tiberias pogrom',
+        name: 'Tiberias pogrom',
         date: -986169600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tib%20cim037.jpg',
         location: ['35.524', '32.789']
@@ -4698,7 +4691,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q173729',
-        name: '1933 Monaco Grand Prix',
+        name: 'Monaco Grand Prix',
         date: -1157932800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Achille%20Varzi%20at%20the%201933%20Monaco%20Grand%20Prix.jpg',
         location: ['7.42133', '43.7346']
@@ -4824,7 +4817,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29524697',
-        name: '2017 Mosul airstrike',
+        name: 'Mosul airstrike',
         date: 1489708800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Iraqi%20Army%20fire%20a%20heavy%20machine%20at%20ISIS%20positions%20in%20Mosul.jpg',
         location: ['43.13', '36.34']
@@ -4838,7 +4831,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q41522095',
-        name: '2017 Las Vegas shooting',
+        name: 'Las Vegas shooting',
         date: 1506816000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Las%20Vegas%20Strip%20shooting%20site%202017%20%28overlay%29.jpg',
         location: ['-115.171666666', '36.095555555']
@@ -4873,7 +4866,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q473893',
-        name: '2011 Liège attack',
+        name: 'Liège attack',
         date: 1323734400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20100722%20liege13.JPG',
         location: ['5.572777777', '50.645']
@@ -4915,7 +4908,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q112725255',
-        name: '2022 Melilla incident',
+        name: 'Melilla incident',
         date: 1656028800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Remnants%20of%20clothing%2C%20wooden%20sticks%20and%20backpacks%20stuck%20to%20the%20barbed%20wire%20over%20the%20doors%20and%20on%20the%20fence%20%28cropped%29.png',
         location: ['-2.962079', '35.2863161']
@@ -4943,7 +4936,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18551886',
-        name: '2014 Jerusalem synagogue attack',
+        name: 'Jerusalem synagogue attack',
         date: 1416268800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Har%20Nof%20synagogue%20attack.jpg',
         location: ['35.175277777', '31.785888888']
@@ -4957,14 +4950,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18641076',
-        name: '2014 Peshawar school attack',
+        name: 'Peshawar school attack',
         date: 1418688000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Peshawar.png',
         location: ['71.536111111', '34.013611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18882013',
-        name: 'January 2015 Mariupol rocket attack',
+        name: 'January Mariupol rocket attack',
         date: 1422057600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Rocket%20attack%20on%20Mariupol%20%289%29.jpg',
         location: ['37.678018', '47.111223']
@@ -4985,7 +4978,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16334391',
-        name: 'April 2014 Abuja bombing',
+        name: 'April Abuja bombing',
         date: 1397433600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nigeria%20Federal%20Capital%20Territory%20map.png',
         location: ['7.5', '9.05']
@@ -5097,14 +5090,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q25893254',
-        name: '2016 Nice attack',
+        name: 'Nice attack',
         date: 1468454400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9but%20et%20fin%20de%20l%27attaque.png',
         location: ['7.2475', '43.691111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28036573',
-        name: '2016 Berlin attack',
+        name: 'Berlin attack',
         date: 1482105600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20151115%20Berlin%20bei%20Nacht%2015-1.jpg',
         location: ['13.334444444', '52.505277777']
@@ -5118,35 +5111,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106322518',
-        name: 'Kirkuk Massacre of 1924',
+        name: 'Kirkuk Massacre of ',
         date: -1440979200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Old%20Kirkuk.jpg',
         location: ['44.4', '35.47']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106616371',
-        name: 'December 2020 Wukro massacre',
+        name: 'December Wukro massacre',
         date: 1609286400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wukro%201.jpg',
         location: ['39.59991', '13.78511']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106616379',
-        name: 'March 2021 Wukro massacre',
+        name: 'March Wukro massacre',
         date: 1615680000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wukro%204.jpg',
         location: ['39.59991', '13.78511']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106616395',
-        name: 'February 2021 Wukro massacre',
+        name: 'February Wukro massacre',
         date: 1612915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wukro-Vue%20depuis%20l%27%C3%A9glise%20%286%29.jpg',
         location: ['39.59991', '13.78511']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28094271',
-        name: '2017 Istanbul nightclub attack',
+        name: 'Istanbul nightclub attack',
         date: 1483228800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Reina%20restaurant%20Istanbul.JPG',
         location: ['29.03262', '41.049922']
@@ -5160,7 +5153,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q14626794',
-        name: 'August 2013 Ghouta chemical attack',
+        name: 'August Ghouta chemical attack',
         date: 1377043200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ghouta%20massacre4.JPG',
         location: ['36.350755833', '33.519655277']
@@ -5174,14 +5167,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15253897',
-        name: '1918 protest in Zagreb',
+        name: 'protest in Zagreb',
         date: -1611792000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Prosvjedi%205%20prosinca%201918%20MGZ%20080209.jpg',
         location: ['15.977222222', '45.813055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15730206',
-        name: 'Midnight Massacre (1945)',
+        name: 'Midnight Massacre ()',
         date: -773280000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Salina%20Utah%20POW%20camp.gif',
         location: ['-111.84777', '38.95767']
@@ -5202,7 +5195,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q122976243',
-        name: '2023 Hamas-led attack on Israel',
+        name: 'Hamas-led attack on Israel',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%91%D7%A0%D7%94%20%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A9%D7%A8%D7%95%D7%A3%20%D7%91%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%91%D7%90%D7%A8%D7%99%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%AA%D7%A7%D7%A4%D7%AA%20%D7%94%D7%A4%D7%AA%D7%A2.%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%99%D7%95%D7%90%D7%91%20%D7%A7%D7%A8%D7%9F.jpg',
         location: ['34.507694444', '31.363527777']
@@ -5237,14 +5230,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q54099401',
-        name: '2018 Democratic Republic of the Congo Ebola virus outbreak',
+        name: 'Democratic Republic of the Congo Ebola virus outbreak',
         date: 1514764800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Democratic%20Republic%20of%20the%20Congo%20%2826%20provinces%29%20-%20%C3%89quateur.svg',
         location: ['18.11666667', '-0.75']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19984977',
-        name: '2015 FIFA corruption case',
+        name: 'FIFA corruption case',
         date: 1420070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Baur%20au%20Lac%20ZH.JPG',
         location: ['8.5371083', '47.3671753']
@@ -5279,14 +5272,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2504556',
-        name: '2009 Guinean protests',
+        name: 'Guinean protests',
         date: 1254096000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ville%20de%20Conaky.jpg',
         location: ['-13.673030555', '9.545961388']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2506949',
-        name: '2011 Indian anti-corruption movement',
+        name: 'Indian anti-corruption movement',
         date: 1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Anna%20Hazare%20on%202nd%20day.jpg',
         location: ['77.2', '28.6']
@@ -5419,28 +5412,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q683750',
-        name: '2009 G-20 London summit protests',
+        name: 'G-20 London summit protests',
         date: 1230768000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/G20%20crowd.jpg',
         location: ['-0.0825', '51.5152']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1042279',
-        name: 'Tripoli protests and clashes (February 2011)',
+        name: 'Tripoli protests and clashes (February )',
         date: 1298592000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20110306014323%20Tripoli%20uprising.svg',
         location: ['13.185833333', '32.902222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1059090',
-        name: '2010 Thai political protests',
+        name: 'Thai political protests',
         date: 1274227200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%200320%20bkk%20red%20shirt%20demonstration%2007.jpg',
         location: ['100.517', '13.75']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1067429',
-        name: '2011–2013 Saudi Arabian protests',
+        name: '–Saudi Arabian protests',
         date: 1299801600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Saudi%20Arabia%20%28orthographic%20projection%29.svg',
         location: ['46.767', '24.65']
@@ -5454,14 +5447,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1935930',
-        name: '2011 Wisconsin protests',
+        name: 'Wisconsin protests',
         date: 1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gov%20Walker%20Protests1%20JR.jpg',
         location: ['-89.3856', '43.0749']
     },
     {
         url: 'http://www.wikidata.org/entity/Q52967',
-        name: 'Poznań 1956 protests',
+        name: 'Poznań protests',
         date: -428716800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Poznan%201956.jpg',
         location: ['16.917222222', '52.408333333']
@@ -5482,7 +5475,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q23038331',
-        name: '2016 Chicago protest',
+        name: 'Chicago protest',
         date: 1457654400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Trump%20protest%20Chicago%20March%2011%2C%202016.jpg',
         location: ['-87.656111111', '41.874722222']
@@ -5552,7 +5545,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q207420',
-        name: "1939 New York World's Fair",
+        name: "New York World's Fair",
         date: -978307200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Binder%27s%20poster%20for%20the%201939%20New%20York%20World%27s%20Fair.jpg',
         location: ['-73.8485743', '40.7439403']
@@ -5594,7 +5587,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q283454',
-        name: '1929 Barcelona International Exposition',
+        name: 'Barcelona International Exposition',
         date: -1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/BarcelonaExpositionPanorama.1929.ws.jpg',
         location: ['2.15', '41.3706']
@@ -5608,14 +5601,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q385065',
-        name: 'April 2009 Moldovan parliamentary election protests',
+        name: 'April Moldovan parliamentary election protests',
         date: 1239494400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Md-map.jpg',
         location: ['28.8278', '47.0278']
     },
     {
         url: 'http://www.wikidata.org/entity/Q495375',
-        name: 'Expo 2012',
+        name: 'Expo ',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Yeosu%20EXPO%20gate.jpg',
         location: ['127.747263', '34.749194']
@@ -5629,7 +5622,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q734463',
-        name: 'Expo 2000',
+        name: 'Expo ',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/EXPO-HANNOVER%208937.JPG',
         location: ['9.812222222', '52.321666666']
@@ -5650,7 +5643,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q861569',
-        name: 'Expo 2008',
+        name: 'Expo ',
         date: 1199145600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PanoExpo2008Zaragoza.jpg',
         location: ['-0.90285278', '41.66905']
@@ -5664,7 +5657,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q932774',
-        name: 'Brussels International 1910',
+        name: 'Brussels International ',
         date: -1893456000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Poster%20for%20World%20Fair%20of%201910.jpg',
         location: ['4.35194444', '50.84583333']
@@ -5678,7 +5671,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1054110',
-        name: 'Expo 2005',
+        name: 'Expo ',
         date: 1104537600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aichi%20Pavilion%20Nagakute.jpg',
         location: ['137.08678', '35.175931']
@@ -5783,42 +5776,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2300366',
-        name: 'Expo 1906 Milan international exhibition',
+        name: 'Expo Milan international exhibition',
         date: -2019686400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Poster%20ufficiale%20di%20Expo-Milano-1906%20di%20Leopoldo%20Metlicovitz.jpg',
         location: ['9.17444444', '45.47288889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2386813',
-        name: 'exposition of 1930',
+        name: 'exposition of ',
         date: -1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pont-barrage-monsin.jpg',
         location: ['5.62569444', '50.64888889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2467552',
-        name: 'Expo 1968',
+        name: 'Expo ',
         date: -63158400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hemisfair68.jpg',
         location: ['-98.483', '29.419']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2629370',
-        name: 'Expo 2020',
+        name: 'Expo ',
         date: 1609459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/EXPO-01-concourse-rendering-%28c%29-querkraft-patricia-bagienski.jpg',
         location: ['55.150833333', '24.960833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2629370',
-        name: 'Expo 2020',
+        name: 'Expo ',
         date: 1640995200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/EXPO-01-concourse-rendering-%28c%29-querkraft-patricia-bagienski.jpg',
         location: ['55.150833333', '24.960833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28958341',
-        name: 'Expo 2025',
+        name: 'Expo ',
         date: 1735689600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/EV%20Motors%20Japan%20F8%20series2-City%20Bus%20%28Osaka%20City%20Bus%2073-5091%29%20at%20Japan%20Mobility%20Show%202023.jpg',
         location: ['135.38641667', '34.65352778']
@@ -5902,7 +5895,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q24039784',
-        name: 'Batik Air Flight 7703',
+        name: 'Batik Air Flight ',
         date: 1459728000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Batik%20Air%20PK-LBS%20damage.jpg',
         location: ['106.892230555', '-6.266116666']
@@ -5923,7 +5916,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1189910',
-        name: "1964 New York World's Fair",
+        name: "New York World's Fair",
         date: -189388800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/New%20York%20World%27s%20Fair%20August%201964.jpeg',
         location: ['-73.84441667', '40.74402778']
@@ -5937,7 +5930,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1335281',
-        name: '1993 World Horticultural Exposition',
+        name: 'World Horticultural Exposition',
         date: 725846400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/IGA93-Panoramabahn%202.jpg',
         location: ['9.17722', '48.8039']
@@ -6091,7 +6084,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q682409',
-        name: 'Siege of Odesa 1941',
+        name: 'Siege of Odesa ',
         date: -890265600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Odessa%20falls%20to%20germans.JPG',
         location: ['30.73262', '46.47747']
@@ -6189,35 +6182,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q64997674',
-        name: '1 July 2019 Hong Kong anti-extradition bill protest',
+        name: '1 July Hong Kong anti-extradition bill protest',
         date: 1561939200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/190701%20HK%20Protest%20Incendo%2001.jpg',
         location: ['114.166111111', '22.281111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q65070797',
-        name: 'July 2019 Restoration of Tuen Mun Park',
+        name: 'July Restoration of Tuen Mun Park',
         date: 1562371200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Recovery%20Tuen%20Mun%20Park%20Procession.jpg',
         location: ['113.973888888', '22.392222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q66737806',
-        name: '2019 Sheung Shui protest',
+        name: 'Sheung Shui protest',
         date: 1562976000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20Sheung%20Shui%20Protest%20VOA%206.jpg',
         location: ['114.131111111', '22.506388888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q67934821',
-        name: '17 August 2019 Hong Kong protest',
+        name: '17 August Hong Kong protest',
         date: 1566000000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hong%20Kong%20Demonstration%2020190817%20Hung%20Hom%20Road-2.jpg',
         location: ['114.192096944', '22.314811111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q72711447',
-        name: 'September 2019 Guangfu Tuen Mun Park',
+        name: 'September Guangfu Tuen Mun Park',
         date: 1569024000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019-09-21%20Tuen%20Mun%20%E5%85%89%E5%BE%A9%E5%B1%AF%E9%96%80%E5%85%AC%E5%9C%92%E9%81%8A%E8%A1%8C%2024.jpg',
         location: ['113.971111111', '22.391666666']
@@ -6336,7 +6329,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2597094',
-        name: 'June 2011 Jisr ash-Shughur operation',
+        name: 'June Jisr ash-Shughur operation',
         date: 1307836800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/June%202011%20Jisr%20ash-Shugur%20general%20strike.png',
         location: ['36.316666666', '35.8']
@@ -6560,7 +6553,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q21190743',
-        name: '2015 Kuweires offensive',
+        name: 'Kuweires offensive',
         date: 1447632000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aleppo%202.jpeg',
         location: ['37.58305556', '36.18694444']
@@ -6665,7 +6658,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28419666',
-        name: 'Deir ez-Zor offensive (January–February 2017)',
+        name: 'Deir ez-Zor offensive (January–February )',
         date: 1487030400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Deir%20ez-Zor%20clashes%20%282017%29.svg',
         location: ['40.27', '35.15']
@@ -6903,7 +6896,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q108102583',
-        name: 'Fall of Kabul (2021)',
+        name: 'Fall of Kabul ()',
         date: 1628985600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Crowds%20in%20front%20of%20Kabul%20International%20Airport.jpg',
         location: ['69.166666666', '34.5']
@@ -7029,14 +7022,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q6966493',
-        name: 'Narva Offensive February 1944',
+        name: 'Narva Offensive February ',
         date: -815529600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Narva%20Feb10%20Apr23%2044.jpg',
         location: ['28.2', '59.38333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q6966495',
-        name: 'March 1944 Narva Offensive',
+        name: 'March Narva Offensive',
         date: -815097600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Narva%20Feb10%20Apr23%2044.jpg',
         location: ['28.2', '59.38333333']
@@ -7183,7 +7176,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q959365',
-        name: 'Geneva massacre of 9 November 1932',
+        name: 'Geneva massacre of 9 November ',
         date: -1177459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Senn%20PS%20X999%20108ASD001R%20Unruhen%20in%20Genf.jpg',
         location: ['6.14122', '46.19479']
@@ -7421,7 +7414,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q483257',
-        name: '2007 South Korean hostage crisis in Afghanistan',
+        name: 'South Korean hostage crisis in Afghanistan',
         date: 1184803200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ghazni%20in%20Afghanistan.svg',
         location: ['68.0', '33.5']
@@ -7484,7 +7477,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4576078',
-        name: '1974 French Embassy attack in The Hague',
+        name: 'French Embassy attack in The Hague',
         date: 126230400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gijzeling%20Franse%20ambassade%209.jpg',
         location: ['4.316222222', '52.082861111']
@@ -7533,7 +7526,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q22082207',
-        name: '2016 Ouagadougou attacks',
+        name: 'Ouagadougou attacks',
         date: 1452902400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Splendidhotel.JPG',
         location: ['-1.518055555', '12.361111111']
@@ -7554,7 +7547,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15833607',
-        name: '2014 Russian invasion of Crimea',
+        name: 'Russian invasion of Crimea',
         date: 1388534400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014-03-09%20-%20Perevalne%20military%20base%20-%200162.JPG',
         location: ['34.0', '45.0']
@@ -7596,14 +7589,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q25250323',
-        name: '2016 Gulshan, Dhaka attack',
+        name: 'Gulshan, Dhaka attack',
         date: 1467331200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Dipto%20shopoth%2C%20gulshan.jpg',
         location: ['90.416688888', '23.802511111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30147595',
-        name: '2017 Tehran attacks',
+        name: 'Tehran attacks',
         date: 1496793600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tehranattack2017.jpg',
         location: ['51.423055555', '35.696111111']
@@ -7701,14 +7694,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q13624566',
-        name: '1977 Dutch school hostage crisis',
+        name: 'Dutch school hostage crisis',
         date: 233193600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/School%20Bovensmilde%20na%20aanval%20met%20muur%20waardoor%20tank%20reed%2C%20Bestanddeelnr%20929-2247.jpg',
         location: ['6.47945', '52.9751']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15708337',
-        name: '2014 Moscow school shooting',
+        name: 'Moscow school shooting',
         date: 1391385600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014%20Moscow%20school%20shooting%2006.jpg',
         location: ['37.614167', '55.856944']
@@ -7722,7 +7715,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q21516923',
-        name: '2015 Bamako hotel attack',
+        name: 'Bamako hotel attack',
         date: 1447977600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Attentat%20Radisson%20Blu%20de%20Bamako2015%281%29.JPG',
         location: ['-8.0308', '12.6352']
@@ -7750,7 +7743,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q51844684',
-        name: '2018 bombing of Damascus and Homs',
+        name: 'bombing of Damascus and Homs',
         date: 1523664000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20ruins%20of%20the%20American%20missile%20attack%20on%20Syria%2003.jpg',
         location: ['36.31528', '33.558278']
@@ -7799,21 +7792,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18701760',
-        name: '2014 Fall of Mosul',
+        name: 'Fall of Mosul',
         date: 1402358400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Humvee%20down%20after%20isis%20attack.jpg',
         location: ['43.135833333', '36.337222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18882013',
-        name: 'January 2015 Mariupol rocket attack',
+        name: 'January Mariupol rocket attack',
         date: 1422057600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Rocket%20attack%20on%20Mariupol%20%289%29.jpg',
         location: ['37.678018', '47.111223']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18916528',
-        name: 'January 2015 Shebaa farms incident',
+        name: 'January Shebaa farms incident',
         date: 1422403200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shebaa%20Farms.jpg',
         location: ['35.708611111', '33.292222222']
@@ -7827,7 +7820,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16896179',
-        name: 'Operations on the Ancre, January – March 1917',
+        name: 'Operations on the Ancre, January – March ',
         date: -1666396800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%20the%20Battle%20of%20the%20Somme%2C%201916.svg',
         location: ['2.7', '50.0667']
@@ -7841,14 +7834,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q17324420',
-        name: '2014 Gaza War',
+        name: 'Gaza War',
         date: 1388534400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Iron%20Dome%20in%20Operation%20Protective%20Edge.jpg',
         location: ['34.45', '31.516666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17324420',
-        name: '2014 Gaza War',
+        name: 'Gaza War',
         date: 1388534400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20home%20of%20the%20Kware%27%20family%2C%20after%20it%20was%20bombed%20by%20the%20military.jpg',
         location: ['34.45', '31.516666666']
@@ -7890,7 +7883,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q22679589',
-        name: '2016 Iranian arrest of U.S. Navy personnel',
+        name: 'Iranian arrest of U.S. Navy personnel',
         date: 1452556800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tasnim%20News%20Agency%20poster%20-%20The%20Dominant%20Power%20%28cropped%29.jpg',
         location: ['50.169444444', '27.988888888']
@@ -7904,7 +7897,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q120201630',
-        name: 'July 2023 Jenin incursion',
+        name: 'July Jenin incursion',
         date: 1688169600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%A4%D7%A2%D7%99%D7%9C%D7%95%D7%AA%20%D7%94%D7%9B%D7%95%D7%97%D7%95%D7%AA%2008.jpeg',
         location: ['35.288888888', '32.461111111']
@@ -7918,14 +7911,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q113482948',
-        name: '2022 Novofedorivka explosions',
+        name: 'Novofedorivka explosions',
         date: 1660003200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%84%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BA%D0%B5%20%D0%B2%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D0%B2%D0%B7%D1%80%D1%8B%D0%B2%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%B0%D1%8D%D1%80%D0%BE%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%2C%202022%2C%2003.jpg',
         location: ['33.58704749', '45.092465206']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114492886',
-        name: '2022 Crimean Bridge explosion',
+        name: 'Crimean Bridge explosion',
         date: 1665187200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022-10-11%20Enl%20crimea%20bridge.jpg',
         location: ['36.5125', '45.301111111']
@@ -7960,14 +7953,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q120201630',
-        name: 'July 2023 Jenin incursion',
+        name: 'July Jenin incursion',
         date: 1688169600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%A4%D7%A2%D7%99%D7%9C%D7%95%D7%AA%20%D7%94%D7%9B%D7%95%D7%97%D7%95%D7%AA%2008.jpeg',
         location: ['35.288888888', '32.461111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q58412',
-        name: '1987 Hipercor bombing',
+        name: 'Hipercor bombing',
         date: 551059200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Avenida%20Meridiana4.jpg',
         location: ['2.18556', '41.4281']
@@ -7988,7 +7981,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2691739',
-        name: '2009 Khan el-Khalili bombing',
+        name: 'Khan el-Khalili bombing',
         date: 1235260800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kairo%20Al%20Hussein%20Mosque%20BW%201.jpg',
         location: ['31.262777777', '30.046944444']
@@ -8058,28 +8051,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3402999',
-        name: 'May 2010 Mogadishu bombings',
+        name: 'May Mogadishu bombings',
         date: 1272672000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Somalia-Mogadishu.png',
         location: ['45.35', '2.03333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3504543',
-        name: '2006 Madrid–Barajas Airport bombing',
+        name: 'Madrid–Barajas Airport bombing',
         date: 1167436800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%20ETA%20Barajas.jpg',
         location: ['-3.59472', '40.4917']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3544474',
-        name: 'January 2010 Bajaur bombing',
+        name: 'January Bajaur bombing',
         date: 1264809600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/NWFP%20FATA.svg',
         location: ['71.5', '34.6833']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3825411',
-        name: '2009 Burgos bombing',
+        name: 'Burgos bombing',
         date: 1248825600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%20de%20Burgos%201.jpg',
         location: ['-3.69333', '42.3564']
@@ -8100,14 +8093,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4110397',
-        name: '2008 Minsk bombing',
+        name: 'Minsk bombing',
         date: 1215129600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Miensk%20-%20Plac%20Niezale%C5%BEna%C5%9Bci.jpg',
         location: ['27.5381', '53.9144']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2334294',
-        name: '2010 Aksu bombing',
+        name: 'Aksu bombing',
         date: 1282176000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Location%20of%20Aksu%20within%20Xinjiang%20%28China%29.png',
         location: ['80.25', '41.16667']
@@ -8142,14 +8135,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1586661',
-        name: '2011 Marrakech bombing',
+        name: 'Marrakech bombing',
         date: 1303948800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Marrakech%20Bombing%20Site%20Late%20in%20the%20Day.jpg',
         location: ['-7.989027777', '31.626527777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1759144',
-        name: '2004 Australian Embassy bombing in Jakarta',
+        name: 'Australian Embassy bombing in Jakarta',
         date: 1094688000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aus%20Emb%20bomb2.png',
         location: ['106.831111111', '-6.218166666']
@@ -8163,35 +8156,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1963521',
-        name: '2004 Cologne bombing',
+        name: 'Cologne bombing',
         date: 1086739200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Keupstrasse.jpg',
         location: ['7.00859111', '50.96583306']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2072278',
-        name: '2009 Jakarta bombings',
+        name: 'Jakarta bombings',
         date: 1247788800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jakarta%20Ritz-Carlton%20bomb%20damage%202009.jpg',
         location: ['106.827', '-6.22576']
     },
     {
         url: 'http://www.wikidata.org/entity/Q251039',
-        name: 'US Airways Flight 1549',
+        name: 'US Airways Flight ',
         date: 1231977600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/US%20Airways%20Flight%201549%20%28N106US%29%20after%20crashing%20into%20the%20Hudson%20River%20%28crop%201%29.jpg',
         location: ['-74.004636', '40.769498']
     },
     {
         url: 'http://www.wikidata.org/entity/Q530498',
-        name: 'Angara Airlines Flight 9007',
+        name: 'Angara Airlines Flight ',
         date: 1310342400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D0%9D-24%20%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%20%D0%B6%D0%B5%D1%81%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BF%D0%BE%D1%81%D0%B0%D0%B4%D0%BA%D0%B8%2C%20%D0%BF%D0%BE%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%20%D0%90%D0%9D-24%20-%20panoramio.jpg',
         location: ['77.2272', '60.0372']
     },
     {
         url: 'http://www.wikidata.org/entity/Q962475',
-        name: 'Tuninter Flight 1153',
+        name: 'Tuninter Flight ',
         date: 1123286400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/TuninterATR72Englishside.png',
         location: ['13.4583', '38.4044']
@@ -8205,21 +8198,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q21592163',
-        name: '1973 Old Bailey Bombing',
+        name: 'Old Bailey Bombing',
         date: 100396800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Old%20Bailey%20entrance.JPG',
         location: ['-0.1018', '51.5158']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15105641',
-        name: '2013 Patna bombings',
+        name: 'Patna bombings',
         date: 1382832000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2013%20Patna%20attacks.JPG',
         location: ['85.16751667', '25.60799167']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16334391',
-        name: 'April 2014 Abuja bombing',
+        name: 'April Abuja bombing',
         date: 1397433600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nigeria%20Federal%20Capital%20Territory%20map.png',
         location: ['7.5', '9.05']
@@ -8233,14 +8226,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18161088',
-        name: '2014 Santiago subway bombing',
+        name: 'Santiago subway bombing',
         date: 1388534400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Consejo%20Operativo%20de%20Seguridad%20por%20atentado%20en%20Las%20Condes%20%2815002566040%29.jpg',
         location: ['-70.5846', '-33.4143']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1709493',
-        name: 'July 2010 Kampala attacks',
+        name: 'July Kampala attacks',
         date: 1278806400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/July%202010%20Kampala%20attacks.png',
         location: ['32.581111', '0.313611']
@@ -8254,7 +8247,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4568156',
-        name: '1954 Swissair Convair CV-240 crash',
+        name: 'Swissair Convair CV-240 crash',
         date: -490320000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Convair%20240%20HB-IRW%20Swissair%20RWY%2013.06.54%20edited-2.jpg',
         location: ['1.20694', '51.0569']
@@ -8296,28 +8289,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q109666980',
-        name: '2021 Waukesha Christmas Parade attack',
+        name: 'Waukesha Christmas Parade attack',
         date: 1637452800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Broadway%20and%20Main%20Waukesha%20Wisconsin%20parade.jpg',
         location: ['-88.229166666', '43.012222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20826727',
-        name: '2015 Bangkok bombing',
+        name: 'Bangkok bombing',
         date: 1439769600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20Bangkok%20bombing%20VOA.jpg',
         location: ['100.540244444', '13.744472222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21083277',
-        name: '2015 Ankara bombings',
+        name: 'Ankara bombings',
         date: 1444435200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ankara%20Train%20Station.JPG',
         location: ['32.8438', '39.9364']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21470354',
-        name: '2015 Beirut bombings',
+        name: 'Beirut bombings',
         date: 1447286400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bourj%20el-Barajneh%20entrance%20-%20Flickr%20-%20Al%20Jazeera%20English.jpg',
         location: ['35.503333333', '33.848333333']
@@ -8331,7 +8324,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106768320',
-        name: 'May 2021 Kabul bombing',
+        name: 'May Kabul bombing',
         date: 1620432000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/14000221001114637563742760378856%20%D9%86%D9%82%D8%B4%20%D9%87%D9%85%D8%AF%D8%B1%D8%AF%DB%8C%20%D8%A8%D8%B1%20%D8%A8%D8%B1%D8%AC%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C.jpg',
         location: ['69.035', '34.503055555']
@@ -8345,70 +8338,70 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4575011',
-        name: '1972 Donegall Street bombing',
+        name: 'Donegall Street bombing',
         date: 69897600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Donegall%20Street%2C%20Belfast%20-%20geograph.org.uk%20-%20590376.jpg',
         location: ['-5.92806', '54.6019']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4581728',
-        name: '1984 London Heathrow Airport bombing',
+        name: 'London Heathrow Airport bombing',
         date: 451267200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Airside%20Terminal%201%20-%20geograph.org.uk%20-%20127630.jpg',
         location: ['-0.450278', '51.47']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4591331',
-        name: '1996 Docklands bombing',
+        name: 'Docklands bombing',
         date: 823824000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1996%20Docklands%20bombing%20plaque.jpg',
         location: ['-0.0179889', '51.5004']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4591331',
-        name: '1996 Docklands bombing',
+        name: 'Docklands bombing',
         date: 823824000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Docklands%20IRA%20vehicle%20bombing%20damage%20%28DoS%20Publication%2010321%29.png',
         location: ['-0.0179889', '51.5004']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4591514',
-        name: '1996 Manchester bombing',
+        name: 'Manchester bombing',
         date: 820454400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Corporation%20Street%2C%20Manchester%2C%2014%20July%202006.jpg',
         location: ['-2.2435', '53.4833']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4610578',
-        name: '2008 Balad Ruz bombing',
+        name: 'Balad Ruz bombing',
         date: 1221436800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/IraqDiyala.png',
         location: ['45.0833', '33.7']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4610615',
-        name: '2008 Bin Salman Mosque bombing',
+        name: 'Bin Salman Mosque bombing',
         date: 1209686400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Yemen-Sadah.png',
         location: ['43.764', '16.935']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4610981',
-        name: '2008 Exeter attempted bombing',
+        name: 'Exeter attempted bombing',
         date: 1211414400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Princesshay%20explosion.jpg',
         location: ['-3.5267', '50.7248']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4611122',
-        name: '2008 Getxo bombing',
+        name: 'Getxo bombing',
         date: 1211155200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Getxo%20car%20bomb%202008.jpg',
         location: ['-3.0158069', '43.3279706']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4618178',
-        name: '2010 Philippine Bar exam bombing',
+        name: 'Philippine Bar exam bombing',
         date: 1285459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Taft%20Ave%20blast.jpg',
         location: ['120.995', '14.5636']
@@ -8520,7 +8513,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q7362078',
-        name: '1974 Mitsubishi heavy industries explosion incident',
+        name: 'Mitsubishi heavy industries explosion incident',
         date: 147052800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Marunouchi%202chome%20Building%202012-10-08.JPG',
         location: ['139.76302778', '35.68002778']
@@ -8583,7 +8576,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q213531',
-        name: '2004 Madrid train bombings',
+        name: 'Madrid train bombings',
         date: 1078963200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%2011M.jpg',
         location: ['-3.689444444', '40.406666666']
@@ -8597,14 +8590,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q58416',
-        name: '1980 Ispaster attack',
+        name: 'Ispaster attack',
         date: 318211200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%20de%20Isp%C3%A1ster%20cropped.jpg',
         location: ['-2.556806', '43.3640571']
     },
     {
         url: 'http://www.wikidata.org/entity/Q79967',
-        name: '2011 Norway attacks',
+        name: 'Norway attacks',
         date: 1311292800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Regjeringsbygget%2022.7.2011.jpg',
         location: ['10.7465', '59.915']
@@ -8625,14 +8618,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q80213',
-        name: '1987 Zaragoza Guardia Civil Barracks bombing',
+        name: 'Zaragoza Guardia Civil Barracks bombing',
         date: 566179200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%20contra%20la%20Casa%20Cuartel%20de%20Zaragoza.jpg',
         location: ['-0.865556', '41.6614']
     },
     {
         url: 'http://www.wikidata.org/entity/Q86584',
-        name: '2002 Bali bombings',
+        name: 'Bali bombings',
         date: 1034380800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bali%20kuta%20blast%20monument%20ag1.jpg',
         location: ['115.174166666', '-8.717222222']
@@ -8646,7 +8639,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q12406884',
-        name: 'Itamar attack (2002)',
+        name: 'Itamar attack ()',
         date: 1024531200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Itamar%20attack%20%282002%29%20I.jpg',
         location: ['35.30822778', '32.17238056']
@@ -8660,14 +8653,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q25300887',
-        name: 'July 2016 Baghdad bombings',
+        name: 'July Baghdad bombings',
         date: 1467417600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D8%AA%D9%81%D8%AC%D9%8A%D8%B1%20%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%201%20%D9%8A%D9%88%D9%84%D9%8A%D9%88%202016.jpeg',
         location: ['44.419889', '33.298472']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25300887',
-        name: 'July 2016 Baghdad bombings',
+        name: 'July Baghdad bombings',
         date: 1467504000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D8%AA%D9%81%D8%AC%D9%8A%D8%B1%20%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%201%20%D9%8A%D9%88%D9%84%D9%8A%D9%88%202016.jpeg',
         location: ['44.419889', '33.298472']
@@ -8688,14 +8681,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29113584',
-        name: '2017 Saint Petersburg Metro attack',
+        name: 'Saint Petersburg Metro attack',
         date: 1491177600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Blasts%20Apr2017%20on%20SPb%20metro%20map.png',
         location: ['30.320425', '59.927091666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q39886299',
-        name: '2017 Parsons Green bombing',
+        name: 'Parsons Green bombing',
         date: 1505433600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20Parsons%20Green%20bombing%2020.jpg',
         location: ['-0.201111111', '51.475280555']
@@ -8716,7 +8709,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q54870155',
-        name: '1979 Brussels bombing',
+        name: 'Brussels bombing',
         date: 304732800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Grote%20Markt%20%289379072012%29.jpg',
         location: ['4.3525', '50.846666666']
@@ -8730,7 +8723,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q63245644',
-        name: '2019 Sri Lanka bombings',
+        name: 'Sri Lanka bombings',
         date: 1555804800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/St.%20Anthony%27s%20Shrine%2C%20Kochchikade.jpg',
         location: ['79.866666666', '6.933333333']
@@ -8744,7 +8737,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q64062133',
-        name: '2019 Lyon bomb explosion',
+        name: 'Lyon bomb explosion',
         date: 1558656000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lyon%202e%20-%20Rue%20Victor%20Hugo%2C%20au%20lendemain%20de%20l%27attentat%20au%20colis%20pi%C3%A9g%C3%A9%2C%20il%20ne%20reste%20que%20des%20journalistes.jpg',
         location: ['4.83', '45.754166666']
@@ -8814,7 +8807,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q125092492',
-        name: '2024 Crocus City Hall attack',
+        name: 'Crocus City Hall attack',
         date: 1711065600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Crocus%20City%20Hall%20sign%20after%20attack%20%28cropped%29.jpg',
         location: ['37.390556', '55.825833']
@@ -8835,14 +8828,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15856657',
-        name: '2014 Kunming attack',
+        name: 'Kunming attack',
         date: 1393632000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kunming%20Railway%20Station.jpg',
         location: ['102.720833333', '25.0175']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4300209',
-        name: "1974 Beit She'an attack",
+        name: "Beit She'an attack",
         date: 154051200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%2011228%20Beit%20Shean%20region.jpg',
         location: ['35.4958', '32.4917']
@@ -8856,77 +8849,77 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4456244',
-        name: '2009 Beledweyne bombing',
+        name: 'Beledweyne bombing',
         date: 1245283200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Somalia%20regions%20map%20Hiiraan.svg',
         location: ['45.2', '4.73333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4579715',
-        name: '1981 Antwerp bombing',
+        name: 'Antwerp bombing',
         date: 372384000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Beschadigde%20gebouwen%20in%20de%20Hoveniersstraat%20na%20de%20aanslag%2C%20Bestanddeelnr%20931-7513.jpg',
         location: ['4.41875', '51.215122222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4588587',
-        name: '1993 Jolimont Centre siege',
+        name: 'Jolimont Centre siege',
         date: 754531200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Novotel%20Canberra%20and%20the%20Jolimont%20Centre.jpg',
         location: ['149.129', '-35.2777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4608686',
-        name: '2007 Iraqi Parliament bombing',
+        name: 'Iraqi Parliament bombing',
         date: 1167609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Baghdad%20Convention%20Center.jpg',
         location: ['44.3638', '33.3151']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4620270',
-        name: '2011 Aktobe bombing',
+        name: 'Aktobe bombing',
         date: 1305590400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nurdaulet%20mosque%201.jpg',
         location: ['57.223333333', '50.283055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q115193912',
-        name: '2022 Istanbul bombing',
+        name: 'Istanbul bombing',
         date: 1668297600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20point%20after%20the%202022%20Istanbul%20attack%2011.jpg',
         location: ['28.981388888', '41.035']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116485898',
-        name: '2023 Peshawar mosque bombing',
+        name: 'Peshawar mosque bombing',
         date: 1675036800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Investigations%20underway%20after%20suicide%20bombing%20at%20Pakistan%20mosque%20kills%2032%201-31%20screenshot.png',
         location: ['71.559444444', '34.013055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117382594',
-        name: '2023 Saint Petersburg bombing',
+        name: 'Saint Petersburg bombing',
         date: 1680393600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Saint%20Petersburg%20bombing.png',
         location: ['30.2868', '59.9365']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3351820',
-        name: '2001 Indian Parliament attack',
+        name: 'Indian Parliament attack',
         date: 1008201600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sansad%20Bhavan-2.jpg',
         location: ['77.2081', '28.6172']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3553264',
-        name: '1995 Paris Metro bombings',
+        name: 'Paris Metro bombings',
         date: 813888000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gare%20de%20Saint-Michel%2C%20plaque%20attentat%201995.JPG',
         location: ['2.3449', '48.8537']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3727894',
-        name: '2012 Tel Aviv bus bombing',
+        name: 'Tel Aviv bus bombing',
         date: 1353456000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tel%20Aviv%20bus%20bombing%2C%20November%202012.jpg',
         location: ['34.791525', '32.07791111']
@@ -8940,14 +8933,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4071937',
-        name: '1985 Turkish embassy attack in Ottawa',
+        name: 'Turkish embassy attack in Ottawa',
         date: 479433600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Turkey%2C%20Ottawa.JPG',
         location: ['-75.6756', '45.4347']
     },
     {
         url: 'http://www.wikidata.org/entity/Q61042203',
-        name: '2019 Jolo Cathedral bombing',
+        name: 'Jolo Cathedral bombing',
         date: 1548547200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aftermath%20of%20the%20Jolo%20Cathedral%20bombings.jpg',
         location: ['121.0009', '6.0526']
@@ -8975,7 +8968,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q24454786',
-        name: 'June 2016 Tel Aviv shooting',
+        name: 'June Tel Aviv shooting',
         date: 1465344000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Brenner%20at%20Sarona%20Market%2002.jpg',
         location: ['34.78622', '32.07243']
@@ -8996,14 +8989,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q22082207',
-        name: '2016 Ouagadougou attacks',
+        name: 'Ouagadougou attacks',
         date: 1452902400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Splendidhotel.JPG',
         location: ['-1.518055555', '12.361111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q22087833',
-        name: '2015 Sabiha Gökçen Airport bombing',
+        name: 'Sabiha Gökçen Airport bombing',
         date: 1450828800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sabiha%20G%C3%B6kcen%20%28back%29.jpg',
         location: ['29.309166666', '40.898333333']
@@ -9017,14 +9010,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q23045756',
-        name: '2016 Grand-Bassam shootings',
+        name: 'Grand-Bassam shootings',
         date: 1457827200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Grand-Bassam-Plage.jpg',
         location: ['-3.733333333', '5.2']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23365300',
-        name: '2016 Brussels bombings',
+        name: 'Brussels bombings',
         date: 1458604800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentados%20de%20Bruselas%20de%20marzo%20de%202016.jpg',
         location: ['4.431583333', '50.876833333']
@@ -9038,7 +9031,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q383549',
-        name: '2011 Minsk Metro bombing',
+        name: 'Minsk Metro bombing',
         date: 1302480000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cordon%20Minsk%20blast.jpg',
         location: ['27.5614', '53.9019']
@@ -9059,14 +9052,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q569232',
-        name: '2010 Baghdad church attack',
+        name: 'Baghdad church attack',
         date: 1288483200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sayedat%20al-najat.JPG',
         location: ['44.42583333', '33.30694444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q569255',
-        name: '2005 Bali bombings',
+        name: 'Bali bombings',
         date: 1128124800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bali%20blast%202005.jpg',
         location: ['115.13833333', '-8.36916667']
@@ -9080,7 +9073,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2313673',
-        name: '1985 Rhein-Main Air Base bombing',
+        name: 'Rhein-Main Air Base bombing',
         date: 492307200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20of%20a%20car%20that%20was%20demolished%20when%20a%20car%20bomb%20exploded%20behind%20the%20435th%20Tactical%20Air%20Wing%20Headquarters.%20The%20shattered%20windows%20of%20Building%20350%2C%20a%20barracks%2C%20can%20be%20seen%20in%20the%20b%20-%20DPLA%20-%200d2fcd116d81ce771d62548a3dfce034.jpeg',
         location: ['8.58345', '50.02983333']
@@ -9101,7 +9094,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2869905',
-        name: '1984 Rajneeshee bioterror attack',
+        name: 'Rajneeshee bioterror attack',
         date: 466214400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/DallesRestaurantsCombined.jpg',
         location: ['-121.18277778', '45.60111111']
@@ -9115,7 +9108,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2870041',
-        name: '21 July 2005 London bombings',
+        name: '21 July London bombings',
         date: 1121904000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/London%20bombing%2021%20july%2005%20newspaper.jpg',
         location: ['-0.07583333', '51.52833333']
@@ -9136,14 +9129,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2918175',
-        name: '2006 al-Askari mosque bombing',
+        name: 'al-Askari mosque bombing',
         date: 1140566400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Al%20Askari%20Mosque.jpg',
         location: ['43.873611', '34.198889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2984379',
-        name: '2011 Kashgar attacks',
+        name: 'Kashgar attacks',
         date: 1312070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Xinjiang%20Kashgar.svg',
         location: ['75.98333', '39.45']
@@ -9157,49 +9150,49 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q30325185',
-        name: '1980 Hebron terrorist attack',
+        name: 'Hebron terrorist attack',
         date: 326073600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hebron105.JPG',
         location: ['35.104483', '31.526039']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30339279',
-        name: 'June 2017 Bamako attack',
+        name: 'June Bamako attack',
         date: 1497744000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Campement%2C%20Kangaba%2C%20Mali.png',
         location: ['-7.864805555', '12.614888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30351579',
-        name: '2017 Brussels attack',
+        name: 'Brussels attack',
         date: 1497916800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20170620%20police%20is%20closing%20of%20the%20area%20around%20Brussels%20Central%20train%20station%20%282%29.jpg',
         location: ['4.356861111', '50.845480555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25007917',
-        name: '2016 Istanbul airport attack',
+        name: 'Istanbul airport attack',
         date: 1467072000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atat%C3%BCrk%20international%20airport%20borak.jpg',
         location: ['28.82', '40.978']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25250323',
-        name: '2016 Gulshan, Dhaka attack',
+        name: 'Gulshan, Dhaka attack',
         date: 1467331200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Dipto%20shopoth%2C%20gulshan.jpg',
         location: ['90.416688888', '23.802511111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25300887',
-        name: 'July 2016 Baghdad bombings',
+        name: 'July Baghdad bombings',
         date: 1467417600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D8%AA%D9%81%D8%AC%D9%8A%D8%B1%20%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%201%20%D9%8A%D9%88%D9%84%D9%8A%D9%88%202016.jpeg',
         location: ['44.419889', '33.298472']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25300887',
-        name: 'July 2016 Baghdad bombings',
+        name: 'July Baghdad bombings',
         date: 1467504000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D8%AA%D9%81%D8%AC%D9%8A%D8%B1%20%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%201%20%D9%8A%D9%88%D9%84%D9%8A%D9%88%202016.jpeg',
         location: ['44.419889', '33.298472']
@@ -9248,91 +9241,91 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28631966',
-        name: '2017 Paris machete attack',
+        name: 'Paris machete attack',
         date: 1486080000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Louvre%20Museum%20Wikimedia%20Commons.jpg',
         location: ['2.337599', '48.860395']
     },
     {
         url: 'http://www.wikidata.org/entity/Q29113584',
-        name: '2017 Saint Petersburg Metro attack',
+        name: 'Saint Petersburg Metro attack',
         date: 1491177600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Blasts%20Apr2017%20on%20SPb%20metro%20map.png',
         location: ['30.320425', '59.927091666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30147595',
-        name: '2017 Tehran attacks',
+        name: 'Tehran attacks',
         date: 1496793600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tehranattack2017.jpg',
         location: ['51.423055555', '35.696111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25893254',
-        name: '2016 Nice attack',
+        name: 'Nice attack',
         date: 1468454400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9but%20et%20fin%20de%20l%27attaque.png',
         location: ['7.2475', '43.691111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26085646',
-        name: '2016 Saint-Étienne-du-Rouvray church attack',
+        name: 'Saint-Étienne-du-Rouvray church attack',
         date: 1469491200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%C3%89glise%20Saint-%C3%89tienne%20de%20Saint-%C3%89tienne-du-Rouvray%20-%20Vue%20de%20l%27Ouest.jpg',
         location: ['1.108209', '49.380305']
     },
     {
         url: 'http://www.wikidata.org/entity/Q33035595',
-        name: '2017 Temple Mount shooting',
+        name: 'Temple Mount shooting',
         date: 1499990400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Police%20responding%20after%20the%202017%20Temple%20Mount%20shooting.jpg',
         location: ['35.236944444', '31.780833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37150759',
-        name: '2017 Turku attack',
+        name: 'Turku attack',
         date: 1503014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Candles%20at%20the%20Turku%20Market%20Square.jpg',
         location: ['22.266388888', '60.451944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37150759',
-        name: '2017 Turku attack',
+        name: 'Turku attack',
         date: 1503014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Candles%20in%20Market%20Square%20in%20Turku.jpg',
         location: ['22.266388888', '60.451944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37150759',
-        name: '2017 Turku attack',
+        name: 'Turku attack',
         date: 1503014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Turku%20Marktplatz.jpg',
         location: ['22.266388888', '60.451944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37150759',
-        name: '2017 Turku attack',
+        name: 'Turku attack',
         date: 1503014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Turun%20Kauppatori%20%284709332391%29.jpg',
         location: ['22.266388888', '60.451944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28094271',
-        name: '2017 Istanbul nightclub attack',
+        name: 'Istanbul nightclub attack',
         date: 1483228800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Reina%20restaurant%20Istanbul.JPG',
         location: ['29.03262', '41.049922']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28549976',
-        name: '2017 Quebec City mosque shooting',
+        name: 'Quebec City mosque shooting',
         date: 1485648000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Vigile%20Montr%C3%A9al%20Parc.jpg',
         location: ['-71.305277777', '46.778055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1803283',
-        name: '2008 Morelia grenade attacks',
+        name: 'Morelia grenade attacks',
         date: 1221436800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20panor%C3%A1mica%20%28Morelia%29.jpg',
         location: ['-101.1918108', '19.7028']
@@ -9346,28 +9339,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1973105',
-        name: '2010 Times Square car bombing attempt',
+        name: 'Times Square car bombing attempt',
         date: 1272672000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Times%20Square%20SUV%20bomb2.jpg',
         location: ['-73.9858', '40.7581']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1975720',
-        name: '1999 Armenian parliament shooting',
+        name: 'Armenian parliament shooting',
         date: 940982400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/ArmenianStamps-175a.jpg',
         location: ['44.50916667', '40.19']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1994988',
-        name: 'August 2004 Moscow Metro bombing',
+        name: 'August Moscow Metro bombing',
         date: 1093910400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%BE%D1%81%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B8%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8%20%D0%BC%D0%B5%D1%82%D1%80%D0%BE%20%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B2%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5.jpg',
         location: ['37.636194444', '55.7925']
     },
     {
         url: 'http://www.wikidata.org/entity/Q981711',
-        name: '2012 Brindisi school bombing',
+        name: 'Brindisi school bombing',
         date: 1337385600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Istituto%20Morvillo%20Falcone%20Bomba%201.jpg',
         location: ['17.9293272', '40.6243822']
@@ -9381,7 +9374,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1442715',
-        name: '2004 SuperFerry 14 bombing',
+        name: 'SuperFerry 14 bombing',
         date: 1077840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Whitesampo2.jpg',
         location: ['120.633', '14.3']
@@ -9409,14 +9402,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q21282782',
-        name: 'Metrojet Flight 9268',
+        name: 'Metrojet Flight ',
         date: 1446249600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Airbus%20A321-231%20MetroJet%20EI-ETJ.JPG',
         location: ['34.178', '30.1506']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21516923',
-        name: '2015 Bamako hotel attack',
+        name: 'Bamako hotel attack',
         date: 1447977600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Attentat%20Radisson%20Blu%20de%20Bamako2015%281%29.JPG',
         location: ['-8.0308', '12.6352']
@@ -9430,14 +9423,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19429008',
-        name: '2015 Corinthia Hotel attack',
+        name: 'Corinthia Hotel attack',
         date: 1422316800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Corinthia%20Hotel%20Tripoli%20Libya.JPG',
         location: ['13.1708', '32.8969']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19637227',
-        name: "2015 Sana'a mosque bombings",
+        name: "Sana'a mosque bombings",
         date: 1426809600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Location%20of%20Amanah%20al-%27Asmah.svg',
         location: ['44.1785', '15.3422']
@@ -9451,42 +9444,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20040629',
-        name: '2015 Tokyo Drone Incident',
+        name: 'Tokyo Drone Incident',
         date: 1429660800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/WMCH%20Drone.jpg',
         location: ['139.74261111', '35.67308333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20087305',
-        name: '2015 attack on Dallas police',
+        name: 'attack on Dallas police',
         date: 1434153600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Dallas%20Police%20Department%20Headquarters.jpg',
         location: ['-96.7945', '32.768']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20685047',
-        name: '2015 Suruç bombing',
+        name: 'Suruç bombing',
         date: 1437350400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20Suru%C3%A7%20bombing%20in%20Turkey.jpg',
         location: ['38.426944444', '36.976388888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56691106',
-        name: '2018 Ahvaz military parade attack',
+        name: 'Ahvaz military parade attack',
         date: 1537488000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Ahvaz%20military%20parade%20attack%2018.jpg',
         location: ['48.643888888', '31.335555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16741311',
-        name: '2014 Ürümqi attack',
+        name: 'Ürümqi attack',
         date: 1398816000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Urumqi%20Railway%20Station%20entrance.jpg',
         location: ['87.5831', '43.7789']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16820825',
-        name: '2002 Herzliya shawarma restaurant bombing',
+        name: 'Herzliya shawarma restaurant bombing',
         date: 1023753600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mifgash%20Hasharon%20Jamil.jpg',
         location: ['34.841807', '32.167058']
@@ -9500,21 +9493,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16931844',
-        name: '1992 Madrid bombing',
+        name: 'Madrid bombing',
         date: 697334400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Plaza%20de%20la%20Cruz%20Verde%2C%20desde%20Costanilla%20de%20San%20Andr%C3%A9s.jpg',
         location: ['-3.711666666', '40.413888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17195247',
-        name: '2014 kidnapping of Israeli teens',
+        name: 'kidnapping of Israeli teens',
         date: 1402531200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Eyal%20Yifrach%2C%20Gilad%20Shaar%2C%20Naftali%20Frenkel.jpg',
         location: ['35.122282', '31.654717']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18551886',
-        name: '2014 Jerusalem synagogue attack',
+        name: 'Jerusalem synagogue attack',
         date: 1416268800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Har%20Nof%20synagogue%20attack.jpg',
         location: ['35.175277777', '31.785888888']
@@ -9528,21 +9521,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q54870155',
-        name: '1979 Brussels bombing',
+        name: 'Brussels bombing',
         date: 304732800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Grote%20Markt%20%289379072012%29.jpg',
         location: ['4.3525', '50.846666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q55099389',
-        name: '1974 Tower of London bombing',
+        name: 'Tower of London bombing',
         date: 143251200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/London%20-%20White%20Tower2-2.jpg',
         location: ['-0.07595', '51.50823']
     },
     {
         url: 'http://www.wikidata.org/entity/Q22067779',
-        name: '2016 Jakarta attacks',
+        name: 'Jakarta attacks',
         date: 1452729600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Sarinah-Starbucks%20Jakarta%20Attack%207.JPG',
         location: ['106.823161111', '-6.186822222']
@@ -9556,77 +9549,77 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q42440670',
-        name: '2017 Lower Manhattan attack',
+        name: 'Lower Manhattan attack',
         date: 1509408000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20NYC%20Truck%20Attack%20Home%20Depot%20Truck.jpg',
         location: ['-74.01276', '40.717126']
     },
     {
         url: 'http://www.wikidata.org/entity/Q45272383',
-        name: '2017 Port Authority Bus Terminal explosion',
+        name: 'Port Authority Bus Terminal explosion',
         date: 1512950400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Times%20Sq%20passage%20vc.jpg',
         location: ['-73.98983', '40.75634']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47484079',
-        name: '2018 Inter-Continental Hotel Kabul attack',
+        name: 'Inter-Continental Hotel Kabul attack',
         date: 1516492800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Inter-Con%20Kabul.jpg',
         location: ['69.125277777', '34.536944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47501091',
-        name: '2018 Kabul ambulance bombing',
+        name: 'Kabul ambulance bombing',
         date: 1517011200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ambulance-interior.jpg',
         location: ['69.169166666', '34.526944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q50312175',
-        name: '2018 Ouagadougou attack',
+        name: 'Ouagadougou attack',
         date: 1519948800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Smoke%20rises%20from%20Embassy%20of%20France%20in%20Burkina%20Faso%2C%20March%202%2C%202018.jpg',
         location: ['-1.51666667', '12.36666667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q53282087',
-        name: '2018 Paris knife attack',
+        name: 'Paris knife attack',
         date: 1526083200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Site%20of%2012%20May%202018%20Paris%20Knife%20Attack%2C%2023.26%20local%20time.jpg',
         location: ['2.335956', '48.8683']
     },
     {
         url: 'http://www.wikidata.org/entity/Q115193912',
-        name: '2022 Istanbul bombing',
+        name: 'Istanbul bombing',
         date: 1668297600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20point%20after%20the%202022%20Istanbul%20attack%2011.jpg',
         location: ['28.981388888', '41.035']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116455185',
-        name: '2023 Jerusalem synagogue shooting',
+        name: 'Jerusalem synagogue shooting',
         date: 1674777600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Neve%20Yaakov%20synagogue%20shooting%20IV.jpg',
         location: ['35.238611111', '31.838055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116748690',
-        name: '2023 Ramot Junction attack',
+        name: 'Ramot Junction attack',
         date: 1675987200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Ramot%20Junction%20attack%20IV.jpg',
         location: ['35.188611111', '31.825277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117382594',
-        name: '2023 Saint Petersburg bombing',
+        name: 'Saint Petersburg bombing',
         date: 1680393600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Saint%20Petersburg%20bombing.png',
         location: ['30.2868', '59.9365']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106768320',
-        name: 'May 2021 Kabul bombing',
+        name: 'May Kabul bombing',
         date: 1620432000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/14000221001114637563742760378856%20%D9%86%D9%82%D8%B4%20%D9%87%D9%85%D8%AF%D8%B1%D8%AF%DB%8C%20%D8%A8%D8%B1%20%D8%A8%D8%B1%D8%AC%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C.jpg',
         location: ['69.035', '34.503055555']
@@ -9640,14 +9633,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q107301898',
-        name: "2021 Izmir Peoples' Democratic Party provincial organization attack",
+        name: "Izmir Peoples' Democratic Party provincial organization attack",
         date: 1623888000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HDP%20%C4%B0zmir%20%C4%B0l%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Sald%C4%B1r%C4%B1s%C4%B1.jpg',
         location: ['27.13925', '38.426083333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q101095363',
-        name: '2020 Kabul University attack',
+        name: 'Kabul University attack',
         date: 1604275200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/3595265%20%D9%86%D9%88%D8%B1%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%DB%8C%20%D8%A8%D8%B1%D8%AC%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D9%87%D9%85%D8%AF%D8%B1%D8%AF%DB%8C%20%D8%A8%D8%A7%20%D8%A7%D9%81%D8%BA%D8%A7%D9%86%D8%B3%D8%AA%D8%A7%D9%86.jpg',
         location: ['69.132309', '34.517407']
@@ -9675,35 +9668,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q111383118',
-        name: '2022 Hadera shooting',
+        name: 'Hadera shooting',
         date: 1648339200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hadera%20shooting%20attack%20%282022%29.jpg',
         location: ['34.911944444', '32.438055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q111420818',
-        name: '2022 Bnei Brak shootings',
+        name: 'Bnei Brak shootings',
         date: 1648512000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bnei%20brak%20shooting%20attack%2004.png',
         location: ['34.835753861', '32.09396668']
     },
     {
         url: 'http://www.wikidata.org/entity/Q111524362',
-        name: '2022 Tel Aviv shooting',
+        name: 'Tel Aviv shooting',
         date: 1649289600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20shooting%20attack%20on%20Dizengoff%20Street%20%282022%29%2002.png',
         location: ['34.77435', '32.083744444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114868905',
-        name: '2022 Shah Cheragh attack',
+        name: 'Shah Cheragh attack',
         date: 1666742400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D8%AD%D9%85%D9%84%D9%87%20%D8%AA%D8%B1%D9%88%D8%B1%DB%8C%D8%B3%D8%AA%DB%8C%20%D8%A8%D9%87%20%D8%AD%D8%B1%D9%85%20%D8%B4%D8%A7%D9%87%E2%80%8C%DA%86%D8%B1%D8%A7%D8%BA.jpg',
         location: ['52.54329', '29.609628']
     },
     {
         url: 'http://www.wikidata.org/entity/Q64062133',
-        name: '2019 Lyon bomb explosion',
+        name: 'Lyon bomb explosion',
         date: 1558656000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lyon%202e%20-%20Rue%20Victor%20Hugo%2C%20au%20lendemain%20de%20l%27attentat%20au%20colis%20pi%C3%A9g%C3%A9%2C%20il%20ne%20reste%20que%20des%20journalistes.jpg',
         location: ['4.83', '45.754166666']
@@ -9731,14 +9724,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q100989093',
-        name: '2020 Nice attack',
+        name: 'Nice attack',
         date: 1603929600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20to%20the%202020%20Nice%20attack%2001.jpg',
         location: ['7.266111111', '43.703333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q85728271',
-        name: '2004 Dave Matthews Band Chicago River incident',
+        name: 'Dave Matthews Band Chicago River incident',
         date: 1091923200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kinzie%20Street%20bridge%2020100731.jpg',
         location: ['-87.639371', '41.889076']
@@ -9787,14 +9780,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q112695273',
-        name: '2022 Oslo shooting',
+        name: 'Oslo shooting',
         date: 1656115200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/C.J.Hambros%20plass%20after%202022%20Oslo%20shootings.jpg',
         location: ['10.740555555', '59.915277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112695273',
-        name: '2022 Oslo shooting',
+        name: 'Oslo shooting',
         date: 1656115200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mourning%20flowers%20at%20C.J.Hambros%20plass%20after%20shootings.jpg',
         location: ['10.740555555', '59.915277777']
@@ -9913,14 +9906,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q69554433',
-        name: '2019 knife attack in Paris',
+        name: 'knife attack in Paris',
         date: 1570060800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pr%C3%A9fecture%20de%20police%2C%20Paris%2022%20August%202009.jpg',
         location: ['2.3468', '48.8508']
     },
     {
         url: 'http://www.wikidata.org/entity/Q107345501',
-        name: 'Würzburg 2021 mass stabbing attack',
+        name: 'Würzburg mass stabbing attack',
         date: 1624579200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gedenken%20an%20die%20Opfer%20des%20Anschlages%20von%20W%C3%BCrzburg%20Juni%202021%202%20%28W%C3%BCrzburg%29.jpg',
         location: ['9.95121', '49.79391']
@@ -9934,14 +9927,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q122615796',
-        name: '2023 Derna floods',
+        name: 'Derna floods',
         date: 1694390400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/ECDM%2020230915%20FL%20Libya.pdf',
         location: ['22.57783', '32.65973']
     },
     {
         url: 'http://www.wikidata.org/entity/Q123458642',
-        name: '2023 Uttarakhand tunnel rescue',
+        name: 'Uttarakhand tunnel rescue',
         date: 1699747200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Uttarakhand%20tunnel%20collapse.jpg',
         location: ['78.263555555', '30.757472222']
@@ -9990,28 +9983,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q56085201',
-        name: '2018 Genoa bridge collapse',
+        name: 'Genoa bridge collapse',
         date: 1534204800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ponte%20morandi%20crollato.jpg',
         location: ['8.888888888', '44.425833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106696167',
-        name: '2021 Mexico City Metro overpass collapse',
+        name: 'Mexico City Metro overpass collapse',
         date: 1620000000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Incidente%20L%C3%ADnea%2012%20Ciudad%20M%C3%A9xico%202021.jpg',
         location: ['-99.0613', '19.3049']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114492886',
-        name: '2022 Crimean Bridge explosion',
+        name: 'Crimean Bridge explosion',
         date: 1665187200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022-10-11%20Enl%20crimea%20bridge.jpg',
         location: ['36.5125', '45.301111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114943882',
-        name: '2022 Morbi bridge collapse',
+        name: 'Morbi bridge collapse',
         date: 1667088000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hanging%20Bridge%20from%20Opposite%20Side%20Morbi%20-%20panoramio.jpg',
         location: ['70.842777777', '22.818333333']
@@ -10053,14 +10046,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q111794927',
-        name: '2022 Changsha building collapse',
+        name: 'Changsha building collapse',
         date: 1651190400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Changsha%20building%20collapse-20220429.png',
         location: ['112.868055555', '28.302222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q120201630',
-        name: 'July 2023 Jenin incursion',
+        name: 'July Jenin incursion',
         date: 1688169600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%A4%D7%A2%D7%99%D7%9C%D7%95%D7%AA%20%D7%94%D7%9B%D7%95%D7%97%D7%95%D7%AA%2008.jpeg',
         location: ['35.288888888', '32.461111111']
@@ -10088,28 +10081,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1525846',
-        name: '2012 Tuareg rebellion',
+        name: 'Tuareg rebellion',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Azawad%20in%20context.JPG',
         location: ['-8.0', '12.64999962']
     },
     {
         url: 'http://www.wikidata.org/entity/Q621827',
-        name: "2012 Guinea-Bissau coup d'état",
+        name: "Guinea-Bissau coup d'état",
         date: 1334188800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Guinea%20bissau%20sm03.png',
         location: ['-15.585', '11.863888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q875912',
-        name: "2012 Malian coup d'état",
+        name: "Malian coup d'état",
         date: 1333843200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mali%20Azawad%20rebellion%20fr.svg',
         location: ['-8.0', '12.65']
     },
     {
         url: 'http://www.wikidata.org/entity/Q924625',
-        name: "2010 Nigerien coup d'état",
+        name: "Nigerien coup d'état",
         date: 1266451200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/LocationNiger.png',
         location: ['2.11667', '13.5167']
@@ -10130,28 +10123,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q109229068',
-        name: "2021 Sudanese coup d'état",
+        name: "Sudanese coup d'état",
         date: 1635120000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/October%202021%20Sudanese%20coup%20d%27%C3%A9tat%20%28cropped%29.jpg',
         location: ['32.5625', '15.502777777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q98457371',
-        name: "2020 Malian coup d'état",
+        name: "Malian coup d'état",
         date: 1597708800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2020%20Malian%20coup%20d%27%C3%A9tat%20-%20Malian%20Army%20and%20crowd%2002.png',
         location: ['-8.071388888', '12.746666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108419092',
-        name: "2021 Guinean coup d'état",
+        name: "Guinean coup d'état",
         date: 1630800000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sc%C3%A8ne%20de%20liesse%20%C3%A0%20Conakry%2001.jpg',
         location: ['-13.7', '9.516666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108419092',
-        name: "2021 Guinean coup d'état",
+        name: "Guinean coup d'état",
         date: 1630800000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Parade%20militaire%20apr%C3%A8s%20le%20Coup%20d%27%C3%A9tat%202021%20en%20Guin%C3%A9e%201.jpg',
         location: ['-13.7', '9.516666666']
@@ -10165,49 +10158,49 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20977839',
-        name: "1979 Equatorial Guinea coup d'état",
+        name: "Equatorial Guinea coup d'état",
         date: 303782400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Location%20Equatorial%20Guinea%20AU%20Africa.svg',
         location: ['8.7737', '3.752063888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60750351',
-        name: "1984 Guinean coup d'état",
+        name: "Guinean coup d'état",
         date: 449798400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Location%20Guinea%20AU%20Africa.svg',
         location: ['-13.7', '9.516666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60750764',
-        name: "1980 Guinea-Bissau coup d'état",
+        name: "Guinea-Bissau coup d'état",
         date: 343008000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Guinea-Bissau-CIA%20WFB%20Map.png',
         location: ['-15.566666666', '11.85']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60764387',
-        name: "1987 Burkinabé coup d'état",
+        name: "Burkinabé coup d'état",
         date: 561254400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Location%20Burkina%20Faso%20AU%20Africa.svg',
         location: ['-1.535277777', '12.357222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60764387',
-        name: "1987 Burkinabé coup d'état",
+        name: "Burkinabé coup d'état",
         date: 561254400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Blaise%20Compaor%C3%A9.jpeg',
         location: ['-1.535277777', '12.357222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q61946226',
-        name: "2003 Guinea-Bissau coup d'état",
+        name: "Guinea-Bissau coup d'état",
         date: 1063497600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Guinea-Bissau-CIA%20WFB%20Map.png',
         location: ['-15.566666666', '11.85']
     },
     {
         url: 'http://www.wikidata.org/entity/Q65047871',
-        name: "1990 Chadian coup d'état",
+        name: "Chadian coup d'état",
         date: 660182400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1990%20Chadian%20coup%20d%27%C3%A9tat.png',
         location: ['15.05', '12.13333333']
@@ -10270,7 +10263,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q122258505',
-        name: 'September 2023 Kostiantynivka missile strike',
+        name: 'September Kostiantynivka missile strike',
         date: 1693958400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kostiantynivka%20after%20missile%20strike%2C%202023-09-06%20%2861%29.jpg',
         location: ['37.681388888', '48.513611111']
@@ -10298,7 +10291,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15833607',
-        name: '2014 Russian invasion of Crimea',
+        name: 'Russian invasion of Crimea',
         date: 1388534400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014-03-09%20-%20Perevalne%20military%20base%20-%200162.JPG',
         location: ['34.0', '45.0']
@@ -10354,28 +10347,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29197866',
-        name: '2017 Shayrat missile strike',
+        name: 'Shayrat missile strike',
         date: 1491523200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USS%20Ross%202017%20Shayrat%20strike%20170407-N-FQ994-031.jpg',
         location: ['36.899166666', '34.500555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113865480',
-        name: '2022 Kharkiv counteroffensive',
+        name: 'Kharkiv counteroffensive',
         date: 1640995200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/UA%20flag%20in%20liberated%20Balakliia%2001.png',
         location: ['37.0', '50.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q120041493',
-        name: '2023 Kramatorsk restaurant missile strike',
+        name: 'Kramatorsk restaurant missile strike',
         date: 1687824000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kramatorsk%20after%20Russian%20missile%20strike%2C%202023-06-27%20%2820-01%29.jpg',
         location: ['37.586944444', '48.735555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q121623996',
-        name: 'August 2023 Chernihiv missile strike',
+        name: 'August Chernihiv missile strike',
         date: 1692403200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Chernihiv%20after%20Russian%20missile%20attack%2C%202023-08-19%20%2831%29.jpg',
         location: ['31.299722222', '51.491666666']
@@ -10424,7 +10417,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q99770698',
-        name: '2020 detainment of Hong Kong residents at sea by China',
+        name: 'detainment of Hong Kong residents at sea by China',
         date: 1598140800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20detainment%20of%20the%2012%20Hongkongers%20map%20CHI.jpg',
         location: ['114.566388888', '21.964444444']
@@ -10438,7 +10431,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q107345501',
-        name: 'Würzburg 2021 mass stabbing attack',
+        name: 'Würzburg mass stabbing attack',
         date: 1624579200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gedenken%20an%20die%20Opfer%20des%20Anschlages%20von%20W%C3%BCrzburg%20Juni%202021%202%20%28W%C3%BCrzburg%29.jpg',
         location: ['9.95121', '49.79391']
@@ -10466,70 +10459,70 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q419434',
-        name: '1995 Monaco Grand Prix',
+        name: 'Monaco Grand Prix',
         date: 801619200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jean-Christophe%20Boullion%202007%20Mil%20Milhas%20Brasil.jpg',
         location: ['7.42133333', '43.73465']
     },
     {
         url: 'http://www.wikidata.org/entity/Q844160',
-        name: '2007 Monte Carlo Rally',
+        name: 'Monte Carlo Rally',
         date: 1167609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2007%20Rallye%20Automobile%20Monte%20Carlo%20-%20Dani%20Sordo%2001.jpg',
         location: ['4.8917', '44.9333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q171946',
-        name: '1975 Monaco Grand Prix',
+        name: 'Monaco Grand Prix',
         date: 168998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Renault%20RS10%201979.jpg',
         location: ['7.42133333', '43.73465']
     },
     {
         url: 'http://www.wikidata.org/entity/Q172908',
-        name: '2009 Monaco Grand Prix',
+        name: 'Monaco Grand Prix',
         date: 1243123200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jenson%20Button%202009%20Monaco.jpg',
         location: ['7.42133333', '43.73465']
     },
     {
         url: 'http://www.wikidata.org/entity/Q173729',
-        name: '1933 Monaco Grand Prix',
+        name: 'Monaco Grand Prix',
         date: -1157932800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Achille%20Varzi%20at%20the%201933%20Monaco%20Grand%20Prix.jpg',
         location: ['7.42133', '43.7346']
     },
     {
         url: 'http://www.wikidata.org/entity/Q179417',
-        name: '2008 Monaco Grand Prix',
+        name: 'Monaco Grand Prix',
         date: 1211673600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hamilton%20Monaco%202008.jpg',
         location: ['7.42133333', '43.73465']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15664645',
-        name: '2014 Rally Sweden',
+        name: 'Rally Sweden',
         date: 1391212800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014%20rally%20sweden%20by%202eight%20dsc1411.jpg',
         location: ['13.5', '59.38333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17637508',
-        name: '2015 Monte Carlo Rally',
+        name: 'Monte Carlo Rally',
         date: 1420070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20Rallye%20Automobile%20Monte%20Carlo%20-%20Ogier%20S%C3%A9bastien.jpg',
         location: ['7.41666667', '43.73333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18918556',
-        name: '2015 Rally Sweden',
+        name: 'Rally Sweden',
         date: 1420070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hayden%20Paddon%20Rally%20Sweden%202015%20001.jpg',
         location: ['13.5', '59.38333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21416415',
-        name: '2016 Monte Carlo Rally',
+        name: 'Monte Carlo Rally',
         date: 1451606400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/ES10%20WRC%20Monte-Carlo%202016.jpg',
         location: ['7.41666667', '43.73333333']
@@ -10543,112 +10536,112 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4597883',
-        name: '2000 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2000%20Summer%20Olympics%20opening%20ceremony%201.JPEG',
         location: ['151.063', '-33.8472']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4597883',
-        name: '2000 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Olympics%20Opening%20Ceremony.jpg',
         location: ['151.063', '-33.8472']
     },
     {
         url: 'http://www.wikidata.org/entity/Q5762601',
-        name: '1992 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 694224000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Peveter%20ol%C3%ADmpic%20de%20l%27Estadi%20Ol%C3%ADmpic%20Llu%C3%ADs%20Companys.jpg',
         location: ['2.15565833', '41.36476111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3010360',
-        name: '1980 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 315532800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/RIAN%20archive%20487025%20Opening%20ceremony%20of%20the%201980%20Olympic%20Games.jpg',
         location: ['37.55138889', '55.71555556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q168545',
-        name: '2012 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 1343347200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2012%20Summer%20Olympics%20opening%20ceremony%2C%20Industrial%20Britain%20%28cropped%29.jpg',
         location: ['-0.0166667', '51.5386']
     },
     {
         url: 'http://www.wikidata.org/entity/Q267967',
-        name: '2006 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1136073600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2006%20Olympics%20Opening%20Ceremony.jpg',
         location: ['7.65001389', '45.04175']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1044663',
-        name: '2010 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/12th%20row%20floor%20for%20the%20Vancouver%20Olympics%20Opening%20Ceremonies.%20Worth%20every%20penny.jpg',
         location: ['-123.112', '49.2767']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1044663',
-        name: '2010 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20Opening%20Ceremonies%20-%20Canadian%20athletes%20enter%20by%20Freeman%20adjusted.jpg',
         location: ['-123.112', '49.2767']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1146933',
-        name: '2012 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Athletes%20at%20the%202012%20Closing%20Ceremony.jpg',
         location: ['-0.0166667', '51.5386']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1146933',
-        name: '2012 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Olympic%20stadium%20and%20The%20Orbit%20during%20London%20Olympics%20opening%20ceremony%20%282012-07-27%29%202.jpg',
         location: ['-0.0166667', '51.5386']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15795382',
-        name: '2014 Winter Olympics closing ceremony',
+        name: 'Winter Olympics closing ceremony',
         date: 1393113600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B8%20%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%84%D0%BB%D0%B0%D0%B3%20%D0%BD%D0%B0%20%D1%86%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D0%B8%D0%B8%20%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8F%20%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D1%85%20%D0%B8%D0%B3%D1%80%202014.jpeg',
         location: ['39.9561111', '43.4022667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18741083',
-        name: '2016 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 1471737600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cerim%C3%B4nia%20de%20encerramento%20dos%20Jogos%20Ol%C3%ADmpicos%20Rio%202016%20%2829067901591%29.jpg',
         location: ['-43.2302', '-22.9122']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28153973',
-        name: '2020 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 1626998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fogos%20durante%20a%20abertura%20de%20T%C3%B3quio%202020.jpg',
         location: ['139.71472222', '35.67805556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28153981',
-        name: '2020 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 1628380800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Closing%20ceremony%20cropped%20Yoshihide%20Suga%2020210808%204.jpg',
         location: ['139.71472222', '35.67805556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108939985',
-        name: '2022 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1643932800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Putin%20attended%20the%20opening%20ceremony%20of%202022%20Beijing%20Winter%20Olympics%20%282%29.jpg',
         location: ['116.390555555', '39.991666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108939985',
-        name: '2022 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1643932800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Putin%20attended%20the%20opening%20ceremony%20of%202022%20Beijing%20Winter%20Olympics%20%283%29.jpg',
         location: ['116.390555555', '39.991666666']
@@ -10802,7 +10795,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18327329',
-        name: '2014 Iguala mass kidnapping',
+        name: 'Iguala mass kidnapping',
         date: 1411689600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ayotzinapa20150726%20ohs059.jpg',
         location: ['-99.410277777', '17.553611111']
@@ -10823,21 +10816,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q17195247',
-        name: '2014 kidnapping of Israeli teens',
+        name: 'kidnapping of Israeli teens',
         date: 1402531200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Eyal%20Yifrach%2C%20Gilad%20Shaar%2C%20Naftali%20Frenkel.jpg',
         location: ['35.122282', '31.654717']
     },
     {
         url: 'http://www.wikidata.org/entity/Q58416',
-        name: '1980 Ispaster attack',
+        name: 'Ispaster attack',
         date: 318211200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%20de%20Isp%C3%A1ster%20cropped.jpg',
         location: ['-2.556806', '43.3640571']
     },
     {
         url: 'http://www.wikidata.org/entity/Q80213',
-        name: '1987 Zaragoza Guardia Civil Barracks bombing',
+        name: 'Zaragoza Guardia Civil Barracks bombing',
         date: 566179200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%20contra%20la%20Casa%20Cuartel%20de%20Zaragoza.jpg',
         location: ['-0.865556', '41.6614']
@@ -10921,14 +10914,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2026122',
-        name: '2006 Hezbollah cross-border raid',
+        name: 'Hezbollah cross-border raid',
         date: 1152662400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Zarit%20incident%20map.png',
         location: ['35.32', '33.100277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4597495',
-        name: '2000 Hezbollah cross-border raid',
+        name: 'Hezbollah cross-border raid',
         date: 970876800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%2020029%20Memorial%20in%20Petah%20Tikva%20to%203%20IDF%20soldiers%20killed.JPG',
         location: ['35.7', '33.28333333']
@@ -10942,14 +10935,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16725863',
-        name: '2014 Chibok kidnapping',
+        name: 'Chibok kidnapping',
         date: 1397520000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Chibok%20kidnapping%20destruction%20VOA.jpg',
         location: ['12.838055555', '10.881944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16725863',
-        name: '2014 Chibok kidnapping',
+        name: 'Chibok kidnapping',
         date: 1397520000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USArmy-BokoHaram-Chibock%202014.png',
         location: ['12.838055555', '10.881944444']
@@ -10977,7 +10970,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q886485',
-        name: '1977 Atocha massacre',
+        name: 'Atocha massacre',
         date: 222912000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Monumento%20a%20los%20Abogados%20de%20Atocha%2C%20Madrid%2C%20Espa%C3%B1a%2C%202015.jpg',
         location: ['-3.699861111', '40.412888888']
@@ -11075,7 +11068,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3504543',
-        name: '2006 Madrid–Barajas Airport bombing',
+        name: 'Madrid–Barajas Airport bombing',
         date: 1167436800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentado%20ETA%20Barajas.jpg',
         location: ['-3.59472', '40.4917']
@@ -11117,14 +11110,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16931844',
-        name: '1992 Madrid bombing',
+        name: 'Madrid bombing',
         date: 697334400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Plaza%20de%20la%20Cruz%20Verde%2C%20desde%20Costanilla%20de%20San%20Andr%C3%A9s.jpg',
         location: ['-3.711666666', '40.413888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17195247',
-        name: '2014 kidnapping of Israeli teens',
+        name: 'kidnapping of Israeli teens',
         date: 1402531200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Eyal%20Yifrach%2C%20Gilad%20Shaar%2C%20Naftali%20Frenkel.jpg',
         location: ['35.122282', '31.654717']
@@ -11250,7 +11243,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15856657',
-        name: '2014 Kunming attack',
+        name: 'Kunming attack',
         date: 1393632000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kunming%20Railway%20Station.jpg',
         location: ['102.720833333', '25.0175']
@@ -11285,7 +11278,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1574009',
-        name: 'Air France Flight 8969',
+        name: 'Air France Flight ',
         date: 788400000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Airbus%20A300B2-101%2C%20Air%20France%20AN1145190.jpg',
         location: ['5.215', '43.43972222']
@@ -11306,7 +11299,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q55280395',
-        name: '2018 Shanghai knife attack',
+        name: 'Shanghai knife attack',
         date: 1530144000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mourning%20in%20Shanghai%20%281%29.jpg',
         location: ['121.41542', '31.15588']
@@ -11397,7 +11390,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29378733',
-        name: "1981 Seychelles coup d'état attempt",
+        name: "Seychelles coup d'état attempt",
         date: 375494400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1981%20Seychelles%20coup%20-%20interview.jpg',
         location: ['55.52185278', '-4.67434444']
@@ -11439,7 +11432,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q107301898',
-        name: "2021 Izmir Peoples' Democratic Party provincial organization attack",
+        name: "Izmir Peoples' Democratic Party provincial organization attack",
         date: 1623888000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HDP%20%C4%B0zmir%20%C4%B0l%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Sald%C4%B1r%C4%B1s%C4%B1.jpg',
         location: ['27.13925', '38.426083333']
@@ -11474,14 +11467,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2594536',
-        name: '2005 Baghdad bridge stampede',
+        name: 'Baghdad bridge stampede',
         date: 1125446400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Al-Aaimmah%20bridge%20area.PNG',
         location: ['44.3552', '33.3749']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2698266',
-        name: '1955 Le Mans disaster',
+        name: 'Le Mans disaster',
         date: -459475200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9collage%20de%20la%20Mercedes-Benz%20300%20SLR%20au%20Mans%201955.png',
         location: ['0.207222', '47.9499']
@@ -11509,14 +11502,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q108111717',
-        name: 'Ameristar Charters Flight 9363',
+        name: 'Ameristar Charters Flight ',
         date: 1488931200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ameristar%20Jet%20Charter%20Flight%209363%20after%20accident.jpg',
         location: ['-83.54242', '42.22814']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20981540',
-        name: '1944 explosion in Aarhus',
+        name: 'explosion in Aarhus',
         date: -804556800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/7487068-70-r-siden-eksplosionen-p-aarhus-havn---1.jpg',
         location: ['10.215247', '56.160572']
@@ -11544,7 +11537,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q62129892',
-        name: '2019 Mosul ferry sinking',
+        name: 'Mosul ferry sinking',
         date: 1553126400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ninawa%20map.svg',
         location: ['43.114112', '36.384233']
@@ -11558,7 +11551,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q377174',
-        name: '2003 Alcântara VLS accident',
+        name: 'Alcântara VLS accident',
         date: 1061510400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2003%20Alc%C3%A2ntara%20VLS%20accident.jpg',
         location: ['-44.396388888', '-2.373055555']
@@ -11579,14 +11572,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q866653',
-        name: '2010 Shanghai fire',
+        name: 'Shanghai fire',
         date: 1289779200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20jiaozhou%20road%20fire.jpg',
         location: ['121.435', '31.2375']
     },
     {
         url: 'http://www.wikidata.org/entity/Q12223939',
-        name: '2013 Prague explosion',
+        name: 'Prague explosion',
         date: 1367193600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Praha%20gass%20explosion%202013%201.jpg',
         location: ['14.4134', '50.0821']
@@ -11607,7 +11600,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16820726',
-        name: 'Explosion in Bergen 1944',
+        name: 'Explosion in Bergen ',
         date: -811036800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-117-0353-29%2C%20Norwegen%2C%20Bergen%2C%20Motorschiff%20%22Rogaland%22.jpg',
         location: ['5.31639', '60.3994']
@@ -11621,14 +11614,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116246018',
-        name: '2023 Brovary helicopter crash',
+        name: 'Brovary helicopter crash',
         date: 1674000000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/H225%20Super%20Puma%20helicopter%20Number%2054%20in%202020.jpg',
         location: ['30.8', '50.521111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q118269223',
-        name: '2023 Taichung crane collapse',
+        name: 'Taichung crane collapse',
         date: 1683676800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Accident%20on%20the%20Taichung%20Metro%20Green%20Line%202023-05-10%2001.jpg',
         location: ['120.646419', '24.131559']
@@ -11649,21 +11642,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18109188',
-        name: '1975 British Mount Everest Southwest Face expedition',
+        name: 'British Mount Everest Southwest Face expedition',
         date: 157766400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Everest%20Southwest%20Face%2C%20November%202012.jpg',
         location: ['86.91', '27.98']
     },
     {
         url: 'http://www.wikidata.org/entity/Q98457371',
-        name: "2020 Malian coup d'état",
+        name: "Malian coup d'état",
         date: 1597708800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2020%20Malian%20coup%20d%27%C3%A9tat%20-%20Malian%20Army%20and%20crowd%2002.png',
         location: ['-8.071388888', '12.746666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q748379',
-        name: '1960 U-2 incident spy aircraft',
+        name: 'U-2 incident spy aircraft',
         date: -305164800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/RIAN%20archive%2035172%20Powers%20Wears%20Special%20Pressure%20Suit.jpg',
         location: ['60.986111111', '56.726388888']
@@ -11684,7 +11677,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4624917',
-        name: '2012 Boeing 727 crash experiment',
+        name: 'Boeing 727 crash experiment',
         date: 1335484800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2012%20Boeing%20727%20Crash%20Experiment.jpg',
         location: ['-115.66', '32.36']
@@ -11705,7 +11698,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q130754',
-        name: '2004 Indian Ocean earthquake',
+        name: 'Indian Ocean earthquake',
         date: 1104019200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2004-tsunami.jpg',
         location: ['95.982', '3.295']
@@ -11719,7 +11712,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q377665',
-        name: '1992 Guadalajara explosions',
+        name: 'Guadalajara explosions',
         date: 703900800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/MapaZGMMexico.svg',
         location: ['-103.356666666', '20.671388888']
@@ -11733,7 +11726,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q7185896',
-        name: 'Phillips Disaster of 1989',
+        name: 'Phillips Disaster of ',
         date: 625104000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Apdx%20F2%20-%20Aerial%20photo%20after%20explosion.jpg',
         location: ['-95.181388888', '29.728055555']
@@ -11887,14 +11880,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19856973',
-        name: '2015 East Village gas explosion',
+        name: 'East Village gas explosion',
         date: 1427328000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cleanup%20of%202015%20East%20Village%20explosion%20and%20fire%20in%20New%20York%20City%202.JPG',
         location: ['-73.9882', '40.7284']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20819188',
-        name: '2015 Gold King Mine waste water spill',
+        name: 'Gold King Mine waste water spill',
         date: 1438732800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gold%20King%20Mine%20Spill%20Emergency%20Retaining%20Ponds.JPG',
         location: ['-107.63833333', '37.89444444']
@@ -11936,7 +11929,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28770282',
-        name: '2017 Oroville Dam crisis',
+        name: 'Oroville Dam crisis',
         date: 1485907200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Oroville%20dam%20spillway%202017-02-11.jpg',
         location: ['-121.492', '39.5426']
@@ -11964,35 +11957,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q72067697',
-        name: '2019 Grays incident',
+        name: 'Grays incident',
         date: 1571788800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20Grays%20incident%20map.png',
         location: ['0.273333333', '51.478888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106255680',
-        name: '2021 Balongan refinery explosion',
+        name: 'Balongan refinery explosion',
         date: 1616889600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Balongan%20Indramayu%20-%20panoramio.jpg',
         location: ['108.39575', '-6.384444444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106651383',
-        name: '2021 Meron crowd crush',
+        name: 'Meron crowd crush',
         date: 1619740800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%92%D7%A9%D7%A8%20%D7%A8%27%20%D7%93%D7%91%20-%20%D7%9E%D7%99%D7%A8%D7%95%D7%9F%2C%20%D7%A1%D7%A4%D7%98%D7%9E%D7%91%D7%A8%202021.jpg',
         location: ['35.440239219', '32.980686184']
     },
     {
         url: 'http://www.wikidata.org/entity/Q111794927',
-        name: '2022 Changsha building collapse',
+        name: 'Changsha building collapse',
         date: 1651190400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Changsha%20building%20collapse-20220429.png',
         location: ['112.868055555', '28.302222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113514937',
-        name: '2022 Yerevan explosion',
+        name: 'Yerevan explosion',
         date: 1660435200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Rescue%20work%20after%20the%20explosion%20of%20Surmalu%20shopping%20center%20in%20Yerevan.png',
         location: ['44.5076839', '40.1639005']
@@ -12111,7 +12104,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q485252',
-        name: '2009 Yemeni tourist attacks',
+        name: 'Yemeni tourist attacks',
         date: 1237075200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Yemen-Hadhramaut.png',
         location: ['48.6324', '15.9177']
@@ -12132,7 +12125,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18882013',
-        name: 'January 2015 Mariupol rocket attack',
+        name: 'January Mariupol rocket attack',
         date: 1422057600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Rocket%20attack%20on%20Mariupol%20%289%29.jpg',
         location: ['37.678018', '47.111223']
@@ -12160,7 +12153,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q72067697',
-        name: '2019 Grays incident',
+        name: 'Grays incident',
         date: 1571788800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20Grays%20incident%20map.png',
         location: ['0.273333333', '51.478888888']
@@ -12188,133 +12181,133 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4216844',
-        name: '2010 Kalgoorlie-Boulder earthquake',
+        name: 'Kalgoorlie-Boulder earthquake',
         date: 1271721600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%205.2%20-%20Western%20Australia.jpg',
         location: ['121.653', '-30.53']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4389555',
-        name: '1948 Fukui earthquake',
+        name: 'Fukui earthquake',
         date: -678844800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fukui%20Earthquake%201948%20-%20damaged%20building.jpg',
         location: ['136.29', '36.171667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4522772',
-        name: '1902 Shamakhi earthquake',
+        name: 'Shamakhi earthquake',
         date: -2142201600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shemakha%201902%20ruins.jpg',
         location: ['48.6', '40.7']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4557855',
-        name: '1901 Cheviot earthquake',
+        name: 'Cheviot earthquake',
         date: -2149977600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/McTaggart%27s%20butcher%20shop%20after%20earthquake%2C%20Cheviot.jpg',
         location: ['173.26', '-42.81']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4557855',
-        name: '1901 Cheviot earthquake',
+        name: 'Cheviot earthquake',
         date: -2149891200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/McTaggart%27s%20butcher%20shop%20after%20earthquake%2C%20Cheviot.jpg',
         location: ['173.26', '-42.81']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4558220',
-        name: '1904 Douliu earthquake',
+        name: 'Douliu earthquake',
         date: -2082844800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1904%20Douliu%20Earthquake.gif',
         location: ['120.25', '23.58']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4558563',
-        name: '1906 Valparaíso earthquake',
+        name: 'Valparaíso earthquake',
         date: -1999987200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terremoto%20Valpara%C3%ADso%201906.jpg',
         location: ['-72.0003', '-32.9925']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4558694',
-        name: '1907 Kingston earthquake',
+        name: 'Kingston earthquake',
         date: -1987027200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PSM%20V70%20D390%20Map%20of%20the%20jamaica%20earthquake.png',
         location: ['-76.7', '18.2']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2702014',
-        name: '2012 Costa Rica earthquake',
+        name: 'Costa Rica earthquake',
         date: 1346803200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Costa%20Rica%20location%20map.svg',
         location: ['-85.318', '9.996']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2801192',
-        name: 'June 2011 Christchurch earthquake',
+        name: 'June Christchurch earthquake',
         date: 1307923200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/13%20June%202011%20Christchurch%20earthquake%20damage.png',
         location: ['172.74', '-43.57']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2885880',
-        name: '1990 Luzon earthquake',
+        name: 'Luzon earthquake',
         date: 648086400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hyatt%20Terraces%20Baguio%20-%2016%20July%201990%20Earthquake.jpg',
         location: ['121.2', '15.7']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2917519',
-        name: '1991 Racha earthquake',
+        name: 'Racha earthquake',
         date: 672883200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20adm%20location%20map.svg',
         location: ['43.673', '42.453']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3138183',
-        name: '1964 Niigata earthquake',
+        name: 'Niigata earthquake',
         date: -174960000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Liquefaction%20at%20Niigata.JPG',
         location: ['139.22', '38.37']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27608',
-        name: '2012 Guatemala earthquake',
+        name: 'Guatemala earthquake',
         date: 1352246400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Eartquake%20Guatemala%202012.jpg',
         location: ['-91.965', '13.987']
     },
     {
         url: 'http://www.wikidata.org/entity/Q32610',
-        name: '2011 Virginia earthquake',
+        name: 'Virginia earthquake',
         date: 1314057600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Virginia%20earthquake%2C%20Aug%2023.jpg',
         location: ['-77.933', '37.936']
     },
     {
         url: 'http://www.wikidata.org/entity/Q43777',
-        name: '2010 Haiti earthquake',
+        name: 'Haiti earthquake',
         date: 1263254400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ruins%20of%20Haiti%20National%20Palace%20-%20Port%20au%20Prince%202012.jpg',
         location: ['-72.445194444', '18.451388888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3231610',
-        name: '2009 Shizuoka earthquake',
+        name: 'Shizuoka earthquake',
         date: 1249862400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shizuoka%20Earthquake%20Intensity%20Map%2020090811.jpg',
         location: ['138.276', '34.778']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3231610',
-        name: '2009 Shizuoka earthquake',
+        name: 'Shizuoka earthquake',
         date: 1249948800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shizuoka%20Earthquake%20Intensity%20Map%2020090811.jpg',
         location: ['138.276', '34.778']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3240757',
-        name: '1985 Santiago earthquake',
+        name: 'Santiago earthquake',
         date: 478656000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Calle%20destruida%20por%20el%20terremoto%20de%201985.jpg',
         location: ['-72.04', '-33.24']
@@ -12328,364 +12321,364 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3267638',
-        name: 'May 2010 Northern Sumatra earthquake',
+        name: 'May Northern Sumatra earthquake',
         date: 1273363200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%207.2%20-%20northern%20Sumatra%2C%20Indonesia.jpg',
         location: ['96.055', '3.775']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3270942',
-        name: '1968 Illinois earthquake',
+        name: 'Illinois earthquake',
         date: -36115200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1968%20Illinois%20earthquake.svg',
         location: ['-88.48', '37.95']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3274126',
-        name: '2007 Kuril Islands earthquake',
+        name: 'Kuril Islands earthquake',
         date: 1168646400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20070113%20Kuril%20Islands%20Earthquake.png',
         location: ['154.075', '46.48']
     },
     {
         url: 'http://www.wikidata.org/entity/Q698056',
-        name: '1960 Agadir earthquake',
+        name: 'Agadir earthquake',
         date: -310521600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1960%2002%2029%20Agadir%20earthquake.png',
         location: ['-9.69', '30.351']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2436689',
-        name: '2005 Miyagi earthquake',
+        name: 'Miyagi earthquake',
         date: 1124150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shindo%20observation%20density%20comparison%20-%202005%20Miyagi-oki%20earthquake.png',
         location: ['142.04', '38.28']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2441400',
-        name: '2001 Gujarat earthquake',
+        name: 'Gujarat earthquake',
         date: 980467200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2001%20Gujarat%20earthquake.jpg',
         location: ['69.8', '23.6']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2448998',
-        name: '2010 Hosseinabad earthquake',
+        name: 'Hosseinabad earthquake',
         date: 1292803200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%206.7%20-%20southeastern%20Iran.jpg',
         location: ['59.15', '28.38']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2470182',
-        name: '2008 Kyrgyzstan earthquake',
+        name: 'Kyrgyzstan earthquake',
         date: 1223164800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shakemap%2C%202008%20Kyrgyzstan%20earthquake.jpg',
         location: ['73.768', '39.8483']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2607760',
-        name: '2008 Iceland earthquake',
+        name: 'Iceland earthquake',
         date: 1212019200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2008%20Iceland%20earthquake.jpg',
         location: ['-21.014', '63.992']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2609430',
-        name: '1997 Umbria and Marche earthquake',
+        name: 'Umbria and Marche earthquake',
         date: 875232000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Volta%20Cimabue.jpg',
         location: ['12.812', '43.084']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2663230',
-        name: '2009 Bhutan earthquake',
+        name: 'Bhutan earthquake',
         date: 1253491200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2009%20Magnitude%206.1%20BHUTAN.jpg',
         location: ['91.412', '27.346']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2666377',
-        name: 'January 2010 Solomon Islands earthquake',
+        name: 'January Solomon Islands earthquake',
         date: 1262476800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Magnitude%207.2%20SOLOMON%20ISLANDS%202009.jpg',
         location: ['157.307', '-8.912']
     },
     {
         url: 'http://www.wikidata.org/entity/Q698231',
-        name: '1935 Hsinchu-Taichung earthquake',
+        name: 'Hsinchu-Taichung earthquake',
         date: -1095033600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1935%20Taiwan%20earthquake.jpg',
         location: ['120.75', '24.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q702053',
-        name: '1906 Meishan earthquake',
+        name: 'Meishan earthquake',
         date: -2013292800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1906%20Meishan%20Earthquake%20-%20Meishan%201.jpg',
         location: ['120.45', '23.55']
     },
     {
         url: 'http://www.wikidata.org/entity/Q714320',
-        name: '1999 Jiji earthquake',
+        name: 'Jiji earthquake',
         date: 937872000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tonshin%20Building%20collapsed%20after%20921%20earthquake.jpg',
         location: ['120.982', '23.772']
     },
     {
         url: 'http://www.wikidata.org/entity/Q722402',
-        name: "1931 Hawke's Bay earthquake",
+        name: "Hawke's Bay earthquake",
         date: -1227916800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hastings%20Post%20Office%201931.jpg',
         location: ['177.0', '-39.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q584613',
-        name: '2011 Lorca earthquake',
+        name: 'Lorca earthquake',
         date: 1305072000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lorca%20earthquake.jpg',
         location: ['-1.556', '37.697']
     },
     {
         url: 'http://www.wikidata.org/entity/Q603134',
-        name: '1990 Manjil-Rudbar earthquake',
+        name: 'Manjil-Rudbar earthquake',
         date: 645840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Collapse%20of%20Unreinforced%20Masonry%20Buildings%2C%20Iran%20%28Persia%29%20-%201990%20Manjil%20Roudbar%20Earthquake.jpg',
         location: ['49.409', '36.957']
     },
     {
         url: 'http://www.wikidata.org/entity/Q629485',
-        name: '2007 Chūetsu offshore earthquake',
+        name: 'Chūetsu offshore earthquake',
         date: 1184544000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Omigawa%20Station%20001.jpg',
         location: ['138.446', '37.535']
     },
     {
         url: 'http://www.wikidata.org/entity/Q679519',
-        name: '2012 Visayas earthquake',
+        name: 'Visayas earthquake',
         date: 1328486400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bullseye1.svg',
         location: ['123.246', '9.964']
     },
     {
         url: 'http://www.wikidata.org/entity/Q679519',
-        name: '2012 Visayas earthquake',
+        name: 'Visayas earthquake',
         date: 1328486400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Philippines%20relief%20location%20map.jpg',
         location: ['123.246', '9.964']
     },
     {
         url: 'http://www.wikidata.org/entity/Q920426',
-        name: 'solar eclipse of September 2, 2035',
+        name: 'solar eclipse of September 2, ',
         date: 2072304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SE2035Sep02T.gif',
         location: ['158.0', '29.017']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3577551',
-        name: 'solar eclipse of January 26, 2028',
+        name: 'solar eclipse of January 26, ',
         date: 1832457600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SE2028Jan26A.gif',
         location: ['-51.083', '3.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4026724',
-        name: 'solar eclipse of June 21, 2039',
+        name: 'solar eclipse of June 21, ',
         date: 2192227200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SE2039Jun21A.gif',
         location: ['-101.7822', '78.9122']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2399134',
-        name: '2009 Andaman Islands earthquake',
+        name: 'Andaman Islands earthquake',
         date: 1249862400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Magnitude%207.5%20ANDAMAN%20ISLANDS%2C%20INDIA%20REGION.jpg',
         location: ['92.923', '14.013']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2087165',
-        name: '1978 Tabas earthquake',
+        name: 'Tabas earthquake',
         date: 274752000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1978%20Tabas%20earthquake%20shakemap.jpg',
         location: ['57.4', '33.2']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2097061',
-        name: '2010 Kaohsiung earthquakes',
+        name: 'Kaohsiung earthquakes',
         date: 1267660800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20Kaohsiung%20earthquake%20intensity%20USGS.jpg',
         location: ['120.823', '22.903']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2124824',
-        name: '2010 Papua earthquake',
+        name: 'Papua earthquake',
         date: 1276646400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%207.0%20-%20near%20the%20north%20coast%20of%20Papua%2C%20Indonesia.jpg',
         location: ['136.46', '-2.141']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2257461',
-        name: '1915 Avezzano earthquake',
+        name: 'Avezzano earthquake',
         date: -1734652800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Avezzano%20aerea%201915.jpg',
         location: ['13.527222222', '41.996555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2329463',
-        name: 'April 2010 Sumatra earthquake',
+        name: 'April Sumatra earthquake',
         date: 1270512000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shakemap2010Indonesia.jpg',
         location: ['97.048', '2.383']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2379532',
-        name: '1927 Crimean earthquakes',
+        name: 'Crimean earthquakes',
         date: -1335139200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B0%D1%81%D1%82%D0%BE%D1%87%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%B3%D0%BD%D0%B5%D0%B7%D0%B4%D0%BE%20%D0%B7%D0%B5%D0%BC%D0%BB%D0%B5%D1%82%D1%80%D1%8F%D1%81%D0%B5%D0%BD%D0%B8%D0%B5%201927%20l.jpg',
         location: ['35.0', '45.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2391429',
-        name: '1948 Ashgabat earthquake',
+        name: 'Ashgabat earthquake',
         date: -670204800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1948%20Ashgabat%20earthquake.png',
         location: ['58.32', '37.95']
     },
     {
         url: 'http://www.wikidata.org/entity/Q867691',
-        name: 'May 2006 Java earthquake',
+        name: 'May Java earthquake',
         date: 1148688000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jakarta%20Earthquake%20Epicenter.gif',
         location: ['110.458', '-7.962']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3510580',
-        name: '2010 Central Canada earthquake',
+        name: 'Central Canada earthquake',
         date: 1277251200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20Central%20Canada%20earthquake%20-%20evacuation%20in%20Ottawa.jpg',
         location: ['-75.497', '45.904']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3621706',
-        name: '2010 Salta earthquake',
+        name: 'Salta earthquake',
         date: 1267228800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/February%202010%20Salta%20earthquake%20intensity%20USGS.jpg',
         location: ['-65.043', '-24.674']
     },
     {
         url: 'http://www.wikidata.org/entity/Q815567',
-        name: '1988 Spitak earthquake',
+        name: 'Spitak earthquake',
         date: 597456000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Surb%20Amenaprkitch.jpeg',
         location: ['44.183333333', '40.983333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q842621',
-        name: '2010 Pichilemu earthquakes',
+        name: 'Pichilemu earthquakes',
         date: 1268265600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/March%202010%20Chile%20earthquake%20intensity%20USGS.jpg',
         location: ['-71.95', '-34.92']
     },
     {
         url: 'http://www.wikidata.org/entity/Q842621',
-        name: '2010 Pichilemu earthquakes',
+        name: 'Pichilemu earthquakes',
         date: 1268265600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/March%202010%20Chile%20earthquake%20intensity%20USGS.jpg',
         location: ['-71.799', '-34.326']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4191063',
-        name: '2011 Aceh Singkil Regency earthquakes',
+        name: 'Aceh Singkil Regency earthquakes',
         date: 1315180800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Indonesia%20location%20map.svg',
         location: ['97.85', '2.81']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4191063',
-        name: '2011 Aceh Singkil Regency earthquakes',
+        name: 'Aceh Singkil Regency earthquakes',
         date: 1315180800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bullseye1.png',
         location: ['97.85', '2.81']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3623244',
-        name: '2006 Kamchatka earthquakes',
+        name: 'Kamchatka earthquakes',
         date: 1145491200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2006%20Koryakia%20earthquake%2016.jpg',
         location: ['167.085', '61.075']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3661284',
-        name: '1952 Severo-Kurilsk tsunami',
+        name: 'Severo-Kurilsk tsunami',
         date: -541468800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/209%200943%20SevKur%20heli%20View%20wiki.jpg',
         location: ['161.0', '52.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3667156',
-        name: '1975 Lice earthquake',
+        name: 'Lice earthquake',
         date: 179193600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/A%20school%20damaged%201975%20Lice%20earthquake.jpg',
         location: ['40.723', '38.474']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3984656',
-        name: '1930 Irpinia earthquake',
+        name: 'Irpinia earthquake',
         date: -1244764800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20102-10191%2C%20Italien%2C%20Erdbeben-Katastrophe.jpg',
         location: ['15.367', '41.05']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4115048',
-        name: '2004 Morocco earthquake',
+        name: 'Morocco earthquake',
         date: 1077580800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2004%2003%20Maroc%20-%20S%C3%A9isme%20Al%20Hoceima.jpg',
         location: ['-3.933', '35.25']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4559340',
-        name: '1911 Michoacán earthquake',
+        name: 'Michoacán earthquake',
         date: -1848355200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Michoacanearthquake-1911-newspaper.jpg',
         location: ['-102.5', '17.5']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4560067',
-        name: '1915 Pleasant Valley earthquake',
+        name: 'Pleasant Valley earthquake',
         date: -1711929600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1915%20Pleasant%20Valley%20earthquake%20scarp.jpg',
         location: ['-117.36', '40.2']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4560300',
-        name: '1916–17 Nantou earthquakes',
+        name: '–17 Nantou earthquakes',
         date: -1683417600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1916%20Nantou%20Earthquake.png',
         location: ['121.0', '24.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4560520',
-        name: '1918 San Fermín earthquake',
+        name: 'San Fermín earthquake',
         date: -1616544000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terremoto%20Mayaguez%201918.jpg',
         location: ['-67.5', '18.5']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4562073',
-        name: '1927 Gulang earthquake',
+        name: 'Gulang earthquake',
         date: -1344816000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Scenes%20of%20devastation%20following%20the%201927%20Gulang%20earthquake.jpg',
         location: ['102.31', '37.39']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4562299',
-        name: '1928 Talca earthquake',
+        name: 'Talca earthquake',
         date: -1325462400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/306-NT-933-G-5.jpg',
         location: ['-72.0', '-35.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4563233',
-        name: '1933 Long Beach earthquake',
+        name: 'Long Beach earthquake',
         date: -1167609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1933%20Long%20Beach%20earthquake%20damage%201.jpg',
         location: ['-118.0', '33.63']
@@ -12699,273 +12692,273 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3497601',
-        name: '2003 Colima earthquake',
+        name: 'Colima earthquake',
         date: 1043107200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/ShakeMap%207.5%20Colima%2C%20Mexico.jpg',
         location: ['-104.22', '18.6']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3505096',
-        name: '1999 Düzce earthquake',
+        name: 'Düzce earthquake',
         date: 942364800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Duzce%201999%20earthquake%20damage%20Bilham%20892.jpg',
         location: ['31.23', '40.82']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3505185',
-        name: '1979 Montenegro earthquake',
+        name: 'Montenegro earthquake',
         date: 292982400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bullseye1.svg',
         location: ['18.98', '41.98']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3505185',
-        name: '1979 Montenegro earthquake',
+        name: 'Montenegro earthquake',
         date: 292982400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Montenegro%20location%20map.svg',
         location: ['18.98', '41.98']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3505891',
-        name: '1944 San Juan Earthquake',
+        name: 'San Juan Earthquake',
         date: -819331200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terremoto%20de%201944%2C%20San%20Juan%2C%20Argentina.jpg',
         location: ['-68.5261', '-31.5342']
     },
     {
         url: 'http://www.wikidata.org/entity/Q745411',
-        name: '2009 West Java earthquake',
+        name: 'West Java earthquake',
         date: 1251849600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2009-September-Java-quake-shake-map-USGS.jpg',
         location: ['107.328', '-7.778']
     },
     {
         url: 'http://www.wikidata.org/entity/Q748301',
-        name: '2008 Iwate-Miyagi Nairiku earthquake',
+        name: 'Iwate-Miyagi Nairiku earthquake',
         date: 1213401600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E5%B2%A9%E6%89%8B%E3%83%BB%E5%AE%AE%E5%9F%8E%E5%86%85%E9%99%B8%E5%9C%B0%E9%9C%87%E3%81%AB%E3%82%88%E3%82%8B%E6%B2%B3%E9%81%93%E9%96%89%E5%A1%9E%EF%BC%88%E8%BF%AB%E5%B7%9D%E3%83%BB%E6%A0%97%E5%8E%9F%E5%B8%82%E6%B5%85%E5%B8%83%E5%9C%B0%E5%8C%BA%EF%BC%89.jpg',
         location: ['140.88', '39.028333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q749610',
-        name: '1964 Alaska great earthquake and tsunami',
+        name: 'Alaska great earthquake and tsunami',
         date: -181958400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/AlaskaQuake-FourthAve.jpg',
         location: ['-147.65', '61.02']
     },
     {
         url: 'http://www.wikidata.org/entity/Q751139',
-        name: '1977 Vrancea earthquake',
+        name: 'Vrancea earthquake',
         date: 226281600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1977%20Vrancea%20earthquake.jpg',
         location: ['26.76', '45.77']
     },
     {
         url: 'http://www.wikidata.org/entity/Q760494',
-        name: '1978 Thessaloniki earthquake',
+        name: 'Thessaloniki earthquake',
         date: 267148800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USGS%20Shakemap%20-%201978%20Thessaloniki%20earthquake.jpg',
         location: ['23.048888888', '40.638888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2005565',
-        name: '1957 Guerrero earthquake',
+        name: 'Guerrero earthquake',
         date: -392256000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/009520-003%20DA%C3%91OS%20DEL%20SISMO%20DEL%20D%C3%8DA%2028%20JULIO%2029%201957%20%2830953952424%29.jpg',
         location: ['-99.8825', '16.86638889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2005565',
-        name: '1957 Guerrero earthquake',
+        name: 'Guerrero earthquake',
         date: -392256000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/009520-004%20DA%C3%91OS%20DEL%20SISMO%20DEL%20D%C3%8DA%2028%20JULIO%2029%201957%20%2831422312460%29.jpg',
         location: ['-99.8825', '16.86638889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1527224',
-        name: '2007 Gisborne earthquake',
+        name: 'Gisborne earthquake',
         date: 1198108800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2007%20Gisborne%20Earthquake%20Health2000.jpg',
         location: ['178.49', '-38.88']
     },
     {
         url: 'http://www.wikidata.org/entity/Q912835',
-        name: '1971 San Fernando earthquake',
+        name: 'San Fernando earthquake',
         date: 34905600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USGS%20-%201971%20San%20Fernando%20earthquake%20-%20San%20Gabriel%20Mountains%20-%20Veterans%20Hospital.jpg',
         location: ['-118.4', '34.41']
     },
     {
         url: 'http://www.wikidata.org/entity/Q921497',
-        name: '2009 Samoa earthquake',
+        name: 'Samoa earthquake',
         date: 1254182400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2009-09-29%20Samoa%20Island%20Region%20earthquake%20location.jpg',
         location: ['-172.034', '-15.509']
     },
     {
         url: 'http://www.wikidata.org/entity/Q924446',
-        name: '1972 Nicaragua earthquake',
+        name: 'Nicaragua earthquake',
         date: 93916800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1972Nicaraguaquake2.jpg',
         location: ['-86.1', '12.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q924446',
-        name: '1972 Nicaragua earthquake',
+        name: 'Nicaragua earthquake',
         date: 93916800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1972Nicaraguaquake5.jpg',
         location: ['-86.1', '12.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q924948',
-        name: '2010 Elâzığ earthquake',
+        name: 'Elâzığ earthquake',
         date: 1268006400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/March%202010%20Turkey%20earthquake%20intensity%20USGS.jpg',
         location: ['40.1', '38.807']
     },
     {
         url: 'http://www.wikidata.org/entity/Q939106',
-        name: '2005 Sumatra earthquake',
+        name: 'Sumatra earthquake',
         date: 1111968000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tsumap.jpg',
         location: ['97.01611111', '2.07638889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4563595',
-        name: '1935 Helena earthquake',
+        name: 'Helena earthquake',
         date: -1079395200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Helena%20High%20School%20damage%201935.png',
         location: ['-112.0', '46.6']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4563661',
-        name: '1935 Timiskaming earthquake',
+        name: 'Timiskaming earthquake',
         date: -1078272000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1935%20Timiskaming%20earthquake%20damage.jpg',
         location: ['-79.0666', '46.7833']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4564715',
-        name: '1940 El Centro earthquake',
+        name: 'El Centro earthquake',
         date: -934848000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USCGS%20Imperial%20damage%201940.jpg',
         location: ['-115.5', '32.7333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4564715',
-        name: '1940 El Centro earthquake',
+        name: 'El Centro earthquake',
         date: -934848000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USCGS%20water%20tank%201940.jpg',
         location: ['-115.5', '32.7333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4565280',
-        name: '1943 Tottori earthquake',
+        name: 'Tottori earthquake',
         date: -830304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1943%20Tottori%20earthquake%20Scan10029-2.JPG',
         location: ['134.09', '35.47']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4565560',
-        name: '1945 Mikawa earthquake',
+        name: 'Mikawa earthquake',
         date: -787881600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E6%B2%B3%E5%9C%B0%E9%9C%87%E3%81%AB%E3%82%88%E3%82%8B%E8%A2%AB%E5%AE%B3%281%29.jpg',
         location: ['137.1', '34.7']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4574199',
-        name: '1970 Tonghai earthquake',
+        name: 'Tonghai earthquake',
         date: 259200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E9%80%9A%E6%B5%B7%E5%9C%B0%E9%9C%87%E8%AE%B0%E4%BA%8B%E7%A2%91%20-%202023-08-18.jpg',
         location: ['102.49', '24.12']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4577217',
-        name: '1976 Moro Gulf earthquake',
+        name: 'Moro Gulf earthquake',
         date: 209001600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tsunami%20hit%20lebak.jpg',
         location: ['124.09', '6.29']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1348841',
-        name: '1946 Dominican Republic earthquake',
+        name: 'Dominican Republic earthquake',
         date: -738806400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gon%C3%A2ve%20microplate.png',
         location: ['-69.316', '19.2']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1348841',
-        name: '1946 Dominican Republic earthquake',
+        name: 'Dominican Republic earthquake',
         date: -738460800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gon%C3%A2ve%20microplate.png',
         location: ['-69.316', '19.2']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1348895',
-        name: '2012 Pernik earthquake',
+        name: 'Pernik earthquake',
         date: 1337644800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pernik-TPS-tower-after-earhtquake-22052012.jpg',
         location: ['23.009', '42.686']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1348910',
-        name: '1908 Messina earthquake',
+        name: 'Messina earthquake',
         date: -1925337600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Comerio%2C%20Luca%20%281878-1940%29%20-%20Vittime%20del%20terremoto%20di%20Messina%20%28dicembre%201908%29.jpg',
         location: ['15.683', '38.15']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1348976',
-        name: 'July 2006 Java earthquake',
+        name: 'July Java earthquake',
         date: 1153094400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%20July%20Jakarta%20Earthquake.png',
         location: ['107.347', '-9.295']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1519015',
-        name: '1994 Northridge earthquake',
+        name: 'Northridge earthquake',
         date: 758764800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Interstate%20bridge%20collapse%2C%201994%20Northridge%20Earthquake.jpg',
         location: ['-118.535', '34.207']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1091247',
-        name: '2004 Chūetsu earthquake',
+        name: 'Chūetsu earthquake',
         date: 1098489600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Chuetsu%20earthquake-Yamabe%20Bridge.jpg',
         location: ['138.8', '37.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1131956',
-        name: '2009 Fiordland earthquake',
+        name: 'Fiordland earthquake',
         date: 1247616000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2009%20New%20Zealand%20earthquake.jpg',
         location: ['166.643', '-45.721']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1144135',
-        name: '1946 Aleutian Islands earthquake',
+        name: 'Aleutian Islands earthquake',
         date: -749606400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tsunami%20large.jpg',
         location: ['-163.5', '52.8']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1225445',
-        name: '1929 Murchison earthquake',
+        name: 'Murchison earthquake',
         date: -1279411200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nelson%20College%20after%20Murchison%20earthquake%201929%20%28cropped%29.jpg',
         location: ['172.25', '-41.55']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1284366',
-        name: '1987 Edgecumbe earthquake',
+        name: 'Edgecumbe earthquake',
         date: 541641600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bay%20of%20Plenty%20Earthquake%2C%201987%20%2816552659081%29.jpg',
         location: ['176.84', '-37.88']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1348836',
-        name: '2011 Pakistan earthquake',
+        name: 'Pakistan earthquake',
         date: 1295395200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2011%20Pakistan%20earthquake.jpg',
         location: ['63.947', '28.838']
@@ -12979,217 +12972,217 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q986103',
-        name: '2007 Noto earthquake',
+        name: 'Noto earthquake',
         date: 1174780800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20Damage%20of%20Noto%20Toll%20Road.jpg',
         location: ['136.5', '37.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1014283',
-        name: '1994 offshore Sanriku earthquake',
+        name: 'offshore Sanriku earthquake',
         date: 788572800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E9%99%B8%E3%81%AF%E3%82%8B%E3%81%8B%E6%B2%96%E5%9C%B0%E9%9C%87%E3%81%AE%E9%9C%87%E5%BA%A6%E5%88%86%E5%B8%83.png',
         location: ['143.745', '40.43']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1049092',
-        name: 'October 2010 Sumatra earthquake and tsunami',
+        name: 'October Sumatra earthquake and tsunami',
         date: 1287964800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shakemap%20October%202010%20Indonesia.jpg',
         location: ['100.084', '-3.464']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1053476',
-        name: '1989 Loma Prieta earthquake',
+        name: 'Loma Prieta earthquake',
         date: 624585600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cypress%20collapsed.jpg',
         location: ['-121.877', '37.04']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1066174',
-        name: '2012 East Azerbaijan earthquakes',
+        name: 'East Azerbaijan earthquakes',
         date: 1344643200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2012%20East%20Azerbaijan%20earthquakes.%20by%20Mardetanha%201367.JPG',
         location: ['46.88', '38.322']
     },
     {
         url: 'http://www.wikidata.org/entity/Q151850',
-        name: 'February 2011 Christchurch earthquake',
+        name: 'February Christchurch earthquake',
         date: 1298332800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Colombo%20St%20looking%20south%20to%20Tuam.JPG',
         location: ['172.701', '-43.5834']
     },
     {
         url: 'http://www.wikidata.org/entity/Q152033',
-        name: '2008 Sichuan earthquake',
+        name: 'Sichuan earthquake',
         date: 1210550400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2008%20Sichuan%20earthquake%20map%20no%20labels.svg',
         location: ['103.367', '31.021']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1538397',
-        name: '2010 Baja California earthquake',
+        name: 'Baja California earthquake',
         date: 1270339200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mexico%20relief%20location%20map.jpg',
         location: ['-115.303', '32.128']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1553270',
-        name: '2012 Guerrero–Oaxaca earthquake',
+        name: 'Guerrero–Oaxaca earthquake',
         date: 1332201600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mexico%20relief%20location%20map.jpg',
         location: ['-98.188', '16.662']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1789231',
-        name: 'March 2007 Sumatra earthquakes',
+        name: 'March Sumatra earthquakes',
         date: 1173139200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2007%20March%20Padang%20quakes.png',
         location: ['100.49847', '-0.53626']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1798567',
-        name: '1985 Mexico City earthquake',
+        name: 'Mexico City earthquake',
         date: 495936000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1985%20Mexico%20Earthquake%20-%20Collapsed%20General%20Hospital.jpg',
         location: ['-102.53', '18.19']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1812011',
-        name: '2008 Chino Hills earthquake',
+        name: 'Chino Hills earthquake',
         date: 1217289600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/South%20Coast%20Plaza%20earthquake%20damage%20in%202008.jpg',
         location: ['-117.761', '33.953']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1847006',
-        name: '1976 Guatemala earthquake',
+        name: 'Guatemala earthquake',
         date: 192153600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/GuateQuake1976Patzicia.jpg',
         location: ['-89.1', '15.32']
     },
     {
         url: 'http://www.wikidata.org/entity/Q210137',
-        name: '2005 Kashmir earthquake',
+        name: 'Kashmir earthquake',
         date: 1128729600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2005%20Pakistan%20earthquake.png',
         location: ['73.6289', '34.4931']
     },
     {
         url: 'http://www.wikidata.org/entity/Q210981',
-        name: '2007 Peru earthquake',
+        name: 'Peru earthquake',
         date: 1187136000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/40%20-%20Tremblement%20de%20terre%20-%20Ao%C3%BBt%202007.JPG',
         location: ['-76.51', '-13.353']
     },
     {
         url: 'http://www.wikidata.org/entity/Q150495',
-        name: '2011 Burma earthquake',
+        name: 'Burma earthquake',
         date: 1300924800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/VOA%20Burma%20earthquake%20damages02%2025Mar11.jpg',
         location: ['99.949', '20.705']
     },
     {
         url: 'http://www.wikidata.org/entity/Q151835',
-        name: '2010 Chile earthquake',
+        name: 'Chile earthquake',
         date: 1267228800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20Chile%20earthquake%20-%20Building%20destroyed%20in%20Concepci%C3%B3n.jpg',
         location: ['-72.733', '-35.909']
     },
     {
         url: 'http://www.wikidata.org/entity/Q211386',
-        name: '1906 San Francisco earthquake',
+        name: 'San Francisco earthquake',
         date: -2010441600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Post-and-Grant-Avenue-Look.jpg',
         location: ['-122.55', '37.75']
     },
     {
         url: 'http://www.wikidata.org/entity/Q212618',
-        name: '1960 Valdivia earthquake',
+        name: 'Valdivia earthquake',
         date: -303436800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20steel%20factory%20near%20Corral%20-%20Photo%20from%20the%20autumn%20of%201960.png',
         location: ['-73.407', '-38.143']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4580449',
-        name: '1982 Flores earthquake',
+        name: 'Flores earthquake',
         date: 409622400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sunda%20strait%20tsunami%202.jpg',
         location: ['123.08', '-8.405']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4580940',
-        name: '1983 Borah Peak earthquake',
+        name: 'Borah Peak earthquake',
         date: 436147200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Borah1983.JPG',
         location: ['-113.8', '44.08']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4581198',
-        name: '1983 Sea of Japan earthquake',
+        name: 'Sea of Japan earthquake',
         date: 422755200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E6%97%A5%E6%9C%AC%E6%B5%B7%E4%B8%AD%E9%83%A8%E5%9C%B0%E9%9C%87%281%29.png',
         location: ['139.102', '40.462']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4582911',
-        name: '1986 Chalfant Valley earthquake',
+        name: 'Chalfant Valley earthquake',
         date: 522288000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USGS%20Shakemap%20-%201986%20Chalfant%20Valley%20earthquake.jpg',
         location: ['-118.45', '37.53']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4583989',
-        name: '1987 Whittier Narrows earthquake',
+        name: 'Whittier Narrows earthquake',
         date: 560044800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USGS%20Shakemap%20-%201987%20Whittier%20Narrows%20earthquake.jpg',
         location: ['-118.078', '34.061']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4585341',
-        name: '1989 Newcastle earthquake',
+        name: 'Newcastle earthquake',
         date: 599616000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1989%20Newcastle%20earthquake%20map.png',
         location: ['151.61', '-32.95']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4585341',
-        name: '1989 Newcastle earthquake',
+        name: 'Newcastle earthquake',
         date: 630806400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1989%20Newcastle%20earthquake%20map.png',
         location: ['151.61', '-32.95']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4587542',
-        name: '1992 Big Bear earthquake',
+        name: 'Big Bear earthquake',
         date: 709689600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USGS%20Shakemap%20-%201992%20Big%20Bear%20earthquake.jpg',
         location: ['-116.827', '34.2']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4588561',
-        name: '1993 Okushiri earthquake',
+        name: 'Okushiri earthquake',
         date: 742435200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tsunami%20in%20Okushiri%202.jpg',
         location: ['139.197', '42.851']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4597199',
-        name: '2000 Baku earthquake',
+        name: 'Baku earthquake',
         date: 975110400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Baku%202000%20earthqauke.jpg',
         location: ['49.9', '40.25']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4604346',
-        name: '2005 Fukuoka earthquake',
+        name: 'Fukuoka earthquake',
         date: 1111276800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fukuoka%20Earthquake%2020050320%20Maruzen.jpg',
         location: ['130.175', '33.7383']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4604814',
-        name: '2005 Ruichang earthquake',
+        name: 'Ruichang earthquake',
         date: 1133136000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B9%9D%E6%B1%9F%E5%9C%B0%E9%9C%87%E7%83%88%E5%BA%A6%E5%88%86%E5%B8%83%E5%9B%BE.jpg',
         location: ['115.717', '29.657']
@@ -13217,784 +13210,784 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116688',
-        name: '2003 Boumerdès earthquake',
+        name: 'Boumerdès earthquake',
         date: 1053475200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Seisme%20de%20Boumerdes%202003.jpg',
         location: ['3.634', '36.964']
     },
     {
         url: 'http://www.wikidata.org/entity/Q130754',
-        name: '2004 Indian Ocean earthquake',
+        name: 'Indian Ocean earthquake',
         date: 1104019200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2004-tsunami.jpg',
         location: ['95.982', '3.295']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1866908',
-        name: '2010 Eureka earthquake',
+        name: 'Eureka earthquake',
         date: 1263081600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/January%202010%20Eureka%20earthquake%20intensity%20USGS.jpg',
         location: ['-124.763', '40.645']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1990627',
-        name: '2003 Bam earthquake',
+        name: 'Bam earthquake',
         date: 1072396800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destruction%20of%20the%20Bam%20Citadel.jpg',
         location: ['58.55', '29.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q5942111',
-        name: '1990 Vrancea earthquakes',
+        name: 'Vrancea earthquakes',
         date: 644025600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1990%20RO%20quake.jpg',
         location: ['26.668', '45.841']
     },
     {
         url: 'http://www.wikidata.org/entity/Q5942412',
-        name: '1979 Tumaco earthquake',
+        name: 'Tumaco earthquake',
         date: 313804800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1979%20Tumaco%20earthquake%20ShakeMap.jpg',
         location: ['-79.358', '1.598']
     },
     {
         url: 'http://www.wikidata.org/entity/Q5943056',
-        name: '1999 Ambrym earthquake',
+        name: 'Ambrym earthquake',
         date: 943574400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USGS%20Shakemap%20-%201999%20Ambrym%20earthquake.jpg',
         location: ['168.214', '-16.423']
     },
     {
         url: 'http://www.wikidata.org/entity/Q189079',
-        name: '2011 Van earthquake',
+        name: 'Van earthquake',
         date: 1319328000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Anatolian%20Plate.png',
         location: ['43.486', '38.628']
     },
     {
         url: 'http://www.wikidata.org/entity/Q207918',
-        name: "2009 L'Aquila earthquake",
+        name: "L'Aquila earthquake",
         date: 1238976000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/L%27Aquila%20eathquake%20prefettura.jpg',
         location: ['13.334', '42.334']
     },
     {
         url: 'http://www.wikidata.org/entity/Q501106',
-        name: '2011 Fergana Valley earthquake',
+        name: 'Fergana Valley earthquake',
         date: 1311120000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jul-2011%20Ferghana-earthquake%20Shakemap.jpg',
         location: ['71.435', '40.13']
     },
     {
         url: 'http://www.wikidata.org/entity/Q529783',
-        name: '1909 Lambesc earthquake',
+        name: 'Lambesc earthquake',
         date: -1911081600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Vern%C3%A8gues%20-%20tremblement%20de%20terre%20du%2011%20juin%201909%20%281%29.jpg',
         location: ['5.4', '43.7']
     },
     {
         url: 'http://www.wikidata.org/entity/Q571891',
-        name: '2011 Sikkim earthquake',
+        name: 'Sikkim earthquake',
         date: 1316304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2011-Sikkim%20earthquake%20Shakemap.jpg',
         location: ['88.064', '27.723']
     },
     {
         url: 'http://www.wikidata.org/entity/Q576390',
-        name: '2011 Yunnan earthquake',
+        name: 'Yunnan earthquake',
         date: 1299715200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/China-equirect.png',
         location: ['97.994', '24.71']
     },
     {
         url: 'http://www.wikidata.org/entity/Q578179',
-        name: '1963 Skopje earthquake',
+        name: 'Skopje earthquake',
         date: -203126400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1963%20Skopje%20earthquake.png',
         location: ['21.4333', '42.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q6670068',
-        name: 'April 2011 Fukushima earthquake',
+        name: 'April Fukushima earthquake',
         date: 1302480000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/April11%202011%20Fukushima%20earthquake%20shake%20map.jpg',
         location: ['140.477', '37.007']
     },
     {
         url: 'http://www.wikidata.org/entity/Q6796396',
-        name: 'May 30, 1998 Afghanistan earthquake',
+        name: 'May 30, Afghanistan earthquake',
         date: 896486400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bullseye1.png',
         location: ['70.11', '37.1']
     },
     {
         url: 'http://www.wikidata.org/entity/Q6796396',
-        name: 'May 30, 1998 Afghanistan earthquake',
+        name: 'May 30, Afghanistan earthquake',
         date: 896486400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Afghanistan%20adm%20location%20map.svg',
         location: ['70.11', '37.1']
     },
     {
         url: 'http://www.wikidata.org/entity/Q8193276',
-        name: '1984 Nagano earthquake',
+        name: 'Nagano earthquake',
         date: 463881600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1984%20Otaki%20earthquake%20cenotaph.jpg',
         location: ['137.49', '35.79']
     },
     {
         url: 'http://www.wikidata.org/entity/Q8193276',
-        name: '1984 Nagano earthquake',
+        name: 'Nagano earthquake',
         date: 463968000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1984%20Otaki%20earthquake%20cenotaph.jpg',
         location: ['137.49', '35.79']
     },
     {
         url: 'http://www.wikidata.org/entity/Q10798381',
-        name: '2013 Bushehr earthquake',
+        name: 'Bushehr earthquake',
         date: 1365465600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2013%20Bushehr%20earthquake%20By%20Mardetanha%20016.jpg',
         location: ['51.58', '28.48']
     },
     {
         url: 'http://www.wikidata.org/entity/Q11400894',
-        name: '1927 North Tango earthquake',
+        name: 'North Tango earthquake',
         date: -1351382400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1927%20Kita-Tango%20Earthquake%20damage%20at%20Mineyama.jpg',
         location: ['134.896388888', '35.596666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q11401118',
-        name: '1925 North Tajima earthquake',
+        name: 'North Tajima earthquake',
         date: -1407801600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E5%8C%97%E4%BD%86%E9%A6%AC%E5%9C%B0%E9%9C%87%E3%81%AB%E3%82%88%E3%82%8B%E5%80%92%E5%A3%8A%E5%AE%B6%E5%B1%8B.jpg',
         location: ['134.83333333', '35.56333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q328663',
-        name: '1992 Roermond earthquake',
+        name: 'Roermond earthquake',
         date: 703123200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1992%20Roermond%20intensity.jpg',
         location: ['5.93694444', '51.14805556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q367449',
-        name: '1999 İzmit earthquake',
+        name: 'İzmit earthquake',
         date: 934848000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1999%20%C4%B0zmit%20earthquake%20map.svg',
         location: ['29.987', '40.702']
     },
     {
         url: 'http://www.wikidata.org/entity/Q367449',
-        name: '1999 İzmit earthquake',
+        name: 'İzmit earthquake',
         date: 934848000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kavakl%C4%B1.jpg',
         location: ['29.987', '40.702']
     },
     {
         url: 'http://www.wikidata.org/entity/Q381766',
-        name: '2010 Yushu earthquake',
+        name: 'Yushu earthquake',
         date: 1271116800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/China-equirect.png',
         location: ['96.629', '33.271']
     },
     {
         url: 'http://www.wikidata.org/entity/Q462195',
-        name: '1976 Tangshan earthquake',
+        name: 'Tangshan earthquake',
         date: 207360000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tangshan%20earthquake.jpg',
         location: ['118.401', '39.664']
     },
     {
         url: 'http://www.wikidata.org/entity/Q5933027',
-        name: '1968 Inangahua earthquake',
+        name: 'Inangahua earthquake',
         date: -50803200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kitchen%20after%20earthquake%2C%20Inangahua%201968.jpg',
         location: ['172.02', '-41.659']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4609417',
-        name: '2007 Tocopilla earthquake',
+        name: 'Tocopilla earthquake',
         date: 1194998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2007%2014%20Nov%20Chile%20earthquake.png',
         location: ['-69.843', '-22.189']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4610352',
-        name: '2007–2008 Nazko earthquakes',
+        name: '–Nazko earthquakes',
         date: 1191888000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2007-2008%20Nazko%20swarm%20location.png',
         location: ['-124.08', '52.88']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4611436',
-        name: '2008 Lincolnshire earthquake',
+        name: 'Lincolnshire earthquake',
         date: 1204070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2008%20Market%20Rasen%20ShakeMap.jpg',
         location: ['-0.331', '53.404']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4616506',
-        name: '2010 Afghanistan earthquake',
+        name: 'Afghanistan earthquake',
         date: 1271548800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%205.6%20-%20central%20Afghanistan.jpg',
         location: ['67.653', '32.669']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4616584',
-        name: '2010 Algeria earthquake',
+        name: 'Algeria earthquake',
         date: 1273795200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%205.3%20-%20northern%20Algeria.jpg',
         location: ['4.032', '35.903']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4617540',
-        name: '2010 Illinois earthquake',
+        name: 'Illinois earthquake',
         date: 1265760000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%203.8%20-%208km%20NW%20of%20Village%20of%20Campton%20Hills%2C%20Illinois.jpg',
         location: ['-88.498', '41.969']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4617548',
-        name: '2010 Indiana earthquake',
+        name: 'Indiana earthquake',
         date: 1293667200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20Indiana%20earthquake.jpg',
         location: ['-85.888', '40.427']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4618080',
-        name: '2010 Oaxaca earthquake',
+        name: 'Oaxaca earthquake',
         date: 1277856000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%206.3%20-%20Oaxaca%2C%20Mexico.jpg',
         location: ['-97.76', '16.527']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4622085',
-        name: '2011 Oklahoma earthquake',
+        name: 'Oklahoma earthquake',
         date: 1320537600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2011%20Oklahoma%20earthquake%20damage.jpg',
         location: ['-96.752', '35.599']
     },
     {
         url: 'http://www.wikidata.org/entity/Q11547847',
-        name: '2013 Lushan earthquake',
+        name: 'Lushan earthquake',
         date: 1366416000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2013%20April%2020%2C%20Ya%27an%20China%20Earthquake%20ShakeMap.jpg',
         location: ['102.95611111', '30.28388889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q11648296',
-        name: '1993 Kushiro-Oki earthquake',
+        name: 'Kushiro-Oki earthquake',
         date: 727056000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kushiro%20kita%20pier.jpg',
         location: ['144.373333', '42.92']
     },
     {
         url: 'http://www.wikidata.org/entity/Q11663091',
-        name: '2011 Shizuoka earthquake',
+        name: 'Shizuoka earthquake',
         date: 1300147200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20crack%20in%20the%20road%20by%20the%20East%20Shizuoka%20earthquake.jpg',
         location: ['138.7', '35.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q11674602',
-        name: '2000 Tottori earthquake',
+        name: 'Tottori earthquake',
         date: 970790400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2000%20Tottori%20earthquake%20shakemap.jpg',
         location: ['133.31', '35.27']
     },
     {
         url: 'http://www.wikidata.org/entity/Q13414773',
-        name: 'June 2013 Nantou earthquake',
+        name: 'June Nantou earthquake',
         date: 1370131200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2013%E5%B9%B46%E6%9C%88%E5%8D%97%E6%8A%95%E5%9C%B0%E9%9C%87%E5%8F%B021%E7%B7%9A%E8%90%BD%E7%9F%B3.jpg',
         location: ['121.0', '23.87']
     },
     {
         url: 'http://www.wikidata.org/entity/Q14167838',
-        name: '2013 Wellington earthquake',
+        name: 'Wellington earthquake',
         date: 1374364800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2013%20Seddon%20Earthquake%20Shakemap.jpg',
         location: ['174.33', '-41.61']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15071846',
-        name: '2013 Philippines earthquake',
+        name: 'Philippines earthquake',
         date: 1381795200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Loon%202%20earthquake.JPG',
         location: ['124.07', '9.86']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19898749',
-        name: 'May 2015 Nepal earthquake',
+        name: 'May Nepal earthquake',
         date: 1431388800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PM%20chairs%20high-level%20meeting%20to%20review%20situation%20following%20earthquake%20in%20Nepal%20%2817100307348%29.jpg',
         location: ['86.166', '27.618']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20051451',
-        name: '2015 Sabah earthquake',
+        name: 'Sabah earthquake',
         date: 1433376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20June%204%2C%20Sabah%20Malaysia%20Earthquake%20ShakeMap.jpg',
         location: ['116.525', '5.98']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20978169',
-        name: '2015 Illapel earthquake',
+        name: 'Illapel earthquake',
         date: 1442361600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Avenida%20Baquedano%20destruida.JPG',
         location: ['-71.741', '-31.637']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112194359',
-        name: "2022 Ya'an earthquake",
+        name: "Ya'an earthquake",
         date: 1654041600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022%20June%201%2C%20Ya%27an%20China%20Earthquake%20ShakeMap.jpg',
         location: ['102.956111111', '30.283888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16936116',
-        name: '2014 Aegean Sea earthquake',
+        name: 'Aegean Sea earthquake',
         date: 1400889600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USGS%20Shakemap%20-%202014%20Aegean%20Sea%20earthquake.jpg',
         location: ['25.453', '40.305']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17483279',
-        name: '2014 Ludian earthquake',
+        name: 'Ludian earthquake',
         date: 1407024000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ludian%20earthquakemap.jpg',
         location: ['103.3', '27.1']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17514080',
-        name: '2014 Orkney earthquake',
+        name: 'Orkney earthquake',
         date: 1407196800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/ShakeMap%20Orkney%205%20August%202014.jpg',
         location: ['26.7094', '-26.9717']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17602018',
-        name: '2014 South Napa earthquake',
+        name: 'South Napa earthquake',
         date: 1408838400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014%20South%20Napa%20quake%20-%20Stones%20Fallen%20From%20Face%20of%20Sam%20Kee%20-%201%20%2815014707736%29.jpg',
         location: ['-122.319', '38.214']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18574771',
-        name: '1917 Guatemala earthquake',
+        name: 'Guatemala earthquake',
         date: -1644883200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Catedral1918.jpg',
         location: ['-89.1', '15.32']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18574774',
-        name: '2013 Vallenar earthquake',
+        name: 'Vallenar earthquake',
         date: 1359504000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2013%20Vallenar%20Chile%20earthquake%20intesity%20map.jpg',
         location: ['-70.882', '-28.178']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19830062',
-        name: 'April 2015 Nepal earthquake',
+        name: 'April Nepal earthquake',
         date: 1429920000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Geological%20Survey%202015%20Nepal%20Earthquake%20and%20aftershock%20map.png',
         location: ['84.725', '28.165']
     },
     {
         url: 'http://www.wikidata.org/entity/Q87914896',
-        name: '2020 Salt Lake City earthquake',
+        name: 'Salt Lake City earthquake',
         date: 1584489600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SL%20Temple%2C%20Moroni%20without%20trumpet%2C%2020%20Mar%202020.jpg',
         location: ['-112.078', '40.751']
     },
     {
         url: 'http://www.wikidata.org/entity/Q101003145',
-        name: '2020 Aegean Sea earthquake',
+        name: 'Aegean Sea earthquake',
         date: 1604016000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2020%20Aegean%20Sea%20earthquake%20search%20and%20rescue%20efforts%202.jpg',
         location: ['26.795', '37.897']
     },
     {
         url: 'http://www.wikidata.org/entity/Q104535090',
-        name: '2020 Petrinja earthquake',
+        name: 'Petrinja earthquake',
         date: 1609200000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2020%20Petrinja%20earthquake%2003.jpg',
         location: ['16.255', '45.422']
     },
     {
         url: 'http://www.wikidata.org/entity/Q104828966',
-        name: '2021 West Sulawesi earthquake',
+        name: 'West Sulawesi earthquake',
         date: 1610668800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Majene%20earthquake%20damage.jpg',
         location: ['118.924', '-3.005']
     },
     {
         url: 'http://www.wikidata.org/entity/Q43041167',
-        name: '2017 Iran–Iraq earthquake',
+        name: 'Iran–Iraq earthquake',
         date: 1510444800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20Kermanshah%20earthquake%20by%20Farzad%20Menati%20-%20Sarpol-e%20Zahab%20%2829%29.jpg',
         location: ['45.956', '34.905']
     },
     {
         url: 'http://www.wikidata.org/entity/Q43170589',
-        name: '2017 Pohang earthquake',
+        name: 'Pohang earthquake',
         date: 1510704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20171118%20damaged%20Hyundai%20Grand%20starex-1.jpg',
         location: ['129.36', '36.12']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47161142',
-        name: '2018 Swan Islands earthquake',
+        name: 'Swan Islands earthquake',
         date: 1515456000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Swan%20Islands%20earthquake%20intensity.jpg',
         location: ['-83.52', '17.469']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47354608',
-        name: '2018 Peru earthquake',
+        name: 'Peru earthquake',
         date: 1515888000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Peru%20earthquake%20ShakeMap.jpg',
         location: ['-74.744', '-15.776']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47486452',
-        name: '2018 Gulf of Alaska earthquake',
+        name: 'Gulf of Alaska earthquake',
         date: 1516665600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Alaska%20earthquake%20intensity.jpg',
         location: ['-149.073', '56.046']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47486452',
-        name: '2018 Gulf of Alaska earthquake',
+        name: 'Gulf of Alaska earthquake',
         date: 1516665600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Alaska%20Islands%20earthquake%20ShakeMap3.png',
         location: ['-149.073', '56.046']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47756250',
-        name: '2018 Hualien earthquake',
+        name: 'Hualien earthquake',
         date: 1517702400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E5%9C%8B%E8%BB%8D%E9%A6%B3%E6%8F%B4%E8%8A%B1%E8%93%AE%E9%9C%87%E7%81%BD%2011.jpg',
         location: ['121.653', '24.174']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30911842',
-        name: '2017 Valparaiso earthquake',
+        name: 'Valparaiso earthquake',
         date: 1492992000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Earthquake%20M6.9%20in%20offshore%20Valparaiso%2C%20Chile.%202017.jpg',
         location: ['-72.062', '-33.038']
     },
     {
         url: 'http://www.wikidata.org/entity/Q33129341',
-        name: '2017 Greek–Turkish earthquake',
+        name: 'Greek–Turkish earthquake',
         date: 1500595200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Defterdar%20moskee%202017.jpg',
         location: ['27.458', '36.949']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37730232',
-        name: '2017 Ischia earthquake',
+        name: 'Ischia earthquake',
         date: 1503273600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terremoto%20Ischia%202017%20%2826495643417%29.jpg',
         location: ['13.9', '40.74']
     },
     {
         url: 'http://www.wikidata.org/entity/Q38982786',
-        name: '2017 Oaxaca and Chiapas Earthquake',
+        name: 'Oaxaca and Chiapas Earthquake',
         date: 1504742400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aftermath%20of%20the%202017%20Chiapas%20earthquake.jpg',
         location: ['-94.027', '14.899']
     },
     {
         url: 'http://www.wikidata.org/entity/Q40355642',
-        name: '2017 Central Mexico earthquake',
+        name: 'Central Mexico earthquake',
         date: 1505779200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ciudad%20de%20M%C3%A9xico%20-%20Terremoto%20Puebla%202017%203.jpg',
         location: ['-98.399', '18.584']
     },
     {
         url: 'http://www.wikidata.org/entity/Q48841021',
-        name: '1963 Marj earthquake',
+        name: 'Marj earthquake',
         date: -216518400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/AlMarj041.JPG',
         location: ['21.0', '32.66']
     },
     {
         url: 'http://www.wikidata.org/entity/Q48936616',
-        name: '2018 Oaxaca earthquake',
+        name: 'Oaxaca earthquake',
         date: 1518566400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Oaxaca%20earthquake%20shake%20map.jpg',
         location: ['-97.653', '16.646']
     },
     {
         url: 'http://www.wikidata.org/entity/Q50178713',
-        name: '2018 Papua New Guinea earthquake',
+        name: 'Papua New Guinea earthquake',
         date: 1519516800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PNG2018ShakeMapv4.jpg',
         location: ['142.766', '-6.149']
     },
     {
         url: 'http://www.wikidata.org/entity/Q52640364',
-        name: '2018 Hawaii earthquake',
+        name: 'Hawaii earthquake',
         date: 1525392000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Hawaii%20earthquake.jpg',
         location: ['-155.032', '19.37']
     },
     {
         url: 'http://www.wikidata.org/entity/Q55080471',
-        name: '2018 Osaka earthquake',
+        name: 'Osaka earthquake',
         date: 1529280000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ibaraki%20break%20temple.jpg',
         location: ['135.606', '34.834']
     },
     {
         url: 'http://www.wikidata.org/entity/Q55808122',
-        name: 'July 2018 Lombok earthquake',
+        name: 'July Lombok earthquake',
         date: 1532822400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Intensity%20lombok.jpg',
         location: ['116.491', '-8.274']
     },
     {
         url: 'http://www.wikidata.org/entity/Q55974069',
-        name: '5 August 2018 Lombok earthquake',
+        name: '5 August Lombok earthquake',
         date: 1533427200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lombok%20earthquake%20mosque%20ruin%20evacuation.jpg',
         location: ['116.452', '-8.287']
     },
     {
         url: 'http://www.wikidata.org/entity/Q24883581',
-        name: '1918 San Jacinto earthquake',
+        name: 'San Jacinto earthquake',
         date: -1631491200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/San%20Jacinto%20earthquake%201918.jpg',
         location: ['-117.0', '33.7']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25039456',
-        name: '1993 Guam earthquake',
+        name: 'Guam earthquake',
         date: 744768000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Trader%20Andy%27s%20Hut%20on%20Naval%20Base%20Guam%20after%20the%201993%20earthquake.jpg',
         location: ['144.75', '13.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26689701',
-        name: 'August 2016 Central Italy earthquake',
+        name: 'August Central Italy earthquake',
         date: 1471996800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Amatrice%20earthquake.jpg',
         location: ['13.24', '42.71']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26689701',
-        name: 'August 2016 Central Italy earthquake',
+        name: 'August Central Italy earthquake',
         date: 1471996800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Amatrice%20earthquake%20%282%29.jpg',
         location: ['13.24', '42.71']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26689701',
-        name: 'August 2016 Central Italy earthquake',
+        name: 'August Central Italy earthquake',
         date: 1471996800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terremoto%20centro%20Italia%202016%20-%20Amatrice%20-%20farmacia%20%2829033930040%29.jpg',
         location: ['13.24', '42.71']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26689701',
-        name: 'August 2016 Central Italy earthquake',
+        name: 'August Central Italy earthquake',
         date: 1471996800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terremoto%20centro%20Italia%202016%20-%20Rio%20%28Amatrice%29%20estrazione%20di%20un%20sopravvissuto%20%2829321782115%29.jpg',
         location: ['13.24', '42.71']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27629787',
-        name: '2016 Te Araroa earthquake',
+        name: 'Te Araroa earthquake',
         date: 1472688000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Te%20Araroa%20Earthquake%20ShakeMap.jpg',
         location: ['179.52', '-36.98']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27850765',
-        name: '2016 North Canterbury earthquake',
+        name: 'North Canterbury earthquake',
         date: 1478995200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%202016%20Kaikoura%20earthquake.svg',
         location: ['173.02', '-42.69']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27850765',
-        name: '2016 North Canterbury earthquake',
+        name: 'North Canterbury earthquake',
         date: 1479081600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%202016%20Kaikoura%20earthquake.svg',
         location: ['173.02', '-42.69']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27970555',
-        name: '2016 Aceh earthquake',
+        name: 'Aceh earthquake',
         date: 1481068800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Meuseujid%20Jami%27%20Quba%20Pangwa.jpg',
         location: ['96.168', '5.283']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28056528',
-        name: '2016 Southern Chile earthquake',
+        name: 'Southern Chile earthquake',
         date: 1482624000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Chilo%C3%A9%20earthquake.jpg',
         location: ['-73.88', '-43.416']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26690160',
-        name: '2016 Chauk earthquake',
+        name: 'Chauk earthquake',
         date: 1471996800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destruction%20of%20the%20Bam%20Citadel.jpg',
         location: ['94.578888888', '20.918888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26690160',
-        name: '2016 Chauk earthquake',
+        name: 'Chauk earthquake',
         date: 1471996800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shakemap%20Earthquake%2024%20Aug%202016%20Myanmar.jpg',
         location: ['94.578888888', '20.918888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26774860',
-        name: '2016 Oklahoma earthquake',
+        name: 'Oklahoma earthquake',
         date: 1472860800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terremoto%20de%20oklahoma%20de%202016.jpg',
         location: ['-96.932', '36.43']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26847140',
-        name: '2016 Tanzanian earthquake',
+        name: 'Tanzanian earthquake',
         date: 1473465600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20house%20in%20Kashasha.jpg',
         location: ['31.568', '-1.029']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26847140',
-        name: '2016 Tanzanian earthquake',
+        name: 'Tanzanian earthquake',
         date: 1473465600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20house%20in%20Kashasha.jpg',
         location: ['31.618', '-1.036']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26874532',
-        name: '2016 Gyeongju earthquake',
+        name: 'Gyeongju earthquake',
         date: 1473638400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shakemap%20Earthquake%2012%20Sep%202016%20South%20Korea.jpg',
         location: ['129.227', '35.769']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27575005',
-        name: 'October 2016 Central Italy earthquakes',
+        name: 'October Central Italy earthquakes',
         date: 1477440000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shakemap%20Earthquake%2030%20Oct%202016%20Italy.jpg',
         location: ['13.088', '42.855']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27575005',
-        name: 'October 2016 Central Italy earthquakes',
+        name: 'October Central Italy earthquakes',
         date: 1477785600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shakemap%20Earthquake%2030%20Oct%202016%20Italy.jpg',
         location: ['13.088', '42.855']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105758009',
-        name: '2021 Kermadec Islands earthquake',
+        name: 'Kermadec Islands earthquake',
         date: 1614902400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021-03-04%20Kermadec%20Islands%2C%20New%20Zealand%20M8.1%20earthquake%20intensity%20map%20%28USGS%29.jpg',
         location: ['-177.267', '-29.74']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106449476',
-        name: '2021 April East Java earthquake',
+        name: 'April East Java earthquake',
         date: 1618012800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aftermath%20of%202021%20Malang%20Earthquake.jpg',
         location: ['112.519', '-8.562']
     },
     {
         url: 'http://www.wikidata.org/entity/Q107695678',
-        name: '2021 Alaska Peninsula earthquake',
+        name: 'Alaska Peninsula earthquake',
         date: 1627516800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021-07-29%20Perryville%2C%20Alaska%20M8.2%20earthquake%20shakemap%20%28USGS%29.jpg',
         location: ['-157.841111111', '55.325']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108091634',
-        name: '2021 Haiti earthquake',
+        name: 'Haiti earthquake',
         date: 1628899200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Haiti%20Earthquake%2010.jpg',
         location: ['-73.475', '18.408']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21201293',
-        name: '2015 Hindu Kush earthquake',
+        name: 'Hindu Kush earthquake',
         date: 1445817600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shakemap%20us10003re5%20highres.jpg',
         location: ['70.717', '36.441']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21653904',
-        name: '2014 Nagano earthquake',
+        name: 'Nagano earthquake',
         date: 1416614400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kamishiro%20fault%20earthquake%202.jpg',
         location: ['137.88783333', '36.689']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21653907',
-        name: '2011 northern Nagano earthquake',
+        name: 'northern Nagano earthquake',
         date: 1299888000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nakajo%20River%20%28Sakae%2C%20Nagano%29%20landslide.jpg',
         location: ['138.597', '36.985']
     },
     {
         url: 'http://www.wikidata.org/entity/Q22662663',
-        name: '2016 Kaohsiung earthquake',
+        name: 'Kaohsiung earthquake',
         date: 1454716800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Weiguan%20Jinlong%20residential%20building.jpg',
         location: ['120.54', '22.93']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23021956',
-        name: '2016 Christchurch earthquake',
+        name: 'Christchurch earthquake',
         date: 1455408000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2106%20Christchurch%20earthquake%20Shakemap.png',
         location: ['172.83', '-43.5']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23835355',
-        name: '2016 Ecuador earthquake',
+        name: 'Ecuador earthquake',
         date: 1460764800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/CANT%C3%93N%20EL%20CARMEN%20%2826404058402%29.jpg',
         location: ['-79.94', '0.371']
     },
     {
         url: 'http://www.wikidata.org/entity/Q130754',
-        name: '2004 Indian Ocean earthquake',
+        name: 'Indian Ocean earthquake',
         date: 1104019200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2004-tsunami.jpg',
         location: ['95.982', '3.295']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1434437',
-        name: '2012 Krasnodar Krai floods',
+        name: 'Krasnodar Krai floods',
         date: 1341619200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9D%D0%B0%D0%B2%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B5%20%28%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%291.jpg',
         location: ['37.9', '44.8']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1434437',
-        name: '2012 Krasnodar Krai floods',
+        name: 'Krasnodar Krai floods',
         date: 1341619200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9D%D0%B0%D0%B2%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B5%202.JPG',
         location: ['37.9', '44.8']
     },
     {
         url: 'http://www.wikidata.org/entity/Q107339234',
-        name: '2021 South Moravia tornado',
+        name: 'South Moravia tornado',
         date: 1624492800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hru%C5%A1ky%20after%20tornado%20strike%202021-07-10%201688.jpg',
         location: ['16.9696365', '48.8061141']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112899240',
-        name: '2022 Marmolada serac collapse',
+        name: 'Marmolada serac collapse',
         date: 1656806400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Il%20distacco%20del%20seracco%20della%20calotta%20di%20Punta%20Rocca%20in%20Marmolada%20%282022%29.jpg',
         location: ['11.85844', '46.43573']
@@ -14022,7 +14015,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q113900838',
-        name: '2022 Papua New Guinea earthquake',
+        name: 'Papua New Guinea earthquake',
         date: 1662854400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022.Papua.New.Guinea.earthquake.shakemap.jpg',
         location: ['146.469', '-6.256']
@@ -14043,14 +14036,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q136935',
-        name: '2012 Dhaka fire',
+        name: 'Dhaka fire',
         date: 1353715200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tazrin%20garments%20ltd%202012%20Dhaka%20fire%20%28Burned%29.jpg',
         location: ['90.3126', '23.9295']
     },
     {
         url: 'http://www.wikidata.org/entity/Q196618',
-        name: '2010 Dhaka fire',
+        name: 'Dhaka fire',
         date: 1275523200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Curious%20People%20around%20nimtola.jpg',
         location: ['91.8123', '22.3313']
@@ -14078,7 +14071,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q866653',
-        name: '2010 Shanghai fire',
+        name: 'Shanghai fire',
         date: 1289779200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20jiaozhou%20road%20fire.jpg',
         location: ['121.435', '31.2375']
@@ -14099,7 +14092,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q995553',
-        name: 'Yellowstone fires of 1988',
+        name: 'Yellowstone fires of ',
         date: 595814400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fire%20above%20Snake%20River.jpg',
         location: ['-110.5', '44.6']
@@ -14113,301 +14106,301 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q105358710',
-        name: '2021 Uttarakhand glacial outburst flood',
+        name: 'Uttarakhand glacial outburst flood',
         date: 1612656000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PIB053%20Uttarakhand%20avalanche%20rescue%20operation%202021.jpg',
         location: ['79.935', '30.425']
     },
     {
         url: 'http://www.wikidata.org/entity/Q59313976',
-        name: '2018 Anchorage earthquake',
+        name: 'Anchorage earthquake',
         date: 1543536000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Anchorage%20earthquake%20shakemap.jpg',
         location: ['-149.937', '61.34']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108454267',
-        name: '2021 Guerrero earthquake',
+        name: 'Guerrero earthquake',
         date: 1630972800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021-09-08%20Acapulco%2C%20Mexico%20M7%20earthquake%20shakemap%20%28USGS%29.jpg',
         location: ['-99.773', '16.982']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108647613',
-        name: '2021 Mansfield earthquake',
+        name: 'Mansfield earthquake',
         date: 1632268800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Australia%20Victoria%20relief%20location%20map.jpg',
         location: ['146.255', '-37.437']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108708406',
-        name: '2021 Crete earthquake',
+        name: 'Crete earthquake',
         date: 1632700800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%CE%9A%CE%B1%CF%84%CE%B1%CF%83%CF%84%CF%81%CE%BF%CF%86%CE%AD%CF%82%20%CE%B1%CF%80%CF%8C%20%CF%83%CE%B5%CE%B9%CF%83%CE%BC%CF%8C%2028-9-2021%20%CE%91%CF%81%CF%87%CE%BF%CE%BD%CF%84%CE%B9%CE%BA%CF%8C%200415.jpg',
         location: ['25.2935', '35.1085']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108822258',
-        name: '2021 Balochistan earthquake',
+        name: 'Balochistan earthquake',
         date: 1633478400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20Balochistan%20earthquake.jpg',
         location: ['68.014', '30.22']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2215044',
-        name: '2011 Joplin tornado',
+        name: 'Joplin tornado',
         date: 1306022400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Joplin%202011%20tornado%20damage.jpg',
         location: ['-94.530833333', '37.060555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2215044',
-        name: '2011 Joplin tornado',
+        name: 'Joplin tornado',
         date: 1306022400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Joplin%20tornado%20damage.jpg',
         location: ['-94.530833333', '37.060555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2215044',
-        name: '2011 Joplin tornado',
+        name: 'Joplin tornado',
         date: 1306022400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Radar%20image%20of%20the%202011%20Joplin%20tornado%20May%2022%2C%202011%202248Z.png',
         location: ['-94.530833333', '37.060555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112666390',
-        name: 'June 2022 Afghanistan earthquake',
+        name: 'June Afghanistan earthquake',
         date: 1655856000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/AfghanistanQuake.png',
         location: ['69.514', '33.092']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113297332',
-        name: '2022 Luzon earthquake',
+        name: 'Luzon earthquake',
         date: 1658880000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Abra%20debris%202022.jpg',
         location: ['120.809', '17.598']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113717492',
-        name: '2022 Luding earthquake',
+        name: 'Luding earthquake',
         date: 1662336000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022%E5%B9%B4%E6%B3%B8%E5%AE%9A%E5%9C%B0%E9%9C%87%20Luding%20earthquake%20%E6%95%91%E6%8F%B4%E4%BA%BA%E5%91%98%E8%BD%AC%E7%A7%BB%E6%9D%91%E6%B0%91.jpg',
         location: ['102.279', '29.726']
     },
     {
         url: 'http://www.wikidata.org/entity/Q57766428',
-        name: '2018 Ionian Sea earthquake',
+        name: 'Ionian Sea earthquake',
         date: 1540425600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018-10-25%20Mouzaki%2C%20Greece%20M6.8%20earthquake%20shakemap%20%28USGS%29.jpg',
         location: ['20.557', '37.52']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114024810',
-        name: '2022 Taitung earthquakes',
+        name: 'Taitung earthquakes',
         date: 1663459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7%E5%BE%90%E6%A6%9B%E8%94%9A%E8%A6%96%E5%AF%9F%E8%A2%AB%E9%9C%87%E5%80%92%E7%9A%84%E4%BE%BF%E5%88%A9%E8%B6%85%E5%95%86%2005.jpg',
         location: ['121.2', '23.14']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114024810',
-        name: '2022 Taitung earthquakes',
+        name: 'Taitung earthquakes',
         date: 1663459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7%E5%BE%90%E6%A6%9B%E8%94%9A%E8%A6%96%E5%AF%9F%E8%A2%AB%E9%9C%87%E5%80%92%E7%9A%84%E4%BE%BF%E5%88%A9%E8%B6%85%E5%95%86%2005.jpg',
         location: ['121.316', '23.159']
     },
     {
         url: 'http://www.wikidata.org/entity/Q115322003',
-        name: '2022 Cianjur earthquake',
+        name: 'Cianjur earthquake',
         date: 1668988800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cianjur%20earthquake%20damage%201.jpg',
         location: ['107.095', '-6.853']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117202252',
-        name: '2023 Guayas earthquake',
+        name: 'Guayas earthquake',
         date: 1679097600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Guayas%20earthquake.jpg',
         location: ['-79.8', '-2.851']
     },
     {
         url: 'http://www.wikidata.org/entity/Q118153783',
-        name: '2023 Ishikawa earthquake',
+        name: 'Ishikawa earthquake',
         date: 1683244800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damage%20of%202023%20Noto%20earthquake%20swarm%2001.jpg',
         location: ['137.305', '37.54']
     },
     {
         url: 'http://www.wikidata.org/entity/Q118153783',
-        name: '2023 Ishikawa earthquake',
+        name: 'Ishikawa earthquake',
         date: 1683244800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damage%20of%202023%20Noto%20earthquake%20swarm%2002.jpg',
         location: ['137.305', '37.54']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56193001',
-        name: '19 August 2018 Lombok earthquake',
+        name: '19 August Lombok earthquake',
         date: 1534636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/19%20August%202018%20Lombok%20earthquake%20intensity%20map.png',
         location: ['116.626', '-8.324']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56224430',
-        name: '2018 Venezuela earthquake',
+        name: 'Venezuela earthquake',
         date: 1534809600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Venezuela%20earthquake.jpg',
         location: ['-62.911', '10.739']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56483720',
-        name: '2018 Hokkaido Eastern Iburi earthquake',
+        name: 'Hokkaido Eastern Iburi earthquake',
         date: 1536192000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20180909hokkaido05.jpg',
         location: ['141.933', '42.671']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56483720',
-        name: '2018 Hokkaido Eastern Iburi earthquake',
+        name: 'Hokkaido Eastern Iburi earthquake',
         date: 1536192000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20180909hokkaido05.jpg',
         location: ['142.006666666', '42.69']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56593652',
-        name: '2018 Fiji earthquake',
+        name: 'Fiji earthquake',
         date: 1534636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Fiji%20earthquake%20ShakeMap2.png',
         location: ['179.35', '-18.474']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56593652',
-        name: '2018 Fiji earthquake',
+        name: 'Fiji earthquake',
         date: 1534636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fiji%202018%20doublet%20earthquakes%20diagram.png',
         location: ['179.35', '-18.474']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56768333',
-        name: '2018 Sulawesi earthquake and tsunami',
+        name: 'Sulawesi earthquake and tsunami',
         date: 1538092800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Intensity%20main%20earthquake%20Sulawesi%202018-09-28.jpg',
         location: ['119.85', '-0.18']
     },
     {
         url: 'http://www.wikidata.org/entity/Q81307590',
-        name: '2020 Puerto Rico earthquake',
+        name: 'Puerto Rico earthquake',
         date: 1578355200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Informal%20refugee%27s%20camp%20in%20Ponce.jpg',
         location: ['-66.813', '17.916']
     },
     {
         url: 'http://www.wikidata.org/entity/Q81307590',
-        name: '2020 Puerto Rico earthquake',
+        name: 'Puerto Rico earthquake',
         date: 1578355200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Refugee%27s%20camp%20in%20Guanica.jpg',
         location: ['-66.813', '17.916']
     },
     {
         url: 'http://www.wikidata.org/entity/Q83557758',
-        name: '2021 Elazığ earthquake',
+        name: 'Elazığ earthquake',
         date: 1579824000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Elaz%C4%B1%C4%9F%20Depremi%20kurtarma%20%C3%A7al%C4%B1%C5%9Fmalar%C4%B1%20%283%29%2001.jpg',
         location: ['39.081', '38.39']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109783491',
-        name: '2021 Amazonas earthquake',
+        name: 'Amazonas earthquake',
         date: 1638057600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20Loreto.jpg',
         location: ['-76.846', '-4.49']
     },
     {
         url: 'http://www.wikidata.org/entity/Q110096078',
-        name: '2021 Flores earthquake',
+        name: 'Flores earthquake',
         date: 1639440000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hundreds%20evacuated%20after%20a%20magnitude%207.4%20struck%20Flores.jpg',
         location: ['122.2', '-7.603']
     },
     {
         url: 'http://www.wikidata.org/entity/Q111014585',
-        name: '2022 Sumatra earthquake',
+        name: 'Sumatra earthquake',
         date: 1645747200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Masjid%20Raya%20Kajai%20Foto%20Fuadi%20Zikri.jpg',
         location: ['100.106', '-0.233']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19587118',
-        name: '2015 Kazan Shopping Center fire',
+        name: 'Kazan Shopping Center fire',
         date: 1426032000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kazan%20fire%20%282015-03-11%29%2021.jpg',
         location: ['49.064444444', '55.801111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19865585',
-        name: '1937 Fox vault fire',
+        name: 'Fox vault fire',
         date: -1025049600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Little%20Ferry%20facility%20after%20fire.jpg',
         location: ['-74.0475', '40.855']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27950749',
-        name: '2016 Oakland warehouse fire',
+        name: 'Oakland warehouse fire',
         date: 1480636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Oakland%20warehouse%20fire.jpg',
         location: ['-122.227117', '37.777743']
     },
     {
         url: 'http://www.wikidata.org/entity/Q63199418',
-        name: '2019 Hualien earthquake',
+        name: 'Hualien earthquake',
         date: 1555545600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E4%BA%A4%E9%80%9A%E9%83%A8%E4%B8%AD%E5%A4%AE%E6%B0%A3%E8%B1%A1%E5%B1%80108031%E8%99%9F%E5%9C%B0%E9%9C%87%E5%A0%B1%E5%91%8A.png',
         location: ['121.54', '24.06']
     },
     {
         url: 'http://www.wikidata.org/entity/Q64704656',
-        name: '2019 Yamagata earthquake',
+        name: 'Yamagata earthquake',
         date: 1560816000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019-06-18%20Tsuruoka%2C%20Japan%20M6.4%20earthquake%20shakemap%20%28USGS%29.jpg',
         location: ['139.454', '38.635']
     },
     {
         url: 'http://www.wikidata.org/entity/Q65034920',
-        name: '2019 Ridgecrest earthquakes',
+        name: 'Ridgecrest earthquakes',
         date: 1562284800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%202019%20Ridgecrest%20earthquakes.svg',
         location: ['-117.605', '35.766']
     },
     {
         url: 'http://www.wikidata.org/entity/Q65557548',
-        name: '2019 Halmahera earthquake',
+        name: 'Halmahera earthquake',
         date: 1563062400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20house%20in%2014%20July%202019%20earthquake.jpg',
         location: ['128.056', '-0.566']
     },
     {
         url: 'http://www.wikidata.org/entity/Q68512664',
-        name: '2019 Kashmir earthquake',
+        name: 'Kashmir earthquake',
         date: 1569283200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20Kashmir%20Earthquake%20-%20ShakeMap.jpg',
         location: ['73.766', '33.106']
     },
     {
         url: 'http://www.wikidata.org/entity/Q68746792',
-        name: '2019 Ambon earthquake',
+        name: 'Ambon earthquake',
         date: 1569369600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Maluku%20earthquake%2026%20Sep%202019%204.jpg',
         location: ['128.347', '-3.45']
     },
     {
         url: 'http://www.wikidata.org/entity/Q68983825',
-        name: '2019 Istanbul earthquake',
+        name: 'Istanbul earthquake',
         date: 1569456000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/26%20September%202019%205.7%20-%2020km%20Marmaraereglisi%2C%20Turkey%20earthquake.png',
         location: ['28.173', '40.89']
     },
     {
         url: 'http://www.wikidata.org/entity/Q76529995',
-        name: '2019 Albania earthquake',
+        name: 'Albania earthquake',
         date: 1574726400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019-11-26%20Mamurras%2C%20Albania%20M6.4%20earthquake%20shakemap%20%28USGS%29.jpg',
         location: ['19.515', '41.511']
@@ -14428,42 +14421,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4604350',
-        name: '2005 Glendale train crash',
+        name: 'Glendale train crash',
         date: 1106697600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/NTSB%20Glendale%20Crash%201.png',
         location: ['-118.26345', '34.129908333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4620473',
-        name: '2011 Baby derailment',
+        name: 'Baby derailment',
         date: 1313107200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Katastrofa%20kolejowa%20w%20Babach.jpg',
         location: ['19.7167', '51.5369']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122351413',
-        name: '2023 Marrakesh-Safi earthquake',
+        name: 'Marrakesh-Safi earthquake',
         date: 1694131200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damages%20in%20Moulay%20Brahim%2003.jpg',
         location: ['-8.44001', '31.11009']
     },
     {
         url: 'http://www.wikidata.org/entity/Q123474732',
-        name: 'November 2023 Mindanao earthquake',
+        name: 'November Mindanao earthquake',
         date: 1700179200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Earthquake%20Damage%20in%20Malapatan%2C%20Sarangani.jpg',
         location: ['125.051', '5.587']
     },
     {
         url: 'http://www.wikidata.org/entity/Q123913022',
-        name: '2023 Jishishan earthquake',
+        name: 'Jishishan earthquake',
         date: 1702857600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Jishishan%20Earthquake%20aftermath%20CNS%20screenshot.jpg',
         location: ['102.827', '35.743']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1374042',
-        name: '1967 USS Forrestal fire',
+        name: 'USS Forrestal fire',
         date: -76636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/USS%20Rupertus%20%28DD-851%29%20stands%20by%20to%20assist%20the%20burning%20USS%20Forrestal%20%28CVA-59%29%2C%2029%20July%201967%20%28USN%201124775%29.jpg',
         location: ['107.38472222', '19.15138889']
@@ -14540,14 +14533,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4606997',
-        name: '2006 Table Mountain fire',
+        name: 'Table Mountain fire',
         date: 1138406400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/TableMountainBurning2006.jpg',
         location: ['18.4083', '-33.95']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4622374',
-        name: '2011 Slave Lake Wildfire',
+        name: 'Slave Lake Wildfire',
         date: 1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Slave%20Lake%20May%2015%202011.jpg',
         location: ['-114.76', '55.273333']
@@ -14575,7 +14568,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q124060919',
-        name: '2024 Noto earthquake',
+        name: 'Noto earthquake',
         date: 1704067200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Air%20Self-Defense%20Force%20drone%20search%20operation%20at%20Wajima%20Asaichi.jpg',
         location: ['137.242', '37.498']
@@ -14638,14 +14631,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q14714675',
-        name: 'Blackwater fire of 1937',
+        name: 'Blackwater fire of ',
         date: -1023062400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Blackwater%20fire%201.jpg',
         location: ['-109.742', '44.4119']
     },
     {
         url: 'http://www.wikidata.org/entity/Q68044442',
-        name: '1919 Standard Oil Company Fire',
+        name: 'Standard Oil Company Fire',
         date: -1587427200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Standard%20Oil%20Company%20Fire%20at%20Greenpoint%20Brooklyn%201919.jpg',
         location: ['-73.95', '40.73']
@@ -14659,35 +14652,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106255680',
-        name: '2021 Balongan refinery explosion',
+        name: 'Balongan refinery explosion',
         date: 1616889600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Balongan%20Indramayu%20-%20panoramio.jpg',
         location: ['108.39575', '-6.384444444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106543515',
-        name: 'Table Mountain Fire (2021)',
+        name: 'Table Mountain Fire ()',
         date: 1618704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20Table%20Mountain%20fire%206.jpg',
         location: ['18.458888888', '-33.957222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106543515',
-        name: 'Table Mountain Fire (2021)',
+        name: 'Table Mountain Fire ()',
         date: 1618704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Firefighter%20fighting%20fire%2003.jpg',
         location: ['18.458888888', '-33.957222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106543515',
-        name: 'Table Mountain Fire (2021)',
+        name: 'Table Mountain Fire ()',
         date: 1618704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mostarts%20mill%20burnt%2001.jpg',
         location: ['18.458888888', '-33.957222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106543515',
-        name: 'Table Mountain Fire (2021)',
+        name: 'Table Mountain Fire ()',
         date: 1618704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Table%20mountain%202021%20fire%201.jpg',
         location: ['18.458888888', '-33.957222222']
@@ -14701,14 +14694,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q585083',
-        name: '1972 Chicago commuter rail crash',
+        name: 'Chicago commuter rail crash',
         date: 89251200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1972%20Chicago%20commuter%20rail%20crash%20wreckage.jpg',
         location: ['-87.6137', '41.8449']
     },
     {
         url: 'http://www.wikidata.org/entity/Q599348',
-        name: '1993 Big Bayou Canot train wreck',
+        name: 'Big Bayou Canot train wreck',
         date: 748656000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20Limited%20Big%20Bayout%20Canot.png',
         location: ['-87.993333', '30.817222']
@@ -14771,14 +14764,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q26977',
-        name: 'Great Train Wreck of 1918',
+        name: 'Great Train Wreck of ',
         date: -1624665600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1918trainwreck.jpg',
         location: ['-86.848055555', '36.129444444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q82407',
-        name: '2012 Buenos Aires rail disaster',
+        name: 'Buenos Aires rail disaster',
         date: 1329868800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Marcha%20pidiendo%20justicia%20tragedia%20once.jpg',
         location: ['-58.4075', '-34.608611111']
@@ -14792,7 +14785,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q132131',
-        name: '1906 Atlantic City train wreck',
+        name: 'Atlantic City train wreck',
         date: -1993766400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1906AtlanticCityTrainWreck.jpg',
         location: ['-74.445634', '39.364497']
@@ -14904,14 +14897,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1312430',
-        name: '1995 Russell Hill subway accident',
+        name: 'Russell Hill subway accident',
         date: 808099200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Signal-and-train-stop-melbourne.jpg',
         location: ['-79.41187', '43.682351']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1312440',
-        name: '1906 Salisbury rail crash',
+        name: 'Salisbury rail crash',
         date: -2004048000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Railway%20Disaster%20at%20Salisbury%2C%201st%20July%2C%201906.png',
         location: ['-1.8042', '51.0708']
@@ -14939,7 +14932,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1312405',
-        name: '2004 Sri Lanka tsunami-rail disaster',
+        name: 'Sri Lanka tsunami-rail disaster',
         date: 1104019200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sri-lanka-train-04jan-2004.jpg',
         location: ['80.090833', '6.168889']
@@ -14953,21 +14946,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4583758',
-        name: '1987 Maryland train collision',
+        name: 'Maryland train collision',
         date: 536716800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1987%20Maryland%20train%20collision%20aerial.jpg',
         location: ['-76.3569', '39.3764']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4590384',
-        name: '1995 Fox River Grove bus–train collision',
+        name: 'Fox River Grove bus–train collision',
         date: 814579200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fox%20river%20grove%201995%20bus%20accident%20scene.jpg',
         location: ['-88.2178', '42.197']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4594546',
-        name: '1999 Bourbonnais, Illinois train accident',
+        name: 'Bourbonnais, Illinois train accident',
         date: 921456000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/NTSB%20aerial%20view%20of%20Bourbonnais%20grade%20crossing%20accident.jpg',
         location: ['-87.853277777', '41.184694444']
@@ -15065,21 +15058,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q109375629',
-        name: '2021 Three cushion world championship',
+        name: 'Three cushion world championship',
         date: 1609459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/3C%20WCH%202021-award%20ceremony-1.jpg',
         location: ['34.351288', '27.920486']
     },
     {
         url: 'http://www.wikidata.org/entity/Q110812209',
-        name: '2022 UMB World Three-cushion Championship for National Teams',
+        name: 'UMB World Three-cushion Championship for National Teams',
         date: 1640995200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022%203-cushion%20World%20Championship%20for%20Teams-Player%20and%20Referees.jpg',
         location: ['6.391111111', '51.253055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108887922',
-        name: '2021 Kaohsiung tower fire',
+        name: 'Kaohsiung tower fire',
         date: 1634169600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E9%AB%98%E9%9B%84%E5%9F%8E%E4%B8%AD%E5%9F%8E%E5%A4%A7%E7%81%AB01.jpg',
         location: ['120.285277777', '22.628611111']
@@ -15093,35 +15086,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q115442440',
-        name: '2022 Ürümqi fire',
+        name: 'Ürümqi fire',
         date: 1669248000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Toronto%20Chinese%20Consulate%20Protest%20November%2027th%2C%202022.jpg',
         location: ['87.618888888', '43.780277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122146423',
-        name: '2023 Johannesburg building fire',
+        name: 'Johannesburg building fire',
         date: 1693440000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fire%20disaster%20building%202.jpg',
         location: ['28.049166666', '-26.208333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122452764',
-        name: '2023 Hanoi building fire',
+        name: 'Hanoi building fire',
         date: 1694476800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ch%C3%A1y%20chung%20c%C6%B0%20mini%20H%C3%A0%20N%E1%BB%99i%202023.jpg',
         location: ['105.8155', '20.987944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q124637555',
-        name: '2024 València residential complex fire',
+        name: 'València residential complex fire',
         date: 1708560000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Incendio%20Campanar%2023-2-2024.jpg',
         location: ['-0.402222222', '39.4825']
     },
     {
         url: 'http://www.wikidata.org/entity/Q124650922',
-        name: '2024 Nanjing building fire',
+        name: 'Nanjing building fire',
         date: 1708646400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8F%B0%E5%8C%BA%E8%A5%BF%E5%96%84%E6%A1%A5%E8%A1%97%E9%81%93%E6%98%8E%E4%B9%89%E7%A4%BE%E5%8C%BA%E6%98%8E%E5%B0%9A%E8%A5%BF%E8%8B%91%E7%81%AB%E7%81%BE.png',
         location: ['118.69', '31.946666666']
@@ -15163,35 +15156,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q17985165',
-        name: '1969 Newton Cessna 172 crash',
+        name: 'Newton Cessna 172 crash',
         date: -10627200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cessna172-CatalinaTakeOff.JPG',
         location: ['-93.076', '41.707']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18683047',
-        name: 'AirAsia Flight 8501',
+        name: 'AirAsia Flight ',
         date: 1419724800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Indonesia%20AirAsia%20Airbus%20A320-216%3B%20PK-AXC%40SIN%3B07.08.2011%20617eo%20%286068918367%29.jpg',
         location: ['109.6911', '-3.3708']
     },
     {
         url: 'http://www.wikidata.org/entity/Q952728',
-        name: '2017 Turkish Airlines cargo plane crash',
+        name: 'Turkish Airlines cargo plane crash',
         date: 1484524800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bishkek%20January%202017%20plane%20crash%20location.jpg',
         location: ['74.440155', '43.056816']
     },
     {
         url: 'http://www.wikidata.org/entity/Q952728',
-        name: '2017 Turkish Airlines cargo plane crash',
+        name: 'Turkish Airlines cargo plane crash',
         date: 1484524800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Turkish%20Airlines%20Flight%206491%20debris%20area%20%28front%29.jpg',
         location: ['74.440155', '43.056816']
     },
     {
         url: 'http://www.wikidata.org/entity/Q952728',
-        name: '2017 Turkish Airlines cargo plane crash',
+        name: 'Turkish Airlines cargo plane crash',
         date: 1484524800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Turkish%20cargo%20TC-MCL%20wreckage.png',
         location: ['74.440155', '43.056816']
@@ -15226,14 +15219,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1994988',
-        name: 'August 2004 Moscow Metro bombing',
+        name: 'August Moscow Metro bombing',
         date: 1093910400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%BE%D1%81%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B8%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8%20%D0%BC%D0%B5%D1%82%D1%80%D0%BE%20%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B2%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5.jpg',
         location: ['37.636194444', '55.7925']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2254594',
-        name: '1999 Wuppertal Suspension Railway accident',
+        name: 'Wuppertal Suspension Railway accident',
         date: 923875200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/12.%20April%201999%20-%20Ganz%20Wuppertal%20steht%20unter%20Schock.jpg',
         location: ['7.1327', '51.2518']
@@ -15254,7 +15247,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3291561',
-        name: '2008 Studénka train accident',
+        name: 'Studénka train accident',
         date: 1218153600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Train%20accident%20in%20Studenka%2C%20Czech%20Republic.jpg',
         location: ['18.0511', '49.7049']
@@ -15268,7 +15261,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3915738',
-        name: '1981 Chengdu-Kunming Railway Train Crash',
+        name: 'Chengdu-Kunming Railway Train Crash',
         date: 363484800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1981%E5%B9%B4%E6%88%90%E6%98%86%E7%89%B9%E5%A4%A7%E4%BA%8B%E6%95%85%E9%81%97%E5%9D%80%E5%9B%BE%E7%89%87%20%E4%BA%8B%E6%95%85%E9%81%97%E5%9D%80%E5%85%A8%E6%99%AF.JPG',
         location: ['102.901382', '29.215856']
@@ -15282,7 +15275,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18910392',
-        name: '2015 Hellenic Air Force F-16 Los Llanos Air Base crash',
+        name: 'Hellenic Air Force F-16 Los Llanos Air Base crash',
         date: 1422230400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HAF%20F-16D%20Falcon.jpg',
         location: ['-1.51487', '38.5648']
@@ -15296,21 +15289,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19671417',
-        name: 'Germanwings Flight 9525',
+        name: 'Germanwings Flight ',
         date: 1427155200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/320%20GERMANWINGS%20D-AIPX%20147%2010%2005%2014%20BCN%20RIP%20%2816730197959%29.jpg',
         location: ['6.43875', '44.280083']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23786046',
-        name: '1979 Interflug Ilyushin Il-18 crash',
+        name: 'Interflug Ilyushin Il-18 crash',
         date: 291254400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ilyushin%20Il-18D%2C%20Interflug%20AN1194398.jpg',
         location: ['-13.211666666', '8.878055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16662379',
-        name: 'Aeroflot Flight 1661',
+        name: 'Aeroflot Flight ',
         date: 7776000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/TsSKB-Progress%2C%20RA-26191%2C%20Antonov%20An-24%20%2831072346380%29.jpg',
         location: ['84.383333333', '55.233333333']
@@ -15338,14 +15331,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q27048653',
-        name: '2016 Hoboken train crash',
+        name: 'Hoboken train crash',
         date: 1475107200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/NJT%206036%20after%20Hoboken%20crash%2C%20October%202016.jpg',
         location: ['-74.0278', '40.7349']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18347341',
-        name: '1971 Salem, Illinois derailment',
+        name: 'Salem, Illinois derailment',
         date: 45360000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1971%20Salem%2C%20Illinois%20derailment%20aerial.jpeg',
         location: ['-88.977422222', '38.665430555']
@@ -15359,21 +15352,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19864417',
-        name: '2015 Los Angeles train crash',
+        name: 'Los Angeles train crash',
         date: 1427500800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/La%20Cienega%20%26%20Jefferson-%20Metro%20Expo%20Line%20Station%208.JPG',
         location: ['-118.291583333', '34.018244444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19867703',
-        name: '1903 East Paris train wreck',
+        name: 'East Paris train wreck',
         date: -2083363200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1903%20East%20Paris%20Train%20Wreck%20-%20Aftermath.jpg',
         location: ['-85.5813', '42.9054']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21334178',
-        name: '2015 Juba plane crash',
+        name: 'Juba plane crash',
         date: 1446595200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Antonov%20An-12B%2C%20Aeroflot%20AN0956356.jpg',
         location: ['31.61751', '4.86051']
@@ -15387,21 +15380,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3578999',
-        name: '1944 Montreal RAF Liberator VI crash',
+        name: 'Montreal RAF Liberator VI crash',
         date: -810604800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/189%2C%20rue%20Peel%2C%20Montreal%2C%201944-04-25.jpg',
         location: ['-73.558497', '45.493678']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4055782',
-        name: '1961 Ndola United Nations DC-6 crash',
+        name: 'Ndola United Nations DC-6 crash',
         date: -261532800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ndolaflightpath.png',
         location: ['28.52291111', '-12.97545278']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4055782',
-        name: '1961 Ndola United Nations DC-6 crash',
+        name: 'Ndola United Nations DC-6 crash',
         date: -261532800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ndolaflightpath.png',
         location: ['28.522911111', '-12.97545']
@@ -15443,7 +15436,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15726739',
-        name: '2014 Algerian Air Force C-130 crash',
+        name: 'Algerian Air Force C-130 crash',
         date: 1392076800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lockheed%20C-130H-30%20Algerian%20AF%207T-WHB%20-%20MSN%205224%20%285895161952%29.jpg',
         location: ['6.68623057', '36.01183612']
@@ -15576,7 +15569,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20593793',
-        name: '2015 Indonesia Hercules C-130 crash',
+        name: 'Indonesia Hercules C-130 crash',
         date: 1435622400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lockheed%20C-130%20Hercules.jpg',
         location: ['98.630672222', '3.525330555']
@@ -15590,21 +15583,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20743961',
-        name: '2015 Blackbushe Airport crash',
+        name: 'Blackbushe Airport crash',
         date: 1438300800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Embraer%20EMB-505%20Phenom%20300%20-%20Wallner.jpeg',
         location: ['-0.858080555', '51.322097222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20857716',
-        name: '2015 Shoreham Airshow crash',
+        name: 'Shoreham Airshow crash',
         date: 1440201600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hawker%20Hunter%20T7%20Shoreham%20Airshow%202014.jpg',
         location: ['-0.294862', '50.84241']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20857716',
-        name: '2015 Shoreham Airshow crash',
+        name: 'Shoreham Airshow crash',
         date: 1440201600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/People%20pay%20tribute%20to%20those%20who%20lost%20their%20lives%20in%20the%20Shoreham%20Airshow%20Crash.jpg',
         location: ['-0.294862', '50.84241']
@@ -15625,7 +15618,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q47472535',
-        name: '2000 East Coast Aviation Services British Aerospace Jetstream crash',
+        name: 'East Coast Aviation Services British Aerospace Jetstream crash',
         date: 958867200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/East%20Coast%20Aviation%20Services%20N16EJ%20wreckage.jpg',
         location: ['-75.76472222', '41.15638889']
@@ -15639,28 +15632,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q111195201',
-        name: '2022 Zagreb Tu-141 crash',
+        name: 'Zagreb Tu-141 crash',
         date: 1646870400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A2%D1%83%D0%BF%D0%BE%D0%BB%D0%B5%D0%B2%20%D0%A2%D1%83-141-241%20-%2C%20%D0%9C%D0%BE%D0%BD%D0%B8%D0%BD%D0%BE%20-%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%20%D0%92%D0%92%D0%A1%20RP5918.jpg',
         location: ['15.944166666', '45.783611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113412198',
-        name: '2022 Russian Air Force Ilyushin Il-76 crash',
+        name: 'Russian Air Force Ilyushin Il-76 crash',
         date: 1656028800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/RF-78789%20IL76%28MD%29%20Russian%20Air%20Force%20VKO%20UUWW%20%2833697381785%29.jpg',
         location: ['39.653611111', '54.624166666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113720757',
-        name: '2022 Baltic Sea Cessna crash',
+        name: 'Baltic Sea Cessna crash',
         date: 1662249600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022%20Baltic%20Sea%20Cessna%20551%20crash%20flight%20path%20%28OE-FGR%29.png',
         location: ['21.094', '57.665']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114828897',
-        name: '2022 Irkutsk military aircraft crash',
+        name: 'Irkutsk military aircraft crash',
         date: 1666483200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Su-30%20crash%20Irkutsk%20%28Russia%29.jpg',
         location: ['104.198611111', '52.333055555']
@@ -15674,42 +15667,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q269442',
-        name: '2010 eruptions of Eyjafjallajökull',
+        name: 'eruptions of Eyjafjallajökull',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Eyjafjallaj%C3%B6kul%2C%2017%20april%202010.jpg',
         location: ['-19.6', '63.63333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q269442',
-        name: '2010 eruptions of Eyjafjallajökull',
+        name: 'eruptions of Eyjafjallajökull',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Iceland-Eruption-Fimmvorduhals-2010-03-26-09.jpg',
         location: ['-19.6', '63.63333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q386230',
-        name: '1902 eruption of Mount Pelée',
+        name: 'eruption of Mount Pelée',
         date: -2134944000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20National%20geographic%20magazine%20%281902%29%20%2814595295848%29.jpg',
         location: ['-61.1675', '14.8075']
     },
     {
         url: 'http://www.wikidata.org/entity/Q85721207',
-        name: '2020 Wallan derailment',
+        name: 'Wallan derailment',
         date: 1582156800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/XPT.jpg',
         location: ['145.018333', '-37.404167']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106679062',
-        name: '2010 Helsinki Central Station accident',
+        name: 'Helsinki Central Station accident',
         date: 1262563200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010-01-04%20Helsinki%20train%20accident%20carriages.jpg',
         location: ['24.941388888', '60.171944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106696167',
-        name: '2021 Mexico City Metro overpass collapse',
+        name: 'Mexico City Metro overpass collapse',
         date: 1620000000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Incidente%20L%C3%ADnea%2012%20Ciudad%20M%C3%A9xico%202021.jpg',
         location: ['-99.0613', '19.3049']
@@ -15723,21 +15716,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3322048',
-        name: '2011-2012 El Hierro eruption',
+        name: '-El Hierro eruption',
         date: 1318204800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/El%20Hierro%20Still%20Churning%20the%20Sea%20-%20NASA%20Earth%20Observatory.jpg',
         location: ['-18.0264', '27.6153']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3322048',
-        name: '2011-2012 El Hierro eruption',
+        name: '-El Hierro eruption',
         date: 1318204800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lava%20balloons%20floating%20on%20water%2C%20El%20Hierro%202011.jpg',
         location: ['-18.0264', '27.6153']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18145950',
-        name: '2014 Mount Ontake eruption',
+        name: 'Mount Ontake eruption',
         date: 1411776000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014%20Mount%20Ontake%20eruption%20%28October%204%29.JPG',
         location: ['137.479', '35.8933']
@@ -15751,14 +15744,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q121789683',
-        name: '2023 Wagner Group plane crash',
+        name: 'Wagner Group plane crash',
         date: 1692748800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/MNT-Aero%20LLC%20RA-02795%20Embraer%20Legacy%20600%20%28EMB-135BJ%29.jpg',
         location: ['33.954166666', '57.747777777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q124347566',
-        name: '2024 Korochansky Ilyushin Il-76 crash',
+        name: 'Korochansky Ilyushin Il-76 crash',
         date: 1706054400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Russian%20Air%20Force%2C%20RA-78830%2C%20Ilyushin%20Il-76MD%202021.jpg',
         location: ['37.341333333', '50.893638888']
@@ -15772,7 +15765,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q50404279',
-        name: '2018 Iran Bombardier Challenger crash',
+        name: 'Iran Bombardier Challenger crash',
         date: 1520726400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bodies%20of%20flight%20Bombardier%20Challenger%20604%20CL6-16.jpg',
         location: ['50.749166666', '31.766388888']
@@ -15793,21 +15786,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q56050557',
-        name: '2018 Horizon Air Q400 incident',
+        name: 'Horizon Air Q400 incident',
         date: 1533859200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/N449QX%20LAX%20%2831294957790%29.jpg',
         location: ['-122.634166666', '47.157222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q57896166',
-        name: '2018 Leicester City F.C. helicopter crash',
+        name: 'Leicester City F.C. helicopter crash',
         date: 1514764800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/G-VSKP%20Agusta%20AW169%20Helicopter%20Foxborough%20Ltd%20%2828313983994%29.jpg',
         location: ['-1.140833333', '52.618611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60616816',
-        name: '2019 Saha Airlines Boeing 707 crash',
+        name: 'Saha Airlines Boeing 707 crash',
         date: 1547424000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20Saha%20Airlines%20Boeing%20707%20crash%2003.jpg',
         location: ['50.926944444', '35.720833333']
@@ -15821,70 +15814,70 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q83737887',
-        name: '2020 Calabasas helicopter crash',
+        name: 'Calabasas helicopter crash',
         date: 1579996800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20debris%20field%20%2849456020157%29.jpg',
         location: ['-118.692305555', '34.136861111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q83795110',
-        name: '2020 United States Air Force E-11A crash',
+        name: 'United States Air Force E-11A crash',
         date: 1580083200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bombardier%20E-11A%20%2811-9358%29.jpg',
         location: ['68.7113', '33.4591']
     },
     {
         url: 'http://www.wikidata.org/entity/Q123668173',
-        name: '2023 eruption of Mount Marapi',
+        name: 'eruption of Mount Marapi',
         date: 1701561600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Erupsi%20Gunung%20Marapi%20RRI-Novelhya%20Wirda.jpg',
         location: ['100.4726', '-0.3811']
     },
     {
         url: 'http://www.wikidata.org/entity/Q124131684',
-        name: '2024 Cicalengka train crash',
+        name: 'Cicalengka train crash',
         date: 1704412800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cicalengka%20Train%20Collision%202024%20%28Wide%20Close%29.jpg',
         location: ['107.827361193', '-6.978364758']
     },
     {
         url: 'http://www.wikidata.org/entity/Q124247588',
-        name: '2024 New York City Subway derailment',
+        name: 'New York City Subway derailment',
         date: 1704326400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/MTA%20Officials%20Respond%20to%201%20Train%20Derailment%20at%2096th%20Street%20-%2053443112098.jpg',
         location: ['-73.971388888', '40.795']
     },
     {
         url: 'http://www.wikidata.org/entity/Q98129149',
-        name: 'Air India Express Flight 1344',
+        name: 'Air India Express Flight ',
         date: 1596758400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Boeing%20737-8HJ%2C%20Air%20India%20Express%20AN1157698.jpg',
         location: ['75.970555555', '11.133055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q99622119',
-        name: '2020 Chuhuiv An-26 crash',
+        name: 'Chuhuiv An-26 crash',
         date: 1600992000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2020%20Chuhuiv%20An-26%20crash%205.jpg',
         location: ['36.636983', '49.865931']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109996552',
-        name: '2021 Indian Air Force Mi-17 crash',
+        name: 'Indian Air Force Mi-17 crash',
         date: 1638921600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Milan%202018%20International%20City%20Parade%2C%20Port%20Blair%20-%202.jpg',
         location: ['76.807777777', '11.3325']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116060644',
-        name: 'Mexico City Metro train collision of 2023',
+        name: 'Mexico City Metro train collision of ',
         date: 1673049600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/T%C3%BAnel%20del%20Metro%20entre%20estaciones%20Potrero%20y%20La%20Raza.jpg',
         location: ['-99.134694444', '19.473658333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117422280',
-        name: '2023 Voorschoten train crash',
+        name: 'Voorschoten train crash',
         date: 1680566400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/AccidentTrainVoorschoten2023-1.jpg',
         location: ['4.429972222', '52.123388888']
@@ -15926,7 +15919,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q69551492',
-        name: '2019 Boeing B-17 Flying Fortress crash',
+        name: 'Boeing B-17 Flying Fortress crash',
         date: 1569974400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/B17%20wreckage%20at%20BDL.jpg',
         location: ['-72.692222222', '41.931666666']
@@ -15954,56 +15947,56 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q54802312',
-        name: '2018 Volcán de Fuego eruption',
+        name: 'Volcán de Fuego eruption',
         date: 1527984000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/A%20Deadly%20Eruption%20Rocks%20Guatemala%2C%20acquired%20June%203%2C%202018.png',
         location: ['-90.8803', '14.4744']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60042839',
-        name: '2018 Sunda Strait tsunami',
+        name: 'Sunda Strait tsunami',
         date: 1545436800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sunda%20strait%20tsunami%20concert.jpg',
         location: ['105.423', '-6.103']
     },
     {
         url: 'http://www.wikidata.org/entity/Q77929275',
-        name: '2019 Whakaari / White Island eruption',
+        name: 'Whakaari / White Island eruption',
         date: 1575849600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/White%20Island%209%20December%202019%20eruption.jpg',
         location: ['177.182955555', '-37.519083333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106484310',
-        name: '2021 eruption of La Soufrière',
+        name: 'eruption of La Soufrière',
         date: 1609459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Deuxi%C3%A8me%20explosion%20de%20la%20Soufri%C3%A8re%20%C3%A0%20Saint-Vincent.png',
         location: ['-61.183333333', '13.333333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109922209',
-        name: '2021 Semeru eruption',
+        name: 'Semeru eruption',
         date: 1638576000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ratusan%20rumah%20tertimbun%20abu%20vulkanik%20erupsi%20gunung%20Semeru.jpg',
         location: ['112.921944444', '-8.107777777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113434928',
-        name: '2022 Fagradalsfjall eruption',
+        name: 'Fagradalsfjall eruption',
         date: 1640995200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Meradalir%202022-08-04.jpg',
         location: ['-22.247048', '63.898951']
     },
     {
         url: 'http://www.wikidata.org/entity/Q115490026',
-        name: '2022 eruption of Mauna Loa',
+        name: 'eruption of Mauna Loa',
         date: 1669507200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fissure%203%20of%20the%202022%20Mauna%20Loa%20eruption%20closeup.jpg',
         location: ['-155.602777777', '19.479444444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21007721',
-        name: '2015 Mina stampede',
+        name: 'Mina stampede',
         date: 1443052800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20way%20to%20Jamarat%20Bridge%203.JPG',
         location: ['39.884694444', '21.416527777']
@@ -16024,14 +16017,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2313440',
-        name: '2013 Houphouët-Boigny stampede',
+        name: 'Houphouët-Boigny stampede',
         date: 1356998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/AbidjanStade.JPG',
         location: ['-4.01842', '5.32825']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2594536',
-        name: '2005 Baghdad bridge stampede',
+        name: 'Baghdad bridge stampede',
         date: 1125446400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Al-Aaimmah%20bridge%20area.PNG',
         location: ['44.3552', '33.3749']
@@ -16045,7 +16038,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2735551',
-        name: 'Stampede in Luzhniki on 20th October 1982',
+        name: 'Stampede in Luzhniki on 20th October ',
         date: 403920000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Luzhniki.jpg',
         location: ['37.553611111', '55.715833333']
@@ -16073,14 +16066,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q14756553',
-        name: '1971 Ibrox disaster',
+        name: 'Ibrox disaster',
         date: 31622400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Johngreig.jpg',
         location: ['-4.306944444', '55.853611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18698657',
-        name: '2014 Shanghai stampede',
+        name: 'Shanghai stampede',
         date: 1419984000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014%20Shanghai%20stampede.JPG',
         location: ['121.486138888', '31.238027777']
@@ -16101,7 +16094,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q803699',
-        name: '2000 Baia Mare cyanide spill',
+        name: 'Baia Mare cyanide spill',
         date: 949190400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tisza%20cyanide%20spill%201.jpg',
         location: ['23.64166667', '47.65']
@@ -16143,7 +16136,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4566250',
-        name: '1948 Donora smog',
+        name: 'Donora smog',
         date: -694310400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Donora-10-2012-aerial-photo-by-greg-cromer.jpg',
         location: ['-79.861', '40.175']
@@ -16164,7 +16157,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16820726',
-        name: 'Explosion in Bergen 1944',
+        name: 'Explosion in Bergen ',
         date: -811036800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-117-0353-29%2C%20Norwegen%2C%20Bergen%2C%20Motorschiff%20%22Rogaland%22.jpg',
         location: ['5.31639', '60.3994']
@@ -16185,14 +16178,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116921432',
-        name: '2023 Calabria migrant boat disaster',
+        name: 'Calabria migrant boat disaster',
         date: 1677369600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sergio%20Mattarella%20Crotone%202023.jpg',
         location: ['16.901944444', '38.93']
     },
     {
         url: 'http://www.wikidata.org/entity/Q119497996',
-        name: '2023 Messenia migrant boat disaster',
+        name: 'Messenia migrant boat disaster',
         date: 1686700800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Messenia%20migrant%20boat%20disaster%20map.png',
         location: ['21.24604', '36.914988']
@@ -16206,7 +16199,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q604050',
-        name: 'December 2012 Sanriku earthquake',
+        name: 'December Sanriku earthquake',
         date: 1354838400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2012%20M7-3%20Kamaishi%20Japan%20Map.png',
         location: ['144.09', '37.889']
@@ -16227,7 +16220,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q109425626',
-        name: '2021 Astroworld stampede',
+        name: 'Astroworld stampede',
         date: 1636070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Reliant%20park%20aerial.jpeg',
         location: ['-95.407777777', '29.683055555']
@@ -16241,21 +16234,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q27850765',
-        name: '2016 North Canterbury earthquake',
+        name: 'North Canterbury earthquake',
         date: 1478995200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%202016%20Kaikoura%20earthquake.svg',
         location: ['173.02', '-42.69']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27850765',
-        name: '2016 North Canterbury earthquake',
+        name: 'North Canterbury earthquake',
         date: 1479081600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%202016%20Kaikoura%20earthquake.svg',
         location: ['173.02', '-42.69']
     },
     {
         url: 'http://www.wikidata.org/entity/Q43170589',
-        name: '2017 Pohang earthquake',
+        name: 'Pohang earthquake',
         date: 1510704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20171118%20damaged%20Hyundai%20Grand%20starex-1.jpg',
         location: ['129.36', '36.12']
@@ -16269,35 +16262,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.416666666', '54.883333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.5991666', '55.2181191']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.708333333', '55.536111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.791666666', '55.561111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116753653',
-        name: '2023 Ohio train derailment',
+        name: 'Ohio train derailment',
         date: 1675382400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ohio%20Derailment%20contractors%20cleanup%202023.jpg',
         location: ['-80.5227', '40.836']
@@ -16311,28 +16304,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4217239',
-        name: '1996 Kamianske tram accident',
+        name: 'Kamianske tram accident',
         date: 836265600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Dnieprodzerzhinsk%20tram%20which%20crashed%20in%201996.jpg',
         location: ['34.636720732', '48.499752804']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21653907',
-        name: '2011 northern Nagano earthquake',
+        name: 'northern Nagano earthquake',
         date: 1299888000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nakajo%20River%20%28Sakae%2C%20Nagano%29%20landslide.jpg',
         location: ['138.597', '36.985']
     },
     {
         url: 'http://www.wikidata.org/entity/Q118269223',
-        name: '2023 Taichung crane collapse',
+        name: 'Taichung crane collapse',
         date: 1683676800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Accident%20on%20the%20Taichung%20Metro%20Green%20Line%202023-05-10%2001.jpg',
         location: ['120.646419', '24.131559']
     },
     {
         url: 'http://www.wikidata.org/entity/Q36204',
-        name: '2011 Tōhoku earthquake and tsunami',
+        name: 'Tōhoku earthquake and tsunami',
         date: 1299801600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SH-60B%20helicopter%20flies%20over%20Sendai.jpg',
         location: ['142.369', '38.322']
@@ -16346,7 +16339,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3745217',
-        name: 'Poland bus disaster of 1994',
+        name: 'Poland bus disaster of ',
         date: 767836800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gda%C5%84sk%20Kokoszki%20-%20miejsce%20katastrofy%20przy%20DK7.JPG',
         location: ['18.476694444', '54.352361111']
@@ -16367,7 +16360,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q112725255',
-        name: '2022 Melilla incident',
+        name: 'Melilla incident',
         date: 1656028800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Remnants%20of%20clothing%2C%20wooden%20sticks%20and%20backpacks%20stuck%20to%20the%20barbed%20wire%20over%20the%20doors%20and%20on%20the%20fence%20%28cropped%29.png',
         location: ['-2.962079', '35.2863161']
@@ -16381,7 +16374,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3277151',
-        name: '2007 Elie, Manitoba tornado',
+        name: 'Elie, Manitoba tornado',
         date: 1182470400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/F5%20tornado%20Elie%20Manitoba%202007.jpg',
         location: ['-97.7581', '49.9017']
@@ -16430,21 +16423,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2215044',
-        name: '2011 Joplin tornado',
+        name: 'Joplin tornado',
         date: 1306022400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Joplin%202011%20tornado%20damage.jpg',
         location: ['-94.530833333', '37.060555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2215044',
-        name: '2011 Joplin tornado',
+        name: 'Joplin tornado',
         date: 1306022400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Joplin%20tornado%20damage.jpg',
         location: ['-94.530833333', '37.060555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2215044',
-        name: '2011 Joplin tornado',
+        name: 'Joplin tornado',
         date: 1306022400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Radar%20image%20of%20the%202011%20Joplin%20tornado%20May%2022%2C%202011%202248Z.png',
         location: ['-94.530833333', '37.060555555']
@@ -16479,14 +16472,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4558654',
-        name: '1907 Birmingham Tramway accident',
+        name: 'Birmingham Tramway accident',
         date: -1964563200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Birmingham%201907%20tram%20crash%201.jpg',
         location: ['-1.9181', '52.4866']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4558654',
-        name: '1907 Birmingham Tramway accident',
+        name: 'Birmingham Tramway accident',
         date: -1964563200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Birmingham%201907%20tram%20crash%202.jpg',
         location: ['-1.9181', '52.4866']
@@ -16500,21 +16493,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q11463399',
-        name: 'Bonin Islands 2015 earthquake',
+        name: 'Bonin Islands earthquake',
         date: 1432944000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%207.8%20-%20189km%20WNW%20of%20Chichi-shima%2C%20Japan%20-%20intensity.jpg',
         location: ['140.493', '27.831']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27807478',
-        name: '2016 Croydon tram derailment',
+        name: 'Croydon tram derailment',
         date: 1478649600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sandilands%20Junction%20derailed%20tram.jpg',
         location: ['-0.07541', '51.374205']
     },
     {
         url: 'http://www.wikidata.org/entity/Q29974043',
-        name: '2017 Times Square car crash',
+        name: 'Times Square car crash',
         date: 1495065600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Times%20Sq%20Apr%202017%2017.jpg',
         location: ['-73.985574', '40.757994']
@@ -16528,14 +16521,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106319526',
-        name: '2021 Hualien train derailment',
+        name: 'Hualien train derailment',
         date: 1617321600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%E5%B9%B4%E5%A4%AA%E9%AD%AF%E9%96%A3%E5%88%97%E8%BB%8A%E5%87%BA%E8%BB%8C%E4%BA%8B%E6%95%85%2001.jpg',
         location: ['121.6883', '24.2171']
     },
     {
         url: 'http://www.wikidata.org/entity/Q107339234',
-        name: '2021 South Moravia tornado',
+        name: 'South Moravia tornado',
         date: 1624492800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hru%C5%A1ky%20after%20tornado%20strike%202021-07-10%201688.jpg',
         location: ['16.9696365', '48.8061141']
@@ -16556,14 +16549,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4566350',
-        name: '1948 Tinker Air Force Base tornadoes',
+        name: 'Tinker Air Force Base tornadoes',
         date: -687484800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tinker%20AFB%20tornado%20damage%202.jpg',
         location: ['-97.3867', '35.4147']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4566350',
-        name: '1948 Tinker Air Force Base tornadoes',
+        name: 'Tinker Air Force Base tornadoes',
         date: -687052800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tinker%20AFB%20tornado%20damage%202.jpg',
         location: ['-97.3867', '35.4147']
@@ -16577,49 +16570,49 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29974043',
-        name: '2017 Times Square car crash',
+        name: 'Times Square car crash',
         date: 1495065600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Times%20Sq%20Apr%202017%2017.jpg',
         location: ['-73.985574', '40.757994']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47464442',
-        name: '2018 Kazakhstan bus fire',
+        name: 'Kazakhstan bus fire',
         date: 1516233600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/January%202018%20Kazakhstan%20bus%20fire%20-%20Digital%20drawing.jpg',
         location: ['60.725', '49.231666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q48320714',
-        name: 'February 2018 Hong Kong bus accident',
+        name: 'February Hong Kong bus accident',
         date: 1518220800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/TaiPoRoad%20BusFlip%20Accident.jpeg',
         location: ['114.196094', '22.420159']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109681521',
-        name: '2021 Bulgaria bus crash',
+        name: 'Bulgaria bus crash',
         date: 1637625600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Struma%20highway%20heading%20north%20close%20to%20Sofia%2020090407%20006.JPG',
         location: ['23.131388888', '42.490833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122926454',
-        name: '2023 Venice bus crash',
+        name: 'Venice bus crash',
         date: 1696291200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Incidente%20autobus%20cavalcavia%20di%20Mestre%20-%2003.10.2023.jpg',
         location: ['12.236388888', '45.480277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122971939',
-        name: '2023 Herat earthquakes',
+        name: 'Herat earthquakes',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aftermath%20of%202023%20Herat%20earthquake.jpg',
         location: ['61.924', '34.61']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122971939',
-        name: '2023 Herat earthquakes',
+        name: 'Herat earthquakes',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Herat%20earthquakes%20damage%202.png',
         location: ['61.924', '34.61']
@@ -16633,231 +16626,231 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q815718',
-        name: '2009 Sumatra earthquakes',
+        name: 'Sumatra earthquakes',
         date: 1254268800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2009-09-30%20Sumatra%20Indonesia%20earthquake%20location.jpg',
         location: ['99.856', '-0.725']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1982946',
-        name: '2002 Hindu Kush earthquakes',
+        name: 'Hindu Kush earthquakes',
         date: 1009843200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HinduKushEQs.JPG',
         location: ['70.48', '36.5']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116691303',
-        name: '2023 Turkey–Syria earthquakes',
+        name: 'Turkey–Syria earthquakes',
         date: 1675641600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Collage%20of%202023%20Turkey%E2%80%93Syria%20earthquake.jpg',
         location: ['37.032', '37.174']
     },
     {
         url: 'http://www.wikidata.org/entity/Q463206',
-        name: '2001 failed shoe bomb attempt',
+        name: 'failed shoe bomb attempt',
         date: 1008979200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Reid%20explosive%20shoe.jpg',
         location: ['-70.997', '42.358']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4595154',
-        name: '1999 Sydney hailstorm',
+        name: 'Sydney hailstorm',
         date: 915148800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1999%20Sydney%20hailstorm%20stones.jpg',
         location: ['151.208', '-33.8672']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28153973',
-        name: '2020 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 1626998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fogos%20durante%20a%20abertura%20de%20T%C3%B3quio%202020.jpg',
         location: ['139.71472222', '35.67805556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q107570719',
-        name: '2020 Summer Paralympics opening ceremony',
+        name: 'Summer Paralympics opening ceremony',
         date: 1598227200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Opening%20ceremony%20cropped%20Yoshihide%20Suga%2020210824%205.jpg',
         location: ['139.715', '35.678055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108939985',
-        name: '2022 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1643932800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Putin%20attended%20the%20opening%20ceremony%20of%202022%20Beijing%20Winter%20Olympics%20%282%29.jpg',
         location: ['116.390555555', '39.991666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108939985',
-        name: '2022 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1643932800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Putin%20attended%20the%20opening%20ceremony%20of%202022%20Beijing%20Winter%20Olympics%20%283%29.jpg',
         location: ['116.390555555', '39.991666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1146933',
-        name: '2012 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Athletes%20at%20the%202012%20Closing%20Ceremony.jpg',
         location: ['-0.0166667', '51.5386']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1146933',
-        name: '2012 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Olympic%20stadium%20and%20The%20Orbit%20during%20London%20Olympics%20opening%20ceremony%20%282012-07-27%29%202.jpg',
         location: ['-0.0166667', '51.5386']
     },
     {
         url: 'http://www.wikidata.org/entity/Q386230',
-        name: '1902 eruption of Mount Pelée',
+        name: 'eruption of Mount Pelée',
         date: -2134944000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20National%20geographic%20magazine%20%281902%29%20%2814595295848%29.jpg',
         location: ['-61.1675', '14.8075']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15795382',
-        name: '2014 Winter Olympics closing ceremony',
+        name: 'Winter Olympics closing ceremony',
         date: 1393113600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B8%20%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%20%D1%84%D0%BB%D0%B0%D0%B3%20%D0%BD%D0%B0%20%D1%86%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D0%B8%D0%B8%20%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8F%20%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D1%85%20%D0%B8%D0%B3%D1%80%202014.jpeg',
         location: ['39.9561111', '43.4022667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16821569',
-        name: '2000 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2000%20Summer%20Olympics%20closing%20ceremony%201.JPEG',
         location: ['151.06333333', '-33.84722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16821569',
-        name: '2000 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Closing%20ceremony1.jpg',
         location: ['151.06333333', '-33.84722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16821569',
-        name: '2000 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fireworks%2C%20Sydney%20Harbour%20Bridge%2C%202000%20Summer%20Olympics%20closing%20ceremony.jpg',
         location: ['151.06333333', '-33.84722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18741083',
-        name: '2016 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 1471737600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cerim%C3%B4nia%20de%20encerramento%20dos%20Jogos%20Ol%C3%ADmpicos%20Rio%202016%20%2829067901591%29.jpg',
         location: ['-43.2302', '-22.9122']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28153981',
-        name: '2020 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 1628380800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Closing%20ceremony%20cropped%20Yoshihide%20Suga%2020210808%204.jpg',
         location: ['139.71472222', '35.67805556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q168545',
-        name: '2012 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 1343347200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2012%20Summer%20Olympics%20opening%20ceremony%2C%20Industrial%20Britain%20%28cropped%29.jpg',
         location: ['-0.0166667', '51.5386']
     },
     {
         url: 'http://www.wikidata.org/entity/Q267967',
-        name: '2006 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1136073600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2006%20Olympics%20Opening%20Ceremony.jpg',
         location: ['7.65001389', '45.04175']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1044663',
-        name: '2010 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/12th%20row%20floor%20for%20the%20Vancouver%20Olympics%20Opening%20Ceremonies.%20Worth%20every%20penny.jpg',
         location: ['-123.112', '49.2767']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1044663',
-        name: '2010 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20Opening%20Ceremonies%20-%20Canadian%20athletes%20enter%20by%20Freeman%20adjusted.jpg',
         location: ['-123.112', '49.2767']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3010360',
-        name: '1980 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 315532800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/RIAN%20archive%20487025%20Opening%20ceremony%20of%20the%201980%20Olympic%20Games.jpg',
         location: ['37.55138889', '55.71555556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4580368',
-        name: '1982 Commonwealth Games opening ceremony',
+        name: 'Commonwealth Games opening ceremony',
         date: 378691200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Opening%20ceremony%20%288075978683%29.jpg',
         location: ['153.062', '-27.5583']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4597883',
-        name: '2000 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2000%20Summer%20Olympics%20opening%20ceremony%201.JPEG',
         location: ['151.063', '-33.8472']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4597883',
-        name: '2000 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Olympics%20Opening%20Ceremony.jpg',
         location: ['151.063', '-33.8472']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4626861',
-        name: '2012 Summer Paralympics opening ceremony',
+        name: 'Summer Paralympics opening ceremony',
         date: 1346198400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Alison%20Lapper%20Pregnant%20Paralympics%20opening%20ceremony.jpg',
         location: ['-0.0166667', '51.5386']
     },
     {
         url: 'http://www.wikidata.org/entity/Q5762601',
-        name: '1992 Summer Olympics opening ceremony',
+        name: 'Summer Olympics opening ceremony',
         date: 694224000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Peveter%20ol%C3%ADmpic%20de%20l%27Estadi%20Ol%C3%ADmpic%20Llu%C3%ADs%20Companys.jpg',
         location: ['2.15565833', '41.36476111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17182719',
-        name: '2014 FIFA World Cup opening ceremony',
+        name: 'FIFA World Cup opening ceremony',
         date: 1402531200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Corinthians%20Opening%20LED%20Ball.jpg',
         location: ['-46.474', '-23.545555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21189666',
-        name: '2002 Winter Olympics opening ceremony',
+        name: 'Winter Olympics opening ceremony',
         date: 1009843200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2002%20Winter%20Olympics%20flame.jpg',
         location: ['-111.84888889', '40.76']
     },
     {
         url: 'http://www.wikidata.org/entity/Q45272383',
-        name: '2017 Port Authority Bus Terminal explosion',
+        name: 'Port Authority Bus Terminal explosion',
         date: 1512950400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Times%20Sq%20passage%20vc.jpg',
         location: ['-73.98983', '40.75634']
     },
     {
         url: 'http://www.wikidata.org/entity/Q31191031',
-        name: '1991 eruption of Mount Pinatubo',
+        name: 'eruption of Mount Pinatubo',
         date: 662688000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/VulcanoPinatuboJune1991.gif',
         location: ['120.35', '15.141666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q77929275',
-        name: '2019 Whakaari / White Island eruption',
+        name: 'Whakaari / White Island eruption',
         date: 1575849600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/White%20Island%209%20December%202019%20eruption.jpg',
         location: ['177.182955555', '-37.519083333']
@@ -16871,7 +16864,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1525846',
-        name: '2012 Tuareg rebellion',
+        name: 'Tuareg rebellion',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Azawad%20in%20context.JPG',
         location: ['-8.0', '12.64999962']
@@ -16969,7 +16962,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q104705419',
-        name: '2021 storming of the United States Capitol',
+        name: 'storming of the United States Capitol',
         date: 1609891200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20storming%20of%20the%20United%20States%20Capitol%2009.jpg',
         location: ['-77.009166666', '38.889722222']
@@ -17018,14 +17011,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29065',
-        name: '2011 England riots',
+        name: 'England riots',
         date: 1312156800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Carpetright%20store%20after%20Tottenham%20riots.jpg',
         location: ['-0.07', '51.5909']
     },
     {
         url: 'http://www.wikidata.org/entity/Q339883',
-        name: '2005 Cronulla riots',
+        name: 'Cronulla riots',
         date: 1133395200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cronulla%20riots%201.jpg',
         location: ['151.154722222', '-34.051666666']
@@ -17039,420 +17032,420 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2484144',
-        name: '1990 Dushanbe riots',
+        name: 'Dushanbe riots',
         date: 631152000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/RIAN%20archive%20699865%20Dushanbe%20riots%2C%20February%201990.jpg',
         location: ['68.78', '38.536666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117021434',
-        name: 'Wikipedia:Meetup/Selangor 4',
+        name: 'Meetup/Selangor 4',
         date: 1678233600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/WikiGap%20Malaysia%202023%20UKM%2002.jpg',
         location: ['101.786277777', '2.928888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117085663',
-        name: 'Wikipedia:Meetup/Sabah 11',
+        name: 'Meetup/Sabah 11',
         date: 1678665600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikigap.jpeg.2.jpg',
         location: ['116.065277777', '5.958361111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117218034',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 14',
+        name: 'Meetup/Kuala Lumpur 14',
         date: 1679184000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20Kuala%20Lumpur%20Meetup%2014.jpg',
         location: ['101.65125', '3.122222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117218298',
-        name: 'Wikipedia:Meetup/Perak 2',
+        name: 'Meetup/Perak 2',
         date: 1679011200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikigapperak.jpg.17.jpg',
         location: ['101.307777777', '4.2475']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117218735',
-        name: 'Wikipedia:Meetup/Sabah 12',
+        name: 'Meetup/Sabah 12',
         date: 1678752000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikigaptuaran.jpg.9.jpg',
         location: ['116.217833333', '6.1245']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117750455',
-        name: 'Wikipedia:Meetup/Selangor 5',
+        name: 'Meetup/Selangor 5',
         date: 1681516800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20Selangor%20Meetup%205.jpg',
         location: ['101.599793182', '3.104784658']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117769140',
-        name: 'Wikipedia:Meetup/Sabah 13',
+        name: 'Meetup/Sabah 13',
         date: 1680739200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bajau%20sama.jpg',
         location: ['116.052361111', '5.951166666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q120497075',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 16',
+        name: 'Meetup/Kuala Lumpur 16',
         date: 1689379200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/WikiGotong-Royong%20Hari%20Kebangsaan%20Perancis%202023%2001.jpg',
         location: ['101.65125', '3.122222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q120497738',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 17',
+        name: 'Meetup/Kuala Lumpur 17',
         date: 1694390400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%2017.jpg',
         location: ['101.692694444', '3.147527777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q121770493',
-        name: 'Wikipedia:Meetup/Johor 17',
+        name: 'Meetup/Johor 17',
         date: 1692489600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%2017.jpg',
         location: ['103.764', '1.461694444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122999767',
-        name: 'Wikipedia:Meetup/Negeri Sembilan 1',
+        name: 'Meetup/Negeri Sembilan 1',
         date: 1697328000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20Negeri%20Sembilan%20Meetup%201.jpg',
         location: ['102.335395351', '2.776598313']
     },
     {
         url: 'http://www.wikidata.org/entity/Q29370513',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 2',
+        name: 'Meetup/Kuala Lumpur 2',
         date: 1492819200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%202.jpg',
         location: ['101.708388888', '3.148694444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q42302287',
-        name: 'Wikipedia:Meetup/Johor 3',
+        name: 'Meetup/Johor 3',
         date: 1508630400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%203.jpg',
         location: ['103.764388888', '1.456611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47463900',
-        name: 'Wikipedia:Meetup/Johor 5',
+        name: 'Meetup/Johor 5',
         date: 1516406400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%205.jpg',
         location: ['103.775833333', '1.563611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q51940237',
-        name: 'Wikipedia:Meetup/Kedah 1',
+        name: 'Meetup/Kedah 1',
         date: 1555200000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kedah%20Meetup%201.jpg',
         location: ['100.506722222', '6.467666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q53673363',
-        name: 'Wikipedia:Meetup/Sabah 1',
+        name: 'Meetup/Sabah 1',
         date: 1526515200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20Sabah%201%20Meetup%20Group%20Photo.jpg',
         location: ['118.0525', '5.878083333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q55129687',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 3',
+        name: 'Meetup/Kuala Lumpur 3',
         date: 1530316800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/GeekCamp%20Kuala%20Lumpur%202018.jpg',
         location: ['101.698861111', '3.154277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56000519',
-        name: 'Wikipedia:Meetup/Kelantan 1',
+        name: 'Meetup/Kelantan 1',
         date: 1533513600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1st%20Kelantan%20Meetup.jpg',
         location: ['102.395194444', '5.839166666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56556908',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 4',
+        name: 'Meetup/Kuala Lumpur 4',
         date: 1535241600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%204.jpg',
         location: ['101.713166666', '3.153722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650654',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 5',
+        name: 'Meetup/Kuala Lumpur 5',
         date: 1536969600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%205.jpg',
         location: ['101.697111111', '3.137777777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650656',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 1',
+        name: 'Meetup/Kuala Lumpur 1',
         date: 1465084800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%201.jpg',
         location: ['101.710444444', '3.142166666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650660',
-        name: 'Wikipedia:Meetup/Selangor 1',
+        name: 'Meetup/Selangor 1',
         date: 1481414400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Selangor%20Meetup%201.jpg',
         location: ['101.621222222', '3.131694444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650661',
-        name: 'Wikipedia:Meetup/Selangor 2',
+        name: 'Meetup/Selangor 2',
         date: 1487980800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Selangor%20Meetup%202.jpg',
         location: ['101.610166666', '3.069']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650670',
-        name: 'Wikipedia:Meetup/Johor 1',
+        name: 'Meetup/Johor 1',
         date: 1463875200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%201.jpg',
         location: ['103.6335', '1.428361111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650671',
-        name: 'Wikipedia:Meetup/Johor 2',
+        name: 'Meetup/Johor 2',
         date: 1507420800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%202.jpg',
         location: ['103.751333333', '1.489583333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650672',
-        name: 'Wikipedia:Meetup/Johor 4',
+        name: 'Meetup/Johor 4',
         date: 1512777600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%204.jpg',
         location: ['103.811833333', '1.557277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650674',
-        name: 'Wikipedia:Meetup/Johor 6',
+        name: 'Meetup/Johor 6',
         date: 1519430400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%206.jpg',
         location: ['103.789833333', '1.555694444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650675',
-        name: 'Wikipedia:Meetup/Johor 7',
+        name: 'Meetup/Johor 7',
         date: 1523664000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%207.jpg',
         location: ['103.632277777', '1.62625']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56650676',
-        name: 'Wikipedia:Meetup/Johor 8',
+        name: 'Meetup/Johor 8',
         date: 1531526400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%208.jpg',
         location: ['103.812055555', '1.557222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56750768',
-        name: 'Wikipedia:Meetup/Melaka 1',
+        name: 'Meetup/Melaka 1',
         date: 1538784000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Melaka%20Meetup%201.jpg',
         location: ['102.276638888', '2.249388888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56863356',
-        name: 'Wikipedia:Meetup/Kelantan 2',
+        name: 'Meetup/Kelantan 2',
         date: 1556064000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kelantan%20Meetup%202.jpg',
         location: ['102.460527777', '5.817166666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q59602984',
-        name: 'Wikipedia:Meetup/Penang 1',
+        name: 'Meetup/Penang 1',
         date: 1544572800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20Penang%201%20Meetup%20Presenting.jpg',
         location: ['100.305805555', '5.358861111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q59603005',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 6',
+        name: 'Meetup/Kuala Lumpur 6',
         date: 1544572800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/WCUGMatPNM2018.jpg',
         location: ['101.711083333', '3.170611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q61283564',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 7',
+        name: 'Meetup/Kuala Lumpur 7',
         date: 1564617600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Malaysia%20x%20National%20Library%20Malaysia%202019%20-%20006.jpg',
         location: ['101.711083333', '3.170611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q63981681',
-        name: 'Wikipedia:Meetup/Johor 10',
+        name: 'Meetup/Johor 10',
         date: 1558224000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%2010.jpg',
         location: ['103.765194444', '1.480111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q64685486',
-        name: 'Wikipedia:Meetup/Johor 12',
+        name: 'Meetup/Johor 12',
         date: 1561161600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%2012.jpg',
         location: ['103.812055555', '1.557222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q70077990',
-        name: 'Wikipedia:Meetup/Penang 2',
+        name: 'Meetup/Penang 2',
         date: 1570579200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Penang%20Meetup%202.jpg',
         location: ['100.306777777', '5.361027777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q72709907',
-        name: 'Wikipedia:Meetup/Johor 11',
+        name: 'Meetup/Johor 11',
         date: 1559260800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%2011.jpg',
         location: ['103.764166666', '1.461111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q72710802',
-        name: 'Wikipedia:Meetup/Johor 13',
+        name: 'Meetup/Johor 13',
         date: 1564012800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%2013.jpg',
         location: ['103.765194444', '1.480111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q72835957',
-        name: 'Wikipedia:Meetup/Kelantan 3',
+        name: 'Meetup/Kelantan 3',
         date: 1572480000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20Kelantan%20Meetup%203.1.1.jpg',
         location: ['102.409722222', '5.835638888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q79857897',
-        name: 'Wikipedia:Meetup/Kelantan 4',
+        name: 'Meetup/Kelantan 4',
         date: 1573257600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20Kelantan%20Meetup%204.6.jpg',
         location: ['102.40275', '5.834416666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109110309',
-        name: 'Wikipedia:Meetup/Johor 9',
+        name: 'Meetup/Johor 9',
         date: 1556668800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%209.jpg',
         location: ['103.765138888', '1.480166666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109112734',
-        name: 'Wikipedia:Meetup/Sabah 4',
+        name: 'Meetup/Sabah 4',
         date: 1609632000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20Meetup%20Sabah%204.jpg',
         location: ['116.112583333', '5.993194444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109513700',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 8',
+        name: 'Meetup/Kuala Lumpur 8',
         date: 1636502400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%208.jpg',
         location: ['101.655388888', '3.117888888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q110094780',
-        name: 'Wikipedia:Meetup/Johor 14',
+        name: 'Meetup/Johor 14',
         date: 1639267200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%2014.jpg',
         location: ['103.67175', '1.517777777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q110985407',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 9',
+        name: 'Meetup/Kuala Lumpur 9',
         date: 1645315200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%209.jpg',
         location: ['101.724944444', '3.127111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q110990966',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 10',
+        name: 'Meetup/Kuala Lumpur 10',
         date: 1647820800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%2010.jpg',
         location: ['101.692694444', '3.147527777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112271628',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 11',
+        name: 'Meetup/Kuala Lumpur 11',
         date: 1654300800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%2011.jpg',
         location: ['101.707361111', '3.157138888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112869152',
-        name: 'Wikipedia:Meetup/Johor 16',
+        name: 'Meetup/Johor 16',
         date: 1656720000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Johor%20Meetup%2016.jpg',
         location: ['103.685416666', '1.515916666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114321327',
-        name: 'Wikipedia:Meetup/Perak 1',
+        name: 'Meetup/Perak 1',
         date: 1660780800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bengkel%20Wikikamus%20Bahasa%20Semai%20Perak%201.jpg',
         location: ['101.103777777', '4.654666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114727128',
-        name: 'Wikipedia:Meetup/Sabah 6',
+        name: 'Meetup/Sabah 6',
         date: 1665964800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bengkel%20Wikipedia%20Anjuran%20PPD%20Sandakan.jpg',
         location: ['118.063027777', '5.814444444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q115203797',
-        name: 'Wikipedia:Meetup/Sabah 7',
+        name: 'Meetup/Sabah 7',
         date: 1667865600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jalinan%20kerjasama%20Wikimedia%2C%20PPD%20dan%20RDC.jpg',
         location: ['117.944777777', '5.876111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q115212256',
-        name: 'Wikipedia:Meetup/Sabah 8',
+        name: 'Meetup/Sabah 8',
         date: 1668124800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bengkel%20Wikikamus%20BKD%20IPGK%20KENT%204.jpg',
         location: ['116.217833333', '6.1245']
     },
     {
         url: 'http://www.wikidata.org/entity/Q115771789',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 13',
+        name: 'Meetup/Kuala Lumpur 13',
         date: 1671148800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Kuala%20Lumpur%20Meetup%2013.jpg',
         location: ['101.711', '3.144666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116004161',
-        name: 'Wikipedia:Meetup/Kuala Lumpur 12',
+        name: 'Meetup/Kuala Lumpur 12',
         date: 1669420800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pertemuan%20WCUGM%20KL%2012.jpg',
         location: ['101.65125', '3.122222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116005520',
-        name: 'Wikipedia:Meetup/Penang 3',
+        name: 'Meetup/Penang 3',
         date: 1670025600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/IMG-20221203-WA0009.jpg',
         location: ['100.302138888', '5.359805555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116213465',
-        name: 'Wikipedia:Meetup/Sabah 10',
+        name: 'Meetup/Sabah 10',
         date: 1673740800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1perpustakaan%201%20rujukan%20team%20asrama%20Sandakan%201.jpg',
         location: ['118.007138888', '5.9305']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116213470',
-        name: 'Wikipedia:Meetup/Sabah 9',
+        name: 'Meetup/Sabah 9',
         date: 1669766400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20sabah%20meeting.jpg6.jpg',
         location: ['116.086416666', '5.976333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q67527355',
-        name: '2019 Abqaiq-Khurais attack',
+        name: 'Abqaiq-Khurais attack',
         date: 1568419200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Khurais%20oil%20field%20and%20Buqyaq%20Saudi%20Arabia.png',
         location: ['49.665277777', '25.931388888']
@@ -17473,7 +17466,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28166',
-        name: "diving at the 2012 Summer Olympics – women's synchronized 3 metre springboard",
+        name: "diving at the Summer Olympics – women's synchronized 3 metre springboard",
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aquatics%20Centre%20diving.jpg',
         location: ['-0.010555555', '51.540166666']
@@ -17487,35 +17480,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q60651434',
-        name: '2019 United Nations Climate Change Conference',
+        name: 'United Nations Climate Change Conference',
         date: 1575244800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Foto%20oficial%20Conferencia%20de%20las%20Naciones%20Unidas%20sobre%20el%20Cambio%20Clim%C3%A1tico%20de%202019.jpg',
         location: ['-3.6172411', '40.4678224']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1633080',
-        name: '2007 United Nations Climate Change Conference',
+        name: 'United Nations Climate Change Conference',
         date: 1167609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bali%20conference%20inside.jpg',
         location: ['115.22594946', '-8.79608938']
     },
     {
         url: 'http://www.wikidata.org/entity/Q12252411',
-        name: '2013 United Nations Climate Change Conference',
+        name: 'United Nations Climate Change Conference',
         date: 1384128000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/COP19-CMP9%20%2811034852064%29.jpg',
         location: ['21.045556', '52.239444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15715792',
-        name: '2015 United Nations Climate Change Conference',
+        name: 'United Nations Climate Change Conference',
         date: 1448841600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/COP21%20participants%20-%2030%20Nov%202015%20%2823430273715%29.jpg',
         location: ['2.430768', '48.94369']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27887963',
-        name: '2017 United Nations Climate Change Conference',
+        name: 'United Nations Climate Change Conference',
         date: 1509926400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/COP%2023%20Fidschi%20Bonn%20LOGO.png',
         location: ['7.127497', '50.718324']
@@ -17564,28 +17557,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1573350',
-        name: '2012 Monte-Carlo Rolex Masters',
+        name: 'Monte-Carlo Rolex Masters',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nadal%20Monte%20Carlo%202012.JPG',
         location: ['7.44074', '43.7517']
     },
     {
         url: 'http://www.wikidata.org/entity/Q13359784',
-        name: '2013 Brussels Open',
+        name: 'Brussels Open',
         date: 1356998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kaia%20Kanepi%20US%20Open%202011.jpg',
         location: ['4.34018', '50.8923']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19984977',
-        name: '2015 FIFA corruption case',
+        name: 'FIFA corruption case',
         date: 1420070400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Baur%20au%20Lac%20ZH.JPG',
         location: ['8.5371083', '47.3671753']
     },
     {
         url: 'http://www.wikidata.org/entity/Q206825',
-        name: '1935 Labor Day hurricane',
+        name: 'Labor Day hurricane',
         date: -1104537600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Labor%20day%201935%20map.png',
         location: ['-80.633333', '24.916667']
@@ -17599,7 +17592,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4614925',
-        name: '2009 Thekkady boat disaster',
+        name: 'Thekkady boat disaster',
         date: 1254268800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tilted%20boat.JPG',
         location: ['77.17925', '9.57575']
@@ -17613,7 +17606,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q64590471',
-        name: 'June 2019 Gulf of Oman incident',
+        name: 'June Gulf of Oman incident',
         date: 1560384000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sailors%20aboard%20USS%20Bainbridge%20%28DDG%2096%29%20render%20aid%20to%20the%20crew%20of%20the%20M%20V%20Kokuka%20Courageous.%20%2848062823682%29.jpg',
         location: ['57.543', '25.483']
@@ -17634,42 +17627,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4622542',
-        name: '2011 Sydney to Hobart Yacht Race',
+        name: 'Sydney to Hobart Yacht Race',
         date: 1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wild%20Oats%20XI%20about%20to%20finish%202011%20Sydney%20to%20Hobart.jpg',
         location: ['151.207', '-33.8558']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4622542',
-        name: '2011 Sydney to Hobart Yacht Race',
+        name: 'Sydney to Hobart Yacht Race',
         date: 1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Investec%20Loyal%20about%20to%20win%202011%20Sydney%20to%20Hobart.jpg',
         location: ['151.207', '-33.8558']
     },
     {
         url: 'http://www.wikidata.org/entity/Q917697',
-        name: "2009 Brisbane International – women's singles",
+        name: "Brisbane International – women's singles",
         date: 1230768000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Azarenka%20Brisbane%202009%202.jpg',
         location: ['153.007222222', '-27.525']
     },
     {
         url: 'http://www.wikidata.org/entity/Q917703',
-        name: "2010 Brisbane International – women's singles",
+        name: "Brisbane International – women's singles",
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kim%20Clijsters%202006.jpg',
         location: ['153.00722222', '-27.525']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1187657',
-        name: "2012 Brisbane International – women's singles",
+        name: "Brisbane International – women's singles",
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kaia%20Kanepi.jpg',
         location: ['153.00722222', '-27.525']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2896313',
-        name: '2002 Mombasa attacks',
+        name: 'Mombasa attacks',
         date: 1038441600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Arkia%20B753%204X-BAW.jpg',
         location: ['39.666', '-4.05']
@@ -17697,35 +17690,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q108285843',
-        name: '2021 Kabul airport attack',
+        name: 'Kabul airport attack',
         date: 1629936000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Afghanistan%20Evacuation%20210821-A-AB999-0019.jpg',
         location: ['69.220277777', '34.558611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122976243',
-        name: '2023 Hamas-led attack on Israel',
+        name: 'Hamas-led attack on Israel',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%91%D7%A0%D7%94%20%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A9%D7%A8%D7%95%D7%A3%20%D7%91%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%91%D7%90%D7%A8%D7%99%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%AA%D7%A7%D7%A4%D7%AA%20%D7%94%D7%A4%D7%AA%D7%A2.%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%99%D7%95%D7%90%D7%91%20%D7%A7%D7%A8%D7%9F.jpg',
         location: ['34.507694444', '31.363527777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q125092492',
-        name: '2024 Crocus City Hall attack',
+        name: 'Crocus City Hall attack',
         date: 1711065600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Crocus%20City%20Hall%20sign%20after%20attack%20%28cropped%29.jpg',
         location: ['37.390556', '55.825833']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21479779',
-        name: 'November 2015 Paris attacks',
+        name: 'November Paris attacks',
         date: 1447372800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Paris%20Shootings%20-%20The%20day%20after%20%2822593744177%29.jpg',
         location: ['2.370638888', '48.863027777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2415468',
-        name: "2011 Brisbane International – women's singles",
+        name: "Brisbane International – women's singles",
         date: 1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Petra%20Kvitova%202011.jpg',
         location: ['153.00722222', '-27.525']
@@ -17739,7 +17732,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4621114',
-        name: '2011 World Indoor Lacrosse Championship',
+        name: 'World Indoor Lacrosse Championship',
         date: 1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Capicchioni%20Team%20USA.png',
         location: ['14.47972222', '50.06888889']
@@ -17760,21 +17753,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q6952032',
-        name: '2003 Angola Boeing 727 disappearance',
+        name: 'Angola Boeing 727 disappearance',
         date: 1053820800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Boeing%20727-223%20of%20American%20Airlines%20Chicago%20O%27Hare.jpg',
         location: ['13.2311', '-8.85833']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56050557',
-        name: '2018 Horizon Air Q400 incident',
+        name: 'Horizon Air Q400 incident',
         date: 1533859200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/N449QX%20LAX%20%2831294957790%29.jpg',
         location: ['-122.634166666', '47.157222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q65070797',
-        name: 'July 2019 Restoration of Tuen Mun Park',
+        name: 'July Restoration of Tuen Mun Park',
         date: 1562371200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Recovery%20Tuen%20Mun%20Park%20Procession.jpg',
         location: ['113.973888888', '22.392222222']
@@ -17809,21 +17802,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1150973',
-        name: '1931 China floods',
+        name: 'China floods',
         date: -1230768000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hankow%20city%20hall.jpg',
         location: ['114.273', '30.5812']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1434437',
-        name: '2012 Krasnodar Krai floods',
+        name: 'Krasnodar Krai floods',
         date: 1341619200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9D%D0%B0%D0%B2%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B5%20%28%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%291.jpg',
         location: ['37.9', '44.8']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1434437',
-        name: '2012 Krasnodar Krai floods',
+        name: 'Krasnodar Krai floods',
         date: 1341619200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9D%D0%B0%D0%B2%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B5%202.JPG',
         location: ['37.9', '44.8']
@@ -17837,14 +17830,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q504934',
-        name: 'North Sea flood of 1953',
+        name: 'North Sea flood of ',
         date: -533865600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/15%20Amsterdamse%20brandweerlieden%20in%20Oude%20Tonge%20aan%20het%20werk%2C%20Bestanddeelnr%20905-5961.jpg',
         location: ['3.75', '51.56666667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q837833',
-        name: '2010–2011 Queensland floods',
+        name: '–Queensland floods',
         date: 1296000000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Long%20and%20Mackenzie%20Streets%20in%20Toowoomba%20flooded.jpg',
         location: ['152.2', '-27.5833']
@@ -17858,7 +17851,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q854898',
-        name: 'January 2011 Rio de Janeiro floods and mudslides',
+        name: 'January Rio de Janeiro floods and mudslides',
         date: 1295222400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/FOTOREPORTERDSCF2211.jpg',
         location: ['-43.19638889', '-22.90833333']
@@ -17879,35 +17872,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4567809',
-        name: '1953 North Kyushu Flood',
+        name: 'North Kyushu Flood',
         date: -536457600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Daifuku%2C%20Asakura%20in%201953.JPG',
         location: ['130.423', '33.6275']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4576018',
-        name: '1974 Brisbane flood',
+        name: 'Brisbane flood',
         date: 128649600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20Brisbane%20Flood%20of%201974.jpg',
         location: ['153.035', '-27.465']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2741550',
-        name: '2010 China floods',
+        name: 'China floods',
         date: 1273449600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Flooding%20along%20Ganjiang%2C%20Jiangxi%2C%20June%202010.jpg',
         location: ['102.89289', '29.21429']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2741550',
-        name: '2010 China floods',
+        name: 'China floods',
         date: 1273449600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/June%202010%20South%20China%20rainfall.png',
         location: ['102.89289', '29.21429']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3043389',
-        name: 'Montreal Flood of 1987',
+        name: 'Montreal Flood of ',
         date: 553219200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9luge%20Montr%C3%A9al.png',
         location: ['-73.65', '45.5167']
@@ -17921,14 +17914,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q105358710',
-        name: '2021 Uttarakhand glacial outburst flood',
+        name: 'Uttarakhand glacial outburst flood',
         date: 1612656000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/PIB053%20Uttarakhand%20avalanche%20rescue%20operation%202021.jpg',
         location: ['79.935', '30.425']
     },
     {
         url: 'http://www.wikidata.org/entity/Q107596384',
-        name: '2021 Henan floods',
+        name: 'Henan floods',
         date: 1609459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damaged%20Songshan%20Road%20in%20Zhengzhou%20after%20Floods.jpg',
         location: ['113.660555555', '34.749166666']
@@ -17942,7 +17935,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q10818',
-        name: '7 July 2005 London bombings',
+        name: '7 July London bombings',
         date: 1120694400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Russell%20square%20ambulances.jpg',
         location: ['-0.07857', '51.504872']
@@ -17970,7 +17963,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q269893',
-        name: '2010 Moscow Metro bombings',
+        name: 'Moscow Metro bombings',
         date: 1269820800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Medvedev%20at%20Lubyanka%20metro%20station%201.jpeg',
         location: ['37.6273', '55.7593']
@@ -17984,7 +17977,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q518303',
-        name: '1983 Beirut barracks bombing',
+        name: 'Beirut barracks bombing',
         date: 435715200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Beirutbarr.jpg',
         location: ['35.494722222', '33.829166666']
@@ -17998,42 +17991,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q56768333',
-        name: '2018 Sulawesi earthquake and tsunami',
+        name: 'Sulawesi earthquake and tsunami',
         date: 1538092800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Intensity%20main%20earthquake%20Sulawesi%202018-09-28.jpg',
         location: ['119.85', '-0.18']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60042839',
-        name: '2018 Sunda Strait tsunami',
+        name: 'Sunda Strait tsunami',
         date: 1545436800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sunda%20strait%20tsunami%20concert.jpg',
         location: ['105.423', '-6.103']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2869982',
-        name: 'July 2010 Lahore bombings',
+        name: 'July Lahore bombings',
         date: 1277942400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pakistan%20-%20Punjab%20-%20Lahore.svg',
         location: ['74.304625', '31.578892']
     },
     {
         url: 'http://www.wikidata.org/entity/Q36204',
-        name: '2011 Tōhoku earthquake and tsunami',
+        name: 'Tōhoku earthquake and tsunami',
         date: 1299801600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SH-60B%20helicopter%20flies%20over%20Sendai.jpg',
         location: ['142.369', '38.322']
     },
     {
         url: 'http://www.wikidata.org/entity/Q130754',
-        name: '2004 Indian Ocean earthquake',
+        name: 'Indian Ocean earthquake',
         date: 1104019200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2004-tsunami.jpg',
         location: ['95.982', '3.295']
     },
     {
         url: 'http://www.wikidata.org/entity/Q151835',
-        name: '2010 Chile earthquake',
+        name: 'Chile earthquake',
         date: 1267228800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20Chile%20earthquake%20-%20Building%20destroyed%20in%20Concepci%C3%B3n.jpg',
         location: ['-72.733', '-35.909']
@@ -18047,28 +18040,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q891882',
-        name: '2010 Stockholm bombings',
+        name: 'Stockholm bombings',
         date: 1292025600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Police%20at%20Drottninggatan%20after%20bombing%202010-12-11%2C%2017.52.jpg',
         location: ['18.0598', '59.3357']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1062375',
-        name: '2010 Lakki Marwat suicide bombing',
+        name: 'Lakki Marwat suicide bombing',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mitshubishi%20Pajero%20Mk%20I.jpg',
         location: ['70.967222222', '32.431111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1141147',
-        name: 'May 2010 attacks on Ahmadi mosques in Lahore',
+        name: 'May attacks on Ahmadi mosques in Lahore',
         date: 1275004800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pakistan%20-%20Punjab%20-%20Lahore.svg',
         location: ['74.334444444', '31.542222222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1254917',
-        name: '2003 Istanbul bombings',
+        name: 'Istanbul bombings',
         date: 1067644800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Neve%20%C5%9Ealom%2C%20Istanbul.jpg',
         location: ['28.9725', '41.02666667']
@@ -18082,14 +18075,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q104957993',
-        name: '2021 Baghdad suicide bombings',
+        name: 'Baghdad suicide bombings',
         date: 1611187200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Baghdad%20bombings%20aftermath%20-%20Jan%202021%2019.jpg',
         location: ['44.412535', '33.330863']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116485898',
-        name: '2023 Peshawar mosque bombing',
+        name: 'Peshawar mosque bombing',
         date: 1675036800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Investigations%20underway%20after%20suicide%20bombing%20at%20Pakistan%20mosque%20kills%2032%201-31%20screenshot.png',
         location: ['71.559444444', '34.013055555']
@@ -18124,21 +18117,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2009193',
-        name: '2009 attack on the Dutch royal family',
+        name: 'attack on the Dutch royal family',
         date: 1241049600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Koninginnedag%202009%20Incident%202.svg',
         location: ['5.94611', '52.2278']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2363420',
-        name: '2011 southern Israel cross-border attacks',
+        name: 'southern Israel cross-border attacks',
         date: 1313625600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terror%20Strikes%20Israeli%20Civilians%20in%20Southern%20Israel.jpg',
         location: ['34.881377777', '29.5857']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2422134',
-        name: '2010 Austin suicide attack',
+        name: 'Austin suicide attack',
         date: 1266451200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damage%20to%20Echelon%20complex%20from%202010%20plane%20crash.jpg',
         location: ['-97.74361111', '30.385']
@@ -18173,21 +18166,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q21470354',
-        name: '2015 Beirut bombings',
+        name: 'Beirut bombings',
         date: 1447286400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bourj%20el-Barajneh%20entrance%20-%20Flickr%20-%20Al%20Jazeera%20English.jpg',
         location: ['35.503333333', '33.848333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23638613',
-        name: '2016 Lahore suicide bombing',
+        name: 'Lahore suicide bombing',
         date: 1459036800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gulshan-e-Iqbal%20Park%2C%20Lahore.jpg',
         location: ['74.29032', '31.51625']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28790434',
-        name: '2017 Sehwan suicide bombing',
+        name: 'Sehwan suicide bombing',
         date: 1487203200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20Shrine%20of%20Lal%20Shahbaz%20Qalandar.jpg',
         location: ['67.8593731', '26.4193143']
@@ -18208,14 +18201,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2869993',
-        name: '2012 Montreal shooting',
+        name: 'Montreal shooting',
         date: 1346716800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Attack%20Quebec%202012%20Elections%20Metropolis.jpg',
         location: ['-73.563277', '45.510903']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2870002',
-        name: '1988 attack on Saint-Michel cinema in Paris',
+        name: 'attack on Saint-Michel cinema in Paris',
         date: 593481600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Cin%C3%A9ma%20Espace%20Saint-Michel.JPG',
         location: ['2.3438', '48.8526']
@@ -18229,7 +18222,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4589550',
-        name: '1994 London Israeli Embassy attack',
+        name: 'London Israeli Embassy attack',
         date: 775180800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Israeli%20embassy%20London.JPG',
         location: ['-0.1891', '51.5029']
@@ -18257,7 +18250,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2869989',
-        name: '2002 Karachi bus bombing',
+        name: 'Karachi bus bombing',
         date: 1020816000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/French%20stele%20memoriam%20bomb%20karachi%208%20may%202002%20in%20chrebourg%20p-ad20090730-11h42m07s-mjw.jpg',
         location: ['67.01', '24.86']
@@ -18278,56 +18271,56 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3178361',
-        name: 'December 11, 2007 Algiers bombings',
+        name: 'December 11, Algiers bombings',
         date: 1197331200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/El%20Biar%20%28%C3%A0%20gauche%2C%20Minist%C3%A8re%20de%20l%27%C3%A9nergie%20et%20des%20mines%2C%20au%20fond%20%C3%A0%20droite%20Cit%C3%A9%20Malki%20%C3%A0%20Ben%20Aknoun%29.jpg',
         location: ['3.06', '36.776111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3400755',
-        name: '2011 Jerusalem bus stop bombing',
+        name: 'Jerusalem bus stop bombing',
         date: 1300838400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Internation%20Convention%20Center%20Jerusalem.jpg',
         location: ['35.20305556', '31.78777778']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4456273',
-        name: '2010 Chabahar suicide bombing',
+        name: 'Chabahar suicide bombing',
         date: 1292284800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Locator%20map%20Iran%20Sistan%20and%20Baluchestan%20Province.png',
         location: ['60.623611', '25.283611']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4598956',
-        name: '2001 Netanya bombing',
+        name: 'Netanya bombing',
         date: 983664000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%90%D7%AA%D7%A8%20%D7%93%D7%95%D7%91%D7%A8%20%D7%A6%D7%94%D7%9C%20-%20%D7%94%D7%A4%D7%99%D7%92%D7%95%D7%A2%20%D7%91%D7%A0%D7%AA%D7%A0%D7%99%D7%94%20%282001%29.jpg',
         location: ['34.85888889', '32.32805556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4600427',
-        name: '2002 Rishon LeZion bombing',
+        name: 'Rishon LeZion bombing',
         date: 1020729600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2002%20Rishon%20LeZion%20bombing%20IV.jpg',
         location: ['34.7675', '31.992861111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q22977433',
-        name: 'murder of Anastasiya Meshcheryakova (2016)',
+        name: 'murder of Anastasiya Meshcheryakova ()',
         date: 1456704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D1%8E%D0%BB%D1%8C%D1%87%D0%B5%D1%85%D1%80%D0%B0%20%D0%91%D0%BE%D0%B1%D0%BE%D0%BA%D1%83%D0%BB%D0%BE%D0%B2%D0%B0%2029.02.2016.jpg',
         location: ['37.479305555', '55.780694444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4608044',
-        name: '2007 Batna bombing',
+        name: 'Batna bombing',
         date: 1189036800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Algeria-Batna.png',
         location: ['6.17731243', '35.55110917']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4614509',
-        name: '2009 Nouakchott suicide bombing',
+        name: 'Nouakchott suicide bombing',
         date: 1249689600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Central%20mosque%20in%20Nouakchott.jpg',
         location: ['-15.95', '18.1']
@@ -18383,7 +18376,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15116212',
-        name: '2013 Tiananmen Square car attack',
+        name: 'Tiananmen Square car attack',
         date: 1382918400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tiananmen%20beijing%20Panorama.jpg',
         location: ['116.39139', '39.9025']
@@ -18397,21 +18390,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20685047',
-        name: '2015 Suruç bombing',
+        name: 'Suruç bombing',
         date: 1437350400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20Suru%C3%A7%20bombing%20in%20Turkey.jpg',
         location: ['38.426944444', '36.976388888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21083277',
-        name: '2015 Ankara bombings',
+        name: 'Ankara bombings',
         date: 1444435200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ankara%20Train%20Station.JPG',
         location: ['32.8438', '39.9364']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16918161',
-        name: 'May 2014 Ürümqi explosion',
+        name: 'May Ürümqi explosion',
         date: 1400716800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Urumqi%20Gongyuan%20Beijie%20After%20Explosion%202014%2005%2023.jpg',
         location: ['87.5969', '43.7936']
@@ -18425,28 +18418,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29513435',
-        name: '2017 shooting of Paris police officers',
+        name: 'shooting of Paris police officers',
         date: 1492646400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Champs%20elysees.700px.jpg',
         location: ['2.302306', '48.87194']
     },
     {
         url: 'http://www.wikidata.org/entity/Q29546985',
-        name: '2017 Camp Shaheen attack',
+        name: 'Camp Shaheen attack',
         date: 1492732800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Approximately%201%2C350%20Afghan%20army%20trainees%20stand%20in%20formation%20at%20the%20start%20of%20the%20Regional%20Basic%20Warrior%20Training%20course%20graduation%20ceremony%20at%20Camp%20Shaheen%2C%20Balkh%20province%2C%20Afghanistan%2C%20July%207%2C%202011%20110707-F-IN504-011.jpg',
         location: ['67.116666666', '36.716666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30060577',
-        name: '2017 Minya attack',
+        name: 'Minya attack',
         date: 1495756800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/MinyaNorth.jpg',
         location: ['30.6205', '28.7395']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109375629',
-        name: '2021 Three cushion world championship',
+        name: 'Three cushion world championship',
         date: 1609459200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/3C%20WCH%202021-award%20ceremony-1.jpg',
         location: ['34.351288', '27.920486']
@@ -18460,7 +18453,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q104705419',
-        name: '2021 storming of the United States Capitol',
+        name: 'storming of the United States Capitol',
         date: 1609891200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20storming%20of%20the%20United%20States%20Capitol%2009.jpg',
         location: ['-77.009166666', '38.889722222']
@@ -18488,14 +18481,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q70210494',
-        name: '2019 Halle synagogue shooting',
+        name: 'Halle synagogue shooting',
         date: 1570579200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HalleSynagoge%2002.JPG',
         location: ['11.98032', '51.493279']
     },
     {
         url: 'http://www.wikidata.org/entity/Q110812209',
-        name: '2022 UMB World Three-cushion Championship for National Teams',
+        name: 'UMB World Three-cushion Championship for National Teams',
         date: 1640995200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022%203-cushion%20World%20Championship%20for%20Teams-Player%20and%20Referees.jpg',
         location: ['6.391111111', '51.253055555']
@@ -18509,14 +18502,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q112016492',
-        name: '2022 Buffalo shooting',
+        name: 'Buffalo shooting',
         date: 1652572800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tops%20supermarket%2C%20Jefferson%20Avenue%2C%20Buffalo%2C%20New%20York%20-%2020220220%20%28cropped%29.jpg',
         location: ['-78.852777777', '42.909722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q123952055',
-        name: '2023 Prague shooting',
+        name: 'Prague shooting',
         date: 1703116800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Closed%20Smetanovo%20nabrezi%20after%20Prague%202023%20shooting.jpg',
         location: ['14.416111111', '50.089166666']
@@ -18628,7 +18621,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2363420',
-        name: '2011 southern Israel cross-border attacks',
+        name: 'southern Israel cross-border attacks',
         date: 1313625600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terror%20Strikes%20Israeli%20Civilians%20in%20Southern%20Israel.jpg',
         location: ['34.881377777', '29.5857']
@@ -18656,7 +18649,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q104705419',
-        name: '2021 storming of the United States Capitol',
+        name: 'storming of the United States Capitol',
         date: 1609891200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20storming%20of%20the%20United%20States%20Capitol%2009.jpg',
         location: ['-77.009166666', '38.889722222']
@@ -18705,7 +18698,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q57896166',
-        name: '2018 Leicester City F.C. helicopter crash',
+        name: 'Leicester City F.C. helicopter crash',
         date: 1514764800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/G-VSKP%20Agusta%20AW169%20Helicopter%20Foxborough%20Ltd%20%2828313983994%29.jpg',
         location: ['-1.140833333', '52.618611111']
@@ -18782,7 +18775,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q109116318',
-        name: '2021 Rust shooting incident',
+        name: 'Rust shooting incident',
         date: 1634774400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Alec%20Baldwin%20by%20Gage%20Skidmore.jpg',
         location: ['-106.097852', '35.543403']
@@ -18845,21 +18838,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1319822',
-        name: 'Internationale Gartenbauausstellung 2003',
+        name: 'Internationale Gartenbauausstellung ',
         date: 1041379200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Rostock%20IGA2003%201.jpg',
         location: ['12.0794', '54.1397']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4595302',
-        name: '1999 World Horticultural Exposition',
+        name: 'World Horticultural Exposition',
         date: 915148800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%96%E7%95%8C%E5%9B%AD%E8%89%BA%E5%8D%9A%E8%A7%88%E5%9B%AD-%E5%85%A5%E5%8F%A3.jpg',
         location: ['102.7593889', '25.07155556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15629568',
-        name: 'Internationale Gartenausstellung 2017',
+        name: 'Internationale Gartenausstellung ',
         date: 1483228800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/IGA-Berlin-Webcam-Haupteingang-2015-08.jpg',
         location: ['13.576667', '52.539444']
@@ -18894,7 +18887,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18338238',
-        name: '2014 shootings at Parliament Hill, Ottawa',
+        name: 'shootings at Parliament Hill, Ottawa',
         date: 1413936000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Centre%20Block%20-%20Parliament%20Hill.jpg',
         location: ['-75.6953', '45.4223']
@@ -19055,14 +19048,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4600511',
-        name: '2002 State of the Union Address',
+        name: 'State of the Union Address',
         date: 1012262400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Bush%20at%20State%20of%20the%20Union.jpg',
         location: ['-77.00911111', '38.88883333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19020261',
-        name: '1923 State of the Union Address',
+        name: 'State of the Union Address',
         date: -1453939200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Coolidge%20first%20message%20LCCN2016848391.jpg',
         location: ['-77.008888888', '38.889722222']
@@ -19076,42 +19069,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116861041',
-        name: '2023 Presidential Address to the Federal Assembly',
+        name: 'Presidential Address to the Federal Assembly',
         date: 1676937600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%20%D0%9F%D1%83%D1%82%D0%B8%D0%BD%20%D0%B2%202023%20%D0%B3%D0%BE%D0%B4%D1%83.jpg',
         location: ['37.6255', '55.754']
     },
     {
         url: 'http://www.wikidata.org/entity/Q47346081',
-        name: '2018 State of the Union Address',
+        name: 'State of the Union Address',
         date: 1517270400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018%20SOTU%2027628831.jpg',
         location: ['-77.00911111', '38.88883333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60467358',
-        name: '2019 State of the Union Address',
+        name: 'State of the Union Address',
         date: 1549324800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Donald%20J.%20Trump%20at%202019%20State%20of%20the%20Union%20%2846092930285%29%20%28cropped%29.jpg',
         location: ['-77.00911111', '38.88883333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q84091813',
-        name: '2020 State of the Union Address',
+        name: 'State of the Union Address',
         date: 1580774400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/State%20of%20the%20Union%202020%20%2849493980371%29.jpg',
         location: ['-77.00911111', '38.88883333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q110269689',
-        name: '2022 State of the Union Address',
+        name: 'State of the Union Address',
         date: 1646092800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/P20220301AS-3170%20%2851989432295%29%20%28cropped%29.jpg',
         location: ['-77.009111111', '38.888833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116200193',
-        name: '2023 State of the Union Address',
+        name: 'State of the Union Address',
         date: 1675728000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/P20230207AS-2002%20%2852681156504%29.jpg',
         location: ['-77.009111111', '38.888833333']
@@ -19139,14 +19132,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q120041493',
-        name: '2023 Kramatorsk restaurant missile strike',
+        name: 'Kramatorsk restaurant missile strike',
         date: 1687824000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kramatorsk%20after%20Russian%20missile%20strike%2C%202023-06-27%20%2820-01%29.jpg',
         location: ['37.586944444', '48.735555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122258505',
-        name: 'September 2023 Kostiantynivka missile strike',
+        name: 'September Kostiantynivka missile strike',
         date: 1693958400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kostiantynivka%20after%20missile%20strike%2C%202023-09-06%20%2861%29.jpg',
         location: ['37.681388888', '48.513611111']
@@ -19160,7 +19153,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q123264996',
-        name: '31 October 2023 Jabalia refugee camp airstrike',
+        name: '31 October Jabalia refugee camp airstrike',
         date: 1698710400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jabalia%2041.jpg',
         location: ['34.49815', '31.53271']
@@ -19174,35 +19167,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3746723',
-        name: 'Floriade 2012',
+        name: 'Floriade ',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Floriade%202012%20-%20Floriade%20Theatre.jpg',
         location: ['6.12278', '51.40583']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3900369',
-        name: 'Floriade 1992',
+        name: 'Floriade ',
         date: 694224000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Floriade%20tramlijn%201992%202.jpg',
         location: ['4.468', '52.043']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3900369',
-        name: 'Floriade 1992',
+        name: 'Floriade ',
         date: 694224000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/File-Moeder%20en%20kind2%20door%20Fons%20Versluijs.jpg',
         location: ['4.468', '52.043']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4672366',
-        name: 'Floriade 2002',
+        name: 'Floriade ',
         date: 1009843200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Floriade%202002-5.jpg',
         location: ['4.6675', '52.3358']
     },
     {
         url: 'http://www.wikidata.org/entity/Q5263555',
-        name: 'ILIS 1936',
+        name: 'ILIS ',
         date: -1073001600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bromma%20flygplats%20invigning%201936a.jpg',
         location: ['17.939722222', '59.354444444']
@@ -19244,7 +19237,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q66677938',
-        name: '2019 Amazon rainforest wildfires',
+        name: 'Amazon rainforest wildfires',
         date: 1546300800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Amazon%20fire%20satellite%20image.png',
         location: ['-63.0', '-5.0']
@@ -19286,35 +19279,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q21979516',
-        name: 'January 2016 North Korean nuclear test',
+        name: 'January North Korean nuclear test',
         date: 1452038400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kim%20Jong-un%27s%20initial%20order%20on%20H-bomb%20test.jpg',
         location: ['129.034', '41.309']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26834372',
-        name: 'September 2016 North Korean nuclear test',
+        name: 'September North Korean nuclear test',
         date: 1473379200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Us10006n8a%20ciim-ar.jpg',
         location: ['129.015', '41.298']
     },
     {
         url: 'http://www.wikidata.org/entity/Q38456729',
-        name: '2017 North Korean nuclear test',
+        name: 'North Korean nuclear test',
         date: 1504396800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%206.3%20Explosion%20-%2022km%20ENE%20of%20Sungjibaegam%2C%20North%20Korea.jpg',
         location: ['129.036', '41.343']
     },
     {
         url: 'http://www.wikidata.org/entity/Q483933',
-        name: '2009 North Korean nuclear test',
+        name: 'North Korean nuclear test',
         date: 1243209600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Yongbyon%2C%20disabled%20nuclear%20fuel%20fabrication%20facility%20machine%20shop.jpg',
         location: ['129.029', '41.306']
     },
     {
         url: 'http://www.wikidata.org/entity/Q499060',
-        name: '2006 North Korean nuclear test',
+        name: 'North Korean nuclear test',
         date: 1160352000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/North%20Korea%20Nuclear%20Test.jpg',
         location: ['129.134', '41.294']
@@ -19342,14 +19335,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4488886',
-        name: '2013 North Korean nuclear test',
+        name: 'North Korean nuclear test',
         date: 1360627200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/North%20Korea%20nuclear%20test%202013.jpg',
         location: ['129.066', '41.301']
     },
     {
         url: 'http://www.wikidata.org/entity/Q24004490',
-        name: '2016 Fort McMurray Wildfire',
+        name: 'Fort McMurray Wildfire',
         date: 1462060800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Landscape%20view%20of%20wildfire%20near%20Highway%2063%20in%20south%20Fort%20McMurray.jpg',
         location: ['-111.383333333', '56.665277777']
@@ -19363,14 +19356,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q55738551',
-        name: '2018 Attica wildfires',
+        name: 'Attica wildfires',
         date: 1532304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%CE%A0%CF%85%CF%81%CE%BA%CE%B1%CE%B3%CE%B9%CE%AD%CF%82%20%CE%91%CF%84%CF%84%CE%B9%CE%BA%CE%AE%CF%82%202018.png',
         location: ['23.86833333', '38.0525']
     },
     {
         url: 'http://www.wikidata.org/entity/Q113289117',
-        name: '2022 Bohemian-Saxon Switzerland Fire',
+        name: 'Bohemian-Saxon Switzerland Fire',
         date: 1656633600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bohemian-Saxon%20Switzerland%20Fire%2001.jpg',
         location: ['14.25', '50.882']
@@ -19384,7 +19377,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q47464442',
-        name: '2018 Kazakhstan bus fire',
+        name: 'Kazakhstan bus fire',
         date: 1516233600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/January%202018%20Kazakhstan%20bus%20fire%20-%20Digital%20drawing.jpg',
         location: ['60.725', '49.231666666']
@@ -19398,14 +19391,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q121324595',
-        name: '2023 Hawaii wildfires',
+        name: 'Hawaii wildfires',
         date: 1690848000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Os-lahaina-town-fire.jpg',
         location: ['-156.6816', '20.8824']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15428019',
-        name: "2014 Brisbane International – women's singles",
+        name: "Brisbane International – women's singles",
         date: 1388534400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Serena%20Williams%20BNP%20Paribas%20Showdown.jpg',
         location: ['153.00722222', '-27.525']
@@ -19503,7 +19496,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q11683077',
-        name: '1941 Santander fire',
+        name: 'Santander fire',
         date: -911174400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20de%20Santander%20tras%20el%20incendio%20de%201941.PNG',
         location: ['-3.809361111', '43.459794444']
@@ -19552,14 +19545,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4613951',
-        name: '2009 Hermosillo daycare center fire',
+        name: 'Hermosillo daycare center fire',
         date: 1244160000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Location%20Hermosillo.png',
         location: ['-110.954', '29.0356']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4613951',
-        name: '2009 Hermosillo daycare center fire',
+        name: 'Hermosillo daycare center fire',
         date: 1244160000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Guarder%C3%ADa%20ABC%20por%20fuera.jpg',
         location: ['-110.954', '29.0356']
@@ -19587,14 +19580,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q110157827',
-        name: '2021 Osaka building fire',
+        name: 'Osaka building fire',
         date: 1639699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%20Osaka%20building%20fire%201%2020211219.jpg',
         location: ['135.495666666', '34.697694444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122146423',
-        name: '2023 Johannesburg building fire',
+        name: 'Johannesburg building fire',
         date: 1693440000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fire%20disaster%20building%202.jpg',
         location: ['28.049166666', '-26.208333333']
@@ -19636,7 +19629,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4606034',
-        name: '2006 Danvers Chemical fire',
+        name: 'Danvers Chemical fire',
         date: 1164153600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damaged%20building%20in%20Danvers.jpg',
         location: ['-70.9195', '42.5476']
@@ -19664,7 +19657,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q98073118',
-        name: '2020 Beirut explosions',
+        name: 'Beirut explosions',
         date: 1596499200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damages%20after%202020%20Beirut%20explosions%201.jpg',
         location: ['35.518888888', '33.901388888']
@@ -19713,14 +19706,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q50308461',
-        name: '2018 Baku fire',
+        name: 'Baku fire',
         date: 1519948800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2018-03-02%20%C4%B0lham%20%C6%8Fliyev%20yan%C4%9F%C4%B1n%20ba%C5%9F%20ver%C9%99n%20Respublika%20Narkoloji%20M%C9%99rk%C9%99zin%C9%99%20g%C9%99l%C9%99r%C9%99k%20v%C9%99ziyy%C9%99tl%C9%99%20tan%C4%B1%C5%9F%20olub%20-%20006.jpg',
         location: ['49.57226', '40.20529']
     },
     {
         url: 'http://www.wikidata.org/entity/Q50947700',
-        name: '2018 Kemerovo fire',
+        name: 'Kemerovo fire',
         date: 1521936000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Zimnyaya%20Vishnya%20complex%20after%20fire.png',
         location: ['86.077778', '55.343611']
@@ -19734,7 +19727,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q64605287',
-        name: '2008 Universal Studios fire',
+        name: 'Universal Studios fire',
         date: 1212278400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Universal%20Fire%20Smoke.jpg',
         location: ['-118.350555555', '34.141111111']
@@ -19769,28 +19762,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q694586',
-        name: 'Solingen arson attack of 1993',
+        name: 'Solingen arson attack of ',
         date: 738633600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Brandanschlag%20solingen%201993.jpg',
         location: ['7.089902', '51.184098']
     },
     {
         url: 'http://www.wikidata.org/entity/Q897803',
-        name: '2011 Monterrey casino attack',
+        name: 'Monterrey casino attack',
         date: 1314230400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Casino%20Royale%20Monterrey.jpg',
         location: ['-100.35493056', '25.67415556']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30091388',
-        name: '2017 Portland train attack',
+        name: 'Portland train attack',
         date: 1495756800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hollywood%20MAX%20station.jpg',
         location: ['-122.620833333', '45.532777777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q5132101',
-        name: 'Cleveland Clinic fire of 1929',
+        name: 'Cleveland Clinic fire of ',
         date: -1282262400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Xray%20file%20room%20after%20disaster%201929%20A6159.jpg',
         location: ['-81.61755', '41.50236']
@@ -19867,7 +19860,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16956159',
-        name: '2014 Boston Brownstone Fire',
+        name: 'Boston Brownstone Fire',
         date: 1395792000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Street%20map%20of%20Back%20Bay.jpg',
         location: ['-71.0822', '42.3531']
@@ -19895,14 +19888,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29065',
-        name: '2011 England riots',
+        name: 'England riots',
         date: 1312156800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Carpetright%20store%20after%20Tottenham%20riots.jpg',
         location: ['-0.07', '51.5909']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3562650',
-        name: '1972 Montreal Museum of Fine Arts robbery',
+        name: 'Montreal Museum of Fine Arts robbery',
         date: 84412800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Vanitas%20still%20life%20with%20books%2C%20a%20globe%2C%20a%20skull%2C%20a%20violin%20and%20a%20pocket%20watch.jpg',
         location: ['-73.5801', '45.4987']
@@ -19944,28 +19937,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.416666666', '54.883333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.5991666', '55.2181191']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.708333333', '55.536111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114245504',
-        name: '2022 Nord Stream pipeline sabotage',
+        name: 'Nord Stream pipeline sabotage',
         date: 1664150400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nord%20Stream%20gasbideak.jpg',
         location: ['15.791666666', '55.561111111']
@@ -19979,21 +19972,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q122976243',
-        name: '2023 Hamas-led attack on Israel',
+        name: 'Hamas-led attack on Israel',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%91%D7%A0%D7%94%20%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A9%D7%A8%D7%95%D7%A3%20%D7%91%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%91%D7%90%D7%A8%D7%99%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%AA%D7%A7%D7%A4%D7%AA%20%D7%94%D7%A4%D7%AA%D7%A2.%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%99%D7%95%D7%90%D7%91%20%D7%A7%D7%A8%D7%9F.jpg',
         location: ['34.507694444', '31.363527777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1417490',
-        name: '1929 Hebron massacre',
+        name: 'Hebron massacre',
         date: -1273536000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jewish%20child%20victim%20of%20Arab%20riots%20in%20Hebron%2C%201929.jpg',
         location: ['35.095', '31.533']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1417490',
-        name: '1929 Hebron massacre',
+        name: 'Hebron massacre',
         date: -1273536000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%97%D7%9C%D7%A7%D7%AA%20%22%D7%A7%D7%93%D7%95%D7%A9%D7%99%20%D7%AA%D7%A8%D7%A4%22%D7%98%22%20%D7%91%D7%91%D7%99%D7%AA%20%D7%94%D7%A2%D7%9C%D7%9E%D7%99%D7%9F%20%D7%94%D7%A2%D7%AA%D7%99%D7%A7%20%D7%91%D7%97%D7%91%D7%A8%D7%95%D7%9F.jpg',
         location: ['35.095', '31.533']
@@ -20014,7 +20007,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q25980145',
-        name: '2016 Munich shooting',
+        name: 'Munich shooting',
         date: 1469145600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mcdonalds%20muenchen%20hanauer%20strasse%20oez.jpg',
         location: ['11.533611111', '48.183333333']
@@ -20084,7 +20077,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1047674',
-        name: '1942 raid in southern Bačka',
+        name: 'raid in southern Bačka',
         date: -881884800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pokolj%20u%20Novom%20Sadu%201942.jpg',
         location: ['19.916667', '45.333333']
@@ -20126,21 +20119,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4566250',
-        name: '1948 Donora smog',
+        name: 'Donora smog',
         date: -694310400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Donora-10-2012-aerial-photo-by-greg-cromer.jpg',
         location: ['-79.861', '40.175']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4588587',
-        name: '1993 Jolimont Centre siege',
+        name: 'Jolimont Centre siege',
         date: 754531200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Novotel%20Canberra%20and%20the%20Jolimont%20Centre.jpg',
         location: ['149.129', '-35.2777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4600511',
-        name: '2002 State of the Union Address',
+        name: 'State of the Union Address',
         date: 1012262400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Bush%20at%20State%20of%20the%20Union.jpg',
         location: ['-77.00911111', '38.88883333']
@@ -20217,7 +20210,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q335259',
-        name: '1999 F-117A shoot-down',
+        name: 'F-117A shoot-down',
         date: 922492800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/F-117%20canopy.jpg',
         location: ['19.8667', '44.9']
@@ -20238,56 +20231,56 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.535833333', '44.943333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.703194444', '45.404716666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.456472222', '45.436916666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.561966666', '45.598561111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q91129213',
-        name: '2020 Nova Scotia shooting',
+        name: 'Nova Scotia shooting',
         date: 1585699200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Big%20Stop%20in%20Enfield%2C%20Nova%20Scotia.jpg',
         location: ['-63.28', '45.364722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112695273',
-        name: '2022 Oslo shooting',
+        name: 'Oslo shooting',
         date: 1656115200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/C.J.Hambros%20plass%20after%202022%20Oslo%20shootings.jpg',
         location: ['10.740555555', '59.915277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112695273',
-        name: '2022 Oslo shooting',
+        name: 'Oslo shooting',
         date: 1656115200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mourning%20flowers%20at%20C.J.Hambros%20plass%20after%20shootings.jpg',
         location: ['10.740555555', '59.915277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q17181586',
-        name: '2014 Ukrainian Air Force Il-76 shootdown',
+        name: 'Ukrainian Air Force Il-76 shootdown',
         date: 1402704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ukrainian%20Air%20Force%20IL-76.jpg',
         location: ['39.462202777', '48.394561111']
@@ -20301,56 +20294,56 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20I75sb%20Exit%2092%201%20mile.JPG',
         location: ['-83.7189', '31.8547']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20and%20Vice%20President%20Kamala%20Harris%20meet%20with%20Asian%20American%20leaders%20in%20Atlanta.jpg',
         location: ['-83.7189', '31.8547']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20I75sb%20Exit%2092%201%20mile.JPG',
         location: ['-84.3662', '33.8096']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20and%20Vice%20President%20Kamala%20Harris%20meet%20with%20Asian%20American%20leaders%20in%20Atlanta.jpg',
         location: ['-84.3662', '33.8096']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20I75sb%20Exit%2092%201%20mile.JPG',
         location: ['-84.3658', '33.8102']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20and%20Vice%20President%20Kamala%20Harris%20meet%20with%20Asian%20American%20leaders%20in%20Atlanta.jpg',
         location: ['-84.3658', '33.8102']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20I75sb%20Exit%2092%201%20mile.JPG',
         location: ['-84.5811', '34.0882']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20and%20Vice%20President%20Kamala%20Harris%20meet%20with%20Asian%20American%20leaders%20in%20Atlanta.jpg',
         location: ['-84.5811', '34.0882']
@@ -20371,14 +20364,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2475745',
-        name: 'Siberia Airlines Flight 1812',
+        name: 'Siberia Airlines Flight ',
         date: 1002153600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Siberia%20Airlines%20Tupolev%20Tu-154M%20Zherdin.jpg',
         location: ['37.61666667', '42.18333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4593756',
-        name: '1998 Lignes Aériennes Congolaises crash',
+        name: 'Lignes Aériennes Congolaises crash',
         date: 907977600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Champion%20Air%20727-2S7%20LAS%20N682CA.jpg',
         location: ['25.95', '2.95']
@@ -20392,7 +20385,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16938335',
-        name: '2014 Isla Vista killings',
+        name: 'Isla Vista killings',
         date: 1400803200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20BMW%20328i%20coupe%20--%20NHTSA%2001.jpg',
         location: ['-119.859', '34.412']
@@ -20406,7 +20399,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q483257',
-        name: '2007 South Korean hostage crisis in Afghanistan',
+        name: 'South Korean hostage crisis in Afghanistan',
         date: 1184803200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ghazni%20in%20Afghanistan.svg',
         location: ['68.0', '33.5']
@@ -20462,7 +20455,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q6952032',
-        name: '2003 Angola Boeing 727 disappearance',
+        name: 'Angola Boeing 727 disappearance',
         date: 1053820800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Boeing%20727-223%20of%20American%20Airlines%20Chicago%20O%27Hare.jpg',
         location: ['13.2311', '-8.85833']
@@ -20483,21 +20476,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4613183',
-        name: '2009 Algerian military ambush',
+        name: 'Algerian military ambush',
         date: 1245196800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Algeria%2034%20Wilaya%20locator%20map-2009.svg',
         location: ['4.76294444', '36.07383333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4617046',
-        name: '2010 Darwin shopping mall bombing',
+        name: 'Darwin shopping mall bombing',
         date: 1265155200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mitchell%20Street%20Darwin.jpg',
         location: ['130.84041', '-12.460424']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4621797',
-        name: '2011 Mastung bus shooting',
+        name: 'Mastung bus shooting',
         date: 1316476800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Pakistan%20-%20Balochistan%20-%20Mastung.svg',
         location: ['67.189449', '29.408737']
@@ -20553,35 +20546,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2576785',
-        name: '2003 Red Square bombing',
+        name: 'Red Square bombing',
         date: 1070928000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%20%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%B0%D0%BC%20%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B0%20%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C.jpg',
         location: ['37.614211111', '55.756608333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4456273',
-        name: '2010 Chabahar suicide bombing',
+        name: 'Chabahar suicide bombing',
         date: 1292284800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Locator%20map%20Iran%20Sistan%20and%20Baluchestan%20Province.png',
         location: ['60.623611', '25.283611']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4603285',
-        name: '2004 Sinai bombings',
+        name: 'Sinai bombings',
         date: 1097107200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hilton%20Taba.JPG',
         location: ['34.8833', '29.5']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4620270',
-        name: '2011 Aktobe bombing',
+        name: 'Aktobe bombing',
         date: 1305590400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Nurdaulet%20mosque%201.jpg',
         location: ['57.223333333', '50.283055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15972178',
-        name: '2014 Kabul Serena Hotel attack',
+        name: 'Kabul Serena Hotel attack',
         date: 1395273600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Serena%20Hotel%20in%20Kabul.jpg',
         location: ['69.178055555', '34.520555555']
@@ -20595,7 +20588,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q86584',
-        name: '2002 Bali bombings',
+        name: 'Bali bombings',
         date: 1034380800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Bali%20kuta%20blast%20monument%20ag1.jpg',
         location: ['115.174166666', '-8.717222222']
@@ -20609,7 +20602,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q269893',
-        name: '2010 Moscow Metro bombings',
+        name: 'Moscow Metro bombings',
         date: 1269820800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Medvedev%20at%20Lubyanka%20metro%20station%201.jpeg',
         location: ['37.6273', '55.7593']
@@ -20637,14 +20630,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q327576',
-        name: '2005 Sharm el-Sheikh attacks',
+        name: 'Sharm el-Sheikh attacks',
         date: 1122076800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sharm%20el%20Sheikh%20map.png',
         location: ['34.2824', '27.8598']
     },
     {
         url: 'http://www.wikidata.org/entity/Q569394',
-        name: '2003 Casablanca bombing',
+        name: 'Casablanca bombing',
         date: 1053043200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Boulevard%20de%20Paris%2C%20Casablanca.jpg',
         location: ['-7.606636111', '33.578455555']
@@ -20679,28 +20672,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4352718',
-        name: '1993 Bishopsgate bombing',
+        name: 'Bishopsgate bombing',
         date: 735609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/After%20the%20Bishopsgate%20Bomb%20of%201993%20-%20geograph.org.uk%20-%20653979.jpg',
         location: ['-0.0822', '51.5156']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4589550',
-        name: '1994 London Israeli Embassy attack',
+        name: 'London Israeli Embassy attack',
         date: 775180800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Israeli%20embassy%20London.JPG',
         location: ['-0.1891', '51.5029']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4598493',
-        name: '2001 BBC bombing',
+        name: 'BBC bombing',
         date: 983664000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/BBC%20Television%20Centre%2C%20Wood%20Lane%2C%20London%20W12%20-%20geograph.org.uk%20-%20686894.jpg',
         location: ['-0.2248', '51.5113']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4598634',
-        name: '2001 Ealing bombing',
+        name: 'Ealing bombing',
         date: 996796800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Real%20IRA%20bomb%20damage%20in%20Ealing.jpg',
         location: ['-0.3021', '51.514']
@@ -20714,14 +20707,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q8186827',
-        name: 'Dan-Air Flight 1903',
+        name: 'Dan-Air Flight ',
         date: 15811200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20Cementiri%20d-arbucies.JPG',
         location: ['2.45944', '41.7958']
     },
     {
         url: 'http://www.wikidata.org/entity/Q11240',
-        name: '1993 World Trade Center bombing',
+        name: 'World Trade Center bombing',
         date: 730684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1993%20World%20Trade%20Center%20bombing%20debris.jpg',
         location: ['-74.01361111', '40.71166667']
@@ -20735,28 +20728,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q122902866',
-        name: '2023 Ankara bombing',
+        name: 'Ankara bombing',
         date: 1696118400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Ankara%20bomb%20attack.jpg',
         location: ['32.851666666', '39.914444444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23288674',
-        name: '2016 March Istanbul bombing',
+        name: 'March Istanbul bombing',
         date: 1458345600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Demir%C3%B6renShoppingMall01.JPG',
         location: ['28.981111111', '41.035']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23365300',
-        name: '2016 Brussels bombings',
+        name: 'Brussels bombings',
         date: 1458604800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atentados%20de%20Bruselas%20de%20marzo%20de%202016.jpg',
         location: ['4.431583333', '50.876833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q712907',
-        name: '1964 Brinks Hotel bombing',
+        name: 'Brinks Hotel bombing',
         date: -158457600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1964%20Brinks%20Hotel%20bombing.JPG',
         location: ['106.682', '10.7694']
@@ -20791,7 +20784,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2531086',
-        name: '2003 El Nogal Club bombing',
+        name: 'El Nogal Club bombing',
         date: 1044576000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Reconstrucci%C3%B3n-El%20nogal.jpg',
         location: ['-74.0507', '4.66015']
@@ -20805,28 +20798,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q30351579',
-        name: '2017 Brussels attack',
+        name: 'Brussels attack',
         date: 1497916800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20170620%20police%20is%20closing%20of%20the%20area%20around%20Brussels%20Central%20train%20station%20%282%29.jpg',
         location: ['4.356861111', '50.845480555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q42033121',
-        name: 'October 2017 Mogadishu bombings',
+        name: 'October Mogadishu bombings',
         date: 1507939200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%2010%2015%20VBIED-8%20%2837666124646%29.jpg',
         location: ['45.3425', '2.040833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q61042203',
-        name: '2019 Jolo Cathedral bombing',
+        name: 'Jolo Cathedral bombing',
         date: 1548547200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aftermath%20of%20the%20Jolo%20Cathedral%20bombings.jpg',
         location: ['121.0009', '6.0526']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108285843',
-        name: '2021 Kabul airport attack',
+        name: 'Kabul airport attack',
         date: 1629936000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Afghanistan%20Evacuation%20210821-A-AB999-0019.jpg',
         location: ['69.220277777', '34.558611111']
@@ -20840,42 +20833,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28380858',
-        name: '2017 Gao bombing',
+        name: 'Gao bombing',
         date: 1484697600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Malian%20Red%20Cross%20after%20a%20terrorist%20attack%2C%20Gao.jpg',
         location: ['-0.05', '16.266667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30015850',
-        name: '2017 Manchester Arena bombing',
+        name: 'Manchester Arena bombing',
         date: 1495411200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Manchester%20Evening%20News%20Arena%20-%20geograph.org.uk%20-%201931437.jpg',
         location: ['-2.243', '53.4881']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30147595',
-        name: '2017 Tehran attacks',
+        name: 'Tehran attacks',
         date: 1496793600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tehranattack2017.jpg',
         location: ['51.423055555', '35.696111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25007917',
-        name: '2016 Istanbul airport attack',
+        name: 'Istanbul airport attack',
         date: 1467072000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Atat%C3%BCrk%20international%20airport%20borak.jpg',
         location: ['28.82', '40.978']
     },
     {
         url: 'http://www.wikidata.org/entity/Q26036708',
-        name: '2016 Ansbach bombing',
+        name: 'Ansbach bombing',
         date: 1469318400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ansbach%20-%202013%20Mattes%20%2891%29%202.jpg',
         location: ['10.583055555', '49.3']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27988528',
-        name: 'December 2016 Istanbul bombings',
+        name: 'December Istanbul bombings',
         date: 1481328000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%BCzer%20Plaza%20as%20seen%20from%20Dolmabah%C3%A7e%20Gazhane%20Avenue.jpg',
         location: ['28.994444', '41.041944']
@@ -20889,21 +20882,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q22067779',
-        name: '2016 Jakarta attacks',
+        name: 'Jakarta attacks',
         date: 1452729600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Sarinah-Starbucks%20Jakarta%20Attack%207.JPG',
         location: ['106.823161111', '-6.186822222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q22812485',
-        name: 'February 2016 Ankara bombing',
+        name: 'February Ankara bombing',
         date: 1455667200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Merasim%20Sokak%202016%20bombing.jpg',
         location: ['32.8438', '39.9364']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15088781',
-        name: 'October 2013 Volgograd bus bombing',
+        name: 'October Volgograd bus bombing',
         date: 1382313600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20bus%20in%20Volgograd%20after%20the%20bombing.jpg',
         location: ['44.4699', '48.534']
@@ -20917,28 +20910,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15456623',
-        name: 'December 2013 Volgograd bombings',
+        name: 'December Volgograd bombings',
         date: 1388361600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/December%202013%20Volgograd%20bombings.jpg',
         location: ['44.5135', '48.7125']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15456623',
-        name: 'December 2013 Volgograd bombings',
+        name: 'December Volgograd bombings',
         date: 1388361600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/December%202013%20Volgograd%20bombings.jpg',
         location: ['44.498635', '48.736406']
     },
     {
         url: 'http://www.wikidata.org/entity/Q21541716',
-        name: '2015 Tunis bombing',
+        name: 'Tunis bombing',
         date: 1448323200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Location%20map%20Tunis.png',
         location: ['10.18463', '36.81099']
     },
     {
         url: 'http://www.wikidata.org/entity/Q22039066',
-        name: '2016 Istanbul bombing',
+        name: 'Istanbul bombing',
         date: 1452556800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%2031.jpg',
         location: ['28.977405555', '41.006163888']
@@ -20966,35 +20959,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16448748',
-        name: '2014 Mount Everest avalanche',
+        name: 'Mount Everest avalanche',
         date: 1397779200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/KhumbuIcefall.jpg',
         location: ['86.877222', '27.992222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16821569',
-        name: '2000 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2000%20Summer%20Olympics%20closing%20ceremony%201.JPEG',
         location: ['151.06333333', '-33.84722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16821569',
-        name: '2000 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Closing%20ceremony1.jpg',
         location: ['151.06333333', '-33.84722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16821569',
-        name: '2000 Summer Olympics closing ceremony',
+        name: 'Summer Olympics closing ceremony',
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fireworks%2C%20Sydney%20Harbour%20Bridge%2C%202000%20Summer%20Olympics%20closing%20ceremony.jpg',
         location: ['151.06333333', '-33.84722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28380858',
-        name: '2017 Gao bombing',
+        name: 'Gao bombing',
         date: 1484697600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Malian%20Red%20Cross%20after%20a%20terrorist%20attack%2C%20Gao.jpg',
         location: ['-0.05', '16.266667']
@@ -21015,28 +21008,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q22812485',
-        name: 'February 2016 Ankara bombing',
+        name: 'February Ankara bombing',
         date: 1455667200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Merasim%20Sokak%202016%20bombing.jpg',
         location: ['32.8438', '39.9364']
     },
     {
         url: 'http://www.wikidata.org/entity/Q23045905',
-        name: 'March 2016 Ankara bombing',
+        name: 'March Ankara bombing',
         date: 1457827200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ankara%20K%C4%B1z%C4%B1lay%27da%20Patlama%201%2013-March-2016.jpg',
         location: ['32.853601', '39.919961']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27988528',
-        name: 'December 2016 Istanbul bombings',
+        name: 'December Istanbul bombings',
         date: 1481328000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%BCzer%20Plaza%20as%20seen%20from%20Dolmabah%C3%A7e%20Gazhane%20Avenue.jpg',
         location: ['28.994444', '41.041944']
     },
     {
         url: 'http://www.wikidata.org/entity/Q18292671',
-        name: 'Chittagong Wikipedia meetup, October 2014',
+        name: 'Chittagong Wikipedia meetup, October ',
         date: 1412899200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Chattogram%20Wikipedia%20meetup%2C%20October%202014%20%2815%29.jpg',
         location: ['91.8224359', '22.3566179']
@@ -21064,28 +21057,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106768320',
-        name: 'May 2021 Kabul bombing',
+        name: 'May Kabul bombing',
         date: 1620432000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/14000221001114637563742760378856%20%D9%86%D9%82%D8%B4%20%D9%87%D9%85%D8%AF%D8%B1%D8%AF%DB%8C%20%D8%A8%D8%B1%20%D8%A8%D8%B1%D8%AC%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C.jpg',
         location: ['69.035', '34.503055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114492886',
-        name: '2022 Crimean Bridge explosion',
+        name: 'Crimean Bridge explosion',
         date: 1665187200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2022-10-11%20Enl%20crimea%20bridge.jpg',
         location: ['36.5125', '45.301111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114926903',
-        name: 'October 2022 Mogadishu bombings',
+        name: 'October Mogadishu bombings',
         date: 1667001600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/People%20reacting%20to%20a%20blast%20after%20the%20October%202022%20Mogadishu%20bombings.jpg',
         location: ['45.305833333', '2.0325']
     },
     {
         url: 'http://www.wikidata.org/entity/Q56750768',
-        name: 'Wikipedia:Meetup/Melaka 1',
+        name: 'Meetup/Melaka 1',
         date: 1538784000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Wikimedia%20Melaka%20Meetup%201.jpg',
         location: ['102.276638888', '2.249388888']
@@ -21106,7 +21099,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q45773452',
-        name: '2017 Java Earthquake',
+        name: 'Java Earthquake',
         date: 1483228800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017WestJavaEarthquakeShakeMap.jpg',
         location: ['108.174', '-7.492']
@@ -21120,14 +21113,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q49181837',
-        name: '2018 Kizlyar church shooting',
+        name: 'Kizlyar church shooting',
         date: 1518912000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D1%85%D1%80%D0%B0%D0%BC%20%D0%B3.%20%D0%9A%D0%B8%D0%B7%D0%BB%D1%8F%D1%80.jpg',
         location: ['46.71667', '43.85']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19944579',
-        name: '2015 Baku residence building fire',
+        name: 'Baku residence building fire',
         date: 1431993600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2015%20Baku%20residence%20building%20fire%20-%20VOA%20-%2006.jpg',
         location: ['49.8391', '40.425']
@@ -21141,7 +21134,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q64624808',
-        name: '2019 Reed Bank incident',
+        name: 'Reed Bank incident',
         date: 1560038400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fishing%20Banca%20Gem-Ver%27s%20stern%20after%20Reed%20Bank%20incident.jpg',
         location: ['116.83146667', '11.57595']
@@ -21155,7 +21148,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28770282',
-        name: '2017 Oroville Dam crisis',
+        name: 'Oroville Dam crisis',
         date: 1485907200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Oroville%20dam%20spillway%202017-02-11.jpg',
         location: ['-121.492', '39.5426']
@@ -21225,7 +21218,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q33695253',
-        name: '2017 Hamburg attack',
+        name: 'Hamburg attack',
         date: 1501200000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Messerattacke%20in%20Hamburg%20%281%29.jpg',
         location: ['10.0423515', '53.5944412']
@@ -21246,7 +21239,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q51103673',
-        name: '2018 Valencia, Venezuela fire',
+        name: 'Valencia, Venezuela fire',
         date: 1522195200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Valencia%20%28Venezuela%29%20Skyline.jpg',
         location: ['-68.002216', '10.189222']
@@ -21267,28 +21260,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q55099274',
-        name: '1973 Westminster bombing',
+        name: 'Westminster bombing',
         date: 125020800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/City%20Inn%20Thorney%20Street%20-%20geograph.org.uk%20-%201364837.jpg',
         location: ['-0.126094444', '51.493988888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q55099277',
-        name: '1996 Hammersmith Bridge bombing',
+        name: 'Hammersmith Bridge bombing',
         date: 830304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hammersmith%20Bridge%20entrance.jpg',
         location: ['-0.230713888', '51.487894444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q55099282',
-        name: '1993 Harrods bombing',
+        name: 'Harrods bombing',
         date: 728179200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Brompton%20Rd%2C%20London%20looking%20north%20from%20Harrod%27s%20-%20geograph.org.uk%20-%202614.jpg',
         location: ['-0.16361111', '51.49972222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q55099285',
-        name: '1992 Staples Corner bombing',
+        name: 'Staples Corner bombing',
         date: 702950400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/North%20Circular%20overpass%2C%20Staples%20Corner%20-%20geograph.org.uk%20-%201202537.jpg',
         location: ['-0.2287', '51.5718']
@@ -21309,7 +21302,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q55099389',
-        name: '1974 Tower of London bombing',
+        name: 'Tower of London bombing',
         date: 143251200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/London%20-%20White%20Tower2-2.jpg',
         location: ['-0.07595', '51.50823']
@@ -21330,7 +21323,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q803699',
-        name: '2000 Baia Mare cyanide spill',
+        name: 'Baia Mare cyanide spill',
         date: 949190400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tisza%20cyanide%20spill%201.jpg',
         location: ['23.64166667', '47.65']
@@ -21358,7 +21351,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20819188',
-        name: '2015 Gold King Mine waste water spill',
+        name: 'Gold King Mine waste water spill',
         date: 1438732800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gold%20King%20Mine%20Spill%20Emergency%20Retaining%20Ponds.JPG',
         location: ['-107.63833333', '37.89444444']
@@ -21386,21 +21379,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106632834',
-        name: '2021 Joe Biden speech to a joint session of Congress',
+        name: 'Joe Biden speech to a joint session of Congress',
         date: 1619568000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20speaking%20at%20the%20joint%20session%20of%20Congress.jpg',
         location: ['-77.009111111', '38.888833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q106632834',
-        name: '2021 Joe Biden speech to a joint session of Congress',
+        name: 'Joe Biden speech to a joint session of Congress',
         date: 1619568000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20speaking%20at%20the%20joint%20session%20of%20Congress.jpg',
         location: ['-77.009027777', '38.889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q107579702',
-        name: '19 July, 2021 Baghdad bombing',
+        name: '19 July, Baghdad bombing',
         date: 1626652800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Baghdad%20bombing%2C%20Sadr%20City%20-%20Jul%2019%2C%202020%2002.jpg',
         location: ['44.455491408', '33.369682833']
@@ -21414,7 +21407,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q85721207',
-        name: '2020 Wallan derailment',
+        name: 'Wallan derailment',
         date: 1582156800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/XPT.jpg',
         location: ['145.018333', '-37.404167']
@@ -21428,35 +21421,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q57580401',
-        name: '2018 Yilan train derailment',
+        name: 'Yilan train derailment',
         date: 1540080000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E8%94%A1%E7%B8%BD%E7%B5%B1%E6%85%B0%E5%8B%89%E6%99%AE%E6%82%A0%E7%91%AA%E8%99%9F%E7%BF%BB%E8%A6%86%E4%BA%8B%E6%95%85%E6%95%91%E7%81%BD%E4%BA%BA%E5%93%A1%E8%BE%9B%E5%8B%9E%2005.jpg',
         location: ['121.823333333', '24.615833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q57580401',
-        name: '2018 Yilan train derailment',
+        name: 'Yilan train derailment',
         date: 1540080000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/TRA%206432%20incident%20simplified%20plot.svg',
         location: ['121.823333333', '24.615833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q57580401',
-        name: '2018 Yilan train derailment',
+        name: 'Yilan train derailment',
         date: 1540080000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/TRA%206432%20incident%20simplified%20plot%20EN.svg',
         location: ['121.823333333', '24.615833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q57610925',
-        name: '2018 Bouknadel train derailment',
+        name: 'Bouknadel train derailment',
         date: 1539648000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Z2M%20of%20ONCF%20between%20Sidi%20Mbarek%20du%20R%27Dom%20and%20Bab-Tisra%2C%20Morocco.jpg',
         location: ['-6.732374', '34.128771']
     },
     {
         url: 'http://www.wikidata.org/entity/Q7650233',
-        name: '1955 Sutton Coldfield derailment',
+        name: 'Sutton Coldfield derailment',
         date: -471571200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sutton%20Coldfield%20rail%20disaster%20memorial%20-%202016-01-25.jpg',
         location: ['-1.82444', '52.5653']
@@ -21470,7 +21463,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q13359635',
-        name: '2013 Fairfield train crash',
+        name: 'Fairfield train crash',
         date: 1368748800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Damaged%20M8%20cars%20in%20Bridgeport%20yard%20May%202013.JPG',
         location: ['-73.218055555', '41.167361111']
@@ -21505,14 +21498,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q19352357',
-        name: '2015 Mount Carbon train derailment',
+        name: 'Mount Carbon train derailment',
         date: 1424044800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mount-Carbon-West-Va-2015-train-derailment-response-1.jpg',
         location: ['-81.292805555', '38.148722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q19901271',
-        name: '2015 Philadelphia train derailment',
+        name: 'Philadelphia train derailment',
         date: 1431388800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/NTSB%202015%20Philadelphia%20train%20derailment%203.jpg',
         location: ['-75.094611', '40.001356']
@@ -21526,7 +21519,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q27807478',
-        name: '2016 Croydon tram derailment',
+        name: 'Croydon tram derailment',
         date: 1478649600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sandilands%20Junction%20derailed%20tram.jpg',
         location: ['-0.07541', '51.374205']
@@ -21631,14 +21624,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106319526',
-        name: '2021 Hualien train derailment',
+        name: 'Hualien train derailment',
         date: 1617321600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%E5%B9%B4%E5%A4%AA%E9%AD%AF%E9%96%A3%E5%88%97%E8%BB%8A%E5%87%BA%E8%BB%8C%E4%BA%8B%E6%95%85%2001.jpg',
         location: ['121.6883', '24.2171']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116753653',
-        name: '2023 Ohio train derailment',
+        name: 'Ohio train derailment',
         date: 1675382400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ohio%20Derailment%20contractors%20cleanup%202023.jpg',
         location: ['-80.5227', '40.836']
@@ -21652,35 +21645,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116861041',
-        name: '2023 Presidential Address to the Federal Assembly',
+        name: 'Presidential Address to the Federal Assembly',
         date: 1676937600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%20%D0%9F%D1%83%D1%82%D0%B8%D0%BD%20%D0%B2%202023%20%D0%B3%D0%BE%D0%B4%D1%83.jpg',
         location: ['37.6255', '55.754']
     },
     {
         url: 'http://www.wikidata.org/entity/Q123458642',
-        name: '2023 Uttarakhand tunnel rescue',
+        name: 'Uttarakhand tunnel rescue',
         date: 1699747200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Uttarakhand%20tunnel%20collapse.jpg',
         location: ['78.263555555', '30.757472222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q115688047',
-        name: '2022 St Helier explosion',
+        name: 'St Helier explosion',
         date: 1670630400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/St%20helier%20explosion%20location.png',
         location: ['-2.108333333', '49.178333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2748553',
-        name: 'sailing at the 2012 Summer Paralympics',
+        name: 'sailing at the Summer Paralympics',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Uk%20dor%20portharbour.JPG',
         location: ['-2.449722222', '50.569444444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q123668173',
-        name: '2023 eruption of Mount Marapi',
+        name: 'eruption of Mount Marapi',
         date: 1701561600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Erupsi%20Gunung%20Marapi%20RRI-Novelhya%20Wirda.jpg',
         location: ['100.4726', '-0.3811']
@@ -21701,14 +21694,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1081409',
-        name: '2009 Nevsky Express bombing',
+        name: 'Nevsky Express bombing',
         date: 1259280000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/ElectricLoco%20chs200%20011.jpg',
         location: ['33.673611', '58.125833']
     },
     {
         url: 'http://www.wikidata.org/entity/Q20857086',
-        name: '2015 Thalys train attack',
+        name: 'Thalys train attack',
         date: 1440115200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Coupling%20THA%209364%20B%20M-Z%2C%20June%202014%20%282%29.JPG',
         location: ['3.006055555', '50.468638888']
@@ -21729,42 +21722,42 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q36204',
-        name: '2011 Tōhoku earthquake and tsunami',
+        name: 'Tōhoku earthquake and tsunami',
         date: 1299801600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SH-60B%20helicopter%20flies%20over%20Sendai.jpg',
         location: ['142.369', '38.322']
     },
     {
         url: 'http://www.wikidata.org/entity/Q36204',
-        name: '2011 Tōhoku earthquake and tsunami',
+        name: 'Tōhoku earthquake and tsunami',
         date: 1299801600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SH-60B%20helicopter%20flies%20over%20Sendai.jpg',
         location: ['142.369', '38.322']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37150759',
-        name: '2017 Turku attack',
+        name: 'Turku attack',
         date: 1503014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Candles%20at%20the%20Turku%20Market%20Square.jpg',
         location: ['22.266388888', '60.451944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37150759',
-        name: '2017 Turku attack',
+        name: 'Turku attack',
         date: 1503014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Candles%20in%20Market%20Square%20in%20Turku.jpg',
         location: ['22.266388888', '60.451944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37150759',
-        name: '2017 Turku attack',
+        name: 'Turku attack',
         date: 1503014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Turku%20Marktplatz.jpg',
         location: ['22.266388888', '60.451944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q37150759',
-        name: '2017 Turku attack',
+        name: 'Turku attack',
         date: 1503014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Turun%20Kauppatori%20%284709332391%29.jpg',
         location: ['22.266388888', '60.451944444']
@@ -21778,21 +21771,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3388879',
-        name: '1933 Sanriku earthquake',
+        name: 'Sanriku earthquake',
         date: -1162425600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1933%20Sanriku%20Earthquake%20damage%20at%20Kamaishi%2001.jpg',
         location: ['144.117', '39.1283']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3388879',
-        name: '1933 Sanriku earthquake',
+        name: 'Sanriku earthquake',
         date: -1162425600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1933%20Sanriku%20Earthquake%20damage%20at%20Onagawa.jpg',
         location: ['144.117', '39.1283']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3388879',
-        name: '1933 Sanriku earthquake',
+        name: 'Sanriku earthquake',
         date: -1162425600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kamaishi%20Bay%20after%201933%20tsunami.jpg',
         location: ['144.117', '39.1283']
@@ -21806,21 +21799,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q604050',
-        name: 'December 2012 Sanriku earthquake',
+        name: 'December Sanriku earthquake',
         date: 1354838400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2012%20M7-3%20Kamaishi%20Japan%20Map.png',
         location: ['144.09', '37.889']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30119692',
-        name: 'June 2017 London attack',
+        name: 'June London attack',
         date: 1496448000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Borough%20High%20Street%20after%20the%20Terrorist%20Attack%20%2835080024946%29.jpg',
         location: ['-0.087777777', '51.508055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q33695253',
-        name: '2017 Hamburg attack',
+        name: 'Hamburg attack',
         date: 1501200000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Messerattacke%20in%20Hamburg%20%281%29.jpg',
         location: ['10.0423515', '53.5944412']
@@ -21834,28 +21827,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q47839685',
-        name: '2018 Ariel stabbing',
+        name: 'Ariel stabbing',
         date: 1517788800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20Ariel%2C%202013.jpg',
         location: ['35.165', '32.106944444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q59647120',
-        name: '2018 Strasbourg attack',
+        name: 'Strasbourg attack',
         date: 1544486400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fusillade%20de%20Strasbourg%2C%20intervention%20police%20route%20de%20l%27h%C3%B4pital%20Neudorf%2C%2011%20d%C3%A9cembre%202018%20-%207.jpg',
         location: ['7.748888888', '48.582611111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q63490143',
-        name: 'Aeroflot Flight 1492',
+        name: 'Aeroflot Flight ',
         date: 1557014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Aeroflot%2C%20RA-89098%2C%20Sukhoi%20Superjet%20100-95B%20%2837008931593%29%20%282%29.jpg',
         location: ['37.403055555', '55.969166666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q76824392',
-        name: '2019 London Bridge stabbing',
+        name: 'London Bridge stabbing',
         date: 1574985600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20London%20UK%20location%20map.svg',
         location: ['-0.087555555', '51.508944444']
@@ -21869,21 +21862,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q84258567',
-        name: '2020 Streatham stabbing',
+        name: 'Streatham stabbing',
         date: 1580601600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/A23%2C%20Streatham%20High%20Road%20-%20geograph.org.uk%20-%201379768.jpg',
         location: ['-0.129356', '51.431433']
     },
     {
         url: 'http://www.wikidata.org/entity/Q29001838',
-        name: '2017 Westminster attack',
+        name: 'Westminster attack',
         date: 1490140800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Parliament%20at%20Sunset.JPG',
         location: ['-0.121944444', '51.500833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1134591',
-        name: 'Ryanair Flight 4102',
+        name: 'Ryanair Flight ',
         date: 1226275200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Boeing%20737-8AS%2C%20Ryanair%20JP6361158.jpg',
         location: ['12.5992', '41.7928']
@@ -21904,7 +21897,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q16938335',
-        name: '2014 Isla Vista killings',
+        name: 'Isla Vista killings',
         date: 1400803200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20BMW%20328i%20coupe%20--%20NHTSA%2001.jpg',
         location: ['-119.859', '34.412']
@@ -21918,21 +21911,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q25931014',
-        name: '2016 Würzburg train attack',
+        name: 'Würzburg train attack',
         date: 1468800000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/RB%20Treuchtlingen-Gem%C3%BCnden.jpg',
         location: ['9.97061', '49.75611']
     },
     {
         url: 'http://www.wikidata.org/entity/Q25893254',
-        name: '2016 Nice attack',
+        name: 'Nice attack',
         date: 1468454400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9but%20et%20fin%20de%20l%27attaque.png',
         location: ['7.2475', '43.691111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q518303',
-        name: '1983 Beirut barracks bombing',
+        name: 'Beirut barracks bombing',
         date: 435715200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Beirutbarr.jpg',
         location: ['35.494722222', '33.829166666']
@@ -21953,14 +21946,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2009193',
-        name: '2009 attack on the Dutch royal family',
+        name: 'attack on the Dutch royal family',
         date: 1241049600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Koninginnedag%202009%20Incident%202.svg',
         location: ['5.94611', '52.2278']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16938335',
-        name: '2014 Isla Vista killings',
+        name: 'Isla Vista killings',
         date: 1400803200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2010%20BMW%20328i%20coupe%20--%20NHTSA%2001.jpg',
         location: ['-119.859', '34.412']
@@ -21974,49 +21967,49 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q28036573',
-        name: '2016 Berlin attack',
+        name: 'Berlin attack',
         date: 1482105600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/20151115%20Berlin%20bei%20Nacht%2015-1.jpg',
         location: ['13.334444444', '52.505277777']
     },
     {
         url: 'http://www.wikidata.org/entity/Q28149391',
-        name: 'January 2017 Jerusalem vehicular attack',
+        name: 'January Jerusalem vehicular attack',
         date: 1483833600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20Jerusalem%20truck%20attack.jpg',
         location: ['35.231419', '31.754481']
     },
     {
         url: 'http://www.wikidata.org/entity/Q29001838',
-        name: '2017 Westminster attack',
+        name: 'Westminster attack',
         date: 1490140800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Parliament%20at%20Sunset.JPG',
         location: ['-0.121944444', '51.500833333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q29213121',
-        name: '2017 Stockholm attack',
+        name: 'Stockholm attack',
         date: 1491523200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Attentatet%20i%20Stockholm%202017-8.jpg',
         location: ['18.062194444', '59.332722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q30119692',
-        name: 'June 2017 London attack',
+        name: 'June London attack',
         date: 1496448000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Borough%20High%20Street%20after%20the%20Terrorist%20Attack%20%2835080024946%29.jpg',
         location: ['-0.087777777', '51.508055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q52152274',
-        name: '2018 Toronto van attack',
+        name: 'Toronto van attack',
         date: 1524441600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Yonge%20St%20looking%20south%20cordoned%20off%20%2841657939971%29.jpg',
         location: ['-79.412777777', '43.769166666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q60310509',
-        name: 'January 2019 Tokyo car attack',
+        name: 'January Tokyo car attack',
         date: 1546300800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Takeshita%20st.jpg',
         location: ['139.704722222', '35.671388888']
@@ -22030,7 +22023,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q100989093',
-        name: '2020 Nice attack',
+        name: 'Nice attack',
         date: 1603929600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20to%20the%202020%20Nice%20attack%2001.jpg',
         location: ['7.266111111', '43.703333333']
@@ -22044,14 +22037,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q108392213',
-        name: '2021 Auckland supermarket stabbing',
+        name: 'Auckland supermarket stabbing',
         date: 1630627200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lynnmall%20shopping%20mall%20during%20Covid-19%20level%204%20lockdown%20%28cropped%29.jpg',
         location: ['174.68439', '-36.9073']
     },
     {
         url: 'http://www.wikidata.org/entity/Q109666980',
-        name: '2021 Waukesha Christmas Parade attack',
+        name: 'Waukesha Christmas Parade attack',
         date: 1637452800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Broadway%20and%20Main%20Waukesha%20Wisconsin%20parade.jpg',
         location: ['-88.229166666', '43.012222222']
@@ -22079,21 +22072,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q42440670',
-        name: '2017 Lower Manhattan attack',
+        name: 'Lower Manhattan attack',
         date: 1509408000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20NYC%20Truck%20Attack%20Home%20Depot%20Truck.jpg',
         location: ['-74.01276', '40.717126']
     },
     {
         url: 'http://www.wikidata.org/entity/Q46442472',
-        name: 'December 2017 Melbourne car attack',
+        name: 'December Melbourne car attack',
         date: 1513814400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth%20Street%20tram%20terminus%2C%20Melbourne.jpg',
         location: ['144.965', '-37.8182']
     },
     {
         url: 'http://www.wikidata.org/entity/Q51583338',
-        name: '2018 Münster attack',
+        name: 'Münster attack',
         date: 1523059200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%BCnster%2C%20Kiepenkerl%20--%202014%20--%200290.jpg',
         location: ['7.62625', '51.964111111']
@@ -22114,14 +22107,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q116183614',
-        name: '2023 Guangzhou car attack',
+        name: 'Guangzhou car attack',
         date: 1673395200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A9%E6%B2%B3%E8%B7%AF%E4%BD%93%E8%82%B2%E4%B8%9C%E8%B7%AF%E5%8F%A3%2020230520.jpg',
         location: ['113.321763888', '23.134616666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116748690',
-        name: '2023 Ramot Junction attack',
+        name: 'Ramot Junction attack',
         date: 1675987200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Ramot%20Junction%20attack%20IV.jpg',
         location: ['35.188611111', '31.825277777']
@@ -22142,14 +22135,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q110567218',
-        name: '2022 Hunga Tonga–Hunga Haʻapai eruption and tsunami',
+        name: 'Hunga Tonga–Hunga Haʻapai eruption and tsunami',
         date: 1642204800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tonga%20Eruption%20GOES-17%201-15-2022.gif',
         location: ['-175.39', '-20.546']
     },
     {
         url: 'http://www.wikidata.org/entity/Q110567218',
-        name: '2022 Hunga Tonga–Hunga Haʻapai eruption and tsunami',
+        name: 'Hunga Tonga–Hunga Haʻapai eruption and tsunami',
         date: 1642204800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tonga%20Volcano%20Eruption%202022-01-15%200320Z%20to%200610Z%20Himawari-8%20visible.gif',
         location: ['-175.39', '-20.546']
@@ -22373,63 +22366,63 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4456268',
-        name: '1997 Ürümqi bus bombings',
+        name: 'Ürümqi bus bombings',
         date: 856828800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/China%20Xinjiang%20%C3%9Cr%C3%BCmqi.svg',
         location: ['87.58333333', '43.8']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15456623',
-        name: 'December 2013 Volgograd bombings',
+        name: 'December Volgograd bombings',
         date: 1388361600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/December%202013%20Volgograd%20bombings.jpg',
         location: ['44.5135', '48.7125']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15456623',
-        name: 'December 2013 Volgograd bombings',
+        name: 'December Volgograd bombings',
         date: 1388361600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/December%202013%20Volgograd%20bombings.jpg',
         location: ['44.498635', '48.736406']
     },
     {
         url: 'http://www.wikidata.org/entity/Q15983353',
-        name: '2013 Peshawar mosque attack',
+        name: 'Peshawar mosque attack',
         date: 1356998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Gulshan%20Dadn%20Khan%20Maseet%2C%20Rawalpindi.JPG',
         location: ['72.731111111', '33.791388888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q66108236',
-        name: '2019 El Paso shooting',
+        name: 'El Paso shooting',
         date: 1564790400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20El%20Paso%20shooting%20Walmart.jpg',
         location: ['-106.390984', '31.781593']
     },
     {
         url: 'http://www.wikidata.org/entity/Q70210494',
-        name: '2019 Halle synagogue shooting',
+        name: 'Halle synagogue shooting',
         date: 1570579200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HalleSynagoge%2002.JPG',
         location: ['11.98032', '51.493279']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112016492',
-        name: '2022 Buffalo shooting',
+        name: 'Buffalo shooting',
         date: 1652572800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tops%20supermarket%2C%20Jefferson%20Avenue%2C%20Buffalo%2C%20New%20York%20-%2020220220%20%28cropped%29.jpg',
         location: ['-78.852777777', '42.909722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114639536',
-        name: '2022 Bratislava shooting',
+        name: 'Bratislava shooting',
         date: 1665532800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tepl%C3%A1re%C5%88%2C%2014%20Oct%202022.jpg',
         location: ['17.1014156', '48.1447064']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117382594',
-        name: '2023 Saint Petersburg bombing',
+        name: 'Saint Petersburg bombing',
         date: 1680393600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Saint%20Petersburg%20bombing.png',
         location: ['30.2868', '59.9365']
@@ -23605,7 +23598,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q682409',
-        name: 'Siege of Odesa 1941',
+        name: 'Siege of Odesa ',
         date: -890265600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Odessa%20falls%20to%20germans.JPG',
         location: ['30.73262', '46.47747']
@@ -25166,7 +25159,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q122976243',
-        name: '2023 Hamas-led attack on Israel',
+        name: 'Hamas-led attack on Israel',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%91%D7%A0%D7%94%20%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A9%D7%A8%D7%95%D7%A3%20%D7%91%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%91%D7%90%D7%A8%D7%99%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%AA%D7%A7%D7%A4%D7%AA%20%D7%94%D7%A4%D7%AA%D7%A2.%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%99%D7%95%D7%90%D7%91%20%D7%A7%D7%A8%D7%9F.jpg',
         location: ['34.507694444', '31.363527777']
@@ -25285,7 +25278,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20154675',
-        name: '2015 Charleston, South Carolina shooting',
+        name: 'Charleston, South Carolina shooting',
         date: 1434499200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Charleston%20church%20memorial%20after%20attack.jpg',
         location: ['-79.9331', '32.7874']
@@ -25348,7 +25341,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q7944776',
-        name: 'Vítkov arson attack of 2009',
+        name: 'Vítkov arson attack of ',
         date: 1240099200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Vitkov-namesti.jpg',
         location: ['17.7606', '49.7865']
@@ -25551,7 +25544,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q106768320',
-        name: 'May 2021 Kabul bombing',
+        name: 'May Kabul bombing',
         date: 1620432000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/14000221001114637563742760378856%20%D9%86%D9%82%D8%B4%20%D9%87%D9%85%D8%AF%D8%B1%D8%AF%DB%8C%20%D8%A8%D8%B1%20%D8%A8%D8%B1%D8%AC%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C.jpg',
         location: ['69.035', '34.503055555']
@@ -25572,63 +25565,63 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q70210494',
-        name: '2019 Halle synagogue shooting',
+        name: 'Halle synagogue shooting',
         date: 1570579200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/HalleSynagoge%2002.JPG',
         location: ['11.98032', '51.493279']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20I75sb%20Exit%2092%201%20mile.JPG',
         location: ['-83.7189', '31.8547']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20and%20Vice%20President%20Kamala%20Harris%20meet%20with%20Asian%20American%20leaders%20in%20Atlanta.jpg',
         location: ['-83.7189', '31.8547']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20I75sb%20Exit%2092%201%20mile.JPG',
         location: ['-84.3662', '33.8096']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20and%20Vice%20President%20Kamala%20Harris%20meet%20with%20Asian%20American%20leaders%20in%20Atlanta.jpg',
         location: ['-84.3662', '33.8096']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20I75sb%20Exit%2092%201%20mile.JPG',
         location: ['-84.3658', '33.8102']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20and%20Vice%20President%20Kamala%20Harris%20meet%20with%20Asian%20American%20leaders%20in%20Atlanta.jpg',
         location: ['-84.3658', '33.8102']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Georgia%20I75sb%20Exit%2092%201%20mile.JPG',
         location: ['-84.5811', '34.0882']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105982031',
-        name: '2021 Atlanta spa shootings',
+        name: 'Atlanta spa shootings',
         date: 1615852800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/President%20Joe%20Biden%20and%20Vice%20President%20Kamala%20Harris%20meet%20with%20Asian%20American%20leaders%20in%20Atlanta.jpg',
         location: ['-84.5811', '34.0882']
@@ -25684,7 +25677,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q25980145',
-        name: '2016 Munich shooting',
+        name: 'Munich shooting',
         date: 1469145600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Mcdonalds%20muenchen%20hanauer%20strasse%20oez.jpg',
         location: ['11.533611111', '48.183333333']
@@ -25705,7 +25698,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q66108236',
-        name: '2019 El Paso shooting',
+        name: 'El Paso shooting',
         date: 1564790400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2019%20El%20Paso%20shooting%20Walmart.jpg',
         location: ['-106.390984', '31.781593']
@@ -25782,35 +25775,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q112016492',
-        name: '2022 Buffalo shooting',
+        name: 'Buffalo shooting',
         date: 1652572800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tops%20supermarket%2C%20Jefferson%20Avenue%2C%20Buffalo%2C%20New%20York%20-%2020220220%20%28cropped%29.jpg',
         location: ['-78.852777777', '42.909722222']
     },
     {
         url: 'http://www.wikidata.org/entity/Q112036857',
-        name: '2022 Laguna Woods shooting',
+        name: 'Laguna Woods shooting',
         date: 1652572800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E6%97%A5%E5%85%A7%E7%93%A6%E9%95%B7%E8%80%81%E6%9C%83%E6%95%99%E5%A0%82.png',
         location: ['-117.73338', '33.60964']
     },
     {
         url: 'http://www.wikidata.org/entity/Q114639536',
-        name: '2022 Bratislava shooting',
+        name: 'Bratislava shooting',
         date: 1665532800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tepl%C3%A1re%C5%88%2C%2014%20Oct%202022.jpg',
         location: ['17.1014156', '48.1447064']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116455185',
-        name: '2023 Jerusalem synagogue shooting',
+        name: 'Jerusalem synagogue shooting',
         date: 1674777600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Neve%20Yaakov%20synagogue%20shooting%20IV.jpg',
         location: ['35.238611111', '31.838055555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q116748690',
-        name: '2023 Ramot Junction attack',
+        name: 'Ramot Junction attack',
         date: 1675987200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2023%20Ramot%20Junction%20attack%20IV.jpg',
         location: ['35.188611111', '31.825277777']
@@ -26104,7 +26097,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2633083',
-        name: 'Romanian Army offensive in Transylvania in 1916',
+        name: 'Romanian Army offensive in Transylvania in ',
         date: -1679184000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tropas-rumanas-c%C3%A1rpatos--rumaniassacrific00neguuoft.png',
         location: ['23.583333', '46.6']
@@ -26132,7 +26125,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2363420',
-        name: '2011 southern Israel cross-border attacks',
+        name: 'southern Israel cross-border attacks',
         date: 1313625600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Terror%20Strikes%20Israeli%20Civilians%20in%20Southern%20Israel.jpg',
         location: ['34.881377777', '29.5857']
@@ -26181,14 +26174,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2281806',
-        name: '1929 Arab riots in Palestine',
+        name: 'Arab riots in Palestine',
         date: -1273104000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Desecrated%20synagogue%2C%20Hebron%201929.jpg',
         location: ['35.2342', '31.7767']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2281806',
-        name: '1929 Arab riots in Palestine',
+        name: 'Arab riots in Palestine',
         date: -1273104000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jewish%20child%20victim%20of%20Arab%20riots%20in%20Hebron%2C%201929.jpg',
         location: ['35.2342', '31.7767']
@@ -26300,7 +26293,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29065',
-        name: '2011 England riots',
+        name: 'England riots',
         date: 1312156800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Carpetright%20store%20after%20Tottenham%20riots.jpg',
         location: ['-0.07', '51.5909']
@@ -26566,7 +26559,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q2572835',
-        name: '2008–2009 Battle of Kilinochchi',
+        name: '–Battle of Kilinochchi',
         date: 1227398400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kilinochchi.svg',
         location: ['80.4', '9.383333333']
@@ -26608,7 +26601,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q124538105',
-        name: 'The Capsizing Incident of a Mainland Chinese Fishing Boat in Kinmen on February 2024',
+        name: 'The Capsizing Incident of a Mainland Chinese Fishing Boat in Kinmen on February ',
         date: 1707868800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E5%88%9D%E4%BA%94%E9%96%8B%E5%B7%A5%E6%97%A5%E8%B6%8A%E7%95%8C%E6%8D%95%E9%AD%9A%EF%BC%81%E9%99%B8%E7%B1%8D%E6%BC%81%E8%88%B9%E6%8B%92%E6%AA%A2%E8%BF%BD%E9%80%90%E7%BF%BB%E8%A6%86%204%E4%BA%BA%E8%90%BD%E6%B5%B7%E9%87%802%E6%AD%BB%201.jpg',
         location: ['118.5235', '24.4277']
@@ -26783,7 +26776,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q119497996',
-        name: '2023 Messenia migrant boat disaster',
+        name: 'Messenia migrant boat disaster',
         date: 1686700800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Messenia%20migrant%20boat%20disaster%20map.png',
         location: ['21.24604', '36.914988']
@@ -27504,7 +27497,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4601438',
-        name: '2003 Tokachi earthquake',
+        name: 'Tokachi earthquake',
         date: 1064448000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2003%E5%B9%B4%E5%8D%81%E5%8B%9D%E6%B2%96%E5%9C%B0%E9%9C%87%E3%81%AB%E3%82%88%E3%82%8B%E8%8B%AB%E5%B0%8F%E7%89%A7%E3%81%A7%E3%81%AE%E7%9F%B3%E6%B2%B9%E3%82%BF%E3%83%B3%E3%82%AF%E3%81%AE%E7%81%AB%E7%81%BD.jpg',
         location: ['143.86', '41.78']
@@ -27525,35 +27518,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q274498',
-        name: '1923 Great Kantō earthquake',
+        name: 'Great Kantō earthquake',
         date: -1462233600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kanto-daishinsai.jpg',
         location: ['139.135', '35.33']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1049838',
-        name: '1944 Tōnankai earthquake',
+        name: 'Tōnankai earthquake',
         date: -791078400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%AD%E5%92%8C%E6%9D%B1%E5%8D%97%E6%B5%B7%E5%9C%B0%E9%9C%87%E3%81%AB%E3%82%88%E3%82%8B%E8%A2%AB%E5%AE%B3%281%29.jpg',
         location: ['137.1', '34.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1049838',
-        name: '1944 Tōnankai earthquake',
+        name: 'Tōnankai earthquake',
         date: -791078400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%AD%E5%92%8C%E6%9D%B1%E5%8D%97%E6%B5%B7%E5%9C%B0%E9%9C%87%E3%81%AB%E3%82%88%E3%82%8B%E8%A2%AB%E5%AE%B3%282%29.jpg',
         location: ['137.1', '34.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1049838',
-        name: '1944 Tōnankai earthquake',
+        name: 'Tōnankai earthquake',
         date: -791078400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%AD%E5%92%8C%E6%9D%B1%E5%8D%97%E6%B5%B7%E5%9C%B0%E9%9C%87%E3%81%AB%E3%82%88%E3%82%8B%E8%A2%AB%E5%AE%B3%283%29.jpg',
         location: ['137.1', '34.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4567460',
-        name: '1952 Tokachi earthquake',
+        name: 'Tokachi earthquake',
         date: -562809600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1952%20Tokachioki%20Earthquake.JPG',
         location: ['144.15', '41.700833333']
@@ -27616,14 +27609,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1066427',
-        name: 'April 2011 Miyagi earthquake',
+        name: 'April Miyagi earthquake',
         date: 1302134400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/April%202011%20Miyagi%20earthquake.png',
         location: ['141.64', '38.253']
     },
     {
         url: 'http://www.wikidata.org/entity/Q2663542',
-        name: '1978 Miyagi earthquake',
+        name: 'Miyagi earthquake',
         date: 266457600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shindo%20observation%20density%20comparison%20-%201978%20Miyagi-oki%20earthquake.png',
         location: ['142.03', '38.19']
@@ -27672,28 +27665,28 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q10861133',
-        name: '1946 Nankai earthquake',
+        name: 'Nankai earthquake',
         date: -726796800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1946%20Nankai%20Earthquake%20%289%29.jpg',
         location: ['135.6', '33.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q27901768',
-        name: '2016 Fukushima earthquake',
+        name: 'Fukushima earthquake',
         date: 1479772800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fukushima%20Earthquake%20Shakemap%2020161122.png',
         location: ['141.403', '37.392']
     },
     {
         url: 'http://www.wikidata.org/entity/Q105477226',
-        name: '2021 Fukushima earthquake',
+        name: 'Fukushima earthquake',
         date: 1613174400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2021%E5%B9%B4%E7%A6%8F%E5%B3%B6%E7%9C%8C%E6%B2%96%E5%9C%B0%E9%9C%87%E3%83%BB%E9%9C%87%E5%BA%A6%E5%88%86%E5%B8%83.png',
         location: ['141.762', '37.72']
     },
     {
         url: 'http://www.wikidata.org/entity/Q111263729',
-        name: '2022 Fukushima earthquake',
+        name: 'Fukushima earthquake',
         date: 1647388800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/ECDM%2020220317%20Japan%20EQ.pdf',
         location: ['141.587', '37.702']
@@ -27763,7 +27756,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q11463399',
-        name: 'Bonin Islands 2015 earthquake',
+        name: 'Bonin Islands earthquake',
         date: 1432944000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/M%207.8%20-%20189km%20WNW%20of%20Chichi-shima%2C%20Japan%20-%20intensity.jpg',
         location: ['140.493', '27.831']
@@ -27868,14 +27861,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q3813618',
-        name: 'July 1936 military uprising in Barcelona',
+        name: 'July military uprising in Barcelona',
         date: -1055721600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Barcelone%2019%20juillet%201936.jpg',
         location: ['2.171389', '41.401944']
     },
     {
         url: 'http://www.wikidata.org/entity/Q3813618',
-        name: 'July 1936 military uprising in Barcelona',
+        name: 'July military uprising in Barcelona',
         date: -1055721600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Republican%20troops%20during%20the%20July%201936%20uprising%20in%20Barcelona.jpg',
         location: ['2.171389', '41.401944']
@@ -28225,7 +28218,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q124538105',
-        name: 'The Capsizing Incident of a Mainland Chinese Fishing Boat in Kinmen on February 2024',
+        name: 'The Capsizing Incident of a Mainland Chinese Fishing Boat in Kinmen on February ',
         date: 1707868800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%E5%88%9D%E4%BA%94%E9%96%8B%E5%B7%A5%E6%97%A5%E8%B6%8A%E7%95%8C%E6%8D%95%E9%AD%9A%EF%BC%81%E9%99%B8%E7%B1%8D%E6%BC%81%E8%88%B9%E6%8B%92%E6%AA%A2%E8%BF%BD%E9%80%90%E7%BF%BB%E8%A6%86%204%E4%BA%BA%E8%90%BD%E6%B5%B7%E9%87%802%E6%AD%BB%201.jpg',
         location: ['118.5235', '24.4277']
@@ -28309,7 +28302,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q18608600',
-        name: '2014 Israeli oil spill',
+        name: 'Israeli oil spill',
         date: 1417392000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014%20Israeli%20oil%20spill%20in%20Evrona%20nature%20reserve%20%282%29.jpg',
         location: ['35.0071', '29.6748']
@@ -28323,7 +28316,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q382170',
-        name: '1969 Santa Barbara oil spill',
+        name: 'Santa Barbara oil spill',
         date: -31536000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1969%20Santa%20Barbara%20Oil%20Spill%20CA.jpg',
         location: ['-119.613', '34.3317']
@@ -28393,7 +28386,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q110623564',
-        name: '2022 Callao oil spill',
+        name: 'Callao oil spill',
         date: 1642204800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Derrame%20de%20petr%C3%B3leo%20de%20Repsol%20en%20Ventanilla.png',
         location: ['-77.1426', '-11.9208']
@@ -28526,7 +28519,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q96071867',
-        name: '2020 Norilsk oil spill',
+        name: 'Norilsk oil spill',
         date: 1590710400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Arctic%20Circle%20oil%20spill%20ESA22056844.gif',
         location: ['87.744444444', '69.379444444']
@@ -28547,14 +28540,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4614763',
-        name: '2009 Sobat River ambush',
+        name: 'Sobat River ambush',
         date: 1230768000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/LocationSouthSudan.svg',
         location: ['33.0569', '8.61627']
     },
     {
         url: 'http://www.wikidata.org/entity/Q4625976',
-        name: '2012 Kufra conflict',
+        name: 'Kufra conflict',
         date: 1341100800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Shabiat%20Al%20Kufrah%20since%202007.svg',
         location: ['23.3', '24.183333333']
@@ -29485,14 +29478,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q6796365',
-        name: 'May 2012 battle of Rastan',
+        name: 'May battle of Rastan',
         date: 1325376000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Artillery%20positioned%20north%20of%20Rastan%2C%20Syria.jpg',
         location: ['36.735485', '34.91525']
     },
     {
         url: 'http://www.wikidata.org/entity/Q6966493',
-        name: 'Narva Offensive February 1944',
+        name: 'Narva Offensive February ',
         date: -815529600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Narva%20Feb10%20Apr23%2044.jpg',
         location: ['28.2', '59.38333333']
@@ -29506,7 +29499,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q6966495',
-        name: 'March 1944 Narva Offensive',
+        name: 'March Narva Offensive',
         date: -815097600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Narva%20Feb10%20Apr23%2044.jpg',
         location: ['28.2', '59.38333333']
@@ -29793,14 +29786,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q101730',
-        name: '1998 FIFA World Cup',
+        name: 'FIFA World Cup',
         date: 883612800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/98France%2014juin.JPG',
         location: ['2.36', '48.924444']
     },
     {
         url: 'http://www.wikidata.org/entity/Q117206',
-        name: '1978 African Cup of Nations',
+        name: 'African Cup of Nations',
         date: 252460800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Baba%20Yara%20Sports%20Stadium%20in%20Kumasi.jpg',
         location: ['3.38333', '6.45']
@@ -29842,7 +29835,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15977397',
-        name: '2014 Latakia offensive',
+        name: 'Latakia offensive',
         date: 1402790400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2014%20Latakia%20Offensive%20Map.svg',
         location: ['35.983333333', '35.933333333']
@@ -29877,14 +29870,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q130525',
-        name: 'FIS Alpine World Ski Championships 2017',
+        name: 'FIS Alpine World Ski Championships ',
         date: 1483228800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/SkiWM%20Moritz%202017.jpg',
         location: ['9.787', '46.506']
     },
     {
         url: 'http://www.wikidata.org/entity/Q16636394',
-        name: '1936 uprising in Spanish Guinea',
+        name: 'uprising in Spanish Guinea',
         date: -1073001600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Eq%20Guinea%20ES.PNG',
         location: ['10.35', '1.58333333']
@@ -29940,7 +29933,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q15918532',
-        name: 'Action at Mechili, 24 January 1941',
+        name: 'Action at Mechili, 24 January ',
         date: -913161600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Fortino-El-Mechili.jpg',
         location: ['22.266667', '32.183333']
@@ -30003,14 +29996,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q171378',
-        name: '2008 Spanish Grand Prix',
+        name: 'Spanish Grand Prix',
         date: 1209254400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Redbull-webber2-spain-2008-lrg.jpg',
         location: ['2.25747222', '41.56941667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q171648',
-        name: '1965 12 Hours of Reims',
+        name: '12 Hours of Reims',
         date: -157766400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/1965%20Ferrari%20365%20P2%20noBG.jpg',
         location: ['3.93056111', '49.254075']
@@ -30031,7 +30024,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q224219',
-        name: "2003 America's Cup",
+        name: "America's Cup",
         date: 1041379200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Alinghi%20img%201184.jpg',
         location: ['174.764', '-36.8444']
@@ -30052,7 +30045,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q225137',
-        name: "2007 America's Cup",
+        name: "America's Cup",
         date: 1167609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Alingi%20vs%20Team%20New%20Zealand.jpg',
         location: ['-0.3083', '39.467']
@@ -30087,14 +30080,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20241081',
-        name: 'Al-Hasakah city offensive (June 2015)',
+        name: 'Al-Hasakah city offensive (June )',
         date: 1438387200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Al-Hasakah%20%28Summer%202015%29.png',
         location: ['40.75', '36.483333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q172912',
-        name: '2009 Spanish Grand Prix',
+        name: 'Spanish Grand Prix',
         date: 1241913600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2009%20Spanish%20GP%20first%20corner.jpg',
         location: ['2.26111111', '41.57']
@@ -30199,7 +30192,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q211438',
-        name: '2010 FIBA World Championship',
+        name: 'FIBA World Championship',
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Basketball%20World%20Cup%202010%20Turkey.jpg',
         location: ['28.9667', '41.0167']
@@ -30290,7 +30283,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q20738856',
-        name: '2nd 2015 Northwestern Syria offensive',
+        name: '2nd Northwestern Syria offensive',
         date: 1440720000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%20the%20Al-Ghab%20offensive%20%28July%E2%80%93August%202015%29.svg',
         location: ['36.320114166', '35.737682222']
@@ -30311,7 +30304,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q24467647',
-        name: '2016 Sirte offensive',
+        name: 'Sirte offensive',
         date: 1480982400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Sirteof.svg',
         location: ['16.591666666', '31.207222222']
@@ -30388,7 +30381,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q22947394',
-        name: '2016 Khanasir offensive',
+        name: 'Khanasir offensive',
         date: 1456704000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ithriyah-Raqqa%20offensive%20%28February-April%202016%29.svg',
         location: ['37.497222222', '35.783333333']
@@ -30451,7 +30444,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q54740407',
-        name: 'Actions of the Bluff, 1916',
+        name: 'Actions of the Bluff, ',
         date: -1704153600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/MountSorrel1916.jpg',
         location: ['2.924444', '50.813889']
@@ -30465,7 +30458,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q390319',
-        name: 'EuroBasket 2007',
+        name: 'EuroBasket ',
         date: 1167609600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20Deportes%20%28Madrid%29%2004.jpg',
         location: ['-3.595833333', '38.329722222']
@@ -30486,7 +30479,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q29033178',
-        name: '2017 Hama offensive',
+        name: 'Hama offensive',
         date: 1493337600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2017%20Hama%20Offensive%20%28Western%20Hama%20Governorate%29.svg',
         location: ['36.734722222', '35.197222222']
@@ -30556,7 +30549,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q27502384',
-        name: '2016 Kirkuk raid',
+        name: 'Kirkuk raid',
         date: 1477267200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kirkuk%20in%20Iraq.svg',
         location: ['44.395833333', '35.47']
@@ -30598,7 +30591,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q40532579',
-        name: '2017 Hawija offensive',
+        name: 'Hawija offensive',
         date: 1507420800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Hawija%20offensive.svg',
         location: ['43.773888888', '35.323333333']
@@ -30633,7 +30626,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q27988133',
-        name: 'Palmyra offensive (December 2016)',
+        name: 'Palmyra offensive (December )',
         date: 1482364800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Palmyra%20Offensive%20%28December%202016%29.svg',
         location: ['38.267222222', '34.56']
@@ -30668,14 +30661,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q568120',
-        name: 'FIS Alpine World Ski Championships 1950',
+        name: 'FIS Alpine World Ski Championships ',
         date: -631152000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Zeno%20Colo%2C%20Fernand%20Grosjean%2C%20James%20Couttet%201950.jpg',
         location: ['-106.819', '39.186']
     },
     {
         url: 'http://www.wikidata.org/entity/Q478768',
-        name: "2010 European Men's Handball Championship",
+        name: "European Men's Handball Championship",
         date: 1262304000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/France%20is%20jubilant%20%2806%29%20-%202010%20European%20Men%27s%20Handball%20Championship.jpg',
         location: ['15.4333', '47.0667']
@@ -30878,7 +30871,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q712897',
-        name: '1996 Qana massacre',
+        name: 'Qana massacre',
         date: 829785600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Qana-martyrs.jpg',
         location: ['35.299', '33.209']
@@ -30892,35 +30885,35 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q593917',
-        name: '1998 Spanish Grand Prix',
+        name: 'Spanish Grand Prix',
         date: 894758400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Jason%20Watt%20Den%20Bl%C3%A5%20Avis%20F3000%20%2812311546504%29.jpg',
         location: ['2.25747222', '41.56941667']
     },
     {
         url: 'http://www.wikidata.org/entity/Q594107',
-        name: '2003 Spanish Grand Prix',
+        name: 'Spanish Grand Prix',
         date: 1052006400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2003%20Spanish%20Grand%20Prix%20grid.jpg',
         location: ['2.26111111', '41.57']
     },
     {
         url: 'http://www.wikidata.org/entity/Q594198',
-        name: '2006 Spanish Grand Prix',
+        name: 'Spanish Grand Prix',
         date: 1147564800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/F1barca06.JPG',
         location: ['2.261111111', '41.57']
     },
     {
         url: 'http://www.wikidata.org/entity/Q594234',
-        name: '2007 Spanish Grand Prix',
+        name: 'Spanish Grand Prix',
         date: 1179014400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%202007%20Spain%202.jpg',
         location: ['2.261111111', '41.57']
     },
     {
         url: 'http://www.wikidata.org/entity/Q656151',
-        name: '1996 1. deild',
+        name: '1. deild',
         date: 820454400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kurt%20Morkore%20Sogndal.jpg',
         location: ['-6.7667', '62.0167']
@@ -30948,21 +30941,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q120041493',
-        name: '2023 Kramatorsk restaurant missile strike',
+        name: 'Kramatorsk restaurant missile strike',
         date: 1687824000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Kramatorsk%20after%20Russian%20missile%20strike%2C%202023-06-27%20%2820-01%29.jpg',
         location: ['37.586944444', '48.735555555']
     },
     {
         url: 'http://www.wikidata.org/entity/Q121623996',
-        name: 'August 2023 Chernihiv missile strike',
+        name: 'August Chernihiv missile strike',
         date: 1692403200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Chernihiv%20after%20Russian%20missile%20attack%2C%202023-08-19%20%2831%29.jpg',
         location: ['31.299722222', '51.491666666']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122781619',
-        name: '2023 missile strike on the Sevastopol Naval Base',
+        name: 'missile strike on the Sevastopol Naval Base',
         date: 1695340800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9F%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%88%D1%82%D0%B0%D0%B1%D0%B0%20%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%84%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B2%20%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%B5%2022.09.2023%20v.2.jpg',
         location: ['33.523888888', '44.612777777']
@@ -31088,21 +31081,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q51844684',
-        name: '2018 bombing of Damascus and Homs',
+        name: 'bombing of Damascus and Homs',
         date: 1523664000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/The%20ruins%20of%20the%20American%20missile%20attack%20on%20Syria%2003.jpg',
         location: ['36.31528', '33.558278']
     },
     {
         url: 'http://www.wikidata.org/entity/Q108102583',
-        name: 'Fall of Kabul (2021)',
+        name: 'Fall of Kabul ()',
         date: 1628985600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Crowds%20in%20front%20of%20Kabul%20International%20Airport.jpg',
         location: ['69.166666666', '34.5']
     },
     {
         url: 'http://www.wikidata.org/entity/Q111172670',
-        name: '3 March 2022 Chernihiv bombing',
+        name: '3 March Chernihiv bombing',
         date: 1646265600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Russian%20bomb%20that%20did%20not%20explode%20in%20Chernihiv.png',
         location: ['31.2791', '51.5001']
@@ -31193,7 +31186,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q701225',
-        name: 'FIS Alpine World Ski Championships 2013',
+        name: 'FIS Alpine World Ski Championships ',
         date: 1356998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Schladming%20wm2013%201915b.JPG',
         location: ['13.694', '47.392']
@@ -31249,7 +31242,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q553332',
-        name: '2008 Abu Kamal raid',
+        name: 'Abu Kamal raid',
         date: 1224979200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Al-qaim-area.svg',
         location: ['40.8833', '34.5']
@@ -31298,63 +31291,63 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q709910',
-        name: '2009 Summer Deaflympics',
+        name: 'Summer Deaflympics',
         date: 1230768000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2009%20Summer%20Deaflympics%20Power%20in%20Me%20Warming%20Event%20the%20Countdown%20Launch.jpg',
         location: ['121.55', '25.083']
     },
     {
         url: 'http://www.wikidata.org/entity/Q735014',
-        name: '2004 Copa América',
+        name: 'Copa América',
         date: 1072915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Tribuna%20Occidente%20Estadio%20Virgen%20de%20Chapi.JPG',
         location: ['-77.0167', '-12.0333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q735014',
-        name: '2004 Copa América',
+        name: 'Copa América',
         date: 1072915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20mansiche%20trujillo.JPG',
         location: ['-77.0167', '-12.0333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q735014',
-        name: '2004 Copa América',
+        name: 'Copa América',
         date: 1072915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Adriano.jpg',
         location: ['-77.0167', '-12.0333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q735014',
-        name: '2004 Copa América',
+        name: 'Copa América',
         date: 1072915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Copa%20America-2004-02.jpg',
         location: ['-77.0167', '-12.0333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q735014',
-        name: '2004 Copa América',
+        name: 'Copa América',
         date: 1072915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Copa%20America-2004-03.jpg',
         location: ['-77.0167', '-12.0333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q735014',
-        name: '2004 Copa América',
+        name: 'Copa América',
         date: 1072915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Elias%20Aguirre%20Oriente.jpg',
         location: ['-77.0167', '-12.0333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q735014',
-        name: '2004 Copa América',
+        name: 'Copa América',
         date: 1072915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Garcilazo.jpg',
         location: ['-77.0167', '-12.0333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q735014',
-        name: '2004 Copa América',
+        name: 'Copa América',
         date: 1072915200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Outside%20estadio%20nacional.jpg',
         location: ['-77.0167', '-12.0333']
@@ -31368,7 +31361,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q4575788',
-        name: '1973 al-Mazzah Airport Raid',
+        name: 'al-Mazzah Airport Raid',
         date: 119318400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/F-4E%20Israel%20HAPIM0321.jpg',
         location: ['36.2248', '33.4781']
@@ -31445,21 +31438,21 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q65074171',
-        name: '2003 Mosul raid',
+        name: 'Mosul raid',
         date: 1058832000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Airborne%20and%20Special%20Forces%20Uday-Qusay%20raid%2C%202003.jpg',
         location: ['43.182238', '36.390521']
     },
     {
         url: 'http://www.wikidata.org/entity/Q120201630',
-        name: 'July 2023 Jenin incursion',
+        name: 'July Jenin incursion',
         date: 1688169600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%A4%D7%A2%D7%99%D7%9C%D7%95%D7%AA%20%D7%94%D7%9B%D7%95%D7%97%D7%95%D7%AA%2008.jpeg',
         location: ['35.288888888', '32.461111111']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122976243',
-        name: '2023 Hamas-led attack on Israel',
+        name: 'Hamas-led attack on Israel',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%91%D7%A0%D7%94%20%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A9%D7%A8%D7%95%D7%A3%20%D7%91%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%91%D7%90%D7%A8%D7%99%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%AA%D7%A7%D7%A4%D7%AA%20%D7%94%D7%A4%D7%AA%D7%A2.%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%99%D7%95%D7%90%D7%91%20%D7%A7%D7%A8%D7%9F.jpg',
         location: ['34.507694444', '31.363527777']
@@ -31487,7 +31480,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q855881',
-        name: 'Biathlon World Championships 2013',
+        name: 'Biathlon World Championships ',
         date: 1356998400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/MS%20v%20Biatlonu%202013%20-%20%C5%A1tafety%20mu%C5%BEi%201.JPG',
         location: ['16.053', '49.577']
@@ -31578,7 +31571,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q842680',
-        name: '1991 Copa América',
+        name: 'Copa América',
         date: 662688000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Argentina%20seleccion%201991.jpg',
         location: ['-70.6667', '-33.45']
@@ -31599,7 +31592,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q40988029',
-        name: '2017 Western Iraq campaign',
+        name: 'Western Iraq campaign',
         date: 1512777600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destruction%20of%20ISIS.svg',
         location: ['43.3', '33.4167']
@@ -31704,7 +31697,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q199416',
-        name: '2012 Benghazi attack',
+        name: 'Benghazi attack',
         date: 1347321600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ambassador%20christopher%20stevens.jpg',
         location: ['20.0809', '32.0613']
@@ -31732,7 +31725,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q40988029',
-        name: '2017 Western Iraq campaign',
+        name: 'Western Iraq campaign',
         date: 1512777600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Destruction%20of%20ISIS.svg',
         location: ['43.3', '33.4167']
@@ -31753,14 +31746,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q124695746',
-        name: 'Eli gas station shooting attack (2024)',
+        name: 'Eli gas station shooting attack ()',
         date: 1709164800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Eli%20gas%20station%20shooting%20attack%20%282024%29%2003.jpg',
         location: ['35.264232694', '32.063843888']
     },
     {
         url: 'http://www.wikidata.org/entity/Q953373',
-        name: '1929 Ryder Cup',
+        name: 'Ryder Cup',
         date: -1293840000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/MoortownGC%205019.JPG',
         location: ['-1.541', '53.859']
@@ -31809,14 +31802,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q113865480',
-        name: '2022 Kharkiv counteroffensive',
+        name: 'Kharkiv counteroffensive',
         date: 1640995200000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/UA%20flag%20in%20liberated%20Balakliia%2001.png',
         location: ['37.0', '50.0']
     },
     {
         url: 'http://www.wikidata.org/entity/Q81341687',
-        name: '2020 Iranian attack on U.S. forces in Iraq',
+        name: 'Iranian attack on U.S. forces in Iraq',
         date: 1578441600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ain%20al-Assad%20air%20base%2C%208%20jan%202020.png',
         location: ['42.43333333', '33.8']
@@ -31893,14 +31886,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q122700456',
-        name: '2023 Azerbaijani offensive in Nagorno-Karabakh',
+        name: 'Azerbaijani offensive in Nagorno-Karabakh',
         date: 1693526400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Ethnic%20Armenians%20of%20Nagorno-Karabakh%20seeking%20refuge%20due%20to%20attacks%20by%20Azerbaijani%20armed%20forces.png',
         location: ['46.75', '39.833333333']
     },
     {
         url: 'http://www.wikidata.org/entity/Q122976243',
-        name: '2023 Hamas-led attack on Israel',
+        name: 'Hamas-led attack on Israel',
         date: 1696636800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%91%D7%A0%D7%94%20%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D%20%D7%A9%D7%A8%D7%95%D7%A3%20%D7%91%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%91%D7%90%D7%A8%D7%99%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%AA%D7%A7%D7%A4%D7%AA%20%D7%94%D7%A4%D7%AA%D7%A2.%20%D7%A6%D7%99%D7%9C%D7%95%D7%9D-%D7%99%D7%95%D7%90%D7%91%20%D7%A7%D7%A8%D7%9F.jpg',
         location: ['34.507694444', '31.363527777']
@@ -32040,7 +32033,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q17144192',
-        name: '2014 Northern Iraq offensive',
+        name: 'Northern Iraq offensive',
         date: 1403654400000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Iraqi%20Civil%20War%20map%20%282014%E2%80%93present%29.png',
         location: ['43.135833333', '36.337222222']
@@ -32096,7 +32089,7 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1144669',
-        name: '2008 European Curling Championships',
+        name: 'European Curling Championships',
         date: 1199145600000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/2008%20European%20Curling%20Championships.jpg',
         location: ['18.7167', '63.2903']
@@ -32124,14 +32117,14 @@ var data = [
     },
     {
         url: 'http://www.wikidata.org/entity/Q1169188',
-        name: "1992 America's Cup",
+        name: "America's Cup",
         date: 694224000000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Skippers%20Americas%20Cup%201992.jpg',
         location: ['-114.15', '32.7833']
     },
     {
         url: 'http://www.wikidata.org/entity/Q1169294',
-        name: "2000 America's Cup",
+        name: "America's Cup",
         date: 946684800000,
         image: 'http://commons.wikimedia.org/wiki/Special:FilePath/Western%20Waterfront%20Auckland.jpg',
         location: ['174.763611111', '-36.844444444']
@@ -32186,19 +32179,6 @@ var data = [
         location: ['-74.012222222', '40.711422222']
     }
 ];
-
-function getRandomEvent() {
-    return data[Math.floor(Math.random() * data.length)];
-}
-
-function getCloseEvents(event) {
-    const year = new Date(event.date).getFullYear();
-    const index = Math.floor(Math.random() * 10);
-    const range = [year - index, year - index + 10];
-
-    const events = data.filter((a) => new Date(a.date).getFullYear() > range[0] && new Date(a.date).getFullYear() < range[1] && a.name != event.name);
-    return events.sort((a) => Math.random()).slice(0, 3);
-}
 
 /* formatting query
 function query(data) {

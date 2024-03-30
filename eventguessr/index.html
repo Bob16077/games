@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H9B6Z000B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-0H9B6Z000B');
+        </script>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>EventGuessr</title>
@@ -8,19 +18,40 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" />
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <link rel="stylesheet" href="css/leaflet-fullscreen.css" />
         <link rel="stylesheet" href="css/style.css" />
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     </head>
     <body>
         <div id="overlay"></div>
-        <div id="popupWrapper">
+        <div class="popupWrapper" id="popupWrapper">
             <span style="color: #fff" onclick="removePopup()" class="close-button">&times;</span>
             <div id="popup"></div>
+        </div>
+        <div class="popupWrapper" id="menu">
+            <h2>Welcome to EventGuessr!</h2>
+            <p class="game-description">EventGuessr is an exciting game where you get to test your knowledge of historical events. Here's how it works:</p>
+            <ul class="game-steps">
+                <li>
+                    <h3>Step 1: Guess the Location</h3>
+                    <p>Study the image carefully and pinpoint the location on the map where you think the event occurred.</p>
+                </li>
+                <li>
+                    <h3>Step 2: Select the Year</h3>
+                    <p>Use the slider to choose the year when the event took place. Try to get as close as possible to the correct date.</p>
+                </li>
+                <li>
+                    <h3>Step 3: Choose the Correct Name</h3>
+                    <p>Review the four choices provided and select the correct name that corresponds to the event.</p>
+                </li>
+            </ul>
+            <p class="game-ready">Are you ready to test your knowledge? Hit the button below to start playing!</p>
+            <button class="start-btn" onclick="removePopup()">Let's Play!</button>
         </div>
 
         <div class="main-content">
             <header>
-                <div class="">
+                <div>
                     <h2>EventGuessr</h2>
                     <small><a href="https://games.bob16077.is-a.dev">a Bob16077777 game</a></small>
                 </div>
@@ -28,15 +59,25 @@
                 <div class="user-wrapper">
                     <div id="score-box">
                         <p id="round">Round 1 of 5</p>
-                        <p id="score">Score: 0 / 15,000</p>
+                        <p id="score">Score: 0 / 3,000</p>
                     </div>
                     <span onclick="darkMode()" style="padding: 20px; padding-right: 0px" class="fa fa-moon-o" id="dark-mode-toggle"></span>
-                    <span onclick="displayPopup(menu)" style="padding: 20px; padding-right: 0px" class="fa fa-bars"></span>
+                    <span onclick="displayMenu()" style="padding: 20px; padding-right: 0px" class="fa fa-bars"></span>
                 </div>
             </header>
 
             <main>
-                <div class="cards">
+                <div id="map-overlay"></div>
+                <div id="results-overlay">
+                    <p><span id="overall-score">0</span>/15,000</p>
+                    <div id="buttons">
+                        <button id="review-btn" onclick="document.getElementById('results-overlay').style.display='none'; document.getElementById('overlay').style.display='none'">
+                            Review
+                        </button>
+                        <button id="play-again-btn" onclick="location.reload()">Play Again</button>
+                    </div>
+                </div>
+                <div class="cards" id="full-screen">
                     <div id="card-big-image" class="card">
                         <h4 id="title-reference">Reference image:</h4>
                         <br />
@@ -46,7 +87,7 @@
                     </div>
                     <div id="card-single-map" class="card">
                         <h4 id="title-where">Where is this?</h4>
-                        <br />
+                        <br id="map-spacing" />
                         <div id="map"></div>
                     </div>
                     <div id="card-single-year" class="card" style="overflow-x: hidden">
@@ -74,7 +115,28 @@
                         <!-- slider for year -->
                     </div>
                     <div id="card-single-result" class="card">
-                        <h4>Results</h4>
+                        <!-- <h4>Results</h4> -->
+                        <h3 id="result-name"></h3>
+                        <p id="result-text"></p>
+                        <br />
+                        <div id="result-box">
+                            <div class="score-tile">
+                                <h5>Location</h5>
+                                <p><span id="location-score">0</span>/1000</p>
+                            </div>
+                            <div class="score-tile">
+                                <h5>Year</h5>
+                                <p><span id="year-score">0</span>/1000</p>
+                            </div>
+                            <div class="score-tile">
+                                <h5>Name</h5>
+                                <p><span id="name-score">0</span>/1000</p>
+                            </div>
+                            <div class="score-tile">
+                                <h5>Total</h5>
+                                <p><span id="total-score">0</span>/3000</p>
+                            </div>
+                        </div>
                     </div>
                     <div id="card-single-quiz" class="card">
                         <h4 id="title-quiz">What's this event's name?</h4>
@@ -87,9 +149,35 @@
                     </div>
                 </div>
             </main>
+            <footer>
+                <div class="footer-content">
+                    <div class="round-progress">
+                        <ol class="score-bubbles">
+                            <li class="score-bubble" data-index="1"><span>1</span></li>
+                            <li class="score-bubble" data-index="2"><span>2</span></li>
+                            <li class="score-bubble" data-index="3"><span>3</span></li>
+                            <li class="score-bubble" data-index="4"><span>4</span></li>
+                            <li class="score-bubble" data-index="5"><span>5</span></li>
+                        </ol>
+                        <button
+                            class="end-review-btn"
+                            onclick="document.getElementById('results-overlay').style.display='flex'; document.getElementById('overlay').style.display='block'"
+                        >
+                            End Review
+                        </button>
+                    </div>
+                    <div class="rounds-progress">
+                        <p class="round-progress-text">Round <span id="current-round">1</span> of 5</p>
+                        <p class="copyright">
+                            &copy; 2024 <a style="text-decoration-line: underline" href="https://bob16077.is-a.dev">Bob16077777 Development</a>. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </footer>
         </div>
 
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script src="js/leaflet-fullscreen.js"></script>
         <script src="https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js"></script>
         <script src="js/data.js"></script>
         <script src="js/script.js"></script>
