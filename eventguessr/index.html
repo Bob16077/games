@@ -5,15 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>EventGuessr</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="https://kit.fontawesome.com/e96e3b69da.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" />
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
         <link rel="stylesheet" href="css/leaflet-fullscreen.css" />
         <link rel="stylesheet" href="css/style.css" />
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H9B6Z000B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-0H9B6Z000B');
+        </script>
     </head>
     <body>
-        <div id="overlay"></div>
+        <div id="overlay" onclick="removePopup()"></div>
         <div class="popupWrapper" id="popupWrapper">
             <span style="color: #fff" onclick="removePopup()" class="close-button">&times;</span>
             <div id="popup"></div>
@@ -36,7 +46,10 @@
                 </li>
             </ul>
             <p class="game-ready">Are you ready to test your knowledge? Hit the button below to start playing!</p>
-            <button class="start-btn" onclick="removePopup()">Let's Play!</button>
+            <div class="buttons">
+                <button class="start-btn" onclick="startDaily()">Play Daily</button>
+                <button class="start-btn" onclick="startRandom()">Play Casual</button>
+            </div>
         </div>
 
         <div class="main-content">
@@ -51,7 +64,7 @@
                         <p id="round">Round 1 of 5</p>
                         <p id="score">Score: 0 / 3,000</p>
                     </div>
-                    <span onclick="darkMode()" style="padding: 20px; padding-right: 0px" class="fa fa-moon-o" id="dark-mode-toggle"></span>
+                    <span onclick="darkMode()" style="padding: 20px; padding-right: 0px" class="fa-solid fa-sun" id="dark-mode-toggle"></span>
                     <span onclick="displayMenu()" style="padding: 20px; padding-right: 0px" class="fa fa-bars"></span>
                 </div>
             </header>
@@ -60,10 +73,11 @@
                 <div id="map-overlay"></div>
                 <div id="results-overlay">
                     <p><span id="overall-score">0</span>/15,000</p>
-                    <div id="buttons">
+                    <div class="buttons">
                         <button id="review-btn" onclick="document.getElementById('results-overlay').style.display='none'; document.getElementById('overlay').style.display='none'">
                             Review
                         </button>
+                        <button id="share-btn" onclick="shareGame()"><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
                         <button id="play-again-btn" onclick="location.reload()">Play Again</button>
                     </div>
                 </div>
@@ -139,6 +153,7 @@
                     </div>
                 </div>
             </main>
+
             <footer>
                 <div class="footer-content">
                     <div class="round-progress">
@@ -157,7 +172,7 @@
                         </button>
                     </div>
                     <div class="rounds-progress">
-                        <p class="round-progress-text">Round <span id="current-round">1</span> of 5</p>
+                        <p id="round-progress-text">Round <span id="current-round">1</span> of 5</p>
                         <p class="copyright">
                             &copy; 2024 <a style="text-decoration-line: underline" href="https://bob16077.is-a.dev">Bob16077777 Development</a>. All rights reserved.
                         </p>
@@ -169,7 +184,6 @@
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
         <script src="js/leaflet-fullscreen.js"></script>
         <script src="https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js"></script>
-        <script src="js/data.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>

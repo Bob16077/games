@@ -1,6 +1,9 @@
 let score = 0,
     round = 0,
+    day = null,
+    game,
     currentEvent = null,
+    options = null,
     guesses = [],
     map,
     demoMap,
@@ -11,6 +14,7 @@ let score = 0,
     polyline,
     roundCompleted = false,
     correctIndex,
+    mode,
     overlay = document.getElementById('overlay'),
     popup = document.getElementById('popup'),
     quizContainer = document.getElementById('quiz'),
@@ -19,11 +23,22 @@ let score = 0,
 document.body.classList.toggle('dark-mode');
 slider.max = new Date().getFullYear();
 slider.value = 1900 + Math.round((slider.max - 1900) / 2);
+const icons = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'];
 
 //stages of the game
-function initRound() {
-    round++;
-    if (round > 5) return endGame();
+async function initRound() {
+    if (mode == 'daily') {
+        round++;
+        if (round > 5) return endGame();
+
+        currentEvent = game[round - 1].event;
+        options = game[round - 1].options;
+    } else {
+        const current = await getGame();
+        currentEvent = current.event;
+        options = current.options;
+    }
+
     roundCompleted = false;
     document.getElementById('map').style.display = 'block';
     document.getElementById('round').textContent = `Round ${round} of 5`;
@@ -31,14 +46,9 @@ function initRound() {
     slider.value = 1900 + Math.round((slider.max - 1900) / 2);
     document.body.classList.remove('in-round');
 
-    const event = getRandomEvent();
-    currentEvent = event.event;
-    while (guesses.map((a) => a.event.name).includes(currentEvent.name)) {
-        currentEvent = getRandomEvent();
-    }
     const correctIndex = Math.floor(Math.random() * 4);
-    event.options.splice(correctIndex, 0, currentEvent);
-    displayQuestion(event.options.map((event) => event.name));
+    options.splice(correctIndex, 0, currentEvent.name);
+    displayQuestion(options);
 
     document.getElementById('image').src = currentEvent.image;
     document.getElementById('title-submit').textContent = 'Submit Guess';
@@ -53,9 +63,6 @@ function handleGuess() {
 
     if (!marker) {
         displayPopup('Please mark a position on the map first.', true);
-        return;
-    } else if (!slider.value) {
-        displayPopup('Please choose a year on the slider first.', true);
         return;
     } else if (!chosenName) {
         displayPopup('Please choose an option for the event name first.', true);
@@ -88,8 +95,8 @@ function handleGuess() {
     document.getElementById('total-score').textContent = roundScore;
     document.getElementById('result-name').textContent = `${currentEvent.name} (${new Date(currentEvent.date).toLocaleDateString('en')})`;
     document.getElementById('result-text').textContent = `You were ${Number((distance / 1000).toFixed(2)).toLocaleString('en')} km away from the correct location and were ${
-        yearDifference == 0 ? 'spot on with ' : `${yearDifference.toLocaleString('en')} year${yearDifference == 1 ? '' : 's'} off from ${correctYear}`
-    }.`;
+        yearDifference == 0 ? 'spot on with' : `${yearDifference.toLocaleString('en')} year${yearDifference == 1 ? '' : 's'} off from`
+    } ${correctYear}.`;
 
     showCorrectAnswer(currentEvent.name, chosenName);
     adjustGrid();
@@ -98,15 +105,18 @@ function handleGuess() {
 
     guesses.push({
         round,
-        event,
+        event: currentEvent,
         correct: correctLocation,
         guessed: guessedLocation,
-        distance: distance,
+        distance,
+        yearDifference,
+        correctAnswer: chosenName === currentEvent.name,
         score: roundScore
     });
 }
 
 function endGame() {
+    if (this.mode == 'random') return startDaily();
     document.body.classList.add('end-game');
     map = createMap('map-overlay');
     const bounds = L.latLngBounds();
@@ -121,6 +131,44 @@ function endGame() {
     });
     document.getElementById('overall-score').textContent = score.toLocaleString('en');
     document.getElementById('overlay').style.display = 'block';
+}
+
+//start game in respective mode
+function startRandom() {
+    mode = 'random';
+
+    document.getElementById('round-progress-text').style.display = 'none';
+    document.getElementById('score-box').style.display = 'none';
+
+    removePopup();
+    initRound();
+}
+
+async function startDaily() {
+    mode = 'daily';
+    game = await getGame();
+
+    document.getElementById('round-progress-text').style.display = 'block';
+    document.getElementById('score-box').style.display = 'block';
+
+    removePopup();
+    initRound();
+}
+
+//get game from api
+async function getGame() {
+    const url = `https://bob16077.netlify.app/api/eventguessr/${mode == 'daily' ? 'daily' : 'randomEvent'}`;
+    const response = await fetch(url).catch((error) => {
+        console.error('Error:', error);
+    });
+
+    if (!response.ok) {
+        displayPopup('Error fetching data. Please try again later.', true);
+        throw new Error('Network response was not ok');
+    }
+    const res = await response.json();
+    if (mode == 'daily') day = res?.number;
+    return mode == 'daily' ? res?.game : res;
 }
 
 //map creation functions
@@ -214,7 +262,10 @@ function displayPopup(message, deleteAfter) {
     overlay.style.display = 'block';
 
     setTimeout(function () {
-        if (deleteAfter) removePopup();
+        if (deleteAfter) {
+            removePopup();
+            document.querySelectorAll('.popupWrapper').forEach((element) => (element.style.display = 'none'));
+        }
     }, 4000);
 }
 
@@ -224,6 +275,8 @@ function displayMenu() {
 }
 
 function removePopup() {
+    if (document.body.classList.contains('end-game')) return;
+    if (!mode) startDaily();
     document.querySelectorAll('.popupWrapper').forEach((element) => (element.style.display = 'none'));
     overlay.style.display = 'none';
     resetMap();
@@ -241,8 +294,8 @@ const Panzoom = panzoom(document.getElementById('image'), {
 //toggle dark mode
 function darkMode() {
     document.body.classList.toggle('dark-mode');
-    if (document.body.classList.contains('dark-mode')) document.getElementById('dark-mode-toggle').className = 'fa fa-sun-o';
-    else document.getElementById('dark-mode-toggle').className = 'fa fa-moon-o';
+    if (document.body.classList.contains('dark-mode')) document.getElementById('dark-mode-toggle').className = 'fa-solid fa-sun';
+    else document.getElementById('dark-mode-toggle').className = 'fa-regular fa-moon';
 }
 
 //for name quiz
@@ -294,19 +347,6 @@ function showCorrectAnswer(correctAnswer, userAnswer) {
     }
 }
 
-//get event and other answer choices
-function getRandomEvent() {
-    const event = data[Math.floor(Math.random() * data.length)];
-    const year = new Date(event.date).getFullYear();
-    const index = Math.floor(Math.random() * 10);
-    const range = [year - index, year - index + 10];
-
-    const events = data.filter((a) => new Date(a.date).getFullYear() > range[0] && new Date(a.date).getFullYear() < range[1] && a.name != event.name);
-    const options = events.sort((a) => Math.random()).slice(0, 3);
-
-    return { event, options };
-}
-
 //bubble slider
 const bubble = document.getElementById('bubble');
 function setBubble() {
@@ -331,6 +371,33 @@ function adjustGrid() {
         resultBox.style.gridTemplateColumns = 'repeat(2, 1fr)';
     } else {
         resultBox.style.gridTemplateColumns = 'repeat(1, 1fr)';
+    }
+}
+
+//share game
+function shareGame() {
+    let msg = `#EventGuessr #${day} (${new Date().toLocaleDateString('en')})\n\n🎉 I scored ${score} / 15,000 today!\n`;
+
+    for (const i in guesses) {
+        const guessRound = guesses[i];
+        msg += `\n ${icons[i]} 🚩 ${Number((guessRound.distance / 1000).toFixed(2)).toLocaleString('en')} km | ⏰ ${guessRound.yearDifference} ${
+            guessRound.yearDifference == 1 ? 'yr' : 'yrs'
+        } | ${guessRound.correctAnswer ? '✅' : '❌'} | 🏆 ${guessRound.score} / 3,000`;
+    }
+
+    msg += '\n\n🌍 https://bob16077.is-a.dev/eventguessr';
+
+    if (navigator.share && navigator.canShare()) {
+        navigator
+            .share({
+                title: `EventGuessr #${day} (${new Date().toLocaleDateString('en')})`,
+                text: msg,
+                url: document.location.href
+            })
+            .catch(console.error);
+    } else {
+        navigator.clipboard.writeText(msg);
+        displayPopup('Game results copied to clipboard!', true);
     }
 }
 
@@ -362,5 +429,3 @@ window.addEventListener('resize', () => {
 
 setBubble();
 adjustGrid();
-
-initRound();

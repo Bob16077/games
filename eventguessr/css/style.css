@@ -127,7 +127,7 @@ header div small {
     padding: 25px;
     color: #fff;
     text-align: center;
-    z-index: 999999;
+    z-index: 1000000;
     border-radius: 8px;
 }
 
@@ -177,7 +177,7 @@ header div small {
     margin-bottom: 20px;
 }
 
-#buttons {
+.buttons {
     display: flex;
     justify-content: space-between;
     width: 100%;
