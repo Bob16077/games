@@ -26,9 +26,10 @@ slider.value = 1900 + Math.round((slider.max - 1900) / 2);
 const icons = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'];
 
 //stages of the game
-async function initRound() {
+async function initRound(swappedMode) {
     if (mode == 'daily') {
-        round++;
+        if (guesses.length != round && !swappedMode) return;
+        if (!swappedMode || round == 0) round++;
         if (round > 5) return endGame();
 
         currentEvent = game[round - 1].event;
@@ -113,12 +114,19 @@ function handleGuess() {
         correctAnswer: chosenName === currentEvent.name,
         score: roundScore
     });
+    setUserDaily();
 }
 
 function endGame() {
-    if (this.mode == 'random') return startDaily();
+    if (this.mode == 'random') return startRandom();
     document.body.classList.add('end-game');
     map = createMap('map-overlay');
+    L.control
+        .fullscreen({
+            forceSeparateButton: true,
+            fullscreenElement: false
+        })
+        .addTo(map);
     const bounds = L.latLngBounds();
     guesses.forEach((guess) => {
         generatePoints(guess.guessed, guess.correct);
@@ -135,29 +143,28 @@ function endGame() {
 
 //start game in respective mode
 function startRandom() {
-    mode = 'random';
-
     document.getElementById('round-progress-text').style.display = 'none';
     document.getElementById('score-box').style.display = 'none';
 
-    removePopup();
+    mode = 'random';
     initRound();
 }
 
-async function startDaily() {
-    mode = 'daily';
-    game = await getGame();
+async function startDaily(dontImportGame) {
+    if (!game || mode == 'random') {
+        mode = 'daily';
+        game = await getGame();
+        initRound(true);
+    } else initRound();
+    if (!dontImportGame) await importGame();
 
     document.getElementById('round-progress-text').style.display = 'block';
     document.getElementById('score-box').style.display = 'block';
-
-    removePopup();
-    initRound();
 }
 
 //get game from api
 async function getGame() {
-    const url = `https://bob16077.netlify.app/api/eventguessr/${mode == 'daily' ? 'daily' : 'randomEvent'}`;
+    const url = `https://bob16077.netlify.app/api/eventguessr/${mode == 'daily' ? 'daily' : `randomEvent`}`;
     const response = await fetch(url).catch((error) => {
         console.error('Error:', error);
     });
@@ -269,17 +276,22 @@ function displayPopup(message, deleteAfter) {
     }, 4000);
 }
 
-function displayMenu() {
+function displayMenu(dontResetButtons) {
     document.getElementById('menu').style.display = 'block';
     overlay.style.display = 'block';
+    if (!dontResetButtons)
+        document.getElementById('start-menu-btns').innerHTML = `<button class="start-btn" onclick="startDaily(); removePopup()">Play Daily</button>
+        <button class="start-btn" onclick="startRandom(); removePopup()">Play Casual</button>`;
 }
 
 function removePopup() {
-    if (document.body.classList.contains('end-game')) return;
-    if (!mode) startDaily();
     document.querySelectorAll('.popupWrapper').forEach((element) => (element.style.display = 'none'));
     overlay.style.display = 'none';
     resetMap();
+}
+
+function tryClosePopup() {
+    if (!document.body.classList.contains('end-game')) removePopup();
 }
 
 //init the image panzoom
@@ -385,20 +397,67 @@ function shareGame() {
         } | ${guessRound.correctAnswer ? '✅' : '❌'} | 🏆 ${guessRound.score} / 3,000`;
     }
 
-    msg += '\n\n🌍 https://bob16077.is-a.dev/eventguessr';
+    msg += '\n\n🌍 https://games.bob16077.is-a.dev/eventguessr';
 
-    if (navigator.share && navigator.canShare()) {
+    if (navigator.share) {
         navigator
             .share({
                 title: `EventGuessr #${day} (${new Date().toLocaleDateString('en')})`,
                 text: msg,
-                url: document.location.href
+                url: 'https://games.bob16077.is-a.dev/eventguessr'
             })
             .catch(console.error);
     } else {
         navigator.clipboard.writeText(msg);
         displayPopup('Game results copied to clipboard!', true);
     }
+}
+
+//when users finish daily, go to random events
+function playCasualMode() {
+    const queryString = new URLSearchParams(window.location.search);
+    queryString.set('mode', 'random');
+    queryString.set('skipMenu', 'true');
+    window.location.search = queryString.toString();
+}
+
+//for keeping track of daily game progress
+function getUserDaily() {
+    const gameData = localStorage.getItem('game_data');
+    return gameData ? JSON.parse(gameData) : [];
+}
+
+function setUserDaily() {
+    const data = { date: new Date().toUTCString(), game: guesses, number: day };
+
+    localStorage.setItem('game_data', JSON.stringify(data));
+}
+
+async function importGame() {
+    const queryString = new URLSearchParams(window.location.search);
+    if (!queryString.has('ignoreCookie') || queryString.get('ignoreCookie') != 'true') {
+        try {
+            const gameData = getUserDaily();
+            await getGame();
+            if (gameData.game && gameData.number == day) {
+                guesses = gameData.game;
+                round = guesses.length + 1;
+                guesses.map((guess) => (score += guess.score));
+                day = gameData.number;
+                if (guesses.length == 5) {
+                    removePopup();
+                    endGame();
+                    document.getElementById('overlay').style.display = 'block';
+                } else if (guesses.length > 0) {
+                    startDaily(true);
+                }
+                return true;
+            }
+            return false;
+        } catch (e) {
+            console.log(e);
+        }
+    } else return false;
 }
 
 //change the bubbles in the footer
@@ -425,6 +484,19 @@ slider.addEventListener('input', () => {
 window.addEventListener('resize', () => {
     setBubble();
     adjustGrid();
+});
+window.addEventListener('load', async () => {
+    const queryString = new URLSearchParams(window.location.search);
+    if (queryString.has('mode')) {
+        mode = queryString.get('mode');
+        const str = mode == 'random' ? 'Random' : 'Daily';
+        document.getElementById('start-menu-btns').innerHTML = `<button class="start-btn" onclick="start${str}()">Play ${str}</button>`;
+    }
+    if (!queryString.has('skipMenu') || queryString.get('skipMenu') != 'true') displayMenu(true);
+
+    if (mode == 'daily' && (await importGame())) return;
+    if (mode == 'random') startRandom();
+    else startDaily();
 });
 
 setBubble();

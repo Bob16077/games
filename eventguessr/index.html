@@ -23,7 +23,7 @@
         </script>
     </head>
     <body>
-        <div id="overlay" onclick="removePopup()"></div>
+        <div id="overlay" onclick="tryClosePopup()"></div>
         <div class="popupWrapper" id="popupWrapper">
             <span style="color: #fff" onclick="removePopup()" class="close-button">&times;</span>
             <div id="popup"></div>
@@ -46,9 +46,9 @@
                 </li>
             </ul>
             <p class="game-ready">Are you ready to test your knowledge? Hit the button below to start playing!</p>
-            <div class="buttons">
-                <button class="start-btn" onclick="startDaily()">Play Daily</button>
-                <button class="start-btn" onclick="startRandom()">Play Casual</button>
+            <div class="buttons" id="start-menu-btns">
+                <button class="start-btn" onclick="removePopup()">Play Daily</button>
+                <button class="start-btn" onclick="removePopup()">Play Casual</button>
             </div>
         </div>
 
@@ -78,7 +78,7 @@
                             Review
                         </button>
                         <button id="share-btn" onclick="shareGame()"><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
-                        <button id="play-again-btn" onclick="location.reload()">Play Again</button>
+                        <button id="play-again-btn" onclick="playCasualMode()">Play More</button>
                     </div>
                 </div>
                 <div class="cards" id="full-screen">
