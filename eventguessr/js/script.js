@@ -383,8 +383,10 @@ function shareGame() {
         const guessRound = guesses[i];
         msg += `\n ${icons[i]} 🚩 ${Number((guessRound.distance / 1000).toFixed(2)).toLocaleString('en')} km | ⏰ ${guessRound.yearDifference} ${
             guessRound.yearDifference == 1 ? 'yr' : 'yrs'
-        } | ${guessRound.correctAnswer ? '✅' : '❌'} | 🏆 ${guessRound.score.toLocaleString('en')} / 3,000\n\n🌍 https://games.bob16077.is-a.dev/eventguessr`;
+        } | ${guessRound.correctAnswer ? '✅' : '❌'} | 🏆 ${guessRound.score.toLocaleString('en')} / 3,000`;
     }
+
+    msg += '\n\n🌍 https://games.bob16077.is-a.dev/eventguessr';
 
     navigator.clipboard.writeText(msg);
     displayPopup('Game results copied to clipboard!', true);
