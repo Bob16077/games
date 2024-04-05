@@ -15,9 +15,6 @@ let score = 0,
     roundCompleted = false,
     correctIndex,
     mode,
-    overlay = document.getElementById('overlay'),
-    popup = document.getElementById('popup'),
-    quizContainer = document.getElementById('quiz'),
     slider = document.getElementById('year');
 
 document.body.classList.toggle('dark-mode');
@@ -26,15 +23,14 @@ slider.value = 1900 + Math.round((slider.max - 1900) / 2);
 const icons = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'];
 
 //stages of the game
-async function initRound(swappedMode) {
+async function initRound() {
     if (mode == 'daily') {
-        if (guesses.length != round && !swappedMode) return;
-        if (!swappedMode || round == 0) round++;
+        round++;
         if (round > 5) return endGame();
 
         currentEvent = game[round - 1].event;
         options = game[round - 1].options;
-    } else {
+    } else if (roundCompleted || round == 0) {
         const current = await getGame();
         currentEvent = current.event;
         options = current.options;
@@ -60,7 +56,7 @@ async function initRound(swappedMode) {
 
 function handleGuess() {
     if (roundCompleted == true) return initRound();
-    const chosenName = quizContainer.querySelector('input[name="quiz"]:checked')?.value;
+    const chosenName = document.getElementById('quiz').querySelector('input[name="quiz"]:checked')?.value;
 
     if (!marker) {
         displayPopup('Please mark a position on the map first.', true);
@@ -75,7 +71,7 @@ function handleGuess() {
     const correctLocation = L.latLng([currentEvent.location[1], currentEvent.location[0]]);
     const guessedLocation = marker.getLatLng();
     const distance = correctLocation.distanceTo(guessedLocation);
-    const roundLocationScore = distance < 25 ? 1000 : Math.ceil(1000 * Math.pow(0.998036, distance / 3000));
+    const roundLocationScore = distance < 25 ? 1000 : Math.ceil(1000 * Math.exp(-distance / 2000000));
 
     const correctYear = new Date(currentEvent.date).getFullYear();
     const guessedYear = parseInt(slider.value);
@@ -121,12 +117,6 @@ function endGame() {
     if (this.mode == 'random') return startRandom();
     document.body.classList.add('end-game');
     map = createMap('map-overlay');
-    L.control
-        .fullscreen({
-            forceSeparateButton: true,
-            fullscreenElement: false
-        })
-        .addTo(map);
     const bounds = L.latLngBounds();
     guesses.forEach((guess) => {
         generatePoints(guess.guessed, guess.correct);
@@ -146,25 +136,26 @@ function startRandom() {
     document.getElementById('round-progress-text').style.display = 'none';
     document.getElementById('score-box').style.display = 'none';
 
+    round = 0;
     mode = 'random';
     initRound();
 }
 
-async function startDaily(dontImportGame) {
-    if (!game || mode == 'random') {
-        mode = 'daily';
-        game = await getGame();
-        initRound(true);
-    } else initRound();
-    if (!dontImportGame) await importGame();
-
+function startDaily() {
+    mode = 'daily';
+    round = 0;
+    score = 0;
+    guesses = [];
     document.getElementById('round-progress-text').style.display = 'block';
     document.getElementById('score-box').style.display = 'block';
+
+    importGame();
+    initRound();
 }
 
 //get game from api
-async function getGame() {
-    const url = `https://bob16077.netlify.app/api/eventguessr/${mode == 'daily' ? 'daily' : `randomEvent`}`;
+async function getGame(modeOverride) {
+    const url = `https://bob16077.netlify.app/api/eventguessr/${(modeOverride || mode) == 'daily' ? 'daily' : `randomEvent`}`;
     const response = await fetch(url).catch((error) => {
         console.error('Error:', error);
     });
@@ -174,8 +165,8 @@ async function getGame() {
         throw new Error('Network response was not ok');
     }
     const res = await response.json();
-    if (mode == 'daily') day = res?.number;
-    return mode == 'daily' ? res?.game : res;
+    if ((modeOverride || mode) == 'daily') day = res?.number;
+    return (modeOverride || mode) == 'daily' ? res?.game : res;
 }
 
 //map creation functions
@@ -186,6 +177,7 @@ const createMap = (element) => {
         minZoom: 2
     }).setView([0, 0], 2);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(m);
+    L.control.fullscreen().addTo(m);
     return m;
 };
 
@@ -194,14 +186,17 @@ function resetMap() {
         map.removeLayer(guessMarker);
         guessMarker = undefined;
     }
+
     if (correctMarker) {
         map.removeLayer(correctMarker);
         correctMarker = undefined;
     }
+
     if (polyline) {
         map.removeLayer(polyline);
         polyline = undefined;
     }
+
     if (marker) {
         map.removeLayer(marker);
         marker = undefined;
@@ -209,13 +204,6 @@ function resetMap() {
 
     if (!map) {
         map = createMap('map');
-        L.control
-            .fullscreen({
-                forceSeparateButton: true, // force separate button to detach from zoom buttons, default false
-                // forcePseudoFullscreen: true, // force use of pseudo full screen even if full screen API is available, default false
-                fullscreenElement: false // Dom element to render in full screen, false by default, fallback to map._container
-            })
-            .addTo(map);
 
         listener = map.on('click', function (e) {
             if (marker) map.removeLayer(marker);
@@ -264,9 +252,9 @@ function zoomIntoRound(round) {
 
 //for the popup things
 function displayPopup(message, deleteAfter) {
-    popup.innerHTML = message;
+    document.getElementById('popup').innerHTML = message;
     document.getElementById('popupWrapper').style.display = 'block';
-    overlay.style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
 
     setTimeout(function () {
         if (deleteAfter) {
@@ -278,15 +266,16 @@ function displayPopup(message, deleteAfter) {
 
 function displayMenu(dontResetButtons) {
     document.getElementById('menu').style.display = 'block';
-    overlay.style.display = 'block';
-    if (!dontResetButtons)
+    document.getElementById('overlay').style.display = 'block';
+    if (!dontResetButtons) {
         document.getElementById('start-menu-btns').innerHTML = `<button class="start-btn" onclick="startDaily(); removePopup()">Play Daily</button>
-        <button class="start-btn" onclick="startRandom(); removePopup()">Play Casual</button>`;
+        <button class="start-btn" onclick="${document.body.classList.contains('end-game') ? 'playCasualMode()' : 'startRandom(); removePopup()'}">Play Casual</button>`;
+    }
 }
 
 function removePopup() {
     document.querySelectorAll('.popupWrapper').forEach((element) => (element.style.display = 'none'));
-    overlay.style.display = 'none';
+    if (!document.body.classList.contains('end-game')) document.getElementById('overlay').style.display = 'none';
     resetMap();
 }
 
@@ -331,8 +320,8 @@ function displayQuestion(options) {
         optionsElement.appendChild(option);
     }
 
-    quizContainer.innerHTML = '';
-    quizContainer.appendChild(optionsElement);
+    document.getElementById('quiz').innerHTML = '';
+    document.getElementById('quiz').appendChild(optionsElement);
 }
 
 function showCorrectAnswer(correctAnswer, userAnswer) {
@@ -394,23 +383,11 @@ function shareGame() {
         const guessRound = guesses[i];
         msg += `\n ${icons[i]} 🚩 ${Number((guessRound.distance / 1000).toFixed(2)).toLocaleString('en')} km | ⏰ ${guessRound.yearDifference} ${
             guessRound.yearDifference == 1 ? 'yr' : 'yrs'
-        } | ${guessRound.correctAnswer ? '✅' : '❌'} | 🏆 ${guessRound.score} / 3,000`;
+        } | ${guessRound.correctAnswer ? '✅' : '❌'} | 🏆 ${guessRound.score.toLocaleString('en')} / 3,000\n\n🌍 https://games.bob16077.is-a.dev/eventguessr`;
     }
 
-    msg += '\n\n🌍 https://games.bob16077.is-a.dev/eventguessr';
-
-    if (navigator.share) {
-        navigator
-            .share({
-                title: `EventGuessr #${day} (${new Date().toLocaleDateString('en')})`,
-                text: msg,
-                url: 'https://games.bob16077.is-a.dev/eventguessr'
-            })
-            .catch(console.error);
-    } else {
-        navigator.clipboard.writeText(msg);
-        displayPopup('Game results copied to clipboard!', true);
-    }
+    navigator.clipboard.writeText(msg);
+    displayPopup('Game results copied to clipboard!', true);
 }
 
 //when users finish daily, go to random events
@@ -433,31 +410,18 @@ function setUserDaily() {
     localStorage.setItem('game_data', JSON.stringify(data));
 }
 
-async function importGame() {
+function importGame() {
     const queryString = new URLSearchParams(window.location.search);
-    if (!queryString.has('ignoreCookie') || queryString.get('ignoreCookie') != 'true') {
-        try {
-            const gameData = getUserDaily();
-            await getGame();
-            if (gameData.game && gameData.number == day) {
-                guesses = gameData.game;
-                round = guesses.length + 1;
-                guesses.map((guess) => (score += guess.score));
-                day = gameData.number;
-                if (guesses.length == 5) {
-                    removePopup();
-                    endGame();
-                    document.getElementById('overlay').style.display = 'block';
-                } else if (guesses.length > 0) {
-                    startDaily(true);
-                }
-                return true;
-            }
-            return false;
-        } catch (e) {
-            console.log(e);
+    if (!queryString.has('ignoreStorage') || queryString.get('ignoreStorage') != 'true') {
+        const gameData = getUserDaily();
+        if (gameData && gameData.game && gameData.number == day) {
+            guesses = gameData.game;
+            round = guesses.length;
+            guesses.map((guess) => (score += guess.score));
+            day = gameData.number;
+            if (round != 0 && round <= 5) removePopup();
         }
-    } else return false;
+    }
 }
 
 //change the bubbles in the footer
@@ -489,12 +453,12 @@ window.addEventListener('load', async () => {
     const queryString = new URLSearchParams(window.location.search);
     if (queryString.has('mode')) {
         mode = queryString.get('mode');
-        const str = mode == 'random' ? 'Random' : 'Daily';
-        document.getElementById('start-menu-btns').innerHTML = `<button class="start-btn" onclick="start${str}()">Play ${str}</button>`;
+        if (mode == 'random') document.getElementById('start-menu-btns').innerHTML = `<button class="start-btn" onclick="removePopup()">Play Casual</button>`;
+        else document.getElementById('start-menu-btns').innerHTML = `<button class="start-btn" onclick="removePopup()">Play Daily</button>`;
     }
     if (!queryString.has('skipMenu') || queryString.get('skipMenu') != 'true') displayMenu(true);
+    game = await getGame('daily');
 
-    if (mode == 'daily' && (await importGame())) return;
     if (mode == 'random') startRandom();
     else startDaily();
 });
