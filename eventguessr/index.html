@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>EventGuessr</title>
+        <title>EventGuessr | Bob16077777 Games</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
         <script src="https://kit.fontawesome.com/e96e3b69da.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" />
@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/leaflet-fullscreen.css" />
         <link rel="stylesheet" href="css/style.css" />
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./js/mixpanel.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H9B6Z000B"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -19,6 +20,7 @@
             }
             gtag('js', new Date());
             gtag('config', 'G-0H9B6Z000B');
+            mixpanel.init('178cd0bda8326a71f04e705fdf3b1177', { track_pageview: true, persistence: 'localStorage', api_host: 'https://bob16077.netlify.app/api/mixpanel' });
         </script>
     </head>
     <body>

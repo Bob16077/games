@@ -133,6 +133,7 @@ function endGame() {
 
 //start game in respective mode
 function startRandom() {
+    mixpanel.track('Random Game Started');
     document.getElementById('round-progress-text').style.display = 'none';
     document.getElementById('score-box').style.display = 'none';
 
@@ -142,6 +143,7 @@ function startRandom() {
 }
 
 function startDaily() {
+    mixpanel.track('Daily Game Started');
     mode = 'daily';
     round = 0;
     score = 0;

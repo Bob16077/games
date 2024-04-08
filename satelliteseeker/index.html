@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SatelliteSeeker | Bob16077777 Games</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/mixpanel.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H9B6Z000B"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -8,14 +14,9 @@
                 dataLayer.push(arguments);
             }
             gtag('js', new Date());
-
             gtag('config', 'G-0H9B6Z000B');
+            mixpanel.init('178cd0bda8326a71f04e705fdf3b1177', { track_pageview: true, persistence: 'localStorage', api_host: 'https://bob16077.netlify.app/api/mixpanel' });
         </script>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>SatelliteSeeker</title>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div class="overlay"></div>
@@ -38,7 +39,7 @@
         </div>
 
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script src="data.js"></script>
-        <script src="script.js"></script>
+        <script src="./js/data.js"></script>
+        <script src="./js/script.js"></script>
     </body>
 </html>
